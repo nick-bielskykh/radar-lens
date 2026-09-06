@@ -1,0 +1,19 @@
+{
+ "relevant": true,
+ "title": "Photoshop замінив Brightness/Contrast новим шаром Light із контролями Camera Raw",
+ "lead": "У Photoshop з'явився коригувальний шар Light, який виносить Exposure, Contrast, Highlights, Shadows, Whites і Blacks з Camera Raw у головний редактор як недеструктивний шар; старий алгоритм доступний у режимі Legacy.",
+ "full": [
+  "Аарон Нейс (PHLEARN) пояснює, що Light — новий шар у лінійці Grain, Clarity, Dehaze і Color, які Adobe поступово переносить із Camera Raw у Photoshop. Повернути стару поведінку можна через приховане меню у панелі Properties, перемкнувши версію на Legacy.",
+  "Рекомендований порядок повзунків: Exposure, потім Whites і Blacks, далі Highlights і Shadows, Contrast — останнім. Автор радить починати з Select Subject, щоб шар автоматично отримав маску, і працювати окремими шарами Light для фону та об'єкта. Шар Color додає температуру, відтінок і vibrance у тому ж недеструктивному потоці.",
+  "Особливість поведінки: під час редагування шару під Light Photoshop тимчасово ховає шари Light вище, щоб показати чистий ефект — це зроблено навмисно."
+ ],
+ "means": "Adobe зближує Photoshop і Lightroom/ACR, зменшуючи причину тримати другий редактор для тонової корекції. Для Luminar Neo це аргумент за те, щоб наші Layers працювали з тими ж RAW-контролями і автомасками Mask AI (людина, небо, фон) без додаткових кроків — сценарій «окремий шар на об'єкт і фон» уже є нашою сильною стороною. Для Mobile важливо, що навіть у Photoshop базовий потік стає «Select Subject + кілька повзунків».",
+ "importance": 3,
+ "category": "comp",
+ "media": {
+  "kind": "image",
+  "hero_image": 1,
+  "ba_pair": null,
+  "video": null
+ }
+}

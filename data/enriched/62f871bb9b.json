@@ -1,0 +1,20 @@
+{
+ "relevant": false,
+ "title": "Photoshop отримав Light Adjustment Layer, Instruct Edit з масками та AI Assisted Editor у беті",
+ "lead": "Adobe 1 вересня представила пакет оновлень Photoshop: неруйнівний шар Light Adjustment Layer із повзунками рівня Camera Raw, промпт-редагування Instruct Edit with Masks на Firefly Image 5, інструмент Markup та окремий робочий простір AI Assisted Editor у беті.",
+ "full": [
+  "Light Adjustment Layer додає Exposure, Contrast, Highlights, Shadows, Whites і Blacks як неруйнівний коригувальний шар у звичному layers-workflow. Instruct Edit with Masks на базі Firefly Image 5 виконує описану текстом правку з урахуванням контексту всього зображення без точного виділення — наприклад, відкрити закриті очі чи додати капелюх конкретній людині; області поза маскою (обличчя, логотипи, бренд-активи) лишаються недоторканими. Markup дозволяє малювати на зображенні стрілки, зони для перефарбування чи ескізи нових елементів як візуальну підказку до промпта.",
+  "AI Assisted Editor — окремий опційний простір із рядком промпта для редагування поза Pro Editor. У беті він включає Prompt to Edit, Remove Background, Generative Expand, Remove Tool, Generative Fill, Generative Upscale і AI Markup. У Pro Editor Prompt to Edit доступний з Contextual Task Bar: він трансформує все зображення за текстовим запитом без виділення, а кожен результат стає генеративним шаром у стеку.",
+  "Додатково Dynamic Text тепер працює з довільними фігурами й контурами, а панель Adobe Stock із понад 900 млн активів вбудована прямо в Photoshop. Нові функції доступні вже зараз, AI Assisted Editor — у бета-версії."
+ ],
+ "means": "Adobe збирає в одному промпт-просторі те, що в Luminar Neo розкидано по Erase, GenErase, GenExpand, GenSwap і Upscale AI, і додає масковане текстове редагування з захистом облич — конкурентна планка для наших генеративних хмарних інструментів. Light Adjustment Layer — це неруйнівний контроль світла, схожий на наш Relight AI/Layers, але без 3D-глибини. Варто оцінити розмовний режим «промпт + маска» для Neo та Mobile і стежити за лімітами генерацій Firefly Image 5.",
+ "importance": 5,
+ "category": "comp",
+ "media": {
+  "kind": "gallery",
+  "hero_image": 2,
+  "ba_pair": null,
+  "video": null
+ },
+ "dup_of": "65f86a28f0"
+}

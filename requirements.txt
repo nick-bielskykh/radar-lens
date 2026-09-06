@@ -1,0 +1,7 @@
+anthropic
+feedparser
+beautifulsoup4
+lxml
+requests
+pillow
+pydantic

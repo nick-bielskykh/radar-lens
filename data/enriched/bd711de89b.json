@@ -1,0 +1,18 @@
+{
+ "relevant": true,
+ "title": "Android Drop вересня 2026: AI Enhance і Ask Photos у Google Photos, Nano Banana 2 у Messages",
+ "lead": "Google 1 вересня випустив вересневий Android Drop з 11 функціями. Серед них — AI Enhance в одне натискання та AI-редагування Ask Photos у Google Photos, а також перехід функції Remix у Google Messages на модель Nano Banana 2.",
+ "full": [
+  "AI Enhance у Google Photos аналізує фото й одразу застосовує найефективніші корекції, включно з тонуванням кольору та кадруванням; функція доступна глобально всіма мовами. Ask Photos додає AI-редагування зображень через текстові запити прямо в застосунку Google Photos.",
+  "Remix у Google Messages переходить на генеративну модель Nano Banana 2 з кращим рендерингом тексту та ширшими знаннями про світ — можна створювати запрошення чи постери з друзями, не виходячи з месенджера. Решта функцій дропу не стосуються фото: Find Hub запам'ятовує місця речей, Motion Assist зменшує заколисування на Android 17, у Gemini Live з'являється Guided vision для людей з порушеннями зору, Google Keep інтегрується в Messages."
+ ],
+ "means": "AI Enhance у Google Photos — це безкоштовний on-device/хмарний аналог Enhance AI у Luminar Mobile, доступний сотням мільйонів Android-користувачів; це підвищує планку для нашої слабшої Android-версії. Ask Photos з редагуванням за текстом рухає Google Photos у бік розмовного редактора, що перетинається з Erase, Sky і Relight у Mobile. Nano Banana 2 в системних застосунках означає, що генеративна якість Google стає буденною для аудиторії.",
+ "importance": 4,
+ "category": "comp",
+ "media": {
+  "kind": "image",
+  "hero_image": 0,
+  "ba_pair": null,
+  "video": null
+ }
+}

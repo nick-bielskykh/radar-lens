@@ -1,0 +1,20 @@
+{
+ "relevant": false,
+ "title": "Photoshop отримав AI Assisted Editor, Markup і Light Adjustment Layer",
+ "lead": "Adobe випустила велике оновлення Photoshop: бета-режим AI Assisted Editor з промпт-редагуванням, інструмент Markup для малювання підказок поверх фото, оновлений Instruct Edit with Masks на Firefly Image 5 і неруйнівний шар Light Adjustment.",
+ "full": [
+  "AI Assisted Editor — опційний режим, який вмикається з меню Photoshop і замінює звичні панелі спрощеною панеллю з сімома AI-інструментами: Prompt to Edit, Remove Background, Generative Expand, Remove Tool, Generative Fill, Generative Upscale та AI Markup. Режим доступний у беті одразу, класичний Pro Editor лишається без змін і перемикач можна сховати в налаштуваннях.",
+  "Markup дозволяє замість текстового опису намалювати на зображенні: обвести область для перефарбування, накреслити стрілку для позиції або грубу форму нового об'єкта, доповнивши короткою інструкцією на кшталт «додай хмар». Instruct Edit with Masks на Firefly Image 5 тепер розуміє контекст усього кадру: можна описати зміну («відкрий очі», «надягни капелюх») без ручного маскування кожної зони, а все поза маскою лишається незмінним. Prompt to Edit змінює весь кадр (день у ніч, дощ у сонце) і підтримує сторонні моделі — FLUX 2 pro, FLUX Context Pro, Gemini 3.1/Nano Banana 2, Nano Banana Pro, GPT Image 2 — поряд із моделлю Adobe; кожен запуск створює новий шар із двома варіантами.",
+  "Окремо додано Light Adjustment Layer — неруйнівний коригуючий шар з Exposure, Contrast, Highlights, Shadows, Whites і Blacks, який Adobe позиціонує як «результат рівня Camera Raw» без виходу з шарів; у версії 27.10 уже виправлено повільні слайдери в 16-бітних документах і краш на Apple Silicon. Також: Dynamic Text уздовж довільних фігур і контурів, панель Adobe Stock з понад 900 млн активів усередині Photoshop, налаштування списку форматів у Save As, прискорення на AMD Zen 4/5."
+ ],
+ "means": "Це пряме перетинання з GenErase/GenSwap/GenExpand і Erase: Adobe робить маскований інпейнт за промптом стандартом і додає малювання підказок замість тексту — цей UX варто розглянути для GenSwap і для Luminar Mobile. Підтримка сторонніх моделей (FLUX, Nano Banana, GPT Image) у Prompt to Edit означає, що Adobe не прив'язується до Firefly, і наші хмарні генеративні фічі порівнюватимуть саме з цими моделями. Light Adjustment Layer закриває одну з причин тримати Luminar як «швидкий другий редактор» поруч із Photoshop — наш аргумент має зміститись до Relight AI, Sky AI та Enhance AI.",
+ "importance": 5,
+ "category": "comp",
+ "media": {
+  "kind": "image",
+  "hero_image": 0,
+  "ba_pair": null,
+  "video": null
+ },
+ "dup_of": "65f86a28f0"
+}
