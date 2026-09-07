@@ -208,31 +208,31 @@ function post(it,showDay){
     <div class="foot">${SINGLE?'':`<button class="more">${state.open.has(it.id)?'Згорнути':'Детальніше'}</button>`}<button class="copy">${COPY}Копіювати</button><a class="src-link" href="${it.url}" target="_blank" rel="noopener">Джерело ↗</a></div>
   </article>`;
 }
-let shown=20, filt={cat:null, hi:false};
-try{filt.cat=JSON.parse(localStorage.getItem('lr.filt')||'{}').cat||null}catch(_){}
-function visible(){return ITEMS.filter(it=>(!filt.cat||it.category===filt.cat)&&(!filt.hi||it.importance>=4))}
+let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого
+try{sel=localStorage.getItem('lr.sel')||null}catch(_){}
+function visible(){return ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
-  f.innerHTML=Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}"><span class="dot" style="background:${c.c}"></span>${c.n}</button>`).join('')
-   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1">★ Важливе</button>`;
+  f.innerHTML=Object.entries(CATS).map(([k,c])=>`<button class="chip ${sel===k?'on':''}" data-sel="${k}"><span class="dot" style="background:${c.c}"></span>${c.n}</button>`).join('')
+   +`<button class="chip hi ${sel==='hi'?'on':''}" data-sel="hi">★ Важливе</button>`;
 }
 function render(){
   renderFilters();
   const all=visible(), list=all.slice(0,shown);let last='';
   document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
    +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
-   +(all.length?'':`<div class="empty">${filt.hi?`У темі «${(CATS[filt.cat]||{n:'усі'}).n}» поки нема новин з оцінкою 4 і вище.<br><button class="btn unhi">Показати всі новини теми</button>`:'У цій темі поки нема новин.'}</div>`);
+   +(all.length?'':'<div class="empty">Тут поки нема новин.</div>');
 }
 document.querySelector('.brand').addEventListener('click',e=>{
   if(SINGLE) return;                    // зі сторінки поста просто йдемо на /
-  e.preventDefault(); filt={cat:null,hi:false}; shown=20;
-  try{localStorage.removeItem('lr.filt')}catch(_){}
+  e.preventDefault(); sel=null; shown=20;
+  try{localStorage.removeItem('lr.sel')}catch(_){}
   render(); window.scrollTo({top:0,behavior:'smooth'});
 });
 document.getElementById('filters').addEventListener('click',e=>{
   const c=e.target.closest('.chip'); if(!c) return;
-  if(c.dataset.hi) filt.hi=!filt.hi; else filt.cat=(filt.cat===c.dataset.cat)?null:c.dataset.cat;  // повторний клік знімає тему
-  try{localStorage.setItem('lr.filt',JSON.stringify({cat:filt.cat}))}catch(_){}
+  sel=(sel===c.dataset.sel)?null:c.dataset.sel;   // повторний клік знімає вибір
+  try{sel?localStorage.setItem('lr.sel',sel):localStorage.removeItem('lr.sel')}catch(_){}
   shown=20; render(); window.scrollTo({top:0});
 });
 // ---- лайтбокс: усі зображення поста, ← → Esc
@@ -256,7 +256,6 @@ function lbClose(){const el=document.getElementById('lb');if(el)el.hidden=true;d
 document.addEventListener('keydown',e=>{const el=document.getElementById('lb');if(!el||el.hidden)return;
   if(e.key==='Escape')lbClose();else if(e.key==='ArrowLeft')lbStep(-1);else if(e.key==='ArrowRight')lbStep(1);else return;e.preventDefault()});
 document.getElementById('feed').addEventListener('click',e=>{
-  if(e.target.closest('.unhi')){filt.hi=false;render();return}
   const o=e.target.closest('.lb-open');
   if(o){const it=ITEMS.find(x=>x.id===o.closest('.post').dataset.id);if(it)lbOpen(it,+o.dataset.i);return}
   if(e.target.closest('.loadmore')){shown+=20;render();return}
