@@ -22,8 +22,23 @@ BAD_IMG = re.compile(r"(logo|avatar|icon|sprite|badge|pixel|tracking|gravatar|em
 
 def log(*a): print(*a, file=sys.stderr, flush=True)
 
-def get(url, **kw):
-    return requests.get(url, headers=UA, timeout=25, **kw)
+SESSION = requests.Session()
+SESSION.headers.update(UA)
+
+def get(url, tries=3, **kw):
+    """GET з ретраями на 429/5xx — Reddit і Google News інколи тротлять паралельні запити."""
+    last = None
+    for i in range(tries):
+        try:
+            r = SESSION.get(url, timeout=25, **kw)
+            if r.status_code in (429, 500, 502, 503, 504) and i < tries - 1:
+                time.sleep(2 ** i + 1); continue
+            return r
+        except requests.RequestException as e:
+            last = e
+            if i == tries - 1: raise
+            time.sleep(2 ** i + 1)
+    raise last
 
 def resolve_youtube(url):
     try:
@@ -33,26 +48,60 @@ def resolve_youtube(url):
     except Exception as e: log("yt resolve fail", url, e)
     return None
 
-def gnews_decode(url):
-    """Декодує посилання news.google.com/rss/articles/... в оригінальний URL."""
-    m = re.search(r'/(?:articles|read)/([^?/]+)', url)
-    if not m: return url
-    gid = m.group(1)
+GNEWS_BATCH_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+
+def gnews_meta(gid):
+    """Витягує data-n-a-id/ts/sg зі сторінки статті. Саме /rss/articles/ — /articles/ віддає 429."""
     try:
-        raw = base64.urlsafe_b64decode(gid + "==").decode("latin-1")
-        if "AU_yqL" not in raw:
-            mm = re.search(r'(https?://[ -~]+)', raw)
-            if mm: return mm.group(1)
-    except Exception: pass
-    try:
-        r = get(f"https://news.google.com/articles/{gid}")
+        r = get(f"https://news.google.com/rss/articles/{gid}")
         d = BeautifulSoup(r.text, "lxml").select_one("c-wiz > div")
-        sg, ts = d.get("data-n-a-sg"), d.get("data-n-a-ts")
-        payload = [["Fbv4je", json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0], gid, ts, sg])]]
-        r = requests.post("https://news.google.com/_/DotsSplashUi/data/batchexecute", headers={**UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}, data={"f.req": json.dumps([payload])}, timeout=25)
-        arr = json.loads(r.text.split("\n\n")[1]); return json.loads(arr[0][2])[1]
+        if not d or not d.get("data-n-a-sg"): return None
+        return d["data-n-a-id"], d["data-n-a-ts"], d["data-n-a-sg"]
     except Exception as e:
-        log("gnews decode fail", e); return url
+        log("gnews meta fail", gid[:24], e); return None
+
+def gnews_decode_many(links):
+    """Декодує посилання news.google.com/rss/articles/... в оригінальні URL. Повертає {link: url}."""
+    gids, out = {}, {}
+    for l in links:
+        m = re.search(r"/(?:articles|read)/([^?/]+)", l)
+        if not m: out[l] = l; continue
+        gid = m.group(1)
+        # частина id містить URL у відкритому вигляді
+        try:
+            raw = base64.urlsafe_b64decode(gid + "==").decode("latin-1")
+            if "AU_yqL" not in raw:
+                mm = re.search(r"(https?://[ -~]+)", raw)
+                if mm: out[l] = mm.group(1); continue
+        except Exception: pass
+        gids[l] = gid
+    if not gids: return out
+    items = list(gids.items())
+    with ThreadPoolExecutor(8) as ex:
+        metas = list(ex.map(lambda kv: gnews_meta(kv[1]), items))
+    pending = [(l, m) for (l, _), m in zip(items, metas) if m]
+    for (l, _), m in zip(items, metas):
+        if not m: out[l] = None
+    for i in range(0, len(pending), 20):
+        chunk = pending[i:i + 20]
+        payload = [["Fbv4je", json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0], aid, ts, sg])]
+                   for _, (aid, ts, sg) in chunk]
+        try:
+            r = SESSION.post(GNEWS_BATCH_URL, headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+                             data={"f.req": json.dumps([payload])}, timeout=30)
+            urls = []
+            for line in r.text.split("\n"):
+                if '"wrb.fr"' not in line: continue
+                for row in json.loads(line):
+                    if row[0] == "wrb.fr" and row[1] == "Fbv4je":
+                        urls.append(json.loads(row[2])[1])
+            if len(urls) != len(chunk):
+                log(f"gnews batch: {len(urls)} відповідей на {len(chunk)} запитів")
+            for (l, _), u in zip(chunk, urls): out[l] = u
+        except Exception as e:
+            log("gnews batch fail", e)
+        for l, _ in chunk: out.setdefault(l, None)
+    return out
 
 SPAM = re.compile(r"(deal|bundle|discount|% off|save \$|coupon|black friday|prime day|giveaway|sale)", re.I)
 
@@ -175,8 +224,15 @@ def collect_source(s):
     except Exception as e:
         log("feed fail", s["name"], e); return []
     if fp.bozo and not fp.entries: log("feed empty/bozo", s["name"], url); return []
+    entries = fp.entries[:60]
+    decoded = {}
+    if kind == "gnews":
+        fresh = [e for e in entries if (entry_date(e) or SINCE) >= SINCE and not SPAM.search(e.get("title", ""))]
+        decoded = gnews_decode_many([e.get("link", "") for e in fresh])
+        lost = sum(1 for v in decoded.values() if not v)
+        if lost: log(f"{s.get('q')}: не декодовано {lost} з {len(decoded)} посилань")
     items = []
-    for e in fp.entries[:60]:
+    for e in entries:
         d = entry_date(e)
         if not d or d < SINCE: continue
         title = e.get("title", "").strip(); link = e.get("link", "")
@@ -185,7 +241,8 @@ def collect_source(s):
             if SPAM.search(title): continue
             src_name = (e.get("source") or {}).get("title") or "Google News"
             title = re.sub(r"\s+-\s+[^-]+$", "", title)  # прибрати " - Назва видання"
-            link = gnews_decode(link)
+            link = decoded.get(link)
+            if not link: continue
         summary = BeautifulSoup(e.get("summary", "") or "", "lxml").get_text(" ", strip=True)
         if s.get("filter") and not matches(title + " " + summary, s.get("strict")): continue
         items.append({"id": hashlib.md5(link.encode()).hexdigest()[:10], "source": src_name, "query": s.get("q"), "cat_hint": s["cat_hint"],

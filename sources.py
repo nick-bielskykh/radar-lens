@@ -20,7 +20,7 @@ SOURCES = [
     {"name": "Google News", "q": "\"AI photo editing\" OR \"AI image editing\" model", "kind": "gnews", "cat_hint": "ai"},
     {"name": "Google News", "q": "FLUX Kontext OR \"Nano Banana\" OR \"Stable Diffusion\" image editing", "kind": "gnews", "cat_hint": "ai"},
     {"name": "ON1", "url": "https://www.on1.com/blog/feed/", "cat_hint": "comp"},
-    {"name": "Photoroom", "url": "https://www.photoroom.com/blog/rss.xml", "cat_hint": "comp"},
+    {"name": "Digital Camera World", "url": "https://www.digitalcameraworld.com/feeds/all", "cat_hint": "market", "filter": True},
     {"name": "Lightroom Queen", "url": "https://www.lightroomqueen.com/feed/", "cat_hint": "comp", "filter": True},
     # YouTube канали (RSS резолвиться зі сторінки каналу)
     {"name": "Topaz Labs · YouTube", "url": "https://www.youtube.com/@TopazLabs", "kind": "youtube", "cat_hint": "comp"},
@@ -31,6 +31,7 @@ SOURCES = [
     # ІІ та дослідження
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "cat_hint": "ai", "filter": True},
     {"name": "Google Research", "url": "https://research.google/blog/rss/", "cat_hint": "algo", "filter": True},
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "cat_hint": "ai", "filter": True, "strict": True},
     {"name": "arXiv cs.CV", "url": "https://rss.arxiv.org/rss/cs.CV", "cat_hint": "ai", "filter": True, "strict": True},
     {"name": "NVIDIA Research", "url": "https://blogs.nvidia.com/feed/", "cat_hint": "ai", "filter": True, "strict": True},
     # Спільнота
