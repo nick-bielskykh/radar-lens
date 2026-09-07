@@ -8,7 +8,7 @@
 #   ./run.sh todo       — список id, для яких ще нема data/enriched/<id>.json
 #   ./run.sh tweet <url> [...] — додати твіти як кандидатів (через api.fxtwitter.com)
 #
-# Змінні: DAYS (за скільки днів збирати, 3), MODEL/EFFORT (тільки для кроку enrich).
+# Змінні: DAYS (за скільки днів збирати, 2), MODEL/EFFORT (тільки для кроку enrich).
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -18,7 +18,7 @@ if [ -x .venv/bin/python ]; then PY=.venv/bin/python; else
 fi
 
 case "${1:-fetch}" in
-  fetch)  DAYS="${DAYS:-3}" $PY fetch.py ;;
+  fetch)  DAYS="${DAYS:-2}" $PY fetch.py ;;
   build)  $PY assemble.py && $PY build.py ;;
   tweet)  shift; $PY tweet.py "$@" ;;
   enrich) EFFORT="${EFFORT:-low}" MODEL="${MODEL:-claude-opus-5}" $PY enrich.py ;;
