@@ -10,6 +10,8 @@ from pydantic import BaseModel
 ROOT = os.path.dirname(os.path.abspath(__file__)); DATA = os.path.join(ROOT, "data")
 CACHE = os.path.join(DATA, "enriched"); os.makedirs(CACHE, exist_ok=True)
 MODEL = os.environ.get("MODEL", "claude-opus-5")
+# Глибина міркувань: low вистачає для відсіву й переказу, дешевше й швидше.
+EFFORT = os.environ.get("EFFORT", "low")
 client = anthropic.Anthropic()
 CONTEXT = open(os.path.join(ROOT, "luminar_context.md")).read()
 
@@ -36,16 +38,27 @@ TRIAGE_SYS = f"""Ти редактор внутрішнього порталу �
 Поверни рішення для КОЖНОГО id зі списку."""
 
 def triage(raw):
+    """Інкрементально: питаємо модель тільки про новини, яких ще нема в кеші."""
     cache = os.path.join(CACHE, "_triage.json")
-    if os.path.exists(cache):
-        return json.load(open(cache))
-    lines = [{"id": r["id"], "source": r["source"], "title": r["title"], "summary": (r["summary"] or r["page"]["text"])[:220]} for r in raw]
-    res = client.messages.parse(
-        model=MODEL, max_tokens=32000, system=TRIAGE_SYS,
-        messages=[{"role": "user", "content": json.dumps(lines, ensure_ascii=False)}],
-        output_format=Triage,
-    )
-    out = {t.id: t.model_dump() for t in res.parsed_output.items}
+    out = json.load(open(cache)) if os.path.exists(cache) else {}
+    fresh = [r for r in raw if r["id"] not in out]
+    if not fresh:
+        return out
+    log(f"Триаж: {len(fresh)} нових кандидатів")
+    for i in range(0, len(fresh), 60):
+        chunk = fresh[i:i + 60]
+        lines = [{"id": r["id"], "source": r["source"], "title": r["title"], "summary": (r["summary"] or r["page"]["text"])[:220]} for r in chunk]
+        res = client.messages.parse(
+            model=MODEL, max_tokens=32000, system=TRIAGE_SYS,
+            messages=[{"role": "user", "content": json.dumps(lines, ensure_ascii=False)}],
+            thinking={"type": "adaptive"}, output_config={"effort": EFFORT},
+            output_format=Triage,
+        )
+        out.update({t.id: t.model_dump() for t in res.parsed_output.items})
+        json.dump(out, open(cache, "w"), ensure_ascii=False, indent=1)
+    # id, яких модель не повернула, вважаємо відсіяними, щоб не питати повторно
+    for r in fresh:
+        out.setdefault(r["id"], {"id": r["id"], "keep": False, "dup_of": None})
     json.dump(out, open(cache, "w"), ensure_ascii=False, indent=1)
     return out
 
@@ -102,6 +115,7 @@ def enrich_one(r):
         res = client.messages.parse(
             model=MODEL, max_tokens=16000, system=ENRICH_SYS,
             messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+            thinking={"type": "adaptive"}, output_config={"effort": EFFORT},
             output_format=Enriched,
         )
         out = res.parsed_output.model_dump()
