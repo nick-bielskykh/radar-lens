@@ -26,23 +26,31 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
 a{color:inherit}
 
 .top{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;background:rgba(0,0,0,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
-.top-in{max-width:760px;margin:0 auto;padding:18px 20px}
+.top-in{max-width:760px;margin:0 auto;padding:0 20px;height:56px;gap:16px}
 .top-in{display:flex;align-items:center;justify-content:space-between}
+.brand{flex:none}
 .brand{font-weight:700;font-size:15px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
 .back{font-size:14px;font-weight:600;color:var(--ink2);text-decoration:none}.back:hover{color:var(--ink)}
 
-.layout{max-width:760px;margin:0 auto;padding:28px 20px 80px}
+.layout{max-width:760px;margin:0 auto;padding:20px 20px 80px}
 .feed{display:flex;flex-direction:column;gap:14px}
 
-.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
-.chip{border:1px solid var(--line2);border-radius:8px;padding:6px 13px;font-size:13px;font-weight:600;color:var(--ink2);display:inline-flex;align-items:center;gap:7px}
-.chip.on{background:#fff;color:#000;border-color:#fff}
-.chip .dot{width:7px;height:7px;border-radius:50%}
-.chip .n{color:var(--ink3);font-weight:500}.chip.on .n{color:#555}
-.chip.hi{margin-left:auto;border-color:var(--accent);color:var(--accent)}.chip.hi.on{background:var(--accent);color:var(--accent-ink)}
-.filters{margin-bottom:14px;position:sticky;top:57px;z-index:40;background:var(--bg);padding:10px 0}
+.filters{display:flex;align-items:center;gap:4px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
+.filters .chip:first-child{margin-left:auto}
+.filters::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid transparent;border-radius:999px;padding:6px 9px;font-size:12.5px;font-weight:600;color:var(--ink2);display:inline-flex;align-items:center;gap:6px;line-height:1;transition:background .15s,color .15s}
+.chip:hover{background:var(--surface2);color:var(--ink)}
+.chip.on{background:#fff;color:#000}
+.chip .dot{width:6px;height:6px;border-radius:50%}
+.chip .n{color:var(--ink3);font-weight:500;font-size:11.5px}.chip.on .n{color:#666}
+.chip.hi{margin-left:4px;color:var(--accent);border-color:rgba(245,196,69,.35)}.chip.hi:hover{background:rgba(245,196,69,.12)}.chip.hi.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .empty{color:var(--ink3);text-align:center;padding:40px 0}
-@media (max-width:640px){.chip.hi{margin-left:0}}
+@media (max-width:640px){
+  .top-in{height:auto;flex-wrap:wrap;padding:10px 12px 8px;row-gap:6px}
+  .brand{width:100%}
+  .filters{margin:0 -12px;padding:0 12px;width:calc(100% + 24px)}
+  .filters .chip:first-child{margin-left:0}
+}
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
 
 /* ---------- post ---------- */
@@ -126,10 +134,9 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 
 </style>
 
-<div class="top"><div class="top-in"><a class="brand" href="/">Lens Radar</a><a class="back" href="/" hidden id="back">← Вся стрічка</a></div></div>
+<div class="top"><div class="top-in"><a class="brand" href="/">Lens Radar</a><nav class="filters" id="filters" hidden aria-label="Теми"></nav><a class="back" href="/" hidden id="back">← Вся стрічка</a></div></div>
 
 <div class="layout">
-  <div class="filters" id="filters" hidden></div>
   <main class="feed" id="feed"></main>
 </div>
 
@@ -207,9 +214,9 @@ function visible(){return ITEMS.filter(it=>(!filt.cat||it.category===filt.cat)&&
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
   const n=c=>ITEMS.filter(it=>it.category===c).length;
-  f.innerHTML=`<button class="chip ${!filt.cat?'on':''}" data-cat="">Усе <span class="n">${ITEMS.length}</span></button>`
-   +Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}"><span class="dot" style="background:${c.c}"></span>${c.n} <span class="n">${n(k)}</span></button>`).join('')
-   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1">★ Важливе</button>`;
+  f.innerHTML=`<button class="chip ${!filt.cat?'on':''}" data-cat="" title="${ITEMS.length} новин">Усе</button>`
+   +Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}" title="${n(k)} новин"><span class="dot" style="background:${c.c}"></span>${c.n}</button>`).join('')
+   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1" title="Оцінка 4 і вище">★ Важливе</button>`;
 }
 function render(){
   renderFilters();
