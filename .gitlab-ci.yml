@@ -1,0 +1,11 @@
+# GitLab Pages: публікує site/hosted після кожного пушу в main
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - rm -rf public && cp -r site/hosted public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
