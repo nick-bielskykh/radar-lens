@@ -1,7 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__TITLE__</title>
-__META__
+<title>Photoroom запускає Visual Agents для каталогів: моделі проходять перевірку лише у 29% випадків — Lens Radar</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lens Radar">
+<meta property="og:title" content="Photoroom запускає Visual Agents для каталогів: моделі проходять перевірку лише у 29% випадків">
+<meta property="og:description" content="Photoroom представив Visual Agents — корпоративну систему, яка автоматизує AI-генерацію товарних фото й відео з перевіркою точності та повторними спробами, і оприлюднив бенчмарк точності моделей редагування.">
+<meta property="og:url" content="https://lens-radar-feed.vercel.app/p/6af7286517">
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
 <style>
 /* Single-theme by design: matches skylum.com (black ground, white type) */
@@ -106,8 +111,8 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 <script>
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
-const SINGLE=__SINGLE__;
-const ITEMS=__DATA__;
+const SINGLE=true;
+const ITEMS=[{"id": "6af7286517", "source": "IT Brief UK", "url": "https://itbrief.co.uk/story/photoroom-launches-visual-agents-for-enterprise-catalogues", "date": "2026-09-02T08:46:00+00:00", "title": "Photoroom запускає Visual Agents для каталогів: моделі проходять перевірку лише у 29% випадків", "lead": "Photoroom представив Visual Agents — корпоративну систему, яка автоматизує AI-генерацію товарних фото й відео з перевіркою точності та повторними спробами, і оприлюднив бенчмарк точності моделей редагування.", "full": ["Visual Agents будує пайплайн навколо вхідних каталожних зображень: обирає модель редагування під задачу, порівнює результат з оригіналом товару, повторює невдалі генерації і лише сумнівні випадки віддає людині. Продукт доступний для enterprise-клієнтів з оплатою за обсяг; для суворіших вимог є додаткова гарантія на кейси, які не проходять і після повторів.", "Найцікавіше — бенчмарк: на 4 250 згенерованих зображеннях для 850 реальних товарів (одяг, взуття, сумки, прикраси) найкращі моделі редагування проходили повну перевірку точності лише у 29% випадків, а логотипи спотворювалися в кожному пʼятому результаті. Власний Fidelity Layer Photoroom підняв показник до 38,2%. Інженери помітили, що повторні спроби без зміни моделі помітно покращують результат — звідси retry-цикл.", "Серед ранніх впроваджень: маркетплейс виконав понад 1,5 млн автоматичних перевірок за три тижні і виправив понад 90 тис. зображень; сервіс доставки їжі обробив 8 200 фото за ніч, з них 7 пішли рецензенту. Photoroom заявляє понад 7 млрд оброблених зображень на рік."], "means": "Photoroom (tier-2) рухається в enterprise-автоматизацію, де ми не конкуруємо, але його дані важливі: навіть найкращі моделі інпейнту спотворюють дрібні деталі й текст у більшості випадків. Для GenErase, GenSwap і GenExpand це аргумент за автоматичну перевірку результату й повторну генерацію під капотом, а не лише кнопку «ще варіант». Підхід «модель-роутер + перевірка + retry» можна перенести на наш хмарний пайплайн.", "importance": 3, "category": "comp", "media": {"kind": "none", "hero_image": null, "video": null}, "page": {"images": [{"uri": "/img/f57a93124874.jpg", "w": 1000, "h": 564, "alt": ""}], "videos": []}}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];

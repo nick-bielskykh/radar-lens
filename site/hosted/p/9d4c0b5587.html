@@ -1,7 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__TITLE__</title>
-__META__
+<title>Lightroom Classic: пресети з AI-масками перегенеровують сегментацію на кожному фото — Lens Radar</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lens Radar">
+<meta property="og:title" content="Lightroom Classic: пресети з AI-масками перегенеровують сегментацію на кожному фото">
+<meta property="og:description" content="Fstoppers розбирає робочий процес Terry Vander Heiden: у Lightroom Classic AI-маски ландшафту (небо, гори, рослинність, вода, земля) зберігаються в пресет і автоматично перебудовуються під кожен новий знімок.">
+<meta property="og:url" content="https://lens-radar-feed.vercel.app/p/9d4c0b5587">
+<meta property="og:image" content="https://lens-radar-feed.vercel.app/img/4b48db421ffe.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
 <style>
 /* Single-theme by design: matches skylum.com (black ground, white type) */
@@ -106,8 +112,8 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 <script>
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
-const SINGLE=__SINGLE__;
-const ITEMS=__DATA__;
+const SINGLE=true;
+const ITEMS=[{"id": "9d4c0b5587", "source": "Fstoppers", "url": "https://fstoppers.com/landscapes/lightroom-classic-preset-trick-regenerates-masks-every-photo-904439?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles", "date": "2026-09-02T13:03:02+00:00", "title": "Lightroom Classic: пресети з AI-масками перегенеровують сегментацію на кожному фото", "lead": "Fstoppers розбирає робочий процес Terry Vander Heiden: у Lightroom Classic AI-маски ландшафту (небо, гори, рослинність, вода, земля) зберігаються в пресет і автоматично перебудовуються під кожен новий знімок.", "full": ["Маски Lightroom, засновані на розпізнаванні сцени, можна запекти у користувацький пресет. Після застосування до нової фотографії програма за секунду-дві генерує маски саме для цього кадру, а не копіює їх із попереднього. Якщо елемент (наприклад, природний ґрунт) не знайдено, маска позначається попередженням і її просто видаляють.", "Автор показує два варіанти: пресет із повним набором правок для серії схожих кадрів і «легкий» пресет, який лише створює маски, залишаючи редагування вручну. Ідея — прогнати всю поїздку через масковий пресет одразу після імпорту, щоб кожен кадр був попередньо сегментований. Також описано швидке створення віртуальних копій, перегляд кліпінгу та чорно-білу конверсію через Color Mixer."], "means": "У Luminar Neo Mask AI вміє те саме розпізнавання (небо, вода, рослинність, людина), але сценарій «маски як частина пресета, що перегенеровуються на кожному фото» — сильний аргумент Lightroom для пакетної роботи. Варто перевірити, чи наші Presets із локальними правками на Mask AI відпрацьовують так само автоматично на новому знімку, і показати це в комунікації.", "importance": 2, "category": "comp", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/4b48db421ffe.jpg", "w": 1000, "h": 565, "alt": "Tutorial thumbnail featuring instructor in plaid shirt with landscape photography preset creation interface"}], "videos": []}}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];

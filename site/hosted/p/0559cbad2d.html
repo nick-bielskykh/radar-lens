@@ -1,7 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__TITLE__</title>
-__META__
+<title>Lightroom видаляє людину з групового фото через Firefly без Photoshop — Lens Radar</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lens Radar">
+<meta property="og:title" content="Lightroom видаляє людину з групового фото через Firefly без Photoshop">
+<meta property="og:description" content="Fstoppers розібрав воркфлоу Гліна Дьюїса: вбудований Remove у Lightroom не впорався з видаленням людини з центру групи, а відправка кадру у Firefly з текстовим промптом дала чистий результат.">
+<meta property="og:url" content="https://lens-radar-feed.vercel.app/p/0559cbad2d">
+<meta property="og:image" content="https://lens-radar-feed.vercel.app/img/6a29ef80b604.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
 <style>
 /* Single-theme by design: matches skylum.com (black ground, white type) */
@@ -106,8 +112,8 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 <script>
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
-const SINGLE=__SINGLE__;
-const ITEMS=__DATA__;
+const SINGLE=true;
+const ITEMS=[{"id": "0559cbad2d", "source": "Fstoppers", "url": "https://fstoppers.com/education/delete-someone-group-photo-without-ever-opening-photoshop-904484?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles", "date": "2026-09-06T09:03:01+00:00", "title": "Lightroom видаляє людину з групового фото через Firefly без Photoshop", "lead": "Fstoppers розібрав воркфлоу Гліна Дьюїса: вбудований Remove у Lightroom не впорався з видаленням людини з центру групи, а відправка кадру у Firefly з текстовим промптом дала чистий результат.", "full": ["Вбудований інструмент Remove з увімкненим генеративним AI добре відновив фон, але зіпсував руку сусіда. Робочий метод — меню Photo → Generating Firefly → Edit Photo: кадр іде на сайт Firefly, де можна обрати модель — Firefly Image 5, модель зображень ChatGPT або Google Gemini 3.1. Промпт описує, кого прибрати, як зсунути решту людей і що зберегти незмінним (обличчя, волосся, одяг, кольори). Через приблизно півтори хвилини троє людей стоять поруч без слідів монтажу.", "Ціна в кредитах: перемикання на модель ChatGPT у високій якості піднімає вартість з 20 до 80 кредитів за правку. Регенерований файл повертається меншим за оригінал 6060×4040, тож потрібен апскейл, а готовий результат падає в папку завантажень, а не в каталог Lightroom.", "Автор підкреслює: Firefly не кращий за Photoshop, але такі правки більше не потребують шарів і масок, що відкриває їх звичайним користувачам з телефонними знімками."], "means": "Adobe робить видалення й перекомпонування людей доступним прямо з Lightroom через сторонні моделі (ChatGPT, Gemini) — це територія нашого Erase та GenErase. Показові вузькі місця: втрата роздільної здатності, розрив каталогу і 80 кредитів за правку. Luminar Neo може виграти, якщо GenErase поверне результат у повній роздільній здатності в межах каталогу й з прозорими лімітами, а Luminar Mobile — дати промпт-керування Erase для сімейних фото.", "importance": 3, "category": "comp", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/6a29ef80b604.jpg", "w": 1000, "h": 565, "alt": "Side-by-side comparison showing person circled in left image removed from right image, with Photoshop and Lightroom logos"}], "videos": []}}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];

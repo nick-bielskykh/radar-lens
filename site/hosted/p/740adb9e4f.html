@@ -1,7 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__TITLE__</title>
-__META__
+<title>OpenShot 4.0: офлайн AI-маскування об&#x27;єктів на YOLO, EfficientSAM і Cutie — Lens Radar</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lens Radar">
+<meta property="og:title" content="OpenShot 4.0: офлайн AI-маскування об&#x27;єктів на YOLO, EfficientSAM і Cutie">
+<meta property="og:description" content="Вийшов безкоштовний відеоредактор OpenShot 4.0 (GPLv3) для Windows, macOS і Linux. Серед нових ефектів — Object Mask, що будує анімовану маску навколо об&#x27;єкта за кількома точками повністю локально, без хмари й акаунта.">
+<meta property="og:url" content="https://lens-radar-feed.vercel.app/p/740adb9e4f">
+<meta property="og:image" content="https://lens-radar-feed.vercel.app/img/a8e122e26fac.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
 <style>
 /* Single-theme by design: matches skylum.com (black ground, white type) */
@@ -106,8 +112,8 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 <script>
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
-const SINGLE=__SINGLE__;
-const ITEMS=__DATA__;
+const SINGLE=true;
+const ITEMS=[{"id": "740adb9e4f", "source": "Notebookcheck", "url": "https://www.notebookcheck.net/New-free-open-source-video-editor-update-brings-offline-AI-subject-masking-and-pro-color-scopes.1383937.0.html", "date": "2026-08-31T13:37:00+00:00", "title": "OpenShot 4.0: офлайн AI-маскування об'єктів на YOLO, EfficientSAM і Cutie", "lead": "Вийшов безкоштовний відеоредактор OpenShot 4.0 (GPLv3) для Windows, macOS і Linux. Серед нових ефектів — Object Mask, що будує анімовану маску навколо об'єкта за кількома точками повністю локально, без хмари й акаунта.", "full": ["Object Mask використовує мережі YOLO, EfficientSAM і Cutie, конвертовані в ONNX і завантажувані за потреби; користувач ставить кілька позитивних і негативних точок, а маска трекається по кадрах. Уся обробка відбувається на пристрої. Серед десяти нових ефектів також Denoise Image, Film Grain, Glow, Shadow, Displacement Map і Color Grade.", "Новий Color View об'єднує колірні кола для глобального, тіньового, середнього та світлого діапазонів, чотири криві, підтримку .cube LUT з регулюванням інтенсивності та скопи: waveform, гістограму, RGB parade і vectorscope з лінією шкірних тонів. Таймлайн переписано на нативний Qt, а Recording View дозволяє записувати екран, вебкамеру й мікрофон одразу в проєкт."], "means": "Це референс для Mask AI і Erase: зв'язка EfficientSAM + Cutie в ONNX показує, що інтерактивне маскування за кліками з трекінгом можна робити повністю на пристрої в open-source продукті. Для Luminar Mobile, де Erase і Portrait частково залежать від хмари, EfficientSAM під Core ML/NNAPI — реальний кандидат на локальний вибір об'єкта. GPLv3 не дозволяє брати код напряму, але самі моделі мають окремі ліцензії й їх варто перевірити.", "importance": 3, "category": "ai", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/a8e122e26fac.jpg", "w": 1000, "h": 750, "alt": ""}], "videos": []}}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];

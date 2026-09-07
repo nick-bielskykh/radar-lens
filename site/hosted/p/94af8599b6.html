@@ -1,7 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>__TITLE__</title>
-__META__
+<title>Photoshop замінив Brightness/Contrast новим шаром Light із контролями Camera Raw — Lens Radar</title>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Lens Radar">
+<meta property="og:title" content="Photoshop замінив Brightness/Contrast новим шаром Light із контролями Camera Raw">
+<meta property="og:description" content="У Photoshop з&#x27;явився коригувальний шар Light, який виносить Exposure, Contrast, Highlights, Shadows, Whites і Blacks з Camera Raw у головний редактор як недеструктивний шар; старий алгоритм доступний у режимі Legacy.">
+<meta property="og:url" content="https://lens-radar-feed.vercel.app/p/94af8599b6">
+<meta property="og:image" content="https://lens-radar-feed.vercel.app/img/30b22b6c3bfc.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
 <style>
 /* Single-theme by design: matches skylum.com (black ground, white type) */
@@ -106,8 +112,8 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 <script>
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
-const SINGLE=__SINGLE__;
-const ITEMS=__DATA__;
+const SINGLE=true;
+const ITEMS=[{"id": "94af8599b6", "source": "Fstoppers", "url": "https://fstoppers.com/education/photoshop-just-replaced-brightness-and-contrast-something-better-904470?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles", "date": "2026-09-05T09:03:01+00:00", "title": "Photoshop замінив Brightness/Contrast новим шаром Light із контролями Camera Raw", "lead": "У Photoshop з'явився коригувальний шар Light, який виносить Exposure, Contrast, Highlights, Shadows, Whites і Blacks з Camera Raw у головний редактор як недеструктивний шар; старий алгоритм доступний у режимі Legacy.", "full": ["Аарон Нейс (PHLEARN) пояснює, що Light — новий шар у лінійці Grain, Clarity, Dehaze і Color, які Adobe поступово переносить із Camera Raw у Photoshop. Повернути стару поведінку можна через приховане меню у панелі Properties, перемкнувши версію на Legacy.", "Рекомендований порядок повзунків: Exposure, потім Whites і Blacks, далі Highlights і Shadows, Contrast — останнім. Автор радить починати з Select Subject, щоб шар автоматично отримав маску, і працювати окремими шарами Light для фону та об'єкта. Шар Color додає температуру, відтінок і vibrance у тому ж недеструктивному потоці.", "Особливість поведінки: під час редагування шару під Light Photoshop тимчасово ховає шари Light вище, щоб показати чистий ефект — це зроблено навмисно."], "means": "Adobe зближує Photoshop і Lightroom/ACR, зменшуючи причину тримати другий редактор для тонової корекції. Для Luminar Neo це аргумент за те, щоб наші Layers працювали з тими ж RAW-контролями і автомасками Mask AI (людина, небо, фон) без додаткових кроків — сценарій «окремий шар на об'єкт і фон» уже є нашою сильною стороною. Для Mobile важливо, що навіть у Photoshop базовий потік стає «Select Subject + кілька повзунків».", "importance": 3, "category": "comp", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/30b22b6c3bfc.jpg", "w": 1000, "h": 565, "alt": "Screenshot showing Photoshop's new Light Adjustment Layer feature with a woman in black jacket standing in a green field"}], "videos": []}}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];
