@@ -63,6 +63,8 @@ h3.title{font-size:22px;font-weight:600;line-height:1.25;margin:0;letter-spacing
 .more{font-weight:600;font-size:14px;padding:8px 0;display:inline-flex;align-items:center;gap:8px}
 .more::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .2s}
 .post.open .more::after{transform:rotate(-135deg) translateY(-2px)}
+.post.hl{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.post{scroll-margin-top:16px}
 .foot .copy{margin-left:auto;height:32px;padding:0 12px;border-radius:8px;border:1px solid var(--line2);display:inline-flex;align-items:center;gap:7px;color:var(--ink2);font-size:13px;font-weight:600}
 .foot .copy:hover{color:var(--ink);border-color:var(--ink)}
 .foot .src-link{font-size:13px;color:var(--ink3);text-decoration:none}
@@ -82,13 +84,6 @@ h3.title{font-size:22px;font-weight:600;line-height:1.25;margin:0;letter-spacing
 
 .loadmore{align-self:center;margin-top:10px}
 
-.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
-.card h4{margin:0 0 10px;font-size:14px;font-weight:700}
-.card p{margin:0 0 12px;color:var(--ink2);font-size:13px}
-.card{margin-top:24px}.card form{display:flex;gap:8px}
-.card input{flex:1}
-.card input{border:1px solid var(--line2);border-radius:8px;padding:9px 12px;font:inherit;background:var(--bg);color:var(--ink);font-size:14px}
-.ok{color:var(--mob);font-weight:600;font-size:13px}
 </style>
 
 <div class="top"><div class="top-in"><div class="brand">Lens Radar</div></div></div>
@@ -133,7 +128,7 @@ const COPY='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="
 function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
-  <article class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
+  <article id="${it.id}" class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
     <div class="head"><span class="src"><i>${it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··'}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
     <h3 class="title">${it.title}</h3>
     ${media(it)}
@@ -151,16 +146,14 @@ let shown=20;
 function render(){
   const list=ITEMS.slice(0,shown);let last='';
   document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
-   +(shown<ITEMS.length?`<button class="btn loadmore">Завантажити ще (${ITEMS.length-shown})</button>`:'')
-   +`<div class="card"><h4>Пʼятничний дайджест на пошту</h4><p>5–8 головних новин тижня з картинками та коментарем для команди. Щопʼятниці о 17:00.</p><form id="subf"><input type="email" placeholder="name@skylum.com" required><button class="btn w" type="submit">Підписатися</button></form></div>`;
+   +(shown<ITEMS.length?`<button class="btn loadmore">Завантажити ще (${ITEMS.length-shown})</button>`:'');
 }
-document.getElementById('feed').addEventListener('submit',e=>{e.preventDefault();e.target.innerHTML='<span class="ok">✓ Готово. Перший лист — у пʼятницю.</span>'});
 document.getElementById('feed').addEventListener('click',e=>{
   if(e.target.closest('.loadmore')){shown+=20;render();return}
   const sl=e.target.closest('.copy');
   if(sl){
     const it=ITEMS.find(x=>x.id===sl.closest('.post').dataset.id); if(!it) return;
-    const txt=`*${it.title}*\n${it.lead}\n_Що це означає для Luminar:_ ${it.means}\n${it.url}`;
+    const txt=location.origin+location.pathname+'#'+it.id;
     const done=ok=>{sl.innerHTML=COPY+(ok?'Скопійовано':'Не вдалось');setTimeout(()=>{sl.innerHTML=COPY+'Копіювати'},1800)};
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(()=>done(true),()=>done(false))}
     else{const ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}ta.remove();done(ok)}
@@ -170,5 +163,14 @@ document.getElementById('feed').addEventListener('click',e=>{
   const id=m.closest('.post').dataset.id;
   state.open.has(id)?state.open.delete(id):state.open.add(id); render();
 });
-render();
+function openFromHash(){
+  const id=decodeURIComponent(location.hash.slice(1)); if(!id) return;
+  const idx=ITEMS.findIndex(x=>x.id===id); if(idx<0) return;
+  if(idx>=shown) shown=idx+1;          // підвантажити до потрібного поста
+  state.open.add(id); render();
+  const el=document.getElementById(id); if(!el) return;
+  el.scrollIntoView({block:'start'}); el.classList.add('hl'); setTimeout(()=>el.classList.remove('hl'),2000);
+}
+window.addEventListener('hashchange',openFromHash);
+render(); openFromHash();
 </script>
