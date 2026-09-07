@@ -137,8 +137,8 @@ def yt_id(url):
     return m.group(1) if m else None
 
 def extract_page(url):
-    """Повертає dict: text, images[], videos[], before_after[]"""
-    out = {"text": "", "images": [], "videos": [], "before_after": []}
+    """Повертає dict: text, images[], videos[]"""
+    out = {"text": "", "images": [], "videos": []}
     try:
         r = get(url); r.raise_for_status(); html = r.text
     except Exception as e:
@@ -192,24 +192,6 @@ def extract_page(url):
         if k not in seen: seen.add(k); uniq_v.append(v)
     out["videos"] = uniq_v[:4]
 
-    # before/after: пари сусідніх картинок з підказками в alt/caption/src, або відомі слайдери
-    imgs = out["images"]
-    def is_before(i): return bool(re.search(r"\b(before|original|source|input)\b", (i["alt"] + " " + i["cap"] + " " + i["src"]), re.I))
-    def is_after(i): return bool(re.search(r"\b(after|result|output|edited|enhanced)\b", (i["alt"] + " " + i["cap"] + " " + i["src"]), re.I))
-    for i in range(len(imgs) - 1):
-        a, b = imgs[i], imgs[i + 1]
-        if is_before(a) and is_after(b) and abs(a["w"] / a["h"] - b["w"] / b["h"]) < 0.05:
-            out["before_after"].append([a["file"], b["file"]])
-    # слайдери типу twentytwenty / juxtapose / beer-slider
-    for sl in soup.select(".twentytwenty-container, .juxtapose, .beer-slider, [class*=before-after], [class*=compare]"):
-        ims = [urljoin(url, (i.get("data-src") or i.get("src") or "")) for i in sl.find_all("img")][:2]
-        if len(ims) == 2:
-            res = [download_image(u) for u in ims]
-            if all(res) and abs(res[0][1]/res[0][2] - res[1][1]/res[1][2]) < 0.05:
-                out["before_after"].append([res[0][0], res[1][0]])
-                for u, rr in zip(ims, res):
-                    if not any(x["file"] == rr[0] for x in out["images"]):
-                        out["images"].append({"file": rr[0], "w": rr[1], "h": rr[2], "alt": "", "cap": "", "src": u})
     return out
 
 def collect_source(s):
@@ -266,7 +248,7 @@ def main():
         if it["kind"] == "youtube":
             th = download_image(f"https://i.ytimg.com/vi/{it['yt']}/maxresdefault.jpg") or download_image(f"https://i.ytimg.com/vi/{it['yt']}/hqdefault.jpg")
             it["page"] = {"text": it["summary"], "images": [{"file": th[0], "w": th[1], "h": th[2], "alt": "", "cap": "", "src": ""}] if th else [],
-                          "videos": [{"yt": it["yt"]}], "before_after": []}
+                          "videos": [{"yt": it["yt"]}]}
         elif it["kind"] == "reddit":
             it["page"] = extract_page(it["url"])
         else:
@@ -285,8 +267,7 @@ def main():
     all_items = sorted([r for r in merged.values() if r["date"] >= cutoff], key=lambda x: x["date"], reverse=True)
     json.dump(all_items, open(path, "w"), ensure_ascii=False, indent=1)
     with_media = sum(1 for i in all_items if i["page"]["images"] or i["page"]["videos"])
-    ba = sum(1 for i in all_items if i["page"]["before_after"])
-    log(f"Збережено {len(all_items)} новин, з медіа: {with_media}, з before/after: {ba}")
+    log(f"Збережено {len(all_items)} новин, з медіа: {with_media}")
 
 if __name__ == "__main__":
     main()

@@ -64,9 +64,8 @@ def triage(raw):
 
 # ---------- етап 2: збагачення ----------
 class Media(BaseModel):
-    kind: Literal["ba", "video", "gallery", "image", "none"]
+    kind: Literal["video", "gallery", "image", "none"]
     hero_image: Optional[int] = None      # індекс у списку images для головної картинки (image/gallery/video-постер)
-    ba_pair: Optional[List[int]] = None   # [before_idx, after_idx] індекси в images, тільки якщо це справді пара до/після одного кадру
     video: Optional[str] = None           # youtube id, якщо kind=video
 
 class Enriched(BaseModel):
@@ -93,7 +92,6 @@ ENRICH_SYS = f"""Ти пишеш пости для внутрішнього по
 Категорії: comp = конкуренти й продукти, ai = генеративні та нейромережеві моделі, algo = класичні алгоритми та дослідження обробки зображень, market = ринок, опитування, бізнес.
 
 Медіа: тобі дають список зображень зі сторінки (індекс, розмір, alt, підпис) і відео. Вибери головне медіа:
-- kind="ba" ТІЛЬКИ якщо серед зображень є справжня пара "до/після" одного кадру (з alt/підписів або очевидних назв файлів). Не вигадуй пари.
 - kind="video", якщо є YouTube-відео і воно є суттю новини (демо, огляд). Вкажи hero_image як постер, якщо є.
 - kind="gallery", якщо є 3+ змістовних зображення. hero_image — найінформативніше.
 - kind="image", якщо є одне-два зображення.
@@ -110,7 +108,7 @@ def enrich_one(r):
     imgs = [{"idx": i, "w": im["w"], "h": im["h"], "alt": im["alt"][:120], "caption": im["cap"][:160], "file": im["src"].rsplit("/", 1)[-1][:60]} for i, im in enumerate(p["images"])]
     payload = {"source": r["source"], "date": r["date"][:10], "url": r["url"], "title": r["title"],
                "summary": r["summary"], "text": p["text"][:9000], "images": imgs,
-               "videos": [v.get("yt") for v in p["videos"] if v.get("yt")], "detected_before_after_pairs": p["before_after"]}
+               "videos": [v.get("yt") for v in p["videos"] if v.get("yt")]}
     try:
         res = client.messages.parse(
             model=MODEL, max_tokens=16000, system=ENRICH_SYS,

@@ -57,21 +57,14 @@ h3.title{font-size:22px;font-weight:600;line-height:1.25;margin:0;letter-spacing
 .gal{position:absolute;inset:0;display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:3px}
 .gal > :first-child{grid-row:1/3}
 .gal .more{display:grid;place-items:center;color:#fff;font-weight:700;font-size:18px;position:relative;isolation:isolate}.gal .more img{position:absolute;inset:0;z-index:-1;filter:brightness(.5)}
-.ba{position:absolute;inset:0;cursor:ew-resize}
-.ba .after,.ba .before{position:absolute;inset:0}
-.ba .before{clip-path:inset(0 calc(100% - var(--x,50%)) 0 0)}
-.ba .handle{position:absolute;top:0;bottom:0;left:var(--x,50%);width:2px;background:#fff;transform:translateX(-1px)}
-.ba .handle::after{content:"◂ ▸";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;color:#000;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:700;white-space:nowrap}
-.ba .lbl{position:absolute;bottom:10px;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:rgba(0,0,0,.7);color:#fff;padding:4px 8px;border-radius:6px}
-.ba .lbl.l{left:10px}.ba .lbl.r{right:10px}
 .srcnote{position:absolute;right:10px;top:10px;background:rgba(0,0,0,.7);color:var(--ink2);font-size:11px;padding:4px 8px;border-radius:6px}
 
 .foot{display:flex;align-items:center;gap:14px;padding-top:4px;border-top:1px solid var(--line);margin-top:2px}
 .more{font-weight:600;font-size:14px;padding:8px 0;display:inline-flex;align-items:center;gap:8px}
 .more::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .2s}
 .post.open .more::after{transform:rotate(-135deg) translateY(-2px)}
-.foot .slack{margin-left:auto;height:32px;padding:0 12px;border-radius:8px;border:1px solid var(--line2);display:inline-flex;align-items:center;gap:7px;color:var(--ink2);font-size:13px;font-weight:600}
-.foot .slack:hover{color:var(--ink);border-color:var(--ink)}
+.foot .copy{margin-left:auto;height:32px;padding:0 12px;border-radius:8px;border:1px solid var(--line2);display:inline-flex;align-items:center;gap:7px;color:var(--ink2);font-size:13px;font-weight:600}
+.foot .copy:hover{color:var(--ink);border-color:var(--ink)}
 .foot .src-link{font-size:13px;color:var(--ink3);text-decoration:none}
 .foot .src-link:hover{color:var(--ink)}
 
@@ -119,9 +112,7 @@ function img(src,alt){return `<img class="art" src="${src}" alt="${(alt||'').rep
 function media(it){
   const m=it.media,P=it.page,imgs=P.images;let inner='',kind='';
   const hero=(m.hero_image!=null&&imgs[m.hero_image])?imgs[m.hero_image]:imgs[0];
-  if(m.kind==='ba'&&m.ba_pair&&imgs[m.ba_pair[0]]&&imgs[m.ba_pair[1]]){
-    inner=`<div class="ba" style="--x:50%"><div class="after">${img(imgs[m.ba_pair[1]].uri)}</div><div class="before">${img(imgs[m.ba_pair[0]].uri)}</div><div class="handle"></div><span class="lbl l">До</span><span class="lbl r">Після</span></div><span class="srcnote">пара з джерела</span>`;kind='Before / After';
-  }else if(m.kind==='video'&&m.video){
+  if(m.kind==='video'&&m.video){
     const poster=hero?img(hero.uri):`<div class="art" style="background:#1a1b1e"></div>`;
     inner=`<a class="vlink" href="https://www.youtube.com/watch?v=${m.video}" target="_blank" rel="noopener">${poster}<div class="play"><i></i></div></a>`;kind='Відео';
   }else if(m.kind==='gallery'&&imgs.length>=3){
@@ -132,13 +123,13 @@ function media(it){
   return `<div class="media" style="aspect-ratio:${hero&&hero.w/hero.h<1.2?'4/3':'16/9'}">${inner}</div>`;
 }
 function thumbs(it){
-  const P=it.page,m=it.media;const used=new Set([m.hero_image]);if(m.ba_pair)m.ba_pair.forEach(i=>used.add(i));
+  const P=it.page,m=it.media;const used=new Set([m.hero_image]);
   const rest=P.images.map((x,i)=>({...x,i})).filter(x=>!used.has(x.i)).slice(0,4);
   const vids=P.videos.filter(v=>v.yt&&v.yt!==m.video).slice(0,2);
   if(!rest.length&&!vids.length) return '';
   return `<div class="thumbs">${rest.map(x=>`<a href="${x.uri}" target="_blank" rel="noopener"><img src="${x.uri}" alt="${(x.alt||'').replace(/"/g,'&quot;')}" loading="lazy"></a>`).join('')}${vids.map(v=>`<a href="https://www.youtube.com/watch?v=${v.yt}" target="_blank" rel="noopener" class="vt"><span>▶ YouTube</span></a>`).join('')}</div>`;
 }
-const SLACK='<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M5.04 15.16a2.52 2.52 0 1 1-2.52-2.52h2.52zm1.27 0a2.52 2.52 0 0 1 5.04 0v6.32a2.52 2.52 0 0 1-5.04 0zM8.83 5.04a2.52 2.52 0 1 1 2.52-2.52v2.52zm0 1.27a2.52 2.52 0 0 1 0 5.04H2.52a2.52 2.52 0 0 1 0-5.04zM18.96 8.83a2.52 2.52 0 1 1 2.52 2.52h-2.52zm-1.27 0a2.52 2.52 0 0 1-5.04 0V2.52a2.52 2.52 0 0 1 5.04 0zM15.17 18.96a2.52 2.52 0 1 1-2.52 2.52v-2.52zm0-1.27a2.52 2.52 0 0 1 0-5.04h6.31a2.52 2.52 0 0 1 0 5.04z"/></svg>';
+const COPY='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
 function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
@@ -153,7 +144,7 @@ function post(it,showDay){
       <span class="lab">Що це означає для Luminar<em>чернетка AI</em></span>
       <p class="means">${it.means}</p>
     </div>
-    <div class="foot"><button class="more">${state.open.has(it.id)?'Згорнути':'Детальніше'}</button><button class="slack">${SLACK}У Slack</button><a class="src-link" href="${it.url}" target="_blank" rel="noopener">Джерело ↗</a></div>
+    <div class="foot"><button class="more">${state.open.has(it.id)?'Згорнути':'Детальніше'}</button><button class="copy">${COPY}Копіювати</button><a class="src-link" href="${it.url}" target="_blank" rel="noopener">Джерело ↗</a></div>
   </article>`;
 }
 let shown=20;
@@ -166,11 +157,11 @@ function render(){
 document.getElementById('feed').addEventListener('submit',e=>{e.preventDefault();e.target.innerHTML='<span class="ok">✓ Готово. Перший лист — у пʼятницю.</span>'});
 document.getElementById('feed').addEventListener('click',e=>{
   if(e.target.closest('.loadmore')){shown+=20;render();return}
-  const sl=e.target.closest('.slack');
+  const sl=e.target.closest('.copy');
   if(sl){
     const it=ITEMS.find(x=>x.id===sl.closest('.post').dataset.id); if(!it) return;
     const txt=`*${it.title}*\n${it.lead}\n_Що це означає для Luminar:_ ${it.means}\n${it.url}`;
-    const done=ok=>{sl.innerHTML=SLACK+(ok?'Скопійовано':'Не вдалось');setTimeout(()=>{sl.innerHTML=SLACK+'У Slack'},1800)};
+    const done=ok=>{sl.innerHTML=COPY+(ok?'Скопійовано':'Не вдалось');setTimeout(()=>{sl.innerHTML=COPY+'Копіювати'},1800)};
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(()=>done(true),()=>done(false))}
     else{const ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}ta.remove();done(ok)}
     return;
@@ -178,10 +169,6 @@ document.getElementById('feed').addEventListener('click',e=>{
   const m=e.target.closest('.more'); if(!m) return;
   const id=m.closest('.post').dataset.id;
   state.open.has(id)?state.open.delete(id):state.open.add(id); render();
-});
-document.getElementById('feed').addEventListener('pointermove',e=>{
-  const ba=e.target.closest('.ba'); if(!ba) return;
-  const r=ba.getBoundingClientRect(); ba.style.setProperty('--x',Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100))+'%');
 });
 render();
 </script>

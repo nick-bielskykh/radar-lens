@@ -41,7 +41,6 @@
   "media": {
    "kind": "image",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -79,7 +78,6 @@
   "media": {
    "kind": "none",
    "hero_image": null,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -125,7 +123,6 @@
   "media": {
    "kind": "image",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -162,7 +159,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -208,7 +204,6 @@
   "media": {
    "kind": "image",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -294,7 +289,6 @@
   "media": {
    "kind": "gallery",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -330,7 +324,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -376,7 +369,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -413,7 +405,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -441,7 +432,6 @@
   "media": {
    "kind": "none",
    "hero_image": null,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -503,7 +493,6 @@
   "media": {
    "kind": "gallery",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -541,7 +530,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -595,7 +583,6 @@
   "media": {
    "kind": "image",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -640,7 +627,6 @@
   "media": {
    "kind": "image",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -686,7 +672,6 @@
   "media": {
    "kind": "none",
    "hero_image": null,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -744,7 +729,6 @@
   "media": {
    "kind": "video",
    "hero_image": 1,
-   "ba_pair": null,
    "video": "Te1D8Nmal7I"
   }
  },
@@ -806,7 +790,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -872,7 +855,6 @@
   "media": {
    "kind": "video",
    "hero_image": 2,
-   "ba_pair": null,
    "video": "1LYsbVfwgzA"
   }
  },
@@ -941,7 +923,6 @@
   "media": {
    "kind": "gallery",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1035,7 +1016,6 @@
   "media": {
    "kind": "gallery",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1072,7 +1052,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1157,7 +1136,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1194,7 +1172,6 @@
   "media": {
    "kind": "image",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1255,7 +1232,6 @@
   "media": {
    "kind": "gallery",
    "hero_image": 0,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1309,7 +1285,6 @@
   "media": {
    "kind": "image",
    "hero_image": 2,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1346,7 +1321,6 @@
   "media": {
    "kind": "none",
    "hero_image": null,
-   "ba_pair": null,
    "video": null
   }
  },
@@ -1439,7 +1413,6 @@
   "media": {
    "kind": "image",
    "hero_image": 1,
-   "ba_pair": null,
    "video": null
   }
  }

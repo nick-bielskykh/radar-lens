@@ -30,9 +30,6 @@ def slim(it, inline):
             shutil.copy(path, os.path.join(SITE, "hosted", "img", im["file"])); uri = "img/" + im["file"]
         imgs.append({"uri": uri, "w": im["w"], "h": im["h"], "alt": im["alt"]})
     if m.get("hero_image") is not None: m["hero_image"] = remap.get(m["hero_image"], 0 if imgs else None)
-    if m.get("ba_pair"):
-        pair = [remap.get(i) for i in m["ba_pair"]]
-        m["ba_pair"] = pair if None not in pair else None
     return {k: it[k] for k in ("id", "source", "url", "date", "title", "lead", "full", "means", "importance", "category")} | {"media": m, "page": {"images": imgs, "videos": [v for v in p["videos"] if v.get("yt")]}}
 
 for inline, out in ((True, os.path.join(SITE, "index.html")), (False, os.path.join(SITE, "hosted", "index.html"))):

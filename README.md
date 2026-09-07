@@ -3,7 +3,7 @@
 Внутрішній портал новин фоторедагування для команди Luminar (Neo та Mobile).
 
 - `sources.py` — джерела (RSS, YouTube, Reddit, Google News) та ключові слова.
-- `fetch.py` — збір новин за `DAYS` днів: текст, картинки, відео, пари before/after. Пише `data/raw.json`, `data/img/`.
+- `fetch.py` — збір новин за `DAYS` днів: текст, картинки, відео. Пише `data/raw.json`, `data/img/`.
 - `enrich.py` — обробка через Claude API (потрібен `ANTHROPIC_API_KEY`): відсів, українські тексти, оцінка, медіа. Пише `data/enriched/<id>.json`.
   Модель і глибина міркувань — змінні `MODEL` (типово `claude-opus-5`) та `EFFORT` (типово `low`).
   Ту саму роботу може робити агент за інструкцією `EDITOR.md` без ключа.

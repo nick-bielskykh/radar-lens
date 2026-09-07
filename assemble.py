@@ -12,7 +12,6 @@ for f in glob.glob(os.path.join(DATA, "enriched", "*.json")):
     r = raw[rid]; n = len(r["page"]["images"])
     m = o.get("media") or {}
     if m.get("hero_image") is not None and not (0 <= m["hero_image"] < n): m["hero_image"] = 0 if n else None
-    if m.get("ba_pair") and not all(0 <= i < n for i in m["ba_pair"]): m["ba_pair"] = None; m["kind"] = "image" if n else "none"
     if m.get("kind") == "video" and not m.get("video"): m["kind"] = "image" if n else "none"
     o["media"] = m
     o["importance"] = max(1, min(5, int(o.get("importance", 2))))
