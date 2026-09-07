@@ -17,7 +17,7 @@ os.makedirs(IMG, exist_ok=True)
 DAYS = int(os.environ.get("DAYS", "14"))
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36 LensRadar/0.1"}
 SINCE = datetime.now(timezone.utc) - timedelta(days=DAYS)
-BAD_IMG = re.compile(r"(logo|avatar|icon|sprite|badge|pixel|tracking|gravatar|emoji|\.svg|\.gif|1x1|spacer|button)", re.I)
+BAD_IMG = re.compile(r"(logo|avatar|icon|sprite|badge|pixel|tracking|gravatar|emoji|\.svg|\.gif|1x1|spacer|button|smileybones|/static/base/)", re.I)
 
 
 def log(*a): print(*a, file=sys.stderr, flush=True)
@@ -136,6 +136,22 @@ def yt_id(url):
     m = re.search(r"(?:youtu\.be/|youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/|v/))([\w-]{11})", url or "")
     return m.group(1) if m else None
 
+def arxiv_figures(url):
+    """Для arXiv: фігури з HTML-версії статті (на сторінці абстракту картинок нема, лише логотип)."""
+    m = re.search(r"arxiv\.org/(?:abs|pdf|html)/(\d{4}\.\d{4,5})", url)
+    if not m: return None
+    try:
+        r = get(f"https://arxiv.org/html/{m.group(1)}"); r.raise_for_status()
+    except Exception: return []
+    soup = BeautifulSoup(r.text, "lxml"); cands = []
+    for fig in soup.find_all("figure"):
+        im = fig.find("img")
+        if not im or not im.get("src") or BAD_IMG.search(im["src"]): continue
+        cap = fig.find("figcaption"); cap = cap.get_text(" ", strip=True)[:200] if cap else ""
+        cands.append((urljoin(r.url, im["src"]), (im.get("alt") or "")[:120], cap))
+        if len(cands) >= 6: break
+    return cands
+
 def extract_page(url):
     """Повертає dict: text, images[], videos[]"""
     out = {"text": "", "images": [], "videos": []}
@@ -144,16 +160,18 @@ def extract_page(url):
     except Exception as e:
         log("page fail", url, e); return out
     soup = BeautifulSoup(html, "lxml")
+    figs = arxiv_figures(url)
     for t in soup(["script", "style", "nav", "footer", "header", "aside", "form", "noscript"]): t.decompose()
     main = soup.find("article") or soup.find("main") or soup.body or soup
     paras = [p.get_text(" ", strip=True) for p in main.find_all(["p", "li", "h2", "h3"])]
     out["text"] = "\n".join(p for p in paras if len(p) > 40)[:12000]
 
-    # og:image першим
+    # og:image першим (крім arXiv — там це логотип, беремо фігури статті)
     og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
     cands = []
-    if og and og.get("content"): cands.append((urljoin(url, og["content"]), "", ""))
-    for im in main.find_all("img"):
+    if figs is not None: cands = figs
+    elif og and og.get("content"): cands.append((urljoin(url, og["content"]), "", ""))
+    for im in ([] if figs is not None else main.find_all("img")):
         src = im.get("data-src") or im.get("data-lazy-src") or im.get("src") or ""
         if im.get("srcset"):  # беремо найбільший
             parts = [s.strip().split(" ")[0] for s in im["srcset"].split(",") if s.strip()]

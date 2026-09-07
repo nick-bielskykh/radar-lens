@@ -63,6 +63,7 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 .tw .meta{font-size:13px;color:var(--ink3);display:flex;gap:14px;flex-wrap:wrap}
 .media{position:relative;border-radius:10px;overflow:hidden;background:var(--surface2);aspect-ratio:16/9}
 .media .art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.media.fit{background:#fff}.media.fit .art{object-fit:contain}
 .vlink{position:absolute;inset:0;display:block}
 .gal img{width:100%;height:100%;object-fit:cover;display:block}
 .gal .more{position:relative}.gal .more img{position:absolute;inset:0}.gal .more::after{content:attr(data-n)}
@@ -153,9 +154,10 @@ function media(it){
   }else if(m.kind==='gallery'&&imgs.length>=3){
     const rest=imgs.filter(x=>x!==hero).slice(0,2);
     inner=`<div class="gal">${img(hero.uri)}${img(rest[0].uri)}<div class="more">${imgs.length>3?`+${imgs.length-3}`:''}${img(rest[1].uri)}</div></div>`;kind='Галерея';
-  }else if(hero){inner=img(hero.uri,hero.alt);kind='Зображення'}
+  }else if(hero){inner=img(hero.uri,hero.alt)+(hero.generated?'<span class="srcnote">ілюстрація AI</span>':'');kind='Зображення'}
   else return '';
-  return `<div class="media" style="aspect-ratio:${hero&&hero.w/hero.h<1.2?'4/3':'16/9'}">${inner}</div>`;
+  const fit=kind==='Зображення'&&/^arXiv/.test(it.source);  // схеми зі статей показуємо цілком
+  return `<div class="media${fit?' fit':''}" style="aspect-ratio:${hero&&hero.w/hero.h<1.2?'4/3':'16/9'}">${inner}</div>`;
 }
 function thumbs(it){
   const P=it.page,m=it.media;const used=new Set([m.hero_image]);
