@@ -38,6 +38,11 @@ a{color:inherit}
 .chip{border:1px solid var(--line2);border-radius:8px;padding:6px 13px;font-size:13px;font-weight:600;color:var(--ink2);display:inline-flex;align-items:center;gap:7px}
 .chip.on{background:#fff;color:#000;border-color:#fff}
 .chip .dot{width:7px;height:7px;border-radius:50%}
+.chip .n{color:var(--ink3);font-weight:500}.chip.on .n{color:#555}
+.chip.hi{margin-left:auto;border-color:var(--accent);color:var(--accent)}.chip.hi.on{background:var(--accent);color:var(--accent-ink)}
+.filters{margin-bottom:14px}
+.empty{color:var(--ink3);text-align:center;padding:40px 0}
+@media (max-width:640px){.chip.hi{margin-left:0}}
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
 
 /* ---------- post ---------- */
@@ -64,7 +69,8 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 .tw .meta{font-size:13px;color:var(--ink3);display:flex;gap:14px;flex-wrap:wrap}
 .media{position:relative;border-radius:10px;overflow:hidden;background:var(--surface2);aspect-ratio:16/9}
 .media .art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.media.fit{background:#fff}.media.fit .art{object-fit:contain}
+.media.fit{background:#0b0b0c}.media.fit .art{object-fit:contain}
+.media.fit.light{background:#fff}
 .vlink{position:absolute;inset:0;display:block}
 .gal img{width:100%;height:100%;object-fit:cover;display:block}
 .gal .more{position:relative}.gal .more img{position:absolute;inset:0}.gal .more::after{content:attr(data-n)}
@@ -115,6 +121,7 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 <div class="top"><div class="top-in"><a class="brand" href="/">Lens Radar</a><a class="back" href="/" hidden id="back">← Вся стрічка</a></div></div>
 
 <div class="layout">
+  <div class="filters" id="filters" hidden></div>
   <main class="feed" id="feed"></main>
 </div>
 
@@ -132,6 +139,7 @@ function fmtDate(iso){const d=new Date(iso);return `${d.getDate()} ${MONTHS[d.ge
 function dayLabel(iso){const d=new Date(iso),t=new Date();const diff=Math.floor((t.setHours(0,0,0,0)-new Date(d).setHours(0,0,0,0))/864e5);
   const s=`${d.getDate()} ${['січня','лютого','березня','квітня','травня','червня','липня','серпня','вересня','жовтня','листопада','грудня'][d.getMonth()]}`;
   return diff===0?`Сьогодні, ${s}`:diff===1?`Вчора, ${s}`:`${DAYS_UK[d.getDay()]}, ${s}`}
+const COPY='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
 function img(src,alt){return `<img class="art" src="${src}" alt="${(alt||'').replace(/"/g,'&quot;')}" loading="lazy">`}
 function linkify(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/(https?:\/\/\S+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>').replace(/(^|\s)@(\w{1,15})/g,'$1<a href="https://x.com/$2" target="_blank" rel="noopener">@$2</a>')}
 function fmtN(n){return n==null?'':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?(n/1e3).toFixed(n>=1e4?0:1)+'K':String(n)}
@@ -157,8 +165,12 @@ function media(it){
     inner=`<div class="gal">${img(hero.uri)}${img(rest[0].uri)}<div class="more">${imgs.length>3?`+${imgs.length-3}`:''}${img(rest[1].uri)}</div></div>`;kind='Галерея';
   }else if(hero){inner=img(hero.uri,hero.alt)+(hero.generated?'<span class="srcnote">ілюстрація AI</span>':'');kind='Зображення'}
   else return '';
-  const fit=kind==='Зображення'&&/^arXiv/.test(it.source);  // схеми зі статей показуємо цілком
-  return `<div class="media${fit?' fit':''}" style="aspect-ratio:${hero&&hero.w/hero.h<1.2?'4/3':'16/9'}">${inner}</div>`;
+  // короб під пропорції картинки: нічого не ріжемо; дуже вертикальні/панорамні — вписуємо цілком
+  let ratio=hero?hero.w/hero.h:16/9, fit=false;
+  if(kind==='Галерея'||kind==='Відео') ratio=16/9;
+  else if(ratio<0.9){ratio=0.9;fit=true} else if(ratio>2.2){ratio=2.2;fit=true}
+  const light=/^arXiv/.test(it.source)&&kind==='Зображення'; if(light) fit=true;
+  return `<div class="media${fit?' fit':''}${light?' light':''}" style="aspect-ratio:${ratio.toFixed(3)}">${inner}</div>`;
 }
 function thumbs(it){
   const P=it.page,m=it.media;const used=new Set([m.hero_image]);
@@ -167,7 +179,6 @@ function thumbs(it){
   if(!rest.length&&!vids.length) return '';
   return `<div class="thumbs">${rest.map(x=>`<a href="${x.uri}" target="_blank" rel="noopener"><img src="${x.uri}" alt="${(x.alt||'').replace(/"/g,'&quot;')}" loading="lazy"></a>`).join('')}${vids.map(v=>`<a href="https://www.youtube.com/watch?v=${v.yt}" target="_blank" rel="noopener" class="vt"><span>▶ YouTube</span></a>`).join('')}</div>`;
 }
-const COPY='<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
 function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
@@ -185,12 +196,29 @@ function post(it,showDay){
     <div class="foot">${SINGLE?'':`<button class="more">${state.open.has(it.id)?'Згорнути':'Детальніше'}</button>`}<button class="copy">${COPY}Копіювати</button><a class="src-link" href="${it.url}" target="_blank" rel="noopener">Джерело ↗</a></div>
   </article>`;
 }
-let shown=20;
-function render(){
-  const list=ITEMS.slice(0,shown);let last='';
-  document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
-   +(shown<ITEMS.length?`<button class="btn loadmore">Завантажити ще (${ITEMS.length-shown})</button>`:'');
+let shown=20, filt={cat:null, hi:false};
+try{filt=Object.assign(filt,JSON.parse(localStorage.getItem('lr.filt')||'{}'))}catch(_){}
+function visible(){return ITEMS.filter(it=>(!filt.cat||it.category===filt.cat)&&(!filt.hi||it.importance>=4))}
+function renderFilters(){
+  const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
+  const n=c=>ITEMS.filter(it=>it.category===c).length;
+  f.innerHTML=`<button class="chip ${!filt.cat?'on':''}" data-cat="">Усе <span class="n">${ITEMS.length}</span></button>`
+   +Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}"><span class="dot" style="background:${c.c}"></span>${c.n} <span class="n">${n(k)}</span></button>`).join('')
+   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1">★ Тільки важливе</button>`;
 }
+function render(){
+  renderFilters();
+  const all=visible(), list=all.slice(0,shown);let last='';
+  document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
+   +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
+   +(all.length?'':'<p class="empty">Нічого за цим фільтром.</p>');
+}
+document.getElementById('filters').addEventListener('click',e=>{
+  const c=e.target.closest('.chip'); if(!c) return;
+  if(c.dataset.hi) filt.hi=!filt.hi; else filt.cat=c.dataset.cat||null;
+  try{localStorage.setItem('lr.filt',JSON.stringify(filt))}catch(_){}
+  shown=20; render(); window.scrollTo({top:0});
+});
 document.getElementById('feed').addEventListener('click',e=>{
   if(e.target.closest('.loadmore')){shown+=20;render();return}
   const sl=e.target.closest('.copy');
