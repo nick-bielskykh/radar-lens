@@ -30,7 +30,9 @@ def slim(it, inline):
             shutil.copy(path, os.path.join(SITE, "hosted", "img", im["file"])); uri = "/img/" + im["file"]
         imgs.append({"uri": uri, "w": im["w"], "h": im["h"], "alt": im["alt"]})
     if m.get("hero_image") is not None: m["hero_image"] = remap.get(m["hero_image"], 0 if imgs else None)
-    return {k: it[k] for k in ("id", "source", "url", "date", "title", "lead", "full", "means", "importance", "category")} | {"media": m, "page": {"images": imgs, "videos": [v for v in p["videos"] if v.get("yt")]}}
+    out = {k: it[k] for k in ("id", "source", "url", "date", "title", "lead", "full", "means", "importance", "category")} | {"media": m, "page": {"images": imgs, "videos": [v for v in p["videos"] if v.get("yt")]}}
+    if it.get("tweet"): out["tweet"] = it["tweet"]
+    return out
 
 import html
 SITE_URL = "https://lens-radar-feed.vercel.app"

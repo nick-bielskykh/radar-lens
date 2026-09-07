@@ -52,6 +52,15 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 .post.big h3.title{font-size:28px}
 .lead{margin:0;color:var(--text);font-size:17px;line-height:1.6;max-width:64ch}
 
+.tw{border:1px solid var(--line2);border-radius:14px;padding:16px 18px;background:var(--bg);display:flex;flex-direction:column;gap:12px}
+.tw .who{display:flex;align-items:center;gap:10px;text-decoration:none}
+.tw .who img{width:40px;height:40px;border-radius:50%;background:var(--surface2);object-fit:cover}
+.tw .who b{display:block;font-size:15px;line-height:1.2}.tw .who span{font-size:13px;color:var(--ink3)}
+.tw .who .x{margin-left:auto;font-weight:800;font-size:18px;color:var(--ink2)}
+.tw .txt{margin:0;font-size:17px;line-height:1.5;white-space:pre-wrap;word-break:break-word}
+.tw .txt a{color:var(--neo);text-decoration:none}
+.tw .media{aspect-ratio:auto;max-height:520px;background:var(--surface2)}.tw .media .art{position:static;width:100%;height:auto;max-height:520px;object-fit:contain}
+.tw .meta{font-size:13px;color:var(--ink3);display:flex;gap:14px;flex-wrap:wrap}
 .media{position:relative;border-radius:10px;overflow:hidden;background:var(--surface2);aspect-ratio:16/9}
 .media .art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .vlink{position:absolute;inset:0;display:block}
@@ -122,6 +131,19 @@ function dayLabel(iso){const d=new Date(iso),t=new Date();const diff=Math.floor(
   const s=`${d.getDate()} ${['січня','лютого','березня','квітня','травня','червня','липня','серпня','вересня','жовтня','листопада','грудня'][d.getMonth()]}`;
   return diff===0?`Сьогодні, ${s}`:diff===1?`Вчора, ${s}`:`${DAYS_UK[d.getDay()]}, ${s}`}
 function img(src,alt){return `<img class="art" src="${src}" alt="${(alt||'').replace(/"/g,'&quot;')}" loading="lazy">`}
+function linkify(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/(https?:\/\/\S+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>').replace(/(^|\s)@(\w{1,15})/g,'$1<a href="https://x.com/$2" target="_blank" rel="noopener">@$2</a>')}
+function fmtN(n){return n==null?'':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?(n/1e3).toFixed(n>=1e4?0:1)+'K':String(n)}
+function tweetCard(it){
+  const w=it.tweet,imgs=it.page.images,m=it.media;
+  const hero=(m.hero_image!=null&&imgs[m.hero_image])?imgs[m.hero_image]:imgs[0];
+  const stats=[w.views!=null?`${fmtN(w.views)} переглядів`:'',w.likes!=null?`${fmtN(w.likes)} вподобань`:'',w.reposts!=null?`${fmtN(w.reposts)} репостів`:''].filter(Boolean).join(' · ');
+  return `<div class="tw">
+    <a class="who" href="https://x.com/${w.handle}" target="_blank" rel="noopener">${w.avatar?`<img src="${w.avatar}" alt="" loading="lazy" onerror="this.remove()">`:'<span class="av"></span>'}<div><b>${w.name}</b><span>@${w.handle}</span></div><span class="x">𝕏</span></a>
+    <p class="txt">${linkify(w.text)}</p>
+    ${hero?`<div class="media">${img(hero.uri,hero.alt)}</div>`:''}
+    <div class="meta"><a href="${it.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${fmtDate(it.date)}</a>${stats?`<span>${stats}</span>`:''}</div>
+  </div>`;
+}
 function media(it){
   const m=it.media,P=it.page,imgs=P.images;let inner='',kind='';
   const hero=(m.hero_image!=null&&imgs[m.hero_image])?imgs[m.hero_image]:imgs[0];
@@ -147,9 +169,9 @@ function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
   <article id="${it.id}" class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
-    <div class="head"><span class="src"><i>${it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··'}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
+    <div class="head"><span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
     <h3 class="title">${it.title}</h3>
-    ${media(it)}
+    ${it.tweet?tweetCard(it):media(it)}
     <p class="lead">${it.lead}</p>
     <div class="detail">
       ${it.full.map(p=>`<p class="full">${p}</p>`).join('')}

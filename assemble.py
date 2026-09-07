@@ -15,7 +15,7 @@ for f in glob.glob(os.path.join(DATA, "enriched", "*.json")):
     if m.get("kind") == "video" and not m.get("video"): m["kind"] = "image" if n else "none"
     o["media"] = m
     o["importance"] = max(1, min(5, int(o.get("importance", 2))))
-    items.append({**{k: r[k] for k in ("id", "source", "url", "date")}, "page": r["page"], **o})
+    items.append({**{k: r[k] for k in ("id", "source", "url", "date")}, "page": r["page"], **({"tweet": r["tweet"]} if r.get("tweet") else {}), **o})
 items.sort(key=lambda x: x["date"], reverse=True)
 json.dump(items, open(os.path.join(DATA, "items.json"), "w"), ensure_ascii=False, indent=1)
 print(f"{len(items)} новин; зламаних файлів: {bad}")

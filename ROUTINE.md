@@ -12,8 +12,9 @@
    - Для кожного відкинутого кандидата теж створи файл: `{"relevant": false}` — щоб наступного разу його не переглядати.
    - Дублі: звір не тільки нових між собою, а й проти релевантних новин за останні 7 днів у `data/items.json`. Якщо подія вже у стрічці — `{"relevant": false, "dup_of": "<id>"}`.
    - Якщо кандидатів більше 40, розбий на порції по 40 або роздай субагентам (кожному — свій список id, `EDITOR.md` і `luminar_context.md`).
-4. **Білд.** `./run.sh build` — збирає `data/items.json` і `site/hosted/`.
-5. **Публікація.** Закомить і запуш у `main`: `data/raw.json`, `data/enriched/`, `data/img/`, `data/items.json`, `site/hosted/`. Повідомлення коміту: `feed: <дата> — <N> нових новин`.
+4. **X (Twitter).** Фіди X не читаються, тому пошукай сам: `WebSearch` за останні 2–3 дні по запитах на кшталт `x.com Lightroom`, `x.com Topaz Labs`, `x.com "Capture One"`, `x.com DxO`, `x.com Skylum Luminar`, `x.com "Nano Banana" photo editing`, `x.com Firefly image`, `x.com photo editing AI viral`. Цікавлять пости від офіційних акаунтів конкурентів і вірусні демо/скарги про фоторедагування. Знайдені посилання виду `https://x.com/<user>/status/<id>` додай: `./run.sh tweet <url> [<url> ...]` — скрипт витягне текст, автора, фото і покладе кандидата в `data/raw.json`. Далі обробляй його як звичайного кандидата за `EDITOR.md` (він вже матиме картку твіта в стрічці; у `media` став `kind: "image"` з `hero_image: 0`, якщо є фото, інакше `"none"`). Якщо про той самий твіт уже є стаття серед кандидатів, лиши статтю, а твіту постав `dup_of`. Нічого не знайшов — пропусти крок.
+5. **Білд.** `./run.sh build` — збирає `data/items.json` і `site/hosted/`.
+6. **Публікація.** Закомить і запуш у `main`: `data/raw.json`, `data/enriched/`, `data/img/`, `data/items.json`, `site/hosted/`. Повідомлення коміту: `feed: <дата> — <N> нових новин`.
    Після пушу в `main` Vercel сам розгортає `site/hosted/` — нічого додатково робити не треба. Артефакт публікувати не потрібно.
 
 ## Правила

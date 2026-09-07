@@ -10,7 +10,8 @@
 - `assemble.py` — збирає `data/items.json` з `data/enriched/` та `data/raw.json`.
 - `build.py` — генерує `site/index.html` (картинки вбудовані) та `site/hosted/` (для Vercel).
 - `luminar_context.md` — контекст про продукти для промптів. Редагуйте, щоб покращити коментарі «Що це означає для Luminar».
-- `run.sh` — обгортка над кроками: `fetch` (збір), `todo` (що ще не оброблено), `build` (assemble + build), `enrich` (опційно, через API).
+- `tweet.py` — додає твіти як кандидатів (`./run.sh tweet <url>`), дані з api.fxtwitter.com, без ключів.
+- `run.sh` — обгортка над кроками: `fetch` (збір), `todo` (що ще не оброблено), `build` (assemble + build), `tweet <url>` (додати твіт), `enrich` (опційно, через API).
 - `ROUTINE.md` — промпт щоденної cloud routine.
 
 Локальний запуск:

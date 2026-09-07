@@ -6,6 +6,7 @@
 #   ./run.sh build      — assemble.py + build.py (після того, як агент заповнив data/enriched/)
 #   ./run.sh enrich      — опційно: збагачення через Claude API (потрібен ANTHROPIC_API_KEY)
 #   ./run.sh todo       — список id, для яких ще нема data/enriched/<id>.json
+#   ./run.sh tweet <url> [...] — додати твіти як кандидатів (через api.fxtwitter.com)
 #
 # Змінні: DAYS (за скільки днів збирати, 3), MODEL/EFFORT (тільки для кроку enrich).
 set -euo pipefail
@@ -19,6 +20,7 @@ fi
 case "${1:-fetch}" in
   fetch)  DAYS="${DAYS:-3}" $PY fetch.py ;;
   build)  $PY assemble.py && $PY build.py ;;
+  tweet)  shift; $PY tweet.py "$@" ;;
   enrich) EFFORT="${EFFORT:-low}" MODEL="${MODEL:-claude-opus-5}" $PY enrich.py ;;
   todo)   $PY - <<'PYEOF'
 import json, os
@@ -28,5 +30,5 @@ print("\n".join(todo))
 print(f"# {len(todo)} з {len(raw)} без enriched", file=__import__("sys").stderr)
 PYEOF
   ;;
-  *) echo "usage: ./run.sh [fetch|build|enrich|todo]" >&2; exit 2 ;;
+  *) echo "usage: ./run.sh [fetch|build|enrich|todo|tweet <url>...]" >&2; exit 2 ;;
 esac
