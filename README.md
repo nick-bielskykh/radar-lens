@@ -28,3 +28,10 @@
 ```bash
 ANTHROPIC_API_KEY=... ./run.sh enrich
 ```
+
+## Деплой
+
+Хостинг: https://lens-radar-feed.vercel.app — проект `lens-radar-feed` на Vercel (команда skylum1),
+підключений до GitHub-репозиторію `nick-bielskykh/radar-lens`, гілка `main`.
+Білду на Vercel нема: віддається готова статика з `site/hosted/` (див. `vercel.json`),
+тому її треба комітити разом із даними. Пуш у `main` = новий деплой.
