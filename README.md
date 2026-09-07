@@ -10,20 +10,21 @@
 - `assemble.py` — збирає `data/items.json` з `data/enriched/` та `data/raw.json`.
 - `build.py` — генерує `site/index.html` (картинки вбудовані) та `site/hosted/` (для Vercel).
 - `luminar_context.md` — контекст про продукти для промптів. Редагуйте, щоб покращити коментарі «Що це означає для Luminar».
-- `run.sh` — весь конвеєр одним прогоном (fetch → enrich → assemble → build).
+- `run.sh` — обгортка над кроками: `fetch` (збір), `todo` (що ще не оброблено), `build` (assemble + build), `enrich` (опційно, через API).
 - `ROUTINE.md` — промпт щоденної cloud routine.
 
 Локальний запуск:
 
+Основний режим — редагує агент (ключ не потрібен):
+
 ```bash
-ANTHROPIC_API_KEY=... DAYS=3 ./run.sh
+./run.sh fetch     # збір новин
+./run.sh todo      # id без data/enriched/<id>.json — їх обробляє агент за EDITOR.md
+./run.sh build     # data/items.json + site/hosted/
 ```
 
-Покроково:
+Опційно, через API:
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-DAYS=3 .venv/bin/python fetch.py
-ANTHROPIC_API_KEY=... EFFORT=low .venv/bin/python enrich.py
-.venv/bin/python assemble.py && .venv/bin/python build.py
+ANTHROPIC_API_KEY=... ./run.sh enrich
 ```
