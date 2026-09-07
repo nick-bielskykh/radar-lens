@@ -46,6 +46,10 @@ def slim(it, inline):
             shutil.copy(path, os.path.join(SITE, "hosted", "img", im["file"])); uri = "/img/" + im["file"]
         imgs.append({"uri": uri, "w": im["w"], "h": im["h"], "alt": im["alt"], **({"generated": True} if im.get("generated") else {})})
     if m.get("hero_image") is not None: m["hero_image"] = remap.get(m["hero_image"], 0 if imgs else None)
+    # обкладинка має бути горизонтальною: якщо вибрана вертикальна, а є ландшафтна — беремо найбільшу ландшафтну
+    if imgs and m.get("hero_image") is not None and imgs[m["hero_image"]]["w"] < imgs[m["hero_image"]]["h"]:
+        land = [i for i, x in enumerate(imgs) if x["w"] / x["h"] >= 1.2]
+        if land: m["hero_image"] = max(land, key=lambda i: imgs[i]["w"] * imgs[i]["h"])
     if not imgs and m.get("kind") in ("image", "gallery"): m["kind"] = "none"
     out = {k: it[k] for k in ("id", "source", "url", "date", "title", "lead", "full", "means", "importance", "category")} | {"media": m, "page": {"images": imgs, "videos": [v for v in p["videos"] if v.get("yt")]}}
     if it.get("tweet"): out["tweet"] = it["tweet"]
