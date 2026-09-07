@@ -217,8 +217,16 @@ def main():
         return it
     with ThreadPoolExecutor(6) as ex:
         all_items = list(ex.map(enrich, all_items))
-    all_items.sort(key=lambda x: x["date"], reverse=True)
-    json.dump(all_items, open(os.path.join(DATA, "raw.json"), "w"), ensure_ascii=False, indent=1)
+    # обʼєднати з попереднім raw.json, залишити 30 днів; при нульовому зборі нічого не затирати
+    path = os.path.join(DATA, "raw.json")
+    old = json.load(open(path)) if os.path.exists(path) else []
+    if not all_items and old:
+        log("Нічого не зібрано (мережа?), raw.json залишено без змін"); return
+    merged = {r["id"]: r for r in old}
+    for r in all_items: merged[r["id"]] = r
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
+    all_items = sorted([r for r in merged.values() if r["date"] >= cutoff], key=lambda x: x["date"], reverse=True)
+    json.dump(all_items, open(path, "w"), ensure_ascii=False, indent=1)
     with_media = sum(1 for i in all_items if i["page"]["images"] or i["page"]["videos"])
     ba = sum(1 for i in all_items if i["page"]["before_after"])
     log(f"Збережено {len(all_items)} новин, з медіа: {with_media}, з before/after: {ba}")
