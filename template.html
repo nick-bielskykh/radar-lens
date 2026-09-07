@@ -6,13 +6,14 @@
 /* Single-theme by design: matches skylum.com (black ground, white type) */
 :root{
   --bg:#000; --surface:#111214; --surface2:#1a1b1e; --line:#26272b; --line2:#3a3b40;
-  --ink:#fff; --ink2:#b5b7bd; --ink3:#77797f;
+  --ink:#fff; --ink2:#c9ccd2; --ink3:#83868d; --text:#d6d9de;
   --accent:#f5c445; --accent-ink:#1a1200;
   --neo:#7c9cff; --mob:#5fd3a6;
   --sans:'Manrope',Roobert,Helvetica,Arial,sans-serif;
 }
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;margin:0;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;margin:0;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+p{text-wrap:pretty}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 a{color:inherit}
@@ -31,7 +32,7 @@ a{color:inherit}
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
 
 /* ---------- post ---------- */
-.post{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 22px 14px;display:flex;flex-direction:column;gap:12px}
+.post{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 28px 16px;display:flex;flex-direction:column;gap:14px}
 .head{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink3)}
 .head .src{color:var(--ink);font-weight:600;display:flex;align-items:center;gap:8px}
 .head .src i{width:20px;height:20px;border-radius:6px;background:var(--surface2);border:1px solid var(--line2);display:inline-grid;place-items:center;font-size:10px;font-weight:700;color:var(--ink2)}
@@ -39,9 +40,9 @@ a{color:inherit}
 .head .cat::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
 .head .imp{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:12px;padding:3px 9px;border-radius:6px;background:var(--surface2);color:var(--ink2)}
 .head .imp.hi{background:var(--accent);color:var(--accent-ink)}
-h3.title{font-size:22px;font-weight:600;line-height:1.25;margin:0;letter-spacing:-.01em;text-wrap:balance}
-.post.big h3.title{font-size:26px}
-.lead{margin:0;color:var(--ink2);font-size:15px}
+h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-spacing:-.015em;text-wrap:balance;max-width:38ch}
+.post.big h3.title{font-size:28px}
+.lead{margin:0;color:var(--text);font-size:17px;line-height:1.6;max-width:64ch}
 
 .media{position:relative;border-radius:10px;overflow:hidden;background:var(--surface2);aspect-ratio:16/9}
 .media .art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
@@ -70,19 +71,28 @@ h3.title{font-size:22px;font-weight:600;line-height:1.25;margin:0;letter-spacing
 .foot .src-link{font-size:13px;color:var(--ink3);text-decoration:none}
 .foot .src-link:hover{color:var(--ink)}
 
-.detail{display:none;flex-direction:column;gap:12px;padding-top:2px}
-.detail .lab{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+.detail{display:none;flex-direction:column;gap:18px;padding-top:4px}
+.detail .lab{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-bottom:-8px}
 .detail .lab em{font-style:normal;font-weight:500;letter-spacing:0;text-transform:none;margin-left:8px}
-.detail .full{font-size:15px;color:var(--ink2);max-width:62ch}
-.detail .means{font-size:15px;color:var(--ink);max-width:62ch;margin-bottom:6px}
+.detail .full{font-size:17px;line-height:1.7;color:var(--text);max-width:64ch}
+.detail .means{font-size:17px;line-height:1.65;color:var(--ink);max-width:64ch;margin-bottom:6px;padding:14px 18px;border-left:3px solid var(--accent);background:var(--surface2);border-radius:0 10px 10px 0}
 .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 8px}
 .thumbs div{aspect-ratio:4/3;border-radius:8px;overflow:hidden;position:relative;cursor:pointer}
 .thumbs div span{position:absolute;inset:0;display:grid;place-items:center;font-weight:700;color:#fff;background:rgba(0,0,0,.35)}
-.detail .lab{margin-top:4px}
+.detail .lab{margin-top:6px}
 .post.open .detail{display:flex}
 .detail p{margin:0}
 
 .loadmore{align-self:center;margin-top:10px}
+
+@media (max-width:640px){
+  .layout{padding:20px 12px 60px}
+  .post{padding:18px 18px 12px;border-radius:14px;gap:12px}
+  h3.title{font-size:21px}.post.big h3.title{font-size:23px}
+  .lead,.detail .full,.detail .means{font-size:16px}
+  .detail .means{padding:12px 14px}
+  .head{flex-wrap:wrap;row-gap:6px}
+}
 
 </style>
 
@@ -94,6 +104,7 @@ h3.title{font-size:22px;font-weight:600;line-height:1.25;margin:0;letter-spacing
 
 <script>
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
+document.documentElement.lang='uk';
 const ITEMS=__DATA__;
 let state={open:new Set()};
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];
