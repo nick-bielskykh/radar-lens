@@ -80,7 +80,6 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 
 .detail{display:none;flex-direction:column;gap:18px;padding-top:4px}
 .detail .lab{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-bottom:-8px}
-.detail .lab em{font-style:normal;font-weight:500;letter-spacing:0;text-transform:none;margin-left:8px}
 .detail .full{font-size:17px;line-height:1.7;color:var(--text);max-width:64ch}
 .detail .means{font-size:17px;line-height:1.65;color:var(--ink);max-width:64ch;margin-bottom:6px;padding:14px 18px;border-left:3px solid var(--accent);background:var(--surface2);border-radius:0 10px 10px 0}
 .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 8px}
@@ -156,7 +155,7 @@ function post(it,showDay){
     <div class="detail">
       ${it.full.map(p=>`<p class="full">${p}</p>`).join('')}
       ${thumbs(it)}
-      <span class="lab">Що це означає для Luminar<em>чернетка AI</em></span>
+      <span class="lab">Що це означає для Luminar</span>
       <p class="means">${it.means}</p>
     </div>
     <div class="foot">${SINGLE?'':`<button class="more">${state.open.has(it.id)?'Згорнути':'Детальніше'}</button>`}<button class="copy">${COPY}Копіювати</button><a class="src-link" href="${it.url}" target="_blank" rel="noopener">Джерело ↗</a></div>
