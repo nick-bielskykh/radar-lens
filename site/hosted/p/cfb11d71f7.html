@@ -213,10 +213,8 @@ try{filt=Object.assign(filt,JSON.parse(localStorage.getItem('lr.filt')||'{}'))}c
 function visible(){return ITEMS.filter(it=>(!filt.cat||it.category===filt.cat)&&(!filt.hi||it.importance>=4))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
-  const n=c=>ITEMS.filter(it=>it.category===c).length;
-  f.innerHTML=`<button class="chip ${!filt.cat?'on':''}" data-cat="" title="${ITEMS.length} новин">Усе</button>`
-   +Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}" title="${n(k)} новин"><span class="dot" style="background:${c.c}"></span>${c.n}</button>`).join('')
-   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1" title="Оцінка 4 і вище">★ Важливе</button>`;
+  f.innerHTML=Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}"><span class="dot" style="background:${c.c}"></span>${c.n}</button>`).join('')
+   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1">★ Важливе</button>`;
 }
 function render(){
   renderFilters();
@@ -233,7 +231,7 @@ document.querySelector('.brand').addEventListener('click',e=>{
 });
 document.getElementById('filters').addEventListener('click',e=>{
   const c=e.target.closest('.chip'); if(!c) return;
-  if(c.dataset.hi) filt.hi=!filt.hi; else filt.cat=c.dataset.cat||null;
+  if(c.dataset.hi) filt.hi=!filt.hi; else filt.cat=(filt.cat===c.dataset.cat)?null:c.dataset.cat;  // повторний клік знімає тему
   try{localStorage.setItem('lr.filt',JSON.stringify(filt))}catch(_){}
   shown=20; render(); window.scrollTo({top:0});
 });
