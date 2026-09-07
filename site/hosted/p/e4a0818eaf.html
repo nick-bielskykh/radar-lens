@@ -25,7 +25,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 a{color:inherit}
 
-.top{border-bottom:1px solid var(--line)}
+.top{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;background:rgba(0,0,0,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .top-in{max-width:760px;margin:0 auto;padding:18px 20px}
 .top-in{display:flex;align-items:center;justify-content:space-between}
 .brand{font-weight:700;font-size:15px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
@@ -40,7 +40,7 @@ a{color:inherit}
 .chip .dot{width:7px;height:7px;border-radius:50%}
 .chip .n{color:var(--ink3);font-weight:500}.chip.on .n{color:#555}
 .chip.hi{margin-left:auto;border-color:var(--accent);color:var(--accent)}.chip.hi.on{background:var(--accent);color:var(--accent-ink)}
-.filters{margin-bottom:14px}
+.filters{margin-bottom:14px;position:sticky;top:57px;z-index:40;background:var(--bg);padding:10px 0}
 .empty{color:var(--ink3);text-align:center;padding:40px 0}
 @media (max-width:640px){.chip.hi{margin-left:0}}
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
@@ -209,7 +209,7 @@ function renderFilters(){
   const n=c=>ITEMS.filter(it=>it.category===c).length;
   f.innerHTML=`<button class="chip ${!filt.cat?'on':''}" data-cat="">Усе <span class="n">${ITEMS.length}</span></button>`
    +Object.entries(CATS).map(([k,c])=>`<button class="chip ${filt.cat===k?'on':''}" data-cat="${k}"><span class="dot" style="background:${c.c}"></span>${c.n} <span class="n">${n(k)}</span></button>`).join('')
-   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1">★ Тільки важливе</button>`;
+   +`<button class="chip hi ${filt.hi?'on':''}" data-hi="1">★ Важливе</button>`;
 }
 function render(){
   renderFilters();
@@ -218,6 +218,12 @@ function render(){
    +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
    +(all.length?'':'<p class="empty">Нічого за цим фільтром.</p>');
 }
+document.querySelector('.brand').addEventListener('click',e=>{
+  if(SINGLE) return;                    // зі сторінки поста просто йдемо на /
+  e.preventDefault(); filt={cat:null,hi:false}; shown=20;
+  try{localStorage.removeItem('lr.filt')}catch(_){}
+  render(); window.scrollTo({top:0,behavior:'smooth'});
+});
 document.getElementById('filters').addEventListener('click',e=>{
   const c=e.target.closest('.chip'); if(!c) return;
   if(c.dataset.hi) filt.hi=!filt.hi; else filt.cat=c.dataset.cat||null;
