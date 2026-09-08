@@ -22,7 +22,7 @@ SOURCES = [
     {"name": "Google News", "q": "Samsung (\"Generative Edit\" OR \"Photo Assist\" OR \"Gallery app\" OR \"photo editing\") -deal -vs", "kind": "gnews", "cat_hint": "comp"},
     {"name": "Google News", "q": "(\"Lensa\" OR \"Remini\" OR \"Meitu\" OR \"Facetune\") (photo OR app OR AI) -notification", "kind": "gnews", "cat_hint": "comp"},
     {"name": "Google News", "q": "Pixelmator OR Photomator OR \"Affinity Photo\" OR Canva photo OR VSCO update", "kind": "gnews", "cat_hint": "comp"},
-    {"name": "Google News", "q": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model", "kind": "gnews", "cat_hint": "ai"},
+    {"name": "Google News", "q": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Meta Emu\" image model", "kind": "gnews", "cat_hint": "ai"},
     {"name": "ON1", "url": "https://www.on1.com/blog/feed/", "cat_hint": "comp"},
     {"name": "Digital Camera World", "url": "https://www.digitalcameraworld.com/feeds/all", "cat_hint": "market", "filter": True},
     {"name": "Lightroom Queen", "url": "https://www.lightroomqueen.com/feed/", "cat_hint": "comp", "filter": True},
