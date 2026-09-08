@@ -1,5 +1,56 @@
 [
  {
+  "id": "9b81fe501b",
+  "source": "1News",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "Tech giants to provide algorithm opt-out tools in Australia",
+  "url": "https://www.1news.co.nz/2026/09/08/tech-giants-to-provide-algorithm-opt-out-tools-in-australia/",
+  "date": "2026-09-08T08:14:32+00:00",
+  "summary": "Tech giants to provide algorithm opt-out tools in Australia 1News",
+  "yt": null,
+  "page": {
+   "text": "Australian internet users will be given the choice to opt out of algorithms under planned reforms to social media.\nDraft laws setting up a digital duty of care were introduced by Prime Minister Anthony Albanese earlier today.\nAs part of the measures, social media companies will need to provide tools for people to choose what they see in their online feeds, under a government initiative called My Feed, My Way.\n\"This is not about giving government control. It's about giving people control. It's about putting choice back into the hands of Australians online,\" Albanese told reporters in Canberra.\nAustralia Prime Minister Anthony Albanese. File photo. (Source: Getty)\nSocial media companies will also be required to protect people from harmful content online.\nHarmful content will include the promotion of eating disorders, misogynistic content, pornography or things that glorify crime.\nCompanies could face fines of AU$100 million (NZ$122,518 million) if they don't enact the duty of care.\nCommunications Minister Anika Wells said the duty of care would build on the world-leading ban on social media for under-16s .\n\"The digital duty of care is not about controlling adults online. It is about giving adults a choice,\" she said.\n\"Tech companies can still move fast, but they will no longer be allowed to break things because online harms have real-world consequences.\n\"There is a global reckoning coming for big tech.\"\nIt follows the Australian government looking to pursue stronger penalties for social media companies as part of measures to bolster the under-16s ban.",
+   "images": [
+    {
+     "file": "7debf6f959e3.jpg",
+     "w": 600,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://tvnz-1-news-prod.cdn.arcpublishing.com/resizer/v2/instagram-X3IRII6UAJF5TCPP7BYLMPJMEM.jpg?auth=0ad3b91366536fef1e090f3580af79ea52f61db2466d4cb39523cb737d62f964&quality=70&width=600&height=315&focal=1035%2C320"
+    },
+    {
+     "file": "eb9c934568cd.jpg",
+     "w": 767,
+     "h": 431,
+     "alt": "Australia Prime Minister Anthony Albanese. File photo.",
+     "cap": "Australia Prime Minister Anthony Albanese. File photo. (Source: Getty)",
+     "src": "https://tvnz-1-news-prod.cdn.arcpublishing.com/resizer/v2/australia-prime-minister-anthony-albanese-file-photo-KSKFHWXDSNAM5ENG2EF4MOO56M.jpg?auth=9d2c86391dbfb92557844e65951be29d4a4ec9c3a7a0dac431f4c7ade380874a&quality=70&width=767&height=431&focal=1755%2C689"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "e081173ed0",
+  "source": "The Nation Newspaper",
+  "query": "Samsung (\"Generative Edit\" OR \"Photo Assist\" OR \"Gallery app\" OR \"photo editing\") -deal -vs",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Firm targets mass market with new device",
+  "url": "https://thenationonlineng.net/firm-targets-mass-market-with-new-device/",
+  "date": "2026-09-08T08:04:15+00:00",
+  "summary": "Firm targets mass market with new device The Nation Newspaper",
+  "yt": null,
+  "page": {
+   "text": "",
+   "images": [],
+   "videos": []
+  }
+ },
+ {
   "id": "d61960d3bb",
   "source": "What Digital Camera",
   "query": "Adobe Lightroom",
@@ -736,7 +787,7 @@
  {
   "id": "4ad2f305d0",
   "source": "Biometric Update",
-  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
   "cat_hint": "ai",
   "kind": "gnews",
   "title": "Meta sued over alleged facial recognition training for smart glasses",
@@ -931,7 +982,7 @@
  {
   "id": "cf21902c9e",
   "source": "tech-insider.org",
-  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
   "cat_hint": "ai",
   "kind": "gnews",
   "title": "AI Image Generator API Costs: 12 Steps, $150 Gap [2026] - tech-insider.org",
@@ -1106,6 +1157,90 @@
      "alt": "Illuminated lighthouse and keeper's house on green hillside at night",
      "cap": "The very bright Nobska Lighthouse, Falmouth, MA.",
      "src": "https://cdn.fstoppers.com/styles/full/s3/media/2026/08/14/0545_kenlee_260621_9hdr_15sf8iso400_cape-cod-nobska-lighthouse-building-up-hill-stairs_2048px.jpg?itok=Lt6tdyAo"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "e615de37fb",
+  "source": "آي-فون إسلام",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "The Solution to an Annoying Problem on iPhone 17: Why Do Some Devices Refuse to Work After the Battery Dies Completely? - آي-فون إسلام",
+  "url": "https://iphoneislam.com/language/en/2026/05/the-solution-to-an-annoying-problem-in-iphone-17-why-do-some-devices-refuse-to-work-after-the-battery-dies-completely/165947",
+  "date": "2026-09-07T17:11:29+00:00",
+  "summary": "The Solution to an Annoying Problem on iPhone 17: Why Do Some Devices Refuse to Work After the Battery Dies Completely? آي-فون إسلام",
+  "yt": null,
+  "page": {
+   "text": "We all chase that rosy dream: a battery that lasts forever. We buy mobile phones to use them on the go, and the longer the time between charges, the more valuable the device becomes in our eyes. However, no matter how high your battery capacity is, that inevitable moment will come when the percentage hits zero. The real problem isn’t the battery running out, but the nightmare some iPhone 17 users are currently facing; the device refuses to come back to life, even after being plugged into a charger for long periods.\nThe story began to surface when tech editor Benjamin Mayo shared his frustrating experience with the new iPhone 17 Air. Mayo recounts that his phone’s battery drained completely, so he plugged it into power, expecting the usual Apple logo to appear within seconds. But nothing happened. Minutes passed, and the device remained just a piece of glass and metal showing no reaction, as if it had never been connected to a charger at all.\nMayo didn’t just stand by; he tried to perform a “Hardware Reset” by quickly pressing the volume up button, then volume down, and then holding the side power button. This magic move, which usually saves iPhones from the most severe software bugs, failed completely this time, and the phone remained in a deep slumber from which it did not want to wake.\nNot an Isolated Case.. Forums Are Heating Up\nIt later turned out that what happened to Mayo wasn’t just personal bad luck. By searching technical support forums, strings of long discussions appeared from users of various iPhone 17 models complaining about the same phenomenon. One thread recorded over 144 comments in a short time, most of which confirm the problem occurring with them or people they know. This momentum clearly indicates that there is some flaw lurking in the batteries of Apple’s latest generation of phones.\nInterestingly, some users, just like me, have been using the iPhone 17 Pro Max since its launch and haven’t faced this problem. Perhaps it’s because we simply don’t let our phones reach the point of total death, or perhaps it’s a problem linked to specific batches. And speaking of complaints, I have been suffering from a slow Face ID recently, but that’s another conversation we’ll save for another day!\nHow to Bring an iPhone 17 Back to Life? Innovative Solutions\nFortunately, human innovation (or sometimes desperation) led users to some workarounds. The most strange and successful solution is to abandon wired charging entirely. Mayo discovered that as soon as he placed the iPhone 17 Air on a MagSafe wireless charger, the device immediately began to respond and returned to work as if nothing had happened. It seems the wireless charging circuit is capable of “waking up” the system in a way that wired charging cannot in this situation.\nOther users found their solution in patience; some reported that leaving the phone connected to the wired charger for a period ranging from 30 minutes to 3 full hours without interruption might eventually lead to signs of life. Some also succeeded in forcing the phone into DFU mode by connecting it to a Mac or PC and following a combination of button presses, which might stimulate the device to respond to the electrical current.\nAre we facing a software problem in the iOS 26 system or a hardware defect in the A19 processor? Given that the problem appears and disappears and is affected by different charging methods, most experts lean towards it being a deep software bug related to power management. We hope Apple realizes this flaw quickly and releases an update that ends this anxiety, otherwise, our golden advice to you now: Never let your iPhone 17 battery touch zero!\nShare on Facebook (Opens in new window) Facebook\nShare on WhatsApp (Opens in new window) WhatsApp\nShare on Telegram (Opens in new window) Telegram\nEmail a link to a friend (Opens in new window) Email",
+   "images": [
+    {
+     "file": "8ea37b21051e.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/04/iphone-17-charge-problems.png"
+    },
+    {
+     "file": "2bc667de5f8b.jpg",
+     "w": 768,
+     "h": 475,
+     "alt": "From Phonegram: A hand holding a red smartphone displaying a nearly empty battery icon and a cable charging prompt, highlighting the iPhone 17 battery issue on the screen.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/04/some-iphone-17-devices-wont-turn-on-after-their-batteries-run-out-768x475.jpg"
+    },
+    {
+     "file": "6b93c1e04c15.jpg",
+     "w": 768,
+     "h": 512,
+     "alt": "From Phonegram: A smartphone with a black screen lying on a dark surface, connected to a white charging cable - perhaps illustrating an iPhone 17 battery issue.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/04/iphone-17-charge-problems-768x512.png"
+    },
+    {
+     "file": "4a530a63c139.jpg",
+     "w": 640,
+     "h": 360,
+     "alt": "From Phonegram: An orange iPhone with a blank screen placed next to its box on a white surface, with the phrase \"Fix this\" in bold text highlighting the iPhone 17 battery issue.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/04/some-iphone-17-devices-wont-turn-on-after-their-batteries-run-out-0-640x360.jpg"
+    },
+    {
+     "file": "e8e49c8cbcd4.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "From Phonegram: A smartphone, perhaps facing an iPhone 17 battery issue, and a wireless earbud case being charged on a beige wireless charging pad; the phone screen shows it is 75% charged.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/04/magsafe-wireless-charging-qi-2-1536x864.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "366979f283",
+  "source": "appleinsider.com",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Apple is packing more pro photography tools into iOS 27",
+  "url": "https://appleinsider.com/articles/26/09/07/apple-is-packing-more-pro-photography-tools-into-ios-27",
+  "date": "2026-09-07T17:10:00+00:00",
+  "summary": "Apple is packing more pro photography tools into iOS 27 appleinsider.com",
+  "yt": null,
+  "page": {
+   "text": "Apple appears to be preparing a slate of more advanced photography tools for the iPhone , including exposure scopes, focus peaking, and expanded manual focus controls.\nWe already know that Apple is improving the Camera app in iOS 27 . Now, new beta code gives us a sneak peek into what we can expect in the fall.\nThe references appeared in iOS 27 beta code, first spotted by pdfu, a MacRumors forum regular. Five new features could appear at launch or in a future update.\nThe first is a new exposure scopes feature, including implementation of waveform and histogram displays. This will help users judge exposures in different formats.\nThe histogram will show a user what percentage of pixels are over- or underexposed. The waveform will show similar information but line that information up with the areas in the frame.\nAnother feature is focus peaking, which will highlight the edges of whatever's currently in focus. A colored outline will show what's in focus, while a secondary overlay will warn users when part of the image is overexposed.\nThe Camera app is also getting a new timer option. Now, users will be able to set the timer to take several shots in a row, with a countdown starting right away instead of waiting for the photo to finish saving.\nManual focusing will also be bolstered in iOS 27. This feature will be similar to what is already available in Apple's current Final Cut Camera app.\nAs pdfu notes, a version of this existed in iOS 26 with a focus slider, but the slider had been removed in the iOS 27 beta. Allegedly, the feature will be restricted to devices that ship with iOS 27, so it won't work on any current iPhone models.\nLastly, Apple could be changing how photos are processed on future iPhones. Aperture-based image corrections may arrive with a new iPhone that would feature a variable aperture, which is suspected for the iPhone 18 Pro.\nNone of these features are currently available to users with current betas. Apple may not release all of these features in the September release, either.",
+   "images": [
+    {
+     "file": "7a15832ba98f.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "",
+     "cap": "",
+     "src": "https://media.appleinsider.com/gallery/68626-144584-000-lede-cameras-xl.jpg"
     }
    ],
    "videos": []
@@ -1333,13 +1468,30 @@
  {
   "id": "45d1a83179",
   "source": "Technology Magazine",
-  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
   "cat_hint": "ai",
   "kind": "gnews",
   "title": "Generative Media: Using AI for Voice, Audio, Image and Video",
   "url": "https://technologymagazine.com/news/generative-media-using-ai-for-voice-audio-image-and-video",
   "date": "2026-09-07T14:28:17+00:00",
   "summary": "Generative Media: Using AI for Voice, Audio, Image and Video Technology Magazine",
+  "yt": null,
+  "page": {
+   "text": "",
+   "images": [],
+   "videos": []
+  }
+ },
+ {
+  "id": "ce893ef7e7",
+  "source": "simplywall.st",
+  "query": "(\"Lensa\" OR \"Remini\" OR \"Meitu\" OR \"Facetune\") (photo OR app OR AI) -notification",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Meitu (SEHK:1357) Posts Higher Half Year Profit And Dividend, Is It Still Undervalued?",
+  "url": "https://simplywall.st/stocks/hk/media/hkg-1357/meitu-shares/news/meitu-sehk1357-posts-higher-half-year-profit-and-dividend-is",
+  "date": "2026-09-07T13:46:51+00:00",
+  "summary": "Meitu (SEHK:1357) Posts Higher Half Year Profit And Dividend, Is It Still Undervalued? simplywall.st",
   "yt": null,
   "page": {
    "text": "",
@@ -1567,7 +1719,7 @@
  {
   "id": "2bf5fd3934",
   "source": "CiberCuba",
-  "query": "\"Capture One\"",
+  "query": "\"Capture One\" (photo OR software OR RAW OR tethering OR update)",
   "cat_hint": "comp",
   "kind": "gnews",
   "title": "The Cuban regime considers the Maduro scenario: It warns what would happen if they try to capture one of its leaders",
@@ -1749,7 +1901,7 @@
    ],
    "videos": [
     {
-     "yt": "J2mHBDgCNmE"
+     "yt": "CcGtTmUEoXk"
     }
    ]
   }
@@ -2150,7 +2302,7 @@
  {
   "id": "3456c2fdbc",
   "source": "آي-فون إسلام",
-  "query": "\"Apple Photos\" OR \"Apple Intelligence\" \"Clean Up\" OR photo editing iOS",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
   "cat_hint": "comp",
   "kind": "gnews",
   "title": "Apple Plans a Revolution in the Photos App: 3 Amazing AI Features Coming to iPhone - آي-فون إسلام",
@@ -2286,7 +2438,7 @@
  },
  {
   "id": "d5cc47f5a3",
-  "source": "Briefia",
+  "source": "Brief IA",
   "query": "Adobe Firefly image",
   "cat_hint": "comp",
   "kind": "gnews",
@@ -2407,7 +2559,7 @@
  {
   "id": "6698af073d",
   "source": "ANI News",
-  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
   "cat_hint": "ai",
   "kind": "gnews",
   "title": "Creating Complete Visual Campaigns from One Concept with AI",
@@ -2466,8 +2618,8 @@
  },
  {
   "id": "abb69a1313",
-  "source": "IBTimes",
-  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
+  "source": "International Business Times",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
   "cat_hint": "ai",
   "kind": "gnews",
   "title": "Meta's New AI Can Turn Instagram Photos Into Deepfakes. Most Public Users Are Included Unless They Opt Out.",
@@ -2511,6 +2663,48 @@
      "alt": "",
      "cap": "",
      "src": "https://tengrinews.kz/userdata/news_en/2026/news_273415/resize/photo_552626.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "13282f047c",
+  "source": "rocktownnow.com",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "EMU Women’s Soccer plays Marywood to a 1-1 draw",
+  "url": "https://rocktownnow.com/news/218812-emu-womens-soccer-plays-marywood-to-a-1-1-draw/",
+  "date": "2026-09-07T04:14:02+00:00",
+  "summary": "EMU Women’s Soccer plays Marywood to a 1-1 draw rocktownnow.com",
+  "yt": null,
+  "page": {
+   "text": "EMU Women's Soccer plays Marywood to a 1-1 draw\nSCRANTON, Pa. (EMU Athletics) – The Royals headed up north to Pennsylvania for their second game of the season, taking on the Pacers of Marywood University, in the first ever meeting between the two teams.\nEMU gained the advantage in the first half and held the Pacers to just one goal in the second half to end the game with a 1-1 draw.\nRecords: EMU 0-0-2, 0-0 ODAC | Marywood 2-0-1, 0-0 MAC Freedom\nHighlights • The Royals found their first goal of the season just three minutes into the game after a loose ball made its way into the Pacers box for Bridget Hay to tap it into the bottom left corner. • The Pacers picked up the pace despite the early goal. However, EMU’s goalkeeper C.J. Jefferson, stood solid protecting the Royals’ net as she registered six saves during the first half. EMU’s lead could have increased after a shot taken by Ava Scott in the 26th minute; however, the crossbar denied the Royals their second goal of the first half, as the teams went into the break with EMU leading 1-0. • The Pacers tied the game 1-1 early into the second half after the referee awarded a penalty kick from a foul on the right side of the box committed by Scott. • Just as in the first half, the Royals were denied their second goal of the game after a shot from Scott was deflected by the goalkeeper over the crossbar after a free kick in the 66th minute. • The Royals suffered a scare in the 71st minute after the Pacers had scored their second goal of the game after a cross and a scramble into the box; however, the referee overturned the goal after the scoring player was deemed offside. • Gabi Dewey, who came on in the second half, recorded two saves to help the Royals obtain their second draw of the season.\nStatistical Leaders Goals: Hay (1) Assists: Scott (1) Saves: Jefferson (6)\nWhat’s Next EMU is back in action for a home game on Wednesday as they’ll take on the Eagles of the University of Mary Washington. Kickoff is set for 7:00 pm.",
+   "images": [
+    {
+     "file": "31d4252d41f4.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://rocktownnow.com/wp-content/blogs.dir/281/files/2026/09/EMU-WSOC-1.png"
+    },
+    {
+     "file": "2d3e7727745d.jpg",
+     "w": 768,
+     "h": 512,
+     "alt": "",
+     "cap": "EMU/Scott Eyre",
+     "src": "https://rocktownnow.com/wp-content/blogs.dir/281/files/2026/09/EMU-WSOC-1-768x512.png"
+    },
+    {
+     "file": "4e4a6a6fb515.jpg",
+     "w": 600,
+     "h": 450,
+     "alt": "",
+     "cap": "",
+     "src": "https://rocktownnow.com/wp-content/themes/rocktownnow/screenshot.png"
     }
    ],
    "videos": []
@@ -3248,7 +3442,7 @@
  {
   "id": "aba5604a0b",
   "source": "Editorialge",
-  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
   "cat_hint": "ai",
   "kind": "gnews",
   "title": "ImagineLab.art Review: 7 AI Labs, One Wallet, Real Costs",
@@ -3268,6 +3462,23 @@
      "src": "https://cdn1.editorialge.com/wp-content/uploads/2026/09/imaginelab.art-review.jpg"
     }
    ],
+   "videos": []
+  }
+ },
+ {
+  "id": "1625d06c10",
+  "source": "The Daily Telegraph",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "Against the odds: Emu Plains surge to third grand final in four years",
+  "url": "https://www.dailytelegraph.com.au/newslocal/sport/local-penrith-rl-emu-plains-book-grand-final-ticket-with-windsor-week3-wrap/news-story/222fc07b18a5292db8d4fbf27a6b83d6",
+  "date": "2026-09-07T02:07:50+00:00",
+  "summary": "Against the odds: Emu Plains surge to third grand final in four years The Daily Telegraph",
+  "yt": null,
+  "page": {
+   "text": "",
+   "images": [],
    "videos": []
   }
  },
@@ -3699,6 +3910,72 @@
   }
  },
  {
+  "id": "b29904ce78",
+  "source": "Central Western Daily",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "Watch a trainee cop try and chase down an emu along this Central West road",
+  "url": "https://www.centralwesterndaily.com.au/story/9341506/nsw-police-trainee-officer-chases-emu-along-central-west-road/",
+  "date": "2026-09-06T19:54:59+00:00",
+  "summary": "Watch a trainee cop try and chase down an emu along this Central West road Central Western Daily",
+  "yt": null,
+  "page": {
+   "text": "Life is just different west of the Blue Mountains.\nThe air is fresher, sport means more and the roads ... well the roads are definitely different to those you navigate in Sydney.\nBut nothing exemplifies that difference more than a cop trying to chase down an emu near Orange; and it was all caught on camera.\nOnlookers were stunned, and a little amused, on the evening of Friday, August 21 when the trainee was spotted trying to corral the iconic Australian bird along Cargo Road in Nashdale.\nWith the potential for a crash evident, the policeman jumped into action and did his best to ensure there were no casualties.\nAsked about the incident, a spokesperson for NSW Police said this was one of the many times that proved life out west truly is a bit different.\n\"It's no secret country policing presents many and varied experiences and learning opportunities,\" they added.\n\"And in this case with the Central West PD probationary constable showing, it was no different.\"\nI am a senior journalist for ACM in the Central West. I cover council, human interest, crime and breaking news. Got a tip? Text me at 0448 239 132 or email me at riley.krause@austcommunitymedia.com.au\nI am a senior journalist for ACM in the Central West. I cover council, human interest, crime and breaking news. Got a tip? Text me at 0448 239 132 or email me at riley.krause@austcommunitymedia.com.au\nAFL chairman discusses 'meaningful change' for fixture\nGeelong warned: stand in front of Treacy at your peril\nWestern Bulldogs AFL premiership hero calls time\n'Rapt': Lions star Bailey explains contract decision\nThe 100+ best photos from the opening round of Orange's netball finals\n'Living near the beach would be a treat': $1m winner planning move after big win\n'Not our first rodeo': Group behind revitalisation of Bills Beans former site revealed\nHow Roolettes lifted Mason-Spice and helped her find her love for rugby again\nFrom hesitant return to premiership hero: Sims is completely unaware of her talent\nSmiles, celebrations, and streaking: Mega gallery from a monster grand final weekend\nGrab a quick bite of today's latest news from around the region and the nation.\nCatch up on the news of the day and unwind with great reading for your evening.\nToday's top stories curated by our news team. Also includes evening update.\nYour digital replica of Today's Paper. Ready to read from 5am!\nSharp. Close to the ground. Digging deep. Your weekday morning newsletter on national affairs, politics and more.\nEvery Saturday and Tuesday, explore destinations deals, tips & travel writing to transport you around the globe.\nYour essential national news digest: all the big issues on Wednesday and great reading every Saturday.\nGet news, reviews and expert insights every Thursday from CarGuide, ACM's exclusive motoring partner.\nReal local, smart property news for regional Australia\nTest your skills with interactive crosswords, sudoku & trivia. Fresh daily!\nStay in the know on news that matters to you with twice weekly newsletters from The Senior.\nThe latest news, results & expert analysis.\nGet real, Australia! Let the ACM network's editors and journalists bring you news and views from all over.\nGet the editor's insights: what's happening & why it matters.\nGoing out or staying in? Find out what's on.",
+   "images": [
+    {
+     "file": "510d0a3ae690.jpg",
+     "w": 1000,
+     "h": 525,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.centralwesterndaily.com.au/images/transform/v1/crop/frm/YN4FA67iw2pXwXjwm2vmnJ/39d36a33-8d98-4294-9a9a-bb26692a9e39.png/r0_11_1920_1019_w1200_h630_fmax.jpg"
+    },
+    {
+     "file": "ef2b12fa2747.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "A trainee cop on Cargo Road, Nashdale, chasing after an emu. Pictures supplied",
+     "cap": "",
+     "src": "https://www.centralwesterndaily.com.au/images/transform/v1/crop/frm/YN4FA67iw2pXwXjwm2vmnJ/39d36a33-8d98-4294-9a9a-bb26692a9e39.png/r0_0_1920_1079_w1200_h678_fmax.jpg"
+    },
+    {
+     "file": "89f9425891ec.jpg",
+     "w": 520,
+     "h": 390,
+     "alt": "The introduction of Tasmania, to be coached by Ken Hinkley, will force a big fixture change. Photo: Ethan James/AAP PHOTOS",
+     "cap": "",
+     "src": "https://www.centralwesterndaily.com.au/images/transform/v1/resize/frm/silverstone-feed-data/79169168-6453-43cc-86b7-c457f9ba6a16.jpg/w564_h390_fmax.webp"
+    },
+    {
+     "file": "4a69c9456f16.jpg",
+     "w": 520,
+     "h": 390,
+     "alt": "Josh Treacy is tipped to bounce back to his imposing best when Fremantle meet Geelong. Photo: Richard Wainwright/AAP PHOTOS",
+     "cap": "",
+     "src": "https://www.centralwesterndaily.com.au/images/transform/v1/resize/frm/silverstone-feed-data/3ca1438f-5023-455b-b78c-19e7ab3ed7fd.jpg/w564_h390_fmax.webp"
+    },
+    {
+     "file": "eab8c1894f6e.jpg",
+     "w": 520,
+     "h": 390,
+     "alt": "Tenacious Tom Liberatore (R) has announced his retirement after an storied Western Bulldogs career. Photo: Joel Carrett/AAP PHOTOS",
+     "cap": "",
+     "src": "https://www.centralwesterndaily.com.au/images/transform/v1/resize/frm/silverstone-feed-data/409986ca-4948-4a7a-a57a-dadc5aedea3f.jpg/w564_h390_fmax.webp"
+    },
+    {
+     "file": "ff7468f1586c.jpg",
+     "w": 520,
+     "h": 390,
+     "alt": "Zac Bailey has signed a long-term contract with the Brisbane Lions. Photo: Morgan Hancock/AAP PHOTOS",
+     "cap": "",
+     "src": "https://www.centralwesterndaily.com.au/images/transform/v1/resize/frm/silverstone-feed-data/399439c6-5675-4959-ac35-da1bbbac7523.jpg/w564_h390_fmax.webp"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
   "id": "fb0593b39f",
   "source": "Crypto Briefing",
   "query": "Adobe Photoshop AI",
@@ -3851,6 +4128,88 @@
   }
  },
  {
+  "id": "9acb6436b1",
+  "source": "آي-فون إسلام",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "264 Hidden Improvements Apple Revealed at WWDC26 to Make Your Daily Life Easier - آي-فون إسلام",
+  "url": "https://iphoneislam.com/language/en/2026/06/264-hidden-improvements-apple-revealed-at-wwdc26-to-make-your-daily-life-easier/168259",
+  "date": "2026-09-06T17:35:56+00:00",
+  "summary": "264 Hidden Improvements Apple Revealed at WWDC26 to Make Your Daily Life Easier آي-فون إسلام",
+  "yt": null,
+  "page": {
+   "text": "At the beginning of the live stream for the WWDC26 developer conference, Craig Federighi, Apple’s Senior Vice President of Software Engineering, surprised us with an engaging talk about the philosophy driving the development of Apple’s software systems. He said: “We are always challenging ourselves to make our products more responsive, more reliable, and more fun to use. Instead of just introducing brand-new features, we take the features you already rely on and make them much better. Because we believe that the best operating systems are not built just on big breakthroughs, but are built on attention to the finest details.” He then handed the stage to his colleague Stacey Ford, Vice President of OS Program Management, who emphasized that attention to detail has always been in Apple’s DNA, and for this year, the teams focused on refining interfaces and facilitating usability from the foundation to the visual interface. Within a few seconds, the big screen was filled with a giant board showcasing 264 small improvements and details in Apple’s upcoming systems.\nThe Philosophy Behind the “Attention to Detail” Board\nThese small details might seem insignificant to those looking only for AI revolutions and flashy features, but for the daily user, these are the changes that make the real difference in the everyday experience. Here at Phonegram, we know full well that a fast, stable, and carefully polished system is far superior to one full of unstable experimental features. Since the billboard appeared for only a few seconds at the conference, we have broken down and categorized all 264 of these features and improvements so you can browse them and understand what awaits you in Apple’s upcoming updates.\nLiquid Glass System and the New Generation of macOS 27 Golden Gate\nWe start with the new Liquid Glass interface, which received a comprehensive update with full customization capabilities and updated app icons to give the system a more vibrant and flexible look. As for the new macOS 27 Golden Gate, Apple focused on solving the age-old problems facing professional users, and the most notable changes are as follows:\nWindow position stability and consistency when using multiple external displays.\nSupport for Mac emulation at resolutions up to 5K.\nProviding more high-resolution and high-refresh-rate options for external displays.\nEdge-to-edge extended sidebars and unified toolbars.\nConsistent corner design and colorful sidebar icons to add a vibrant and cheerful aesthetic touch.\nAbility to automatically resize and reset columns (a feature Mail app users have long awaited!).\nSmoother animations in the Mission Control and Spaces window management system.\nSwipe down to refresh feature and High Dynamic Range (HDR) support for the entire system interface.\nA Leap in the iPhone and iPad Interface: iOS 27 and iPadOS 27\niOS 27 brought a wonderful set of improvements aimed at making the iPhone system faster and more flexible, especially widgets and interactive activities:\nProviding extra-large widgets and updating their data instantly upon opening the app.\nAbility to adjust the alarm volume completely independently of the system volume (a long-awaited feature!).\nSupport for Live Activities in the Dynamic Island in landscape mode.\nThe process of unlocking and switching between lock screens has become smoother, faster, and without any noticeable lag.\nThe lock screen remains active and awake while browsing and reading notifications.\nFaster performance and greater reliability for the NFC chip reader.\nAs for the iPad and iPadOS 27, Apple focused on increasing productivity and bringing it one step closer to the flexible and complete Mac experience:\nAbility to display the menu bar permanently as an optional setting on the iPad.\nAbility to resize iPhone apps to fit the iPad screen better and more practically.\nDisplaying app names in the status bar to facilitate navigation and identify the active app.\nMuch faster file browsing and transferring within the default Files app.\nUndo and redo for home screen modifications to prevent accidental errors.\nExpanded touch support and responsiveness when using the Sidecar second screen feature.\nWearables and Smart Home: Apple Watch, Vision Pro, and Apple TV\nApple did not exclude its other devices from these magical touches; the watchOS 27 system received much better battery efficiency, improvements to the dynamic app grid, higher step-tracking accuracy, as well as the ability to view your card balances in the Wallet app directly from your wrist, and more efficient and reliable water detection to prevent accidental damage.\nThe visionOS 27 system for Vision Pro now supports using panoramic photos and 3D scenes as enchanting virtual environments, in addition to multi-tab support in Safari, and the ability to look and tap to interact with notifications easily. As for tvOS 27, it received a faster and more responsive control center, and smart downloads that ensure smooth playback of your favorite content without interruption.\nA Revolution in Camera, Photos, and Shared Albums\nCapturing and sharing photos received the lion’s share of hidden improvements. The camera now starts and operates with less effort and lower power consumption in low-power mode, and zooming and switching between lenses in video has become ultra-smooth. In the Photos app, you will finally be able to add keywords and rate your shots with stars to make them easier to access later instead of manual, random searching.\nPhoto search now understands complex metadata and returns amazing results for photos of people and pets.\nThe iCloud Shared Albums feature received an amazing upgrade that allows sharing photos in full resolution, and even allows users from Android and Windows platforms to participate and interact with the albums!\nAbility to set an expiration date for shared albums to provide security, privacy, and protection for your private memories.\nSave any frame within a video as a separate photo with a single click to capture perfect moments with extreme precision.\nDaily Apps: Messages, Mail, Safari, and Maps\nThe daily communication and browsing experience has become more cohesive and powerful; the Messages app now supports a full drawing board, fully improved synchronization across all your devices, and an automatic retry feature for messages that failed to send without any intervention from you. In Safari, Apple developed the JavaScript processing engine to be faster and ensured that system audio is not interrupted by web media.\nMaps and Mail also received search improvements; Maps now supports natural language search to find routes, and the Mail app sorts “Top Results” faster and more accurately with more reliable search indexing that ensures you never miss an email, no matter how old it is.\nProductivity Features, Health, and New Language Boards\nEven Quick Notes got their share, as you can now write and draw notes on the Mac, and copy and paste text as Markdown format ready for immediate publishing. As for the keyboard and languages, it witnessed a huge improvement supporting multi-language grammar checking and automatic punctuation suggestions while typing quickly on multi-language keyboards.\nThe Health app brought comprehensive support and detailed educational research for women’s health and perimenopause symptoms, with faster vital data updates and improved step synchronization between the Health and Fitness apps instantly and continuously to ensure the accuracy of your daily health information.\nShare on Facebook (Opens in new window) Facebook\nShare on WhatsApp (Opens in new window) WhatsApp\nShare on Telegram (Opens in new window) Telegram\nEmail a link to a friend (Opens in new window) Email",
+   "images": [
+    {
+     "file": "41cda84d9302.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/many-changes-scaled-1.jpg"
+    },
+    {
+     "file": "f60279c86259.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "From the Phonegram website: A dense collection of short text phrases written in a small font, each describing different features, updates, or software improvements, arranged closely without any images or graphics.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/many-changes-scaled-1-2048x1152.jpg"
+    },
+    {
+     "file": "9b24d2855016.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "From the Phonegram website: A grid of colorful smartphone app icons, including Instagram, Safari, Discord, Call of Duty, Reddit, and Apple Books, plus a calendar set to the first Wednesday of the month — highlighting Apple's hidden improvements in every detail.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/ios-27-00-1536x864.jpg"
+    },
+    {
+     "file": "85902a84baec.jpg",
+     "w": 768,
+     "h": 384,
+     "alt": "",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/ios-liquid-glass-slider-768x384.jpg"
+    },
+    {
+     "file": "391dae56a80c.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/ios-27-1536x864.jpg"
+    },
+    {
+     "file": "59786cc08066.jpg",
+     "w": 768,
+     "h": 432,
+     "alt": "From the Phonegram website: Includes Apple's product lineup, highlighting the hidden improvements the company introduced, including Apple TV, the remote, an iPad with Apple Pencil, an iPhone, Apple Watch, and AirPods in their charging case — all displayed on a white background.",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/apple-devices-768x432.jpg"
+    },
+    {
+     "file": "c142fa8560a0.jpg",
+     "w": 768,
+     "h": 432,
+     "alt": "",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/photos-ios-27-768x432.jpg"
+    },
+    {
+     "file": "f87b6e47eb34.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://iphoneislam.com/wp-content/uploads/2026/06/how-ios-27-will-make-your-apps-smarter-1536x864.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
   "id": "e136614084",
   "source": "tech-insider.org",
   "query": "FLUX Kontext OR \"Nano Banana\" OR \"Stable Diffusion\" image editing",
@@ -3929,6 +4288,88 @@
      "alt": "Elias Virtanen",
      "cap": "",
      "src": "https://tech-insider.org/wp-content/uploads/2026/03/ti-author-elias.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "ca391198cb",
+  "source": "The Racing Experts",
+  "query": "\"Capture One\" (photo OR software OR RAW OR tethering OR update)",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Kyle Larson: NASCAR Cup Chase 2026 Preview",
+  "url": "https://theracingexperts.com/kyle-larson-nascar-cup-chase-2026-preview/",
+  "date": "2026-09-06T17:21:30+00:00",
+  "summary": "Kyle Larson: NASCAR Cup Chase 2026 Preview The Racing Experts",
+  "yt": null,
+  "page": {
+   "text": "Despite his ongoing 49-race winless streak, Kyle Larson has returned to the NASCAR Cup Series chase to defend his 2025 championship.\nThis is Larson’s tenth time making a NASCAR Cup Series postseason. 2026 marks his sixth consecutive all with Hendrick Motorsports which includes both of his championship seasons.\nThe reigning champ maintained a top ten points position since Phoenix in March, but his Chase status remained unquestioned throughout the regular season.\nHe enters the 2026 Chase in the seventh seed as the highest placing Hendrick Motorsport driver. Despite the less than ideal seed, Larson still has time to rekindle his championship aspirations with the familiar victory lanes the Chase offers.\nIf he can at least capture one checkered flag, it will be more than what he could accomplish in the regular season. But this dry-spell has only existed in the Cup Series.\nKyle Larson entered the 2026 season on top the of NASCAR world as its defending champion. But the team was as hungry as ever to get back to victory lane.\nA few incidents at Atlanta and Darlington stunted the start of his season in the standings. While he failed to win at the Cup level, his non-Cup Series schedule had just begun with a bang.\nHe won twice in the NASCAR O’Reilly Auto Parts Series in the spring at Las Vegas and a successful defending win at Texas.\nHis best chance to return to victory lane at Bristol where he fell flat once again. He led a race-high 284 laps but came home third.\nThen one week later, he came within two car lengths of defending his Kansas win near the one year mark of his previous Cup win.\nWith the year mark past he suffered the first consecutive sub 20th-place skid of the season. His position in the standings had him fall outside of the top five which he would momentarily hold one more time in the regular season from there.\nFor his wins he turned to his first love, sprint car racing. Larson once again dominated his Interstate Batteries High Limit Sprint races he entered. That winning feeling never left him but the monkey stayed well on his back in the Cup Series.\nAfter Charlotte his results recovered but as soon as July came around, they faltered once again.\nLarson suffered his worst stretch of the regular season right off the back of his best. After four straight top-five results he placed lower than 33rd in four of his next five races.\nThe team needed a turnaround and quick to content for the fifth Chase seed.\nThe fight never materialized. He claimed his first top ten in nearly two months at Richmond and used all of his luck for the rain in Iowa. With the stoppage in action, he made it to Iowa in time. Then, he went onto win the most prestigious race in all of sprint car racing with a Knoxville Nationals win.\nFrom the O’Reilly Series to the clay, Larson won in everything but his full-time series. If he is going to defend his title, a win or two has to be in the cards.\nLast season, Kyle Larson clinched his second championship in dramatic late race fashion. While he capitalized on what that current situation was, he failed to win.\nActually, he won the championship without a win since May of 2025 which either says a lot about the playoff system or how Larson could possible defend his title in 2026.\nThere are a few tracks in the Chase where Larson has his best chance to snap his winless streak. Since 2022, he has found victory land at six of the final ten tracks.\nDarlington, Bristol, Kansas, Las Vegas, Martinsville, and the season finale at Homestead-Miami can all be repeat winning venues for the No. 5 team to circle.\nTheir personal battle’s are not the only thing against the team. Their seventh seeding leaves the team with an outside chance to instantly put their hat in the ring unless they achieve that elusive victory.\nHe also has to compete with drivers with fantastic momentum heading into the Chase such as Ryan Blaney, Denny Hamlin, and even Joey Logano who is two positions lower than him in the standings.\nIf Larson wants to successfully defend his 2025 title, he and crew chief Cliff Daniels will have to continue to work well together, repair their top ten consistency that has dipped in the summer, and grab a few wins.\n9 top-five finishes, 13 top-ten finishes with 3 DNF’s\n9.7 avg start, 17.2 avg finish Avg. Running Position of 12.957 (fifth-best)\nAvg. Running Position of 12.957 (fifth-best)\n659 laps led (third-most) led season-high 284 laps in third place Bristol finish\nled season-high 284 laps in third place Bristol finish\n2026 , 2026 Chase Preview , Hendrick Motorsports , Kyle Larson , NASCAR , NASCAR Cup Series\nShare on Facebook (Opens in new window) Facebook\nShare on Reddit (Opens in new window) Reddit\nShare on Bluesky (Opens in new window) Bluesky\nMore NASCAR and motorsports news from the racing experts\nSubscribe to get the latest posts sent to your email.\nRyan Kemna is a photojournalist for The Racing Experts, LLC. He has been with TRE since 2025.\nCurrently residing in the Minneapolis, MN, area, Kemna brings his passion for motorsports, photography, and a good story to readers.",
+   "images": [
+    {
+     "file": "537c99d69088.jpg",
+     "w": 500,
+     "h": 333,
+     "alt": "",
+     "cap": "",
+     "src": "https://theracingexperts.com/wp-content/uploads/2026/06/DSC_4066-500x333.jpg"
+    },
+    {
+     "file": "1407d9af87ad.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Ryan Kemna/TRE",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2026/06/DSC_4066.jpg?w=1360&quality=60&ssl=1"
+    },
+    {
+     "file": "ba12deab318f.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Ryan Kemna",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2026/07/DSC_9001.jpg?w=1360&quality=60&ssl=1"
+    },
+    {
+     "file": "404b8cdfe6b9.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Ryan Kemna/TRE",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2026/07/DSC_5824.jpg?w=1360&quality=60&ssl=1"
+    },
+    {
+     "file": "553a6819d6c8.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Dominic Aragon/TRE",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2026/06/5-Kyle-Larson-Nashville-2026-Dominic-Aragon.jpg?w=1360&quality=60&ssl=1"
+    },
+    {
+     "file": "77bcc0b1095c.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Feliz Aragon/TRE",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2026/03/5-Kyle-Larson-Las-Vegas-2026-Feliz-Aragon.jpg?w=1360&quality=60&ssl=1"
+    },
+    {
+     "file": "3776775f6852.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Dominic Aragon/TRE",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2026/03/Larson-Chastain-Phoenix-Raceway-2026-Dominic-Aragon.jpg?w=1360&quality=60&ssl=1"
+    },
+    {
+     "file": "58bcdab9b49b.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "Photo: Dominic Aragon/TRE",
+     "src": "https://i0.wp.com/theracingexperts.com/wp-content/uploads/2025/11/5-Kyle-Larson-championship-winner-Phoenix-2025-Dominic-Aragon.jpg?w=1360&quality=60&ssl=1"
     }
    ],
    "videos": []
@@ -4073,6 +4514,40 @@
      "alt": "",
      "cap": "",
      "src": "https://petapixel.com/assets/uploads/2026/09/10-Great-Vintage-Lenses-for-Portrait-Photography.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "65c9852b0d",
+  "source": "Stocktwits",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "CMPS Stock Clocks Muted Gains But Analysts Back Psychedelic Drug’s Durability Ahead Of FDA Filing",
+  "url": "https://stocktwits.com/news-articles/markets/equity/cmps-stock-clocks-muted-gains-but-analysts-back-psychedelic-drugs-durability-ahead-of-fda-filing/cZmlUsXR7Zn",
+  "date": "2026-09-06T13:48:22+00:00",
+  "summary": "CMPS Stock Clocks Muted Gains But Analysts Back Psychedelic Drug’s Durability Ahead Of FDA Filing Stocktwits",
+  "yt": null,
+  "page": {
+   "text": "Stifel kept its 'Buy' rating on the stock following the update.\nOppenheimer believes the long-term market opportunity for COMP360 is bigger than the current stock price reflects.\nWolfe Research analyst Rudy Li said durable 26-week efficacy data, improved response and remission rates, and a clean safety profile keep the company on track for an NDA filing and a potential first-half 2027 launch.\nShares of Compass Pathways PLC (CMPS) closed up 1% at $12.99 following a choppy trading session on Tuesday after the company announced positive 26-week data from its second late-stage trial of COMP360 in treatment-resistant depression.\nThe stock swung as much as 3% higher and as much as 10% lower during the day, as investors appeared to take profits despite analysts describing the results as confirmatory of the drug’s rapid onset and durability.\nPatients with long-standing, difficult-to-treat depression received one or two doses of COMP360 in the trial. Many saw meaningful relief from their symptoms within weeks, and those benefits held up for at least six months on average, the company said.\nA second dose helped even more patients get stronger results that lasted longer. The treatment was generally well tolerated. Most side effects were mild and happened on the day of dosing. A reported suicide was not connected to the drug, Compass said.\nCOMP360 is Compass Pathways’ investigational synthetic psilocybin treatment. Psilocybin is the active compound found in magic mushrooms.\nStifel kept its 'Buy' rating on the stock following the update. The firm said the results support using a second dose to improve outcomes. It also noted that comparing different psychedelic studies is difficult because patient groups vary.\nOppenheimer maintained its 'Outperform' rating and $20 price target, hinting at a potential upside of about 54%. The analysts called the lasting benefits encouraging and said the drug could become the first psychedelic approved by the FDA. They believe the long-term market opportunity is bigger than the current stock price reflects.\nMorgan Stanley kept its Overweight rating and $17 price target, implying a potential upside of about 31%. The firm viewed the new data as confirmatory. It highlighted the quick effect, benefits that lasted through six months, and a practical dosing approach for patients with chronic depression, it said.\nWolfe Research reiterated its 'Outperform' rating and $18 price target, representing a potential upside of about 39% from the last close. Analyst Rudy Li said the durable 26-week data, improved response and remission rates, and clean safety profile keep the New Drug Application (NDA) filing and potential launch in the first half of 2027 on track. The firm sees today’s pullback as a sell-the-news overreaction and an attractive entry point. Wolfe expects the stock to regain strong momentum after this, though it will likely stay volatile ahead of more regulatory updates.\nAccording to data from Koyfin, 14 of the 15 analysts covering CMPS stock rate it 'Buy' or higher, while one rates it 'Hold.'\nCompass said it is already preparing its application for FDA approval, with final submission expected in the fourth quarter of this year.\nIf approved, a U.S. launch could happen in the first half of 2027.\nOn Stocktwits, retail sentiment surrounding CMPS remained in the ‘bullish’ zone while message volumes jumped from ‘high’ to ‘extremely high’ levels.\nAccording to a Stocktwits poll of about 750 respondents, CMPS ranked second only to SoundHound among the stocks investors are most bullish on over the next five years. CMPS received 25% of the votes, compared with 51% for SoundHound.\nA Stocktwits user voiced hopes for the stock rallying to $20 this week and dismissed Tuesday’s slight rally as “bit of profit taking.”\nAnother user voiced optimism for the company getting bought out at nearly three times its current share value.\nRead More: TGTX Stock Rises On Wall Street Price Target Hike, New Schizophrenia Trial Launch\nFor updates and corrections, email newsroom[at]stocktwits[dot]com.\nComments posted here will also appear on symbol pages.",
+   "images": [
+    {
+     "file": "4214a6f23dbc.jpg",
+     "w": 1000,
+     "h": 750,
+     "alt": "",
+     "cap": "",
+     "src": "https://st-everywhere-cms-prod.s3.us-east-1.amazonaws.com/large_sealsq_stock_market_representative_resized_b05435011f.jpg"
+    },
+    {
+     "file": "88eb43c4447c.jpg",
+     "w": 647,
+     "h": 487,
+     "alt": "Screenshot 2026-07-07 180647.png",
+     "cap": "",
+     "src": "https://news.stocktwits-cdn.com/Screenshot_2026_07_07_180647_png_b181669d3f.webp"
     }
    ],
    "videos": []
@@ -4236,9 +4711,35 @@
   }
  },
  {
+  "id": "dda7432b93",
+  "source": "PetaPixel",
+  "query": "\"Capture One\" (photo OR software OR RAW OR tethering OR update)",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Photographer Captured California Life in the 1980s From Behind the Wheel",
+  "url": "https://petapixel.com/2026/09/06/photographer-captured-everyday-california-life-in-1980s-from-behind-the-wheel/",
+  "date": "2026-09-06T13:00:13+00:00",
+  "summary": "Photographer Captured California Life in the 1980s From Behind the Wheel PetaPixel",
+  "yt": null,
+  "page": {
+   "text": "A photographer whose fascinating images of everyday life in California — taken from behind the wheel of his car on his daily drive to work — are the focus of a new exhibition.\nThe Grolier Club, a museum and private club in New York, is presenting a spotlight exhibition of images by acclaimed American photographer Henry Wessel, who passed away in 2018. The exhibit Henry Wessel: Photographs and Books brings together Wessel’s photo series Incidents as well as Traffic series in their entirety, alongside work from several other projects. The exhibition will be on view from September 8 through November 14 in The Grolier Club’s Second Floor Gallery.\nWessel’s photographs often focused on ordinary moments rather than staged scenes. His Incidents and Traffic series capture people commuting, socializing, relaxing, and simply going about their day as he explored California. He worked largely on instinct, sometimes photographing through the open window of his car.\nTraffic , a series of 28 black-and-white photographs made in the 1980s and issued as a portfolio in 2017, focuses entirely on people in cars, photographed from another car. Wessel commuted from his East Bay home to his teaching job in San Francisco and realized that the morning and evening light gave him an opportunity to photograph while on the road. He adapted his camera for one-handed use because “a glance was enough,” allowing him to photograph from behind the wheel.\nWessel soon began looking forward to his daily commute, where he found opportunities to photograph the people and scenes around him. For Wessel, photography was an immediate way to capture whatever caught his eye.\n“I don’t have an attitude of going out to take pictures. I simply take pictures. If there’s light out and my eyes are open, it’s usually reason enough to be able to work,” Weessel said, according to a press release by The Grolier Club. “It’s the facility that the camera provides that makes photography to me a very vital medium, a very challenging medium and in a sense, a very indulgent medium. The preparation to work is almost nonexistent.”\nMeanwhile Wessel’s Incidents portfolio was assembled in 2012 from 27 black and white photographs he  made over several decades. None have been published or exhibited before. The images capture brief moments in everyday California life, often in bright sunlight. In Incidents No 5 (undated) , for example, passengers in a car appear to emerge from the shadows with each closer look.\nAs the Deutsche Börse Photography Foundation notes, Wessel’s images in Incidents often feel spontaneous but strangely cinematic. Wessel rarely photographed his subjects looking directly at the camera. Instead, he observed them from behind or at close range, often without being noticed. The photographs can resemble scenes from a film, suggesting that something has just happened or might happen next and leaving viewers to imagine what lies beyond the frame.\nThe exhibition also includes photographs from Wessel’s Real Estate and Night Walk projects. Real Estate was his first sustained project in color. He returned to a subject and approach that had interested him from the first roll of film he shot: photographing houses from a car window.\nNight Walk began in 1995, when Wessel was walking his dog at night in the Sunset Park neighborhood of Los Angeles. He became fascinated by the way artificial light changed the appearance of the surrounding world and began exploring the effect in his photographs.\n“The spot lighting of particular areas, the lack of ambient light, the unnatural way that shadows are cast, all take us to an unfamiliar place, a world that is stage-like with its implied drama.”\nThe exhibition is curated by Grolier Club member Jack Gray from his collection. Gray first met Wessel in 1976, when he was one of the photographer’s undergraduate students at the San Francisco Art Institute. Gray began collecting Wessel’s work while still a student and a chance meeting 20 years later led to a close friendship between the pair.\nHenry Wessel: Photographs and Books will be on view from September 8 through November 14 in The Grolier Club’s Second Floor Gallery.\nAffiliate Disclosure PetaPixel articles may include affiliate links; we may earn a commission if you buy through one.",
+   "images": [
+    {
+     "file": "6be44183eee1.jpg",
+     "w": 1000,
+     "h": 525,
+     "alt": "",
+     "cap": "",
+     "src": "https://petapixel.com/assets/uploads/2026/09/henry-wessel-exhibit.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
   "id": "7c5044362c",
   "source": "آي-فون إسلام",
-  "query": "\"Apple Photos\" OR \"Apple Intelligence\" \"Clean Up\" OR photo editing iOS",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
   "cat_hint": "comp",
   "kind": "gnews",
   "title": "The Top 5 New Features in the iOS 27 Beta You Must Try - آي-فون إسلام",
@@ -4547,6 +5048,80 @@
   }
  },
  {
+  "id": "3da7db8c47",
+  "source": "How-To Geek",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Google Account Storage fills fast by design—here's why and how to fix it - How-To Geek",
+  "url": "https://www.howtogeek.com/why-google-account-storage-fills-fast-and-what-to-do/",
+  "date": "2026-09-06T11:00:13+00:00",
+  "summary": "Google Account Storage fills fast by design—here's why and how to fix it How-To Geek",
+  "yt": null,
+  "page": {
+   "text": "I love the simplicity and automation of my Google Account storage and how I can save valuable photos, videos, screenshots, PC/device files, and my Android phone data with little effort, but I don't like how easily and quickly it fills up, especially with default settings. I was frustrated, so I decided to take control of what Google syncs to regain valuable space. Google Account storage has definitely changed over the last decade, like Google Photos' Image Saver media becoming part of your storage space (June 1, 2021) and Drive separating from Photos (July 2019) because it was \"supposedly\" confusing to consumers.\nWhile Google Photos is always uploading media, Drive saves your Android device data and shared/collaborative files, while Gmail fills up your cloud space with emails and attachments. The list could go on, but you get the idea. Paid plans are highly affordable and competitive, but by design, it is too easy to fill up storage space, hoping you'll upgrade to a paid plan through Google One. Google One appears in space management pages but only to promote subscriptions and manage your existing cloud data.\nGoogle uses the term \"Google Account Storage\" for personal accounts (Drive, Photos, and Gmail storage spaces) to avoid confusion with Google One — a paid subscription service with added features that also increases Google Account Storage.\nWith so much automation and convenience, it doesn't take too long for your free storage to reach its limit, so it's important to understand what syncs where, control what gets stored, and manage it so it doesn't fill up fast.\nGoogle Photos is the top player in space consumption\nIt's so easy to back everything up, even media you don't need\nWhen I removed unnecessary files from Google Photos, my cloud returned to full capacity almost immediately. I realized there was \"pending\" media waiting to be uploaded while I was deleting what I no longer needed. If that wasn't enough, I forgot to turn off syncing on some of my devices that have the Google Photos app. If one is still active, it will upload images and videos, which fills up space even more.\nLet us not forget that Google also defaults images to \"Original quality,\" which uploads media at maximum size. You can change the quality by going to Google Photos in a browser, then clicking the gear icon on the top right, and choosing Storage saver . On mobile, all you need to do is click your profile icon , then tap Photos settings -> Backup -> Photos & video quality -> Storage saver .\nScreenshot on Android showing step 1 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 2 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 3 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 4 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 5 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 1 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 2 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 3 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 4 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nScreenshot on Android showing step 5 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\" Credit: Steve Larner/How-To Geek\nOne thing I always recommend is to search for videos and delete those first, since they have the largest file sizes. You can type \"videos\" in the Google Photos search bar on mobile and PC to review and delete any videos you don't need. While browsing, you can click a video to watch it. You can also delete them via the Photos cloud management settings, but the search bar is the most efficient way since it filters results quickly and easily.\nI've had many useless videos uploaded that were mistakes, unwanted files, or mess-ups, and I easily find and delete them using the above method. It gives me detailed information on the right side whenever I click a video.\nCollaborative files, desktop docs, device backups, and more\nGoogle Drive may be the all-around, automatic storage bin for Docs, Sheets, Meet recordings, WhatsApp backups, Android backups, and more, but it's also the place where you manually upload files. I've uploaded PDFs, videos, images, screenshots, drawings, notes, and even Microsoft Office documents. I have to admit that some of it was not really necessary, especially since I use pCloud to sync PC folders, mobile images and videos, and other data.\nWhile Google Photos automatically syncs your media, sometimes you need to upload files to a Google Drive folder or project. All this data adds up fast, and before you realize it, you've reached your 15GB limit. If you use Drive for Desktop, that adds even more data, although Google Drive ended automatic syncing to Google Photos on its Drive for Desktop app.\nOn the collaborative side of storage, be aware that deleting shared, editable files you created removes access for everyone whom you shared it with. You'll see an icon displaying two people on every file you share. So, if you don't need to share a doc, spreadsheet, or even a video, avoid it whenever possible. I've shared copies and originals, creating more space consumption than was necessary. If I don't need a particular team file I created, I'll transfer the ownership (if applicable) so I can safely delete it.\nOn the collaborative side of things, be aware that deleting shared, editable files you created removes access for everyone whom you shared it with.\nSpeaking of shared files, you'll find other people's docs and more in your \"Shared with me\" section of Google Drive. As long as you do not create a copy or save a file or folder to your Drive, it won't affect your storage space — only the owner's. But it is a good idea to maintain this section to reduce clutter and avoid any confusion. I regularly check this area and remove old files I no longer need. It is perfectly safe to do so since you are not the owner.\nRemoving \"Shared with me\" files and folders in Google Drive is possible, even when the trash can and move options are grayed out. The trick is to select the file or folder, then drag it into the trash can on the left side in the navigation bar, not through right-click options or the icon at the top of the file list.\nDevice backups are another area of space consumption, whether it is from an Android device or a Google Chromecast with TV dongle. While the Google app on iPhone, Android, and even Amazon syncs files to the cloud, actual Google devices sync your account data. But if you also sync iPhone contacts to your Google account, it increases the space, although that is a minor change.\nOn an Android device, you can access your Google Account settings to control what is backed up. The process may differ slightly, depending on your make and model, but I go to Settings > Google and choose All services , then I scroll down to the \"Backup & restore\" section and tap Backup . On the next screen, I can tap Photos and videos or Other device data . On my Android Moto G Fast phone, I turn off backup data for apps that don't need it, such as Moto Actions and Gestures, Files by Google, Facebook, Chrome, The Weather Channel, and more. I figure if data is synced to the app's cloud, there's no need to back it up, as it will repopulate upon a fresh installation with the Gmail used to register it.\nGmail attachments are a big space harvester, too\nThe hidden sync stack of images, videos, docs, and forms\nGmail is an often-overlooked space harvester, mostly because of attachments, but emails can really add up, too. Text doesn't consume nearly as much space as media, especially video attachments that can create larger files. Google has a 25MB attachment sending limit, and a 50MB received limit for personal accounts, but you can still receive and send attachments over those limits. If you do, the files sync to Google Drive and become links in the email rather than internal attachments.\nIf you attach a Google Drive file to an outgoing email, it counts towards your storage limit in addition to the original Drive file. Linking to a Drive file does not.\nTo keep my Gmail space controlled, I create folders to store important information, such as Orders, Orders-Free, Jobs (with individual client folders), Subscriptions, and Promotions. I regularly review the emails and sort them into the appropriate folders to make it easier to review and delete unnecessary emails. I know my \"Promotions\" folder will have old emails I can delete, as well as my \"Subscriptions\" folder. There are other ways to tweak Gmail for productivity that can help you manage storage space better.\nThe best way to manage Gmail is directly through the app or website — Google One doesn't help much and limits the options. You can use the search bar with filters and advanced options, but it's time-consuming and complex. The best method is to use a PC browser and type a filter string into the Gmail search bar to generate results quickly. I copy and paste has:attachment older_than:13y into the search bar. This generates results with at least one attachment that are older than 13 years. You can change the 13y to any year you need — start high and drop it until it generates results. That gives you the oldest emails with attachments first.\nTake control of automation, at least what you can\nGoogle Drive, Photos, and Gmail are a great combination of cloud storage systems, packed with automated features designed to protect you from losing valuable docs, spreadsheets, notes, emails, and snapshots of those precious moments. Account and data recovery is easy for new devices, too, but the problem is that storage builds up fast, especially when videos and images are a big contributor. You also end up with tons of unnecessary files, from old screenshots and bad video cuts to temporary notes and old documents. If you don't keep up with the system, you'll soon realize how quickly your cloud space fills up.\nBy performing regular maintenance and some routine processes, you'll be well on your way to a lean and fit cloud storage system, eliminating all those annoying notices about running out of space and needing to upgrade. Of course, the upgrade option is always available in Google One if you do want more storage.",
+   "images": [
+    {
+     "file": "299a4901264f.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/08/google-storage-space-report-001.jpg?w=1600&h=900&fit=crop"
+    },
+    {
+     "file": "f695fe35c4eb.jpg",
+     "w": 480,
+     "h": 1040,
+     "alt": "Google Photos Android screenshot of videos search for managing space",
+     "cap": "An Android screenshot in Google Photos showing a search for \"videos\" to review and delete anything unnecessary.",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/09/google-photos-videos-search-for-managing-space.png?q=70&fit=crop&w=480&dpr=1"
+    },
+    {
+     "file": "724420640778.jpg",
+     "w": 480,
+     "h": 1040,
+     "alt": "Android Google Photos files management screen",
+     "cap": "An Android screenshot of the media management screen in Google Photos, showing images selected for deletion.",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/09/google-photos-manage-files-screen.png?q=70&fit=crop&w=480&dpr=1"
+    },
+    {
+     "file": "5e3def757581.jpg",
+     "w": 592,
+     "h": 1282,
+     "alt": "Android screenshot of step 1 to switch Google Photos from \"Original quality\" to \"Storage saver\" quality.",
+     "cap": "Screenshot on Android showing step 1 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\"",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/09/android-google-storage-space-saver-steps-001.png?q=49&fit=contain&w=360&h=641&dpr=2"
+    },
+    {
+     "file": "ae490d2c16d6.jpg",
+     "w": 592,
+     "h": 1282,
+     "alt": "Android screenshot of step 2 to switch Google Photos from original quality to space saver quality.",
+     "cap": "Screenshot on Android showing step 2 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\"",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/09/android-google-storage-space-saver-steps-002.png?q=49&fit=contain&w=360&h=641&dpr=2"
+    },
+    {
+     "file": "b512d16669d3.jpg",
+     "w": 592,
+     "h": 1282,
+     "alt": "Android screenshot of step 3 to switch Google Photos from original quality to storage saver quality.",
+     "cap": "Screenshot on Android showing step 3 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\"",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/09/android-google-storage-space-saver-steps-003.png?q=49&fit=contain&w=360&h=641&dpr=2"
+    },
+    {
+     "file": "3b838283e0f3.jpg",
+     "w": 592,
+     "h": 1282,
+     "alt": "Android screenshot of step 4 of 5 to switch Google Photos from original quality to storage saver quality.",
+     "cap": "Screenshot on Android showing step 4 of 5 to change Google Photos upload quality from \"Original quality\" to \"Storage saver.\"",
+     "src": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/09/android-google-storage-space-saver-steps-004.png?q=49&fit=contain&w=360&h=641&dpr=2"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
   "id": "0fc6a93fb6",
   "source": "Yahoo Tech",
   "query": "Adobe Lightroom",
@@ -4567,6 +5142,80 @@
      "alt": "",
      "cap": "",
      "src": "https://bloximages.chicago2.vip.townnews.com/santamariatimes.com/content/tncms/assets/v3/editorial/8/5e/85ed3815-93be-44dc-b7df-2677e356d440/6a99fb1508073.image.jpg?crop=1610%2C845%2C0%2C221&resize=1200%2C630&order=crop%2Cresize"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "4b647de8ac",
+  "source": "The Times of India",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "How Chennai’s second AC local aims to win suburban commuters",
+  "url": "https://timesofindia.indiatimes.com/city/chennai/how-chennais-second-ac-local-aims-to-win-suburban-commuters/photostory/133834253.cms",
+  "date": "2026-09-06T10:47:27+00:00",
+  "summary": "How Chennai’s second AC local aims to win suburban commuters The Times of India",
+  "yt": null,
+  "page": {
+   "text": "How Chennai’s second AC local aims to win suburban commuters\nNew AC local planned for busy Chennai–Arakkonam route\nSouthern Railway plans to introduce Chennai’s second AC local train by September-end on the Chennai Central–Arakkonam suburban corridor. The 12-coach AC EMU, manufactured by Integral Coach Factory (ICF), has been dispatched and will undergo trials before passenger service begins. (AI image)\n12-coach rake offers seating for over 1,120 passengers\nThe new AC EMU has 12 coaches, with seating capacity of at least 1,120 passengers and space for around 3,800 standing passengers. The rake has been assigned to the Chennai Central–Arakkonam corridor and cannot operate on the Chennai Beach–Velachery MRTS line. (AI image)\nArakkonam corridor has a large suburban passenger base\nThe Chennai Central–Arakkonam section has a large suburban passenger base, making it the chosen corridor for the new AC service. Southern Railway data shows that around 5.10 lakh passengers use suburban EMU trains on the Arakkonam–Central corridor. (AI image)\nMore AC services could follow based on passenger demand\nSouthern Railway officials said more AC EMU services could be introduced depending on passenger demand. The railway is expected to monitor the response to the new service for at least four months before taking a decision on expanding AC EMU operations. (AI image)\nFirst AC EMU records average daily ridership of 3,100\nChennai’s first AC EMU, operating on the Chennai Beach–Tambaram–Chengalpet section, records average daily ridership of around 3,100 passengers. Railway data suggests the service should ideally carry at least 40,000 passengers a day, leaving its current utilisation below 10%. (AI image)\nHigh fares cited as a key reason for low patronage\nHigh fares have been cited as a key reason for the first AC EMU’s low patronage. Transport enthusiast N Chandar said fares should be closer to Metro rates, pointing to the Tirusulam–Egmore journey, which costs ₹32 by Metro, ₹60 on AC EMU and ₹5 on a second-class suburban train. (AI image)\nMumbai AC EMU services offer a cheaper comparison\nResident-activist Dayanand Krishnan said Mumbai offered a cheaper alternative, citing a 30km Vande Metro journey costing ₹40. He said fare revisions are necessary, while comparisons should account for differences in local costs and operating conditions. Southern Railway has one AC EMU with 10 daily services, compared with Mumbai’s 109. (AI image)",
+   "images": [
+    {
+     "file": "e0e67c29a441.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/msid-133834267,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+    },
+    {
+     "file": "ee9ee797126f.jpg",
+     "w": 599,
+     "h": 335,
+     "alt": "New AC local planned for busy Chennai–Arakkonam route",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/133834267.jpg?photoid=133834267&imgsize=108764&width=600&height=335&resizemode=75"
+    },
+    {
+     "file": "e50db8b6b539.jpg",
+     "w": 599,
+     "h": 335,
+     "alt": "12-coach rake offers seating for over 1,120 passengers",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/133834279.jpg?photoid=133834279&imgsize=123470&width=600&height=335&resizemode=75"
+    },
+    {
+     "file": "7a168ad3fcc1.jpg",
+     "w": 599,
+     "h": 335,
+     "alt": "Arakkonam corridor has a large suburban passenger base",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/133834286.jpg?photoid=133834286&imgsize=183540&width=600&height=335&resizemode=75"
+    },
+    {
+     "file": "580e1321edd4.jpg",
+     "w": 599,
+     "h": 335,
+     "alt": "More AC services could follow based on passenger demand",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/133834299.jpg?photoid=133834299&imgsize=200237&width=600&height=335&resizemode=75"
+    },
+    {
+     "file": "2bc11b36911d.jpg",
+     "w": 599,
+     "h": 335,
+     "alt": "First AC EMU records average daily ridership of 3,100",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/133834314.jpg?photoid=133834314&imgsize=123338&width=600&height=335&resizemode=75"
+    },
+    {
+     "file": "502d71f27a6d.jpg",
+     "w": 599,
+     "h": 335,
+     "alt": "High fares cited as a key reason for low patronage",
+     "cap": "",
+     "src": "https://static.toiimg.com/thumb/133834323.jpg?photoid=133834323&imgsize=88642&width=600&height=335&resizemode=75"
     }
    ],
    "videos": []
@@ -4689,6 +5338,23 @@
   }
  },
  {
+  "id": "355c3bf307",
+  "source": "Fast Company",
+  "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Qwen-Image\" OR Seedream OR \"Muse Image\" OR \"Emu\" image model",
+  "cat_hint": "ai",
+  "kind": "gnews",
+  "title": "Why are U.S. AI companies so sure bigger is always better?",
+  "url": "https://www.fastcompany.com/91571102/why-are-u-s-ai-companies-so-sure-bigger-is-always-better",
+  "date": "2026-09-06T09:37:24+00:00",
+  "summary": "Why are U.S. AI companies so sure bigger is always better? Fast Company",
+  "yt": null,
+  "page": {
+   "text": "",
+   "images": [],
+   "videos": []
+  }
+ },
+ {
   "id": "4f1c48a1ec",
   "source": "thenationalbulletin.in",
   "query": "\"Black Forest Labs\" OR \"Stability AI\" OR \"Meta AI\" OR \"Qwen-Image\" OR Seedream image model",
@@ -4726,6 +5392,56 @@
      "alt": "Kalie Robbins says Meta's AI on Facebook revealed children's details",
      "cap": "Meta's AI revealed details about Kalie Robbins' kids",
      "src": "https://i.cdn.newsbytesapp.com/images/l144_17681788685697.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "69351df48d",
+  "source": "The Phoblographer",
+  "query": "\"Capture One\" (photo OR software OR RAW OR tethering OR update)",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "3 Best Sports Photography Cameras You Can Use on the Sidelines",
+  "url": "https://www.thephoblographer.com/2026/09/06/3-best-sports-photography-cameras-you-can-use-on-the-sidelines/",
+  "date": "2026-09-06T09:04:03+00:00",
+  "summary": "3 Best Sports Photography Cameras You Can Use on the Sidelines The Phoblographer",
+  "yt": null,
+  "page": {
+   "text": "A good sports photography camera meets various demands, from capturing people in motion to offering great weather resistance to the ability to work with various lenses. If you are new to sports photography or are looking to upgrade from your existing camera, here is a look at some options that can be of help in 2026.\nThe Sony a1 II is the latest offering from the company, and many photographers adore the camera’s autofocus. The device can track people of color in low light, which is a great option for sports photographers who are documenting Black or brown athletes in difficult lighting conditions. Since the camera is designed specifically to capture great portraits, you can not only document athletes in action but also create some stunning portraits off the field. Sony has always struggled with inclusivity, but so has Canon. It’s the fact that they are willing to change with the a1 II is a bit late, but we can work with it.\nIn addition, it is a good sports photography camera, thanks to the details it can capture and the lenses offered. The 50MP sensor produces colorful, detailed JPEGs. The latter can be utilized to upload photos online in a jiffy, especially if it is a time-bound photo shoot like the Olympics. The RAW files allow you to work with highlights and shadows for retrieving more details.\nThis remains the case, and thanks to real-time subject recognition, you’ll find that the camera continues to improve an already solid formula. During my testing, I shot an induction ceremony for my church – large crowds of people of color in a tight space with poor lighting – and found that the camera was consistently finding my subject’s eyes and keeping them in focus even as they moved across the stage, at times turning their backs to the audience. As advertised, Real-time Recognition AF kept the subject locked and seamlessly switched between what I’ll call “whole body tracking” and face detection to eye detection.\nNikon Z9: The Best Weather Resistence Balanced with Autofocus\nThe Nikon Z9 may be an older camera, but it is an all-rounder in every way. What makes it ideal for sports photography is that it has a great design, and it can withstand any kind of environment or weather. The design is akin to a DSLR, which is perfect for those wishing to switch to a mirrorless but wanting to have the same form factor as a DSLR. There is a deep grip, which makes it easy to shoot for longer hours, and the buttons illuminate, making it ideal for shooting in low light or at night. Another reason it’s a perfect sports photography camera is that it allows you to shoot in any environment: be it rain, snow, or a storm. There is nothing that can stop you from making an image.\nAnother plus point is that it offers a good high-sync speed of 1/8000. For the uninitiated, you can create some fantastic creative photos of athletes using a flash. If you are someone who relies on this kind of photography, then the Z9 is ideal for you. But remember, it has an electronic shutter, which can cause an issue if you are shooting with two different sources of light with different color temperatures.\nWell, what do you think? We took the Nikon z9 out into NYC’s recent blizzard in the early morning. Specifically, we walked around with it for one mile, ensured that all the ports and doors to entry on the camera were sealed, and chose a weather-resistant lens. The Nikon z9 kept working in 12 degree weather with more snow coming down. The combo had little issue tracking subjects and any issues I would think had to do with the snow. The camera never slowed down for what it’s worth. And it if can survive the combination of freezing temperatures and snowfall, then I think it’s perfectly suited for professional use.\nLeica SL3: The Most Durable Camera We’ve Used\nIs the Leica SL3 an ideal sports photography camera? The short answer: a resounding yes. The longer version goes like this. The SL series features Leica Looks, which basically allows one to capture photographs that only the company’s camera can produce. So, you edit less and shoot more. Think of this as the film simulation mode on Fujifilm cameras, which basically removes excess time from post-production duties. The 60MP sensor also helps to capture impressive details, which is ideal if you print your work often. In fact, we found that the camera’s high ISO capability is better than most brands out there.\nIn addition, the SL3 offers IP-rated weather sealing and a quick autofocus, and you get a good battery life. All three things make the SL3 quite a package. Sure, the Leica is far more expensive than the other options, but if you are a professional photographer who wants a sports photography camera that can last longer, this one is for you.\nOur standard high ISO test has us taking an image shot at ISO 6400 and printing it at 17×22 inches. We use the Canon Prograf 1000 and Canson Infinity paper. Everything is printed from Capture One, and we do no noise reducton to the image. We also do nothing that would affect the noise rendering at all. The results are impeccable. Compared to the Sony a7r V and the Sony a7c R , the Leica SL3 is much, much cleaner. I can say with full affirmation and confidence that the Leica SL3 has the cleanest high ISO rendering of any 60MP full-frame sensor camera that I’ve used. In fact, it even seems cleaner than the M11 and the Q3 .\nA free mystery box for Lightroom or Capture One\n30% discount on Imalume Photo Theft Protection\n20% off your order from MPIX printing services.\n5% off Viltrox Products via their eCommerce store.\n10% off all film developing, printing and scanning services from Blue Moon Camera and Machine\n15% off 7Artisans products: The lens and accessory maker is offering a sweet discount for Phoblographer's readers.\n15% off a VSCO One subscription: Get a bunch of great tools with their all-in-one package.",
+   "images": [
+    {
+     "file": "23a84aee2f4f.jpg",
+     "w": 1000,
+     "h": 667,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.thephoblographer.com/wp-content/uploads/2026/06/Chris-Gampat-The-Phoblographer-Sony-100-400mm-f4.5-G-Master-review-product-images-ILCE-7RM3E-35-150mm-F2.0-F2.8-A0584.51-20s1600.jpg"
+    },
+    {
+     "file": "58729f820015.jpg",
+     "w": 600,
+     "h": 400,
+     "alt": "A camera with a large lens rests on a bag at an ice rink, with jerseys hanging on the boards.",
+     "cap": "",
+     "src": "https://www.thephoblographer.com/wp-content/uploads/2026/06/Chris-Gampat-The-Phoblographer-Sony-100-400mm-f4.5-G-Master-review-product-images-ILCE-7RM3E-35-150mm-F2.0-F2.8-A0584.51-20s1600-600x400.jpg"
+    },
+    {
+     "file": "5354fad72b92.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.thephoblographer.com/wp-content/uploads/2022/01/Chris-Gampat-The-Phoblographer-Nikon-z9-review-product-images-2.81-80s800-5-2048x1365.jpg"
+    },
+    {
+     "file": "d64db8e2db58.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "A Leica camera with a lens attached, resting in a padded camera bag with accessories nearby.",
+     "cap": "",
+     "src": "https://www.thephoblographer.com/wp-content/uploads/2024/02/Chris-Gampat-The-Phoblographer-Leica-SL3-product-images-review-21-60s400-4-1200x800.jpg"
     }
    ],
    "videos": []
@@ -4862,6 +5578,32 @@
      "alt": "n iPhone displays the Apple iOS 27 Beta software update page in front of an illuminated Apple logo",
      "cap": "",
      "src": "https://helios-i.mashable.com/imagery/articles/03SPbtylknKhl95JDcldvWg/hero-image.fill.size_1248x702.v1781107703.jpg"
+    }
+   ],
+   "videos": []
+  }
+ },
+ {
+  "id": "53f89fa90d",
+  "source": "Báo VietNamNet",
+  "query": "\"Photos app\" (iOS OR iPhone) (\"Clean Up\" OR editing OR AI) -\"release date\"",
+  "cat_hint": "comp",
+  "kind": "gnews",
+  "title": "Apple launches iOS 27, redesigned Siri AI and stronger parental controls",
+  "url": "https://vietnamnet.vn/en/apple-launches-ios-27-redesigned-siri-ai-and-stronger-parental-controls-2524305.html",
+  "date": "2026-09-06T08:46:00+00:00",
+  "summary": "Apple launches iOS 27, redesigned Siri AI and stronger parental controls Báo VietNamNet",
+  "yt": null,
+  "page": {
+   "text": "At WWDC 2026, Apple officially introduced iOS 27, macOS 27 and the broader software ecosystem, featuring a major overhaul of Apple Intelligence, a completely redesigned AI-powered Siri and a suite of enhanced digital management tools for parents.\nA major leap forward for Apple Intelligence and Siri AI\nThe next generation of Apple Intelligence is built on a privacy-first architecture. The platform powers Siri AI, Apple's completely redesigned virtual assistant, which is deeply integrated across iPhone, iPad, Mac, Apple Watch and Apple Vision Pro.\nWith a deeper understanding of personal context, Siri AI can perform complex cross-app actions throughout the system. The assistant is capable of automatically analyzing information from messages, emails and photos, while also supporting on-screen content recognition and internet connectivity for access to up-to-date global knowledge. In addition, conversation history can be synchronized across devices through iCloud while maintaining privacy protections.\nAlongside Siri AI, Apple's application ecosystem is receiving a broad range of artificial intelligence enhancements.\nThe Photos app now includes Spatial Reframing, a feature designed to automatically optimize image composition and improve framing after a photo has been taken.\nImage Playground enables users to generate highly realistic, high-quality digital images from text descriptions.\nSafari, Messages and Mail gain new automation capabilities and intelligent suggestions based on conversation content, including the ability to quickly create notes and reminders.\nStronger parental controls and screen-time management\nApple introduced a new set of intuitive tools designed to help parents create a safer digital environment for children. When a child account is created, age-appropriate protection filters are automatically enabled.\nParents can precisely determine which applications their children are allowed to access. A new scheduling feature enables app access restrictions during specific periods of the day, such as school hours between 8:30 a.m. and 3:00 p.m.\nThe system now requires parental approval before children can connect with new contacts. Additional safeguards are automatically activated if violent or sexually explicit content is detected in shared communications.\nThe new Time Allowances feature enables parents to set total daily device usage limits across three major categories: Entertainment, Gaming and Social Media. Recommended limits are based on guidance from clinical and child development experts.\nApple has redesigned the Screen Time experience with a more intuitive interface that includes visual summaries of average usage and the applications children use most frequently.\nApple's 2026 software updates, including iOS 27, iPadOS 27, macOS 27, watchOS 27 and tvOS 27, focus on enhancing both system responsiveness and visual experiences.\nApplication launch speeds on iPhone and iPad have increased by up to 30%. Photos load up to 70% faster after capture, while AirDrop transfer speeds have improved by 80%.\nFile browsing and transfers between external storage devices and iPad are now up to five times faster, reaching speeds comparable to Finder on Mac. Switching between Wi-Fi and cellular networks has also become more seamless.\nSpotlight, Photos and Mail feature redesigned search interfaces aimed at improving accuracy. Mail additionally introduces a ranking system that prioritizes the most relevant results.\nA new Liquid Glass slider within Settings allows users to adjust interface transparency and color intensity throughout the operating system. App icons have also been refined for improved visual clarity.\nOn macOS 27, Apple is bringing back several classic design elements, including unified toolbars, edge-to-edge sidebars and colored sidebar icons.\nApple said developer beta versions of iOS 27, iPadOS 27, macOS 27, watchOS 27, tvOS 27 and visionOS 27 are available starting today. Public beta releases are scheduled for July, while the official versions will launch this fall.",
+   "images": [
+    {
+     "file": "6d9d74d1e807.jpg",
+     "w": 1000,
+     "h": 523,
+     "alt": "",
+     "cap": "",
+     "src": "https://static-images.vnncdn.net/vps_images_publish/000001/00000Q/2026/6/9/apple-launches-ios-27-redesigned-siri-ai-and-stronger-parental-controls-342e5b860d484a66ac9bb7511509fa4f-1667.jpg?width=0&s=WadhXIynK0y4Pcuf9zSyZA"
     }
    ],
    "videos": []

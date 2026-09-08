@@ -1,5 +1,189 @@
 [
  {
+  "id": "c525354a19",
+  "source": "Camera Jabber",
+  "url": "https://camerajabber.com/photography-news/dxo-releases-photolab-10-0-1-with-nvidia-driver-fix/",
+  "date": "2026-09-08T07:00:00+00:00",
+  "page": {
+   "text": "DxO has released PhotoLab 10.0.1 for Windows, a maintenance update arriving just days after the software’s launch. The headline fix is compatibility with NVIDIA driver 616.56. Details are on the DxO PhotoLab page .\nThe update restores compatibility with NVIDIA’s 616.56 driver and is available with immediate effect.\nThat matters more than a point release usually would, because DxO’s most demanding features lean heavily on the GPU. DeepPRIME XD denoising is among the most graphics-intensive tasks in photography, and PhotoLab 10’s new Depth Masks generate their depth maps using AI processing that also runs on the graphics card. A driver incompatibility on a machine with an NVIDIA card is not a cosmetic problem — it is the difference between the software working as intended and not.\nDriver-related issues of this kind are common enough after a major release, and the speed of the response is worth noting: PhotoLab 10 launched on 1 September, and this fix arrived on the 4th.\nIf you run PhotoLab on Windows with an NVIDIA graphics card, install this before doing anything else — particularly if you have noticed denoising or masking behaving oddly since upgrading. If you are on macOS or using AMD or integrated graphics, it is less urgent.\nIt is also a reminder of something worth knowing generally: graphics drivers and creative software are more tightly coupled than they used to be, and updating a driver the day it appears is not always the safest move when your livelihood runs through the machine.\nPhotoLab 10 introduced Depth Masks, a new Color Grading toolset, expanded AI masking including face segmentation, automatic sensor dust removal and a direct route into Affinity for pixel-level editing.\nPlatform: Windows. Fix: compatibility with NVIDIA driver 616.56 restored. Availability: immediate. Note: the update is free to existing PhotoLab 10 users.\nDxO releases PhotoLab 10.0.1 with NVIDIA driver fix\nDxO has released PhotoLab 10.0.1 for Windows, a maintenance update arriving just days after the software's launch. The headline fix is compatibility with NVIDIA driver 616.56. Details are on the DxO PhotoLab page. What it fixes The update restores compatibility…\nNikon announces nine NIKKOR Z Cinema T1.9 VV lenses covering RED’s sensor\nNikon has announced the development of nine cinema lenses, and this is the first announcement since the RED acquisition where the logic of that deal becomes properly visible. The NIKKOR Z CINEMA T1.9 VV series will cover not only Nikon's…\nNikon ZR firmware 2.00 adds RED colour science — with open gate coming in 2027\nNikon has announced development of firmware version 2.00 for the ZR, and it is a more substantial update than the version number suggests. The headline additions bring RED's colour science further into the camera, and Nikon has confirmed that two…\nGerman brand VZMORE debuts four mini PCs — including an unusual Strix Halo chip\nA new mini PC brand has arrived, and unusually it is European. VZMORE, a German-owned company focused on quiet, high-performance desktop computing, made its global debut at ShowStoppers during IFA 2026 with four machines — and one of them uses…\nZhiyun Weebill 5 price, specifications and availability announced\nZhiyun has opened pre-orders for the Weebill 5, a new three-axis camera gimbal that brings AI subject tracking, a built-in telescoping sling handle and a 3kg payload to a relatively compact 1.08kg body. Interested in picking up the WeeBill 5…\nHollyland’s Pyro 7 Ultra puts a calibrated monitor and 1km wireless in one unit\nOn a professional set, the monitor is not a convenience — it is the reference every department trusts. Hollyland's new Pyro 7 Ultra combines that reference with the wireless transmission that normally requires separate hardware, and does it with genuine…\nLeica revives its Navy spy lens as the Summicron-M 66 f/2\nEvery lens Leica has made in the past century, someone somewhere can buy. The Elcan 66mm f/2 is the exception — a lens built for the US Navy in the late 1960s, never sold publicly, of which only around 200…\nHohem previews Eyepic, its first camera, at IFA 2026\nHohem has spent years making gimbals for other people's cameras. At IFA 2026 it has previewed its first camera of its own — the Eyepic, which it describes as the world's first 2-in-1 pocket gimbal camera. Details are on Hohem's…",
+   "images": [
+    {
+     "file": "f5a4d9d6dc1e.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "PhotoLab 10",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/DxO-PhotoLab-10-news-1024x575.webp"
+    },
+    {
+     "file": "b748999ad033.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "DxO releases PhotoLab 10.0.1 with NVIDIA driver fix",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/DxO-PhotoLab-10-news.webp"
+    },
+    {
+     "file": "c23c2cb35241.jpg",
+     "w": 1000,
+     "h": 563,
+     "alt": "Nikon announces nine NIKKOR Z Cinema T1.9 VV lenses covering RED’s sensor",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Nikkor-Cine-50mm-news.webp"
+    },
+    {
+     "file": "92f7b6ac9803.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Nikon ZR firmware 2.00 adds RED colour science — with open gate coming in 2027",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Nikon-ZR-Firmware-2-news.webp"
+    },
+    {
+     "file": "76d01775355a.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "German brand VZMORE debuts four mini PCs — including an unusual Strix Halo chip",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/VZMORE.webp"
+    },
+    {
+     "file": "cb3a7bb9bee1.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Zhiyun Weebill 5 price, specifications and availability announced",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/WeeBill-5-news-02.webp"
+    },
+    {
+     "file": "351d4b224670.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "Hollyland’s Pyro 7 Ultra puts a calibrated monitor and 1km wireless in one unit",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Pyro-7-Ultra-news.webp"
+    },
+    {
+     "file": "84f21fd5107e.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Leica revives its Navy spy lens as the Summicron-M 66 f/2",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Summicron-M-66-news.webp"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "DxO випустила PhotoLab 10.0.1 з виправленням для драйвера NVIDIA 616.56",
+  "lead": "DxO випустила PhotoLab 10.0.1 для Windows — сервісне оновлення за кілька днів після релізу десятої версії. Головне виправлення: відновлена сумісність із драйвером NVIDIA 616.56.",
+  "full": [
+   "PhotoLab 10 вийшов 1 вересня, виправлення з'явилося 4-го. Оновлення доступне негайно і безкоштовне для наявних користувачів PhotoLab 10; стосується лише Windows.",
+   "Проблема була не косметичною: найважчі функції PhotoLab спираються на відеокарту. DeepPRIME XD — один із найвимогливіших до графіки алгоритмів денойзу, а нові Depth Masks у десятій версії будують карти глибини теж на GPU. Несумісність драйвера означала, що денойз і маскування могли працювати некоректно.",
+   "Нагадаємо, PhotoLab 10 приніс маски глибини, новий набір інструментів Color Grading, розширене AI-маскування із сегментацією обличчя, автоматичне видалення пилу з сенсора та прямий перехід у Affinity для піксельного редагування. Для macOS, а також для AMD та інтегрованої графіки оновлення менш термінове."
+  ],
+  "means": "Depth Masks у DxO прямо перетинаються з нашими Bokeh AI та Mask AI, які теж рахують карту глибини на GPU: зв'язка «драйвер + AI-обчислення» стала реальною точкою відмови й для Luminar Neo. Варто перевірити поведінку Noiseless AI, Mask AI та Supersharp AI на драйвері NVIDIA 616.56 і мати процедуру швидкого хотфіксу. DxO закрила проблему за три дні після релізу — це планка швидкості реакції, з якою нас порівнюватимуть.",
+  "importance": 2,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  }
+ },
+ {
+  "id": "05009849db",
+  "source": "GIGAZINE",
+  "url": "https://gigazine.net/gsc_news/en/20260908-instagram-ai-detection/",
+  "date": "2026-09-08T04:52:00+00:00",
+  "page": {
+   "text": "Since May 2024, Meta has implemented a policy of labeling AI-generated content with ' AI Info (Made with AI) '. Although they have continued to improve their detection capabilities, since around the end of August 2026, numerous false positives have been reported, such as clearly AI-generated images not being labeled, and human-taken photos being labeled. Instagram's AI detection is a mess (again) | The Verge https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion\nMeta has established an independent oversight body called the Oversight Board to ensure it doesn't make wrong decisions when deciding whether to remove or retain content on platforms like Facebook and Instagram. Based on feedback from this Oversight Board that 'it is necessary to update its approach to reflect a broader range of existing content and to provide context about content through labels,' Meta announced in April 2024 that it would label AI-generated content on Facebook, Instagram, and Threads as 'Made with AI.' The 'Made with AI' label was introduced in May 2024, but some photographers pointed out that it was being applied to photos they had edited using Adobe Photoshop and other image editing software. In response to these complaints, Meta changed the label name from 'Made with AI' to 'AI info' in July of the same year. Meta changes the name of its 'Made with AI' label, which indicates AI-generated content, to 'AI info' following complaints from photographers - GIGAZINE\nSince then, Meta's AI research institute, 'Meta Superintelligence Labs,' has continued to advance its use of AI while also emphasizing the principle that 'people need tools to identify AI-generated content.' In early July 2026, they released a research demo of an AI identification tool that can detect whether an uploaded image was created with Meta's AI. Furthermore, on July 28, 2026, Meta announced its intention to sign the code of conduct regarding transparency of AI-generated content under the 'EU AI Law,' which has been in effect in the EU since August 2024. Meta signs EU code of conduct on transparency for AI-generated content - GIGAZINE\nWhile Meta emphasizes transparency in AI-generated content, there have been numerous reports since around July 2026 that Instagram's AI labeling function has been malfunctioning. Corkscrew Curiosities , a vintage and antique retailer in Henderson, Kentucky, has reported on its Instagram account that 'we've noticed that Meta has started automatically classifying posts as AI-generated when creators use certain tools, such as background removal tools. At Corkscrew Curiosities, we use a lot of tools for our business and art production. Almost all of these tools have AI features that we don't consciously use, and some have been using various forms of AI-assisted tools, such as subject selection and background removal, for years.' They are being labeled as using AI-infused tools even if they don't use generative AI.\nPosts on Corkscrew Curiosities report similar cases, such as 'My background got an AI label after I used the background removal tool just once' and 'An ad I spent four hours working on using all my own content got an AI label after I used the 'Create Layer' tool.' Another post pointed out the problem of 100% hand-drawn art being given an AI label and being unable to appeal for a correction. Furthermore, according to one Threads user, using the healing brush in the graphic design software Canva can instantly flag the entire piece as an AI asset, which may then be applied to Instagram's labeling. Canva's FAQs address the question, 'Is it possible that using the background removal tool could flag my posts as AI-generated on social media?' and state, 'Canva only adds AI-generated content metadata when AI editing features create entirely new content or significantly alter it. The background removal feature does not fall into either of these categories, so it does not add metadata to your designs.'\nFurthermore, according to The Verge, when they test-posted images containing C2PA and SynthID embedded in AI-generated images, Instagram did not tag either as an AI-generated image. They also conducted tests to make a newly created Instagram account behave like a bot or AI farm, but the account was left untouched for over two weeks without any enforcement action being taken. The Verge points out, 'We conducted our own tests with multiple tools, and found that the only signal that we are certain triggers for Instagram to apply AI labels is the one applied by Meta's own generative AI system. Looking at these results, we cannot help but question the validity of how Meta applies its AI labels.'\nMeta changes name of 'Made with AI' label for AI-generated content to 'AI info' after photographer complaints\nGoogle's AI advertising tools automatically add an 'AI-generated' label to ads created using them, making it easier to determine whether an ad is AI-generated or not, not just for election campaigns but for all types of advertising.\nPinterest rolls out 'AI modified' labels to identify images that have been generated or edited with AI, using metadata and proprietary AI classifiers to identify them\nGetty Images prohibits uploading and selling images generated by image generation AI ``Stable Diffusion'', ``Midjourney'', ``DALL-E'', etc., due to concerns that users may face legal risks\nAnthropic has announced that it will embed an 'invisible watermark' into text generated by Claude, and this will be applied worldwide, including in Japan.\nReports that Meta is labeling real photos as 'AI-made'\nMeta announces labeling of AI-generated images on Instagram, Facebook, and Threads\nSep 08, 2026  13:52:00 in AI , Web Service ,  Posted by log1e_dh",
+   "images": [
+    {
+     "file": "d609b55b7735.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2026/09/08/instagram-ai-detection/00.jpg"
+    },
+    {
+     "file": "945a69271270.jpg",
+     "w": 560,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2026/09/08/instagram-ai-detection/00_m.jpg"
+    },
+    {
+     "file": "09c1d4b6ea69.jpg",
+     "w": 560,
+     "h": 327,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2026/09/08/instagram-ai-detection/001.png"
+    },
+    {
+     "file": "b7b1e10082e9.jpg",
+     "w": 560,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2024/07/02/meta-ai-info/00_m.jpg"
+    },
+    {
+     "file": "f631a7750a21.jpg",
+     "w": 560,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2026/07/29/meta-eu-ai-content/00_m.jpg"
+    },
+    {
+     "file": "af33561a8a1a.jpg",
+     "w": 560,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2026/07/10/google-new-ai-labels-for-ads/00_m.png"
+    },
+    {
+     "file": "993173037c7c.jpg",
+     "w": 560,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2025/05/02/pinterest-gen-ai-labels/00_m.png"
+    },
+    {
+     "file": "5329366c0d14.jpg",
+     "w": 560,
+     "h": 315,
+     "alt": "",
+     "cap": "",
+     "src": "https://i.gzn.jp/img/2022/09/22/copyright-issues-getty-images-bans-ai-generated-artwork/00_m.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Мітки «AI info» в Instagram масово помиляються на знятих камерою фото",
+  "lead": "З кінця серпня 2026 року зросла кількість скарг на автоматичне маркування AI-контенту в Instagram: явні генерації лишаються без позначки, а справжні фотографії отримують мітку «AI info».",
+  "full": [
+   "Meta запровадила позначення AI-контенту в травні 2024 року під назвою «Made with AI» — за рекомендацією власного Oversight Board. Уже тоді фотографи вказували, що мітку отримували знімки, оброблені в Adobe Photoshop та інших редакторах, і в липні того ж року Meta перейменувала її на «AI info».",
+   "У 2026-му компанія продовжила курс на прозорість: у липні показала дослідницьке демо інструменту, який визначає, чи створене зображення її власними AI-моделями, а 28 липня оголосила про намір підписати кодекс поведінки щодо прозорості AI-контенту в межах EU AI Act. Попри це, повідомлення про збої маркування надходять із липня 2026 року — про хвилю помилок написав The Verge.",
+   "Серед постраждалих — звичайні продавці: вінтажна крамниця Corkscrew Curiosities з Гендерсона (Кентуккі) повідомила, що Meta почала автоматично позначати її зображення товарів як AI-контент."
+  ],
+  "means": "Платформи не відрізняють генеративне редагування від класичної обробки, тож фото з GenErase, GenSwap чи GenExpand у Luminar Neo можуть отримати мітку AI в Instagram — а разом із ними й знімки, де застосовано лише Enhance AI чи Noiseless AI. Це аргумент чітко розділяти в інтерфейсі генеративні й негенеративні інструменти та ретельно ставитися до метаданих (Content Credentials/C2PA) в експорті. Для Luminar Mobile, де шлях «обробив — одразу опублікував» найкоротший, помилкова мітка б'є по довірі аудиторії напряму.",
+  "importance": 3,
+  "category": "market",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  }
+ },
+ {
   "id": "2b6e7bf334",
   "source": "Android Authority",
   "url": "https://www.androidauthority.com/arm-mali-g2-ultra-deep-dive-3706351/",
@@ -97,6 +281,42 @@
   "means": "Головний практичний висновок для нас — юридична ціна навчання на користувацьких фото. Позов прямо звʼязує генеративну модель (Muse Image) із біометрикою, тож будь-яка наша хмарна обробка портретів у Face AI, Skin AI, Portrait Bokeh і GenSwap має мати однозначну політику: фото користувачів не потрапляють у тренувальні набори, а обробка портретів у BIPA-штатах потребує явної згоди. Це також аргумент на користь on-device обробки портретних інструментів у Luminar Mobile. Варто перевірити формулювання наших умов використання щодо «facial geometry» — саме за цим терміном BIPA і бʼє.",
   "importance": 3,
   "category": "market",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  }
+ },
+ {
+  "id": "366979f283",
+  "source": "appleinsider.com",
+  "url": "https://appleinsider.com/articles/26/09/07/apple-is-packing-more-pro-photography-tools-into-ios-27",
+  "date": "2026-09-07T17:10:00+00:00",
+  "page": {
+   "text": "Apple appears to be preparing a slate of more advanced photography tools for the iPhone , including exposure scopes, focus peaking, and expanded manual focus controls.\nWe already know that Apple is improving the Camera app in iOS 27 . Now, new beta code gives us a sneak peek into what we can expect in the fall.\nThe references appeared in iOS 27 beta code, first spotted by pdfu, a MacRumors forum regular. Five new features could appear at launch or in a future update.\nThe first is a new exposure scopes feature, including implementation of waveform and histogram displays. This will help users judge exposures in different formats.\nThe histogram will show a user what percentage of pixels are over- or underexposed. The waveform will show similar information but line that information up with the areas in the frame.\nAnother feature is focus peaking, which will highlight the edges of whatever's currently in focus. A colored outline will show what's in focus, while a secondary overlay will warn users when part of the image is overexposed.\nThe Camera app is also getting a new timer option. Now, users will be able to set the timer to take several shots in a row, with a countdown starting right away instead of waiting for the photo to finish saving.\nManual focusing will also be bolstered in iOS 27. This feature will be similar to what is already available in Apple's current Final Cut Camera app.\nAs pdfu notes, a version of this existed in iOS 26 with a focus slider, but the slider had been removed in the iOS 27 beta. Allegedly, the feature will be restricted to devices that ship with iOS 27, so it won't work on any current iPhone models.\nLastly, Apple could be changing how photos are processed on future iPhones. Aperture-based image corrections may arrive with a new iPhone that would feature a variable aperture, which is suspected for the iPhone 18 Pro.\nNone of these features are currently available to users with current betas. Apple may not release all of these features in the September release, either.",
+   "images": [
+    {
+     "file": "7a15832ba98f.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "",
+     "cap": "",
+     "src": "https://media.appleinsider.com/gallery/68626-144584-000-lede-cameras-xl.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Бета iOS 27: гістограма, waveform і focus peaking у камері iPhone",
+  "lead": "У коді бети iOS 27 знайшли п'ять професійних функцій камери iPhone: експозиційні скопи (гістограма і waveform), focus peaking, серійний таймер та розширене ручне фокусування.",
+  "full": [
+   "Знахідку зробив учасник форуму MacRumors під ніком pdfu. Гістограма показуватиме відсоток пере- і недоекспонованих пікселів, а waveform прив'яже ту саму інформацію до конкретних ділянок кадру. Focus peaking підсвітить кольоровим контуром те, що зараз у фокусі, а окремий оверлей попереджатиме про перевитримку.",
+   "Таймер зможе робити кілька кадрів поспіль, причому зворотний відлік стартуватиме одразу, не чекаючи збереження попереднього фото. Ручне фокусування буде подібним до наявного в застосунку Final Cut Camera; за даними джерела, воно працюватиме лише на пристроях, які вийдуть уже з iOS 27. Окремо в коді згадано корекції зображення на основі діафрагми — імовірно, для очікуваного iPhone 18 Pro зі змінною діафрагмою.",
+   "Жодна з функцій поки не доступна в поточних бетах, і Apple може випустити їх не у вересневому релізі, а пізніше."
+  ],
+  "means": "Apple підтягує iPhone до pro-зйомки, тож на вхід у Luminar Mobile частіше потраплятимуть свідомо експоновані кадри, а не «врятуй пересвітку» — акцент варто зміщувати з рятувальних інструментів на творчі (Relight, Sky, пресети). Користувачі, що звикають до гістограми й focus peaking під час зйомки, очікуватимуть подібної аналітики експозиції і в редакторі. Якщо змінна діафрагма та пов'язані з нею корекції справді з'являться, нові метадані iPhone доведеться врахувати в RAW-конвеєрі Luminar Neo.",
+  "importance": 2,
+  "category": "comp",
   "media": {
    "kind": "image",
    "hero_image": 0,
@@ -328,7 +548,7 @@
  },
  {
   "id": "d5cc47f5a3",
-  "source": "Briefia",
+  "source": "Brief IA",
   "url": "https://www.briefia.fr/en/article/adobe-detaille-sa-methode-en-8-elements-pour-les-prompts-d-images-ia",
   "date": "2026-09-07T07:10:54+00:00",
   "page": {
@@ -363,7 +583,7 @@
  },
  {
   "id": "abb69a1313",
-  "source": "IBTimes",
+  "source": "International Business Times",
   "url": "https://www.ibtimes.com/metas-new-ai-can-turn-instagram-photos-deepfakes-most-public-users-are-included-unless-they-opt-3805134",
   "date": "2026-09-07T05:09:25+00:00",
   "page": {
@@ -776,6 +996,50 @@
   "media": {
    "kind": "none",
    "hero_image": null,
+   "video": null
+  }
+ },
+ {
+  "id": "7805be2ad8",
+  "source": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-calls-adobe-a-fat-pitch-in-latest-saas-analysis-backs-firefly-and-ai-tie-ups-with-open-ai-google/cZgSWDzRet8",
+  "date": "2026-09-07T01:56:19+00:00",
+  "page": {
+   "text": "Adobe’s Firefly AI products, rising enterprise adoption, and deep integration across large organizations and creative workflows are deep moats, Burry said.\nBurry said he views Intuit, Autodesk, and Unity Software as strong businesses but said he avoided them due to high valuations.\nThe investor was bearish on Zscaler, Palo Alto Networks, and CrowdStrike.\nMichael Burry published the second installment of his six-part series analyzing software companies on Thursday, this time focusing on the productivity tools and cybersecurity space.\nIn a lengthy blog post that discussed Adobe, Intuit, Autodesk, Unity Software, Zscaler, Palo Alto Networks, and CrowdStrike, Burry noted that Adobe looks the most promising in the group.\nAdobe’s forward outlook remains stronger than the market assumes, despite fears that AI could disrupt its core creative software business, Burry argued.\nThe bullish view is driven by strong early traction for Firefly AI products, rising enterprise adoption, and Adobe’s deep integration across large organizations and creative workflows. The piece also highlights Adobe’s advantage in managing proprietary customer IP and its massive ecosystem reach, with 850 million monthly active users and relationships with 99 of the Fortune 100.\n“Those 850 million monthly active users plus Adobe’s wide distribution across and within Anthropic, OpenAI, Google, and Microsoft amount to an aggressive moat,” Burry wrote. “If and when AI agents try to compete, Adobe still puts forth platform-agnostic connections across all four foundation-model ecosystems and has effective control of the playing field.”\nWhile competition from AI-native tools, Canva and Figma remains a real threat, the argument is that human creativity and Adobe’s entrenched ecosystem position the company to adapt and potentially benefit from the AI transition rather than be displaced by it.\nMoving to other names, Burry indicated he views Intuit, Autodesk, and Unity Software as operationally strong businesses with defensible positions against AI, yet avoids them because their valuations remain bloated, among other factors.\nBurry expressed skepticism toward the cybersecurity trio, Zscaler, Palo Alto Networks, and CrowdStrike, citing their vulnerability to frontier AI models like Anthropic's Mythos, among other factors.\n“Cybersecurity companies are a different animal – the threat of advanced frontier autonomous AI models such as Mythos from Anthropic would seem to increase the business case for cybersecurity. And it is,” Burry wrote.\nHere’s how Burry rated the companies discussed based on his proprietary metrics:\nClassification: An AI-resilience tier mapping competitive moats against automation risk, ranging from impenetrable (Castle), to edge-threatened (Chapel), to highly vulnerable (Stone).\nSW50 Rank: The stock’s relative risk-reward position within a 50-company software universe, scaled from best (1/50) to worst (50/50).\nP/IV15: A valuation multiple tracking stock price against conservative owners' earnings discounted at 15%; values under 1.0x signal underpriced assets, while high multiples indicate severe overvaluation.\nComposite Score: A 0–100 fundamental health metric combining AI defense and valuation while heavily penalizing structural stock-based compensation dilution.\nFor updates and corrections, email newsroom[at]stocktwits[dot]com.\nRead Next: MU Stock Gets Anthropic Boost, More PT Hikes — Market Cap Holds Above $1 Trillion, But Analysts Foresee A Slide\nComments posted here will also appear on symbol pages.",
+   "images": [
+    {
+     "file": "c86dc346c93a.jpg",
+     "w": 1000,
+     "h": 647,
+     "alt": "",
+     "cap": "",
+     "src": "https://news.stocktwits-cdn.com/large_Michael_Bury_resized_jpg_14e6fc7c2b.webp"
+    },
+    {
+     "file": "638ac9cdfb01.jpg",
+     "w": 1000,
+     "h": 897,
+     "alt": "Profile Image",
+     "cap": "",
+     "src": "https://news.stocktwits-cdn.com/IMG_9209_1_d9c1acde92.jpeg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Майкл Беррі назвав Adobe найперспективнішою у SaaS завдяки Firefly",
+  "lead": "Інвестор Майкл Беррі опублікував другу частину циклу оглядів софтверних компаній і назвав Adobe найпривабливішою в групі — попри страх ринку, що AI зруйнує її основний бізнес.",
+  "full": [
+   "За аргументацією Беррі, ринок недооцінює перспективи Adobe: раннє поширення продуктів Firefly, зростання корпоративного впровадження і глибока інтеграція у процеси великих організацій формують широкий захисний рів. Він наводить 850 млн активних користувачів на місяць і роботу з 99 компаніями зі списку Fortune 100.",
+   "Окремий аргумент — платформна незалежність: за словами Беррі, Adobe має конектори до чотирьох екосистем базових моделей (Anthropic, OpenAI, Google, Microsoft), тож навіть якщо AI-агенти спробують конкурувати, вона фактично контролює поле гри. Загрозу з боку AI-native інструментів, Canva і Figma він визнає реальною, але вважає, що Adobe радше виграє від переходу до AI, ніж постраждає.",
+   "У тому ж огляді Беррі назвав Intuit, Autodesk і Unity сильними бізнесами, які він оминає через завищені оцінки, і скептично оцінив кібербезпекові Zscaler, Palo Alto Networks та CrowdStrike."
+  ],
+  "means": "Це маркер того, як ринок читає вартість креативного софту: цінність бачать не в окремих фічах, а в дистрибуції та інтеграції в чужі екосистеми. Luminar Neo конкурує з Adobe не масштабом, а швидкістю результату, тож плагіни для Lightroom Classic і Photoshop лишаються нашим найдешевшим каналом до тієї самої аудиторії. Теза про незалежність від одного постачальника моделей стосується і нас: прив'язка хмарних GenErase, GenSwap та GenExpand до єдиного вендора — стратегічний ризик.",
+  "importance": 2,
+  "category": "market",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
    "video": null
   }
  },
