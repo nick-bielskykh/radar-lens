@@ -53,6 +53,7 @@ def slim(it, inline):
     if not imgs and m.get("kind") in ("image", "gallery"): m["kind"] = "none"
     out = {k: it[k] for k in ("id", "source", "url", "date", "title", "lead", "full", "means", "importance", "category")} | {"media": m, "page": {"images": imgs, "videos": [v for v in p["videos"] if v.get("yt")]}}
     if it.get("tweet"): out["tweet"] = it["tweet"]
+    out["added"] = it.get("added")
     return out
 
 import html

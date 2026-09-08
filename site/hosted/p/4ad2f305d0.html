@@ -56,6 +56,9 @@ a{color:inherit}
   .filters .chip:first-child{margin-left:0}
 }
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
+.head .new{background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px}
+.seen-sep{display:flex;align-items:center;gap:14px;color:var(--ink3);font-size:13px;font-weight:600;margin:10px 0 2px}
+.seen-sep::before,.seen-sep::after{content:"";flex:1;border-top:1px dashed var(--line2)}
 
 /* ---------- post ---------- */
 .post{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 28px 16px;display:flex;flex-direction:column;gap:14px}
@@ -148,7 +151,7 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
 const SINGLE=true;
-const ITEMS=[{"id": "4ad2f305d0", "source": "Biometric Update", "url": "https://www.biometricupdate.com/202609/meta-sued-over-alleged-facial-recognition-training-for-smart-glasses", "date": "2026-09-07T21:51:00+00:00", "title": "Позов проти Meta: фейспринти з фото Facebook та Instagram", "lead": "У федеральному суді Північного округу Іллінойсу подали 66-сторінковий колективний позов проти Meta. Компанію звинувачують у витягуванні біометричних даних із фото користувачів і не-користувачів для нерелізованої системи розпізнавання облич і в навчанні генеративних моделей без згоди.", "full": ["Справа Alvarez et al. v. Meta Platforms подана від імені мешканця Іллінойсу Франсіско Альвареса з неповнолітньою дитиною та каліфорнійця Джеремі Воля з донькою. Позивачі посилаються на іллінойський закон про біометричну інформацію BIPA, каліфорнійські норми про право на публічність і на конституційні гарантії приватності штату.", "У центрі претензій — NameTag, технологія розпізнавання облич для окулярів Ray-Ban і Oakley та застосунку Meta AI. Про її існування стало відомо в червні, коли WIRED знайшов неактивний код NameTag у застосунку. Система мала перетворювати побачене крізь камеру окулярів обличчя на біометричний підпис і звіряти його з фейспринтами, збереженими на телефоні власника. За позовом, Meta брала фото з Facebook та Instagram, витягала числові представлення облич і створювала біометричні ідентифікатори для цієї бази.", "Окремий блок звинувачень стосується генеративних моделей: позивачі стверджують, що навчання Emu та її наступниці Muse Image на фото з обличчями закодувало ознаки ідентичності в параметрах моделі, латентних представленнях та інших математичних формах. Тобто питання ставиться не про те, чи ввімкнула Meta розпізнавання для споживачів, а про те, як вона будувала систему й біометричну базу. Meta оскаржує суттєві частини цієї характеристики."], "means": "Головний практичний висновок для нас — юридична ціна навчання на користувацьких фото. Позов прямо звʼязує генеративну модель (Muse Image) із біометрикою, тож будь-яка наша хмарна обробка портретів у Face AI, Skin AI, Portrait Bokeh і GenSwap має мати однозначну політику: фото користувачів не потрапляють у тренувальні набори, а обробка портретів у BIPA-штатах потребує явної згоди. Це також аргумент на користь on-device обробки портретних інструментів у Luminar Mobile. Варто перевірити формулювання наших умов використання щодо «facial geometry» — саме за цим терміном BIPA і бʼє.", "importance": 3, "category": "market", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/7e6a941a1244.jpg", "w": 1000, "h": 579, "alt": ""}], "videos": []}}];
+const ITEMS=[{"id": "4ad2f305d0", "source": "Biometric Update", "url": "https://www.biometricupdate.com/202609/meta-sued-over-alleged-facial-recognition-training-for-smart-glasses", "date": "2026-09-07T21:51:00+00:00", "title": "Позов проти Meta: фейспринти з фото Facebook та Instagram", "lead": "У федеральному суді Північного округу Іллінойсу подали 66-сторінковий колективний позов проти Meta. Компанію звинувачують у витягуванні біометричних даних із фото користувачів і не-користувачів для нерелізованої системи розпізнавання облич і в навчанні генеративних моделей без згоди.", "full": ["Справа Alvarez et al. v. Meta Platforms подана від імені мешканця Іллінойсу Франсіско Альвареса з неповнолітньою дитиною та каліфорнійця Джеремі Воля з донькою. Позивачі посилаються на іллінойський закон про біометричну інформацію BIPA, каліфорнійські норми про право на публічність і на конституційні гарантії приватності штату.", "У центрі претензій — NameTag, технологія розпізнавання облич для окулярів Ray-Ban і Oakley та застосунку Meta AI. Про її існування стало відомо в червні, коли WIRED знайшов неактивний код NameTag у застосунку. Система мала перетворювати побачене крізь камеру окулярів обличчя на біометричний підпис і звіряти його з фейспринтами, збереженими на телефоні власника. За позовом, Meta брала фото з Facebook та Instagram, витягала числові представлення облич і створювала біометричні ідентифікатори для цієї бази.", "Окремий блок звинувачень стосується генеративних моделей: позивачі стверджують, що навчання Emu та її наступниці Muse Image на фото з обличчями закодувало ознаки ідентичності в параметрах моделі, латентних представленнях та інших математичних формах. Тобто питання ставиться не про те, чи ввімкнула Meta розпізнавання для споживачів, а про те, як вона будувала систему й біометричну базу. Meta оскаржує суттєві частини цієї характеристики."], "means": "Головний практичний висновок для нас — юридична ціна навчання на користувацьких фото. Позов прямо звʼязує генеративну модель (Muse Image) із біометрикою, тож будь-яка наша хмарна обробка портретів у Face AI, Skin AI, Portrait Bokeh і GenSwap має мати однозначну політику: фото користувачів не потрапляють у тренувальні набори, а обробка портретів у BIPA-штатах потребує явної згоди. Це також аргумент на користь on-device обробки портретних інструментів у Luminar Mobile. Варто перевірити формулювання наших умов використання щодо «facial geometry» — саме за цим терміном BIPA і бʼє.", "importance": 3, "category": "market", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/7e6a941a1244.jpg", "w": 1000, "h": 579, "alt": ""}], "videos": []}, "added": "2026-09-08T04:10:33+00:00"}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];
@@ -199,7 +202,7 @@ function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
   <article id="${it.id}" class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
-    <div class="head"><span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
+    <div class="head">${isNew(it)?'<span class="new">нове</span>':''}<span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
     <h3 class="title">${it.title}</h3>
     ${it.tweet?tweetCard(it):media(it)}
     <p class="lead">${it.lead}</p>
@@ -213,6 +216,10 @@ function post(it,showDay){
   </article>`;
 }
 let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого; не зберігається між завантаженнями
+// «нове» = додано у стрічку після останнього візиту цього браузера (по added, не по даті джерела)
+let lastSeen=null; try{lastSeen=localStorage.getItem('lr.seen')}catch(_){}
+const isNew=it=>!!lastSeen&&!!it.added&&it.added>lastSeen;
+function markSeen(){try{const mx=ITEMS.reduce((m,it)=>it.added>m?it.added:m,'');if(mx)localStorage.setItem('lr.seen',mx)}catch(_){}}
 function visible(){return SINGLE?ITEMS:ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
@@ -222,7 +229,8 @@ function renderFilters(){
 function render(){
   renderFilters();
   const all=visible(), list=all.slice(0,shown);let last='';
-  document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
+  const lastNew=list.reduce((k,it,i)=>isNew(it)?i:k,-1), anyOld=lastNew>=0&&lastNew<all.length-1;
+  document.getElementById('feed').innerHTML=list.map((it,i)=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)+(i===lastNew&&anyOld?'<div class="seen-sep"><span>Далі — те, що ви вже бачили</span></div>':'')}).join('')
    +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
    +(all.length?'':'<div class="empty">Тут поки нема новин.</div>');
 }
@@ -273,5 +281,5 @@ document.getElementById('feed').addEventListener('click',e=>{
   const id=m.closest('.post').dataset.id;
   state.open.has(id)?state.open.delete(id):state.open.add(id); render();
 });
-render();
+render(); if(!SINGLE) window.addEventListener('pagehide',markSeen);
 </script>

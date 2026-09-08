@@ -56,6 +56,9 @@ a{color:inherit}
   .filters .chip:first-child{margin-left:0}
 }
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
+.head .new{background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px}
+.seen-sep{display:flex;align-items:center;gap:14px;color:var(--ink3);font-size:13px;font-weight:600;margin:10px 0 2px}
+.seen-sep::before,.seen-sep::after{content:"";flex:1;border-top:1px dashed var(--line2)}
 
 /* ---------- post ---------- */
 .post{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 28px 16px;display:flex;flex-direction:column;gap:14px}
@@ -148,7 +151,7 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
 const SINGLE=true;
-const ITEMS=[{"id": "2b6e7bf334", "source": "Android Authority", "url": "https://www.androidauthority.com/arm-mali-g2-ultra-deep-dive-3706351/", "date": "2026-09-08T02:00:53+00:00", "title": "Arm Mali G2: нейроблок NX робить апскейл на смартфоні за 1 Вт", "lead": "Arm представила покоління мобільних GPU Mali G2 з опційним нейроприскорювачем NX усередині шейдерного ядра. Він виконує нейромережевий апскейл і денойз просто у графічному конвеєрі, споживаючи близько 1 Вт.", "full": ["NX підтримує операції INT8 та INT16, має власний блок обробки руху, працює на частоті до вдвічі вищій за основний GPU при тій самій напрузі й ділить памʼять з рештою GPU-підсистеми задля когерентності. Це перший випадок, коли Arm вбудовує нейроприскорювач безпосередньо в шейдерне ядро Mali.", "У демо Neural Dawn компанія показала перехід з непридатних 15 кадрів/с до стабільних 60 при бюджеті трохи більше 2 Вт — вчетверо вищий фреймрейт і на 70% менший трафік до DRAM порівняно з торішнім G1-Ultra. Досягається це двократним Neural Super Sampling and Denoising з 540p до 1080p (денойз трасування променів іде тим самим проходом) плюс Neural Frame Rate Upscaling з 30 до 60 кадрів.", "На відміну від узагальнених апскейлерів на кшталт TAA, Neural Super Sampling натренована на реальних ігрових даних і відновлює дрібні деталі з чверті вхідних даних, має вбудований антиаліасинг і, за словами Arm, кращу темпоральну стабільність — менше джитеру й гостингу. Растеризація в G2-Ultra виросла на 9–14% (до 17–20% у найважчих бенчмарках), трасування променів — на 18–24%."], "means": "Для Luminar Mobile це сигнал, що наступна хвиля Android-флагманів матиме дешевий за енергією нейроблок прямо в GPU, а не лише окремий NPU. Це відкриває шлях до on-device версій Upscale AI, Supersharp AI і Noiseless AI на Android без хмарних викликів і затримок. Застереження: NX заточений під ігрову графіку (INT8/INT16 і motion engine під темпоральні кадри), тож фоторедагування потребуватиме окремої моделі й шляху виконання. Варто заздалегідь звірити наші вимоги з тим, що Arm відкриє через API, бо Android-версія в нас і так слабша за iOS.", "importance": 3, "category": "ai", "media": {"kind": "gallery", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/e2ca2b5c1435.jpg", "w": 675, "h": 371, "alt": "Arm Mali G2 Ultra NSS Upscaling"}, {"uri": "/img/842ce8e3da35.jpg", "w": 1000, "h": 562, "alt": ""}, {"uri": "/img/2ddf97468928.jpg", "w": 675, "h": 362, "alt": "Arm Mali G2 Ultra execution engine"}, {"uri": "/img/e15fdad43d29.jpg", "w": 675, "h": 307, "alt": "Arm Mali G2 Ultra neural accelerator"}, {"uri": "/img/170a2ce24540.jpg", "w": 675, "h": 466, "alt": "Arm CSS for Mobile 2"}], "videos": []}}];
+const ITEMS=[{"id": "2b6e7bf334", "source": "Android Authority", "url": "https://www.androidauthority.com/arm-mali-g2-ultra-deep-dive-3706351/", "date": "2026-09-08T02:00:53+00:00", "title": "Arm Mali G2: нейроблок NX робить апскейл на смартфоні за 1 Вт", "lead": "Arm представила покоління мобільних GPU Mali G2 з опційним нейроприскорювачем NX усередині шейдерного ядра. Він виконує нейромережевий апскейл і денойз просто у графічному конвеєрі, споживаючи близько 1 Вт.", "full": ["NX підтримує операції INT8 та INT16, має власний блок обробки руху, працює на частоті до вдвічі вищій за основний GPU при тій самій напрузі й ділить памʼять з рештою GPU-підсистеми задля когерентності. Це перший випадок, коли Arm вбудовує нейроприскорювач безпосередньо в шейдерне ядро Mali.", "У демо Neural Dawn компанія показала перехід з непридатних 15 кадрів/с до стабільних 60 при бюджеті трохи більше 2 Вт — вчетверо вищий фреймрейт і на 70% менший трафік до DRAM порівняно з торішнім G1-Ultra. Досягається це двократним Neural Super Sampling and Denoising з 540p до 1080p (денойз трасування променів іде тим самим проходом) плюс Neural Frame Rate Upscaling з 30 до 60 кадрів.", "На відміну від узагальнених апскейлерів на кшталт TAA, Neural Super Sampling натренована на реальних ігрових даних і відновлює дрібні деталі з чверті вхідних даних, має вбудований антиаліасинг і, за словами Arm, кращу темпоральну стабільність — менше джитеру й гостингу. Растеризація в G2-Ultra виросла на 9–14% (до 17–20% у найважчих бенчмарках), трасування променів — на 18–24%."], "means": "Для Luminar Mobile це сигнал, що наступна хвиля Android-флагманів матиме дешевий за енергією нейроблок прямо в GPU, а не лише окремий NPU. Це відкриває шлях до on-device версій Upscale AI, Supersharp AI і Noiseless AI на Android без хмарних викликів і затримок. Застереження: NX заточений під ігрову графіку (INT8/INT16 і motion engine під темпоральні кадри), тож фоторедагування потребуватиме окремої моделі й шляху виконання. Варто заздалегідь звірити наші вимоги з тим, що Arm відкриє через API, бо Android-версія в нас і так слабша за iOS.", "importance": 3, "category": "ai", "media": {"kind": "gallery", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/e2ca2b5c1435.jpg", "w": 675, "h": 371, "alt": "Arm Mali G2 Ultra NSS Upscaling"}, {"uri": "/img/842ce8e3da35.jpg", "w": 1000, "h": 562, "alt": ""}, {"uri": "/img/2ddf97468928.jpg", "w": 675, "h": 362, "alt": "Arm Mali G2 Ultra execution engine"}, {"uri": "/img/e15fdad43d29.jpg", "w": 675, "h": 307, "alt": "Arm Mali G2 Ultra neural accelerator"}, {"uri": "/img/170a2ce24540.jpg", "w": 675, "h": 466, "alt": "Arm CSS for Mobile 2"}], "videos": []}, "added": "2026-09-08T04:10:33+00:00"}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];
@@ -199,7 +202,7 @@ function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
   <article id="${it.id}" class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
-    <div class="head"><span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
+    <div class="head">${isNew(it)?'<span class="new">нове</span>':''}<span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
     <h3 class="title">${it.title}</h3>
     ${it.tweet?tweetCard(it):media(it)}
     <p class="lead">${it.lead}</p>
@@ -213,6 +216,10 @@ function post(it,showDay){
   </article>`;
 }
 let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого; не зберігається між завантаженнями
+// «нове» = додано у стрічку після останнього візиту цього браузера (по added, не по даті джерела)
+let lastSeen=null; try{lastSeen=localStorage.getItem('lr.seen')}catch(_){}
+const isNew=it=>!!lastSeen&&!!it.added&&it.added>lastSeen;
+function markSeen(){try{const mx=ITEMS.reduce((m,it)=>it.added>m?it.added:m,'');if(mx)localStorage.setItem('lr.seen',mx)}catch(_){}}
 function visible(){return SINGLE?ITEMS:ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
@@ -222,7 +229,8 @@ function renderFilters(){
 function render(){
   renderFilters();
   const all=visible(), list=all.slice(0,shown);let last='';
-  document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
+  const lastNew=list.reduce((k,it,i)=>isNew(it)?i:k,-1), anyOld=lastNew>=0&&lastNew<all.length-1;
+  document.getElementById('feed').innerHTML=list.map((it,i)=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)+(i===lastNew&&anyOld?'<div class="seen-sep"><span>Далі — те, що ви вже бачили</span></div>':'')}).join('')
    +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
    +(all.length?'':'<div class="empty">Тут поки нема новин.</div>');
 }
@@ -273,5 +281,5 @@ document.getElementById('feed').addEventListener('click',e=>{
   const id=m.closest('.post').dataset.id;
   state.open.has(id)?state.open.delete(id):state.open.add(id); render();
 });
-render();
+render(); if(!SINGLE) window.addEventListener('pagehide',markSeen);
 </script>

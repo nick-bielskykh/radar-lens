@@ -41,6 +41,17 @@ for f in glob.glob(os.path.join(DATA, "enriched", "*.json")):
     items.append({**{k: r[k] for k in ("id", "source", "url", "date")}, "page": r["page"], **({"tweet": r["tweet"]} if r.get("tweet") else {}), **o})
 cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
 items = [i for i in items if i["date"] >= cutoff]   # стрічка — 30 днів
-items.sort(key=lambda x: x["date"], reverse=True)
+# коли пост уперше потрапив у стрічку (для позначки «нове» і роздільника «далі — прочитане»)
+ADDED = os.path.join(DATA, "added.json")
+added = json.load(open(ADDED)) if os.path.exists(ADDED) else {}
+now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+def utc(s):  # порівнюємо як рядки, тому все в +00:00
+    try: return datetime.fromisoformat(s).astimezone(timezone.utc).replace(microsecond=0).isoformat()
+    except Exception: return now
+added = {k: utc(v) for k, v in added.items()}
+for i in items:
+    i["added"] = added.setdefault(i["id"], now)
+json.dump({k: v for k, v in added.items() if k in {i["id"] for i in items}}, open(ADDED, "w"), ensure_ascii=False, indent=1)
+items.sort(key=lambda x: (x["added"], x["date"]), reverse=True)
 json.dump(items, open(os.path.join(DATA, "items.json"), "w"), ensure_ascii=False, indent=1)
 print(f"{len(items)} новин; зламаних файлів: {bad}")

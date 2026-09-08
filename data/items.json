@@ -89,7 +89,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-08T08:23:28+00:00"
  },
  {
   "id": "05009849db",
@@ -181,7 +182,45 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-08T08:23:28+00:00"
+ },
+ {
+  "id": "366979f283",
+  "source": "appleinsider.com",
+  "url": "https://appleinsider.com/articles/26/09/07/apple-is-packing-more-pro-photography-tools-into-ios-27",
+  "date": "2026-09-07T17:10:00+00:00",
+  "page": {
+   "text": "Apple appears to be preparing a slate of more advanced photography tools for the iPhone , including exposure scopes, focus peaking, and expanded manual focus controls.\nWe already know that Apple is improving the Camera app in iOS 27 . Now, new beta code gives us a sneak peek into what we can expect in the fall.\nThe references appeared in iOS 27 beta code, first spotted by pdfu, a MacRumors forum regular. Five new features could appear at launch or in a future update.\nThe first is a new exposure scopes feature, including implementation of waveform and histogram displays. This will help users judge exposures in different formats.\nThe histogram will show a user what percentage of pixels are over- or underexposed. The waveform will show similar information but line that information up with the areas in the frame.\nAnother feature is focus peaking, which will highlight the edges of whatever's currently in focus. A colored outline will show what's in focus, while a secondary overlay will warn users when part of the image is overexposed.\nThe Camera app is also getting a new timer option. Now, users will be able to set the timer to take several shots in a row, with a countdown starting right away instead of waiting for the photo to finish saving.\nManual focusing will also be bolstered in iOS 27. This feature will be similar to what is already available in Apple's current Final Cut Camera app.\nAs pdfu notes, a version of this existed in iOS 26 with a focus slider, but the slider had been removed in the iOS 27 beta. Allegedly, the feature will be restricted to devices that ship with iOS 27, so it won't work on any current iPhone models.\nLastly, Apple could be changing how photos are processed on future iPhones. Aperture-based image corrections may arrive with a new iPhone that would feature a variable aperture, which is suspected for the iPhone 18 Pro.\nNone of these features are currently available to users with current betas. Apple may not release all of these features in the September release, either.",
+   "images": [
+    {
+     "file": "7a15832ba98f.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "",
+     "cap": "",
+     "src": "https://media.appleinsider.com/gallery/68626-144584-000-lede-cameras-xl.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Бета iOS 27: гістограма, waveform і focus peaking у камері iPhone",
+  "lead": "У коді бети iOS 27 знайшли п'ять професійних функцій камери iPhone: експозиційні скопи (гістограма і waveform), focus peaking, серійний таймер та розширене ручне фокусування.",
+  "full": [
+   "Знахідку зробив учасник форуму MacRumors під ніком pdfu. Гістограма показуватиме відсоток пере- і недоекспонованих пікселів, а waveform прив'яже ту саму інформацію до конкретних ділянок кадру. Focus peaking підсвітить кольоровим контуром те, що зараз у фокусі, а окремий оверлей попереджатиме про перевитримку.",
+   "Таймер зможе робити кілька кадрів поспіль, причому зворотний відлік стартуватиме одразу, не чекаючи збереження попереднього фото. Ручне фокусування буде подібним до наявного в застосунку Final Cut Camera; за даними джерела, воно працюватиме лише на пристроях, які вийдуть уже з iOS 27. Окремо в коді згадано корекції зображення на основі діафрагми — імовірно, для очікуваного iPhone 18 Pro зі змінною діафрагмою.",
+   "Жодна з функцій поки не доступна в поточних бетах, і Apple може випустити їх не у вересневому релізі, а пізніше."
+  ],
+  "means": "Apple підтягує iPhone до pro-зйомки, тож на вхід у Luminar Mobile частіше потраплятимуть свідомо експоновані кадри, а не «врятуй пересвітку» — акцент варто зміщувати з рятувальних інструментів на творчі (Relight, Sky, пресети). Користувачі, що звикають до гістограми й focus peaking під час зйомки, очікуватимуть подібної аналітики експозиції і в редакторі. Якщо змінна діафрагма та пов'язані з нею корекції справді з'являться, нові метадані iPhone доведеться врахувати в RAW-конвеєрі Luminar Neo.",
+  "importance": 2,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-08T08:23:28+00:00"
  },
  {
   "id": "2b6e7bf334",
@@ -249,7 +288,8 @@
    "kind": "gallery",
    "hero_image": 3,
    "video": null
-  }
+  },
+  "added": "2026-09-08T04:10:33+00:00"
  },
  {
   "id": "4ad2f305d0",
@@ -285,43 +325,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
- },
- {
-  "id": "366979f283",
-  "source": "appleinsider.com",
-  "url": "https://appleinsider.com/articles/26/09/07/apple-is-packing-more-pro-photography-tools-into-ios-27",
-  "date": "2026-09-07T17:10:00+00:00",
-  "page": {
-   "text": "Apple appears to be preparing a slate of more advanced photography tools for the iPhone , including exposure scopes, focus peaking, and expanded manual focus controls.\nWe already know that Apple is improving the Camera app in iOS 27 . Now, new beta code gives us a sneak peek into what we can expect in the fall.\nThe references appeared in iOS 27 beta code, first spotted by pdfu, a MacRumors forum regular. Five new features could appear at launch or in a future update.\nThe first is a new exposure scopes feature, including implementation of waveform and histogram displays. This will help users judge exposures in different formats.\nThe histogram will show a user what percentage of pixels are over- or underexposed. The waveform will show similar information but line that information up with the areas in the frame.\nAnother feature is focus peaking, which will highlight the edges of whatever's currently in focus. A colored outline will show what's in focus, while a secondary overlay will warn users when part of the image is overexposed.\nThe Camera app is also getting a new timer option. Now, users will be able to set the timer to take several shots in a row, with a countdown starting right away instead of waiting for the photo to finish saving.\nManual focusing will also be bolstered in iOS 27. This feature will be similar to what is already available in Apple's current Final Cut Camera app.\nAs pdfu notes, a version of this existed in iOS 26 with a focus slider, but the slider had been removed in the iOS 27 beta. Allegedly, the feature will be restricted to devices that ship with iOS 27, so it won't work on any current iPhone models.\nLastly, Apple could be changing how photos are processed on future iPhones. Aperture-based image corrections may arrive with a new iPhone that would feature a variable aperture, which is suspected for the iPhone 18 Pro.\nNone of these features are currently available to users with current betas. Apple may not release all of these features in the September release, either.",
-   "images": [
-    {
-     "file": "7a15832ba98f.jpg",
-     "w": 1000,
-     "h": 561,
-     "alt": "",
-     "cap": "",
-     "src": "https://media.appleinsider.com/gallery/68626-144584-000-lede-cameras-xl.jpg"
-    }
-   ],
-   "videos": []
   },
-  "relevant": true,
-  "title": "Бета iOS 27: гістограма, waveform і focus peaking у камері iPhone",
-  "lead": "У коді бети iOS 27 знайшли п'ять професійних функцій камери iPhone: експозиційні скопи (гістограма і waveform), focus peaking, серійний таймер та розширене ручне фокусування.",
-  "full": [
-   "Знахідку зробив учасник форуму MacRumors під ніком pdfu. Гістограма показуватиме відсоток пере- і недоекспонованих пікселів, а waveform прив'яже ту саму інформацію до конкретних ділянок кадру. Focus peaking підсвітить кольоровим контуром те, що зараз у фокусі, а окремий оверлей попереджатиме про перевитримку.",
-   "Таймер зможе робити кілька кадрів поспіль, причому зворотний відлік стартуватиме одразу, не чекаючи збереження попереднього фото. Ручне фокусування буде подібним до наявного в застосунку Final Cut Camera; за даними джерела, воно працюватиме лише на пристроях, які вийдуть уже з iOS 27. Окремо в коді згадано корекції зображення на основі діафрагми — імовірно, для очікуваного iPhone 18 Pro зі змінною діафрагмою.",
-   "Жодна з функцій поки не доступна в поточних бетах, і Apple може випустити їх не у вересневому релізі, а пізніше."
-  ],
-  "means": "Apple підтягує iPhone до pro-зйомки, тож на вхід у Luminar Mobile частіше потраплятимуть свідомо експоновані кадри, а не «врятуй пересвітку» — акцент варто зміщувати з рятувальних інструментів на творчі (Relight, Sky, пресети). Користувачі, що звикають до гістограми й focus peaking під час зйомки, очікуватимуть подібної аналітики експозиції і в редакторі. Якщо змінна діафрагма та пов'язані з нею корекції справді з'являться, нові метадані iPhone доведеться врахувати в RAW-конвеєрі Luminar Neo.",
-  "importance": 2,
-  "category": "comp",
-  "media": {
-   "kind": "image",
-   "hero_image": 0,
-   "video": null
-  }
+  "added": "2026-09-08T04:10:33+00:00"
  },
  {
   "id": "5f10fd5094",
@@ -357,7 +362,8 @@
    "kind": "none",
    "hero_image": null,
    "video": null
-  }
+  },
+  "added": "2026-09-08T04:10:33+00:00"
  },
  {
   "id": "f03aa68805",
@@ -393,7 +399,112 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-08T04:10:33+00:00"
+ },
+ {
+  "id": "d5cc47f5a3",
+  "source": "Brief IA",
+  "url": "https://www.briefia.fr/en/article/adobe-detaille-sa-methode-en-8-elements-pour-les-prompts-d-images-ia",
+  "date": "2026-09-07T07:10:54+00:00",
+  "page": {
+   "text": "Le brief IA que les pros lisent chaque soir\nLes 7 actus IA du jour, décryptées en 5 min. Gratuit.\nInclus dès l'inscription : notre sélection des meilleurs guides & comparatifs IA.\nGratuit · Pas de spam · Désabonnement en 1 clic\nAdobe offers an eight-point framework for crafting image prompts, while emphasizing that no formula is universal. Key advice includes using natural language, cross-testing between models, and cautious iterations to avoid over-complexity.\nAdobe recommends using simple sentences and negative prompts\nThe writing of requests now favors natural language over bracket-based syntax or punctuation. A direct formulation is recommended, while still utilizing negative prompts to exclude elements. Firefly supports over 100 languages, including French, and it is advised to alternate between English and other languages depending on the desired outcomes.\nEight components to include for framing the image\nAdobe outlines in a guide a method for organizing a prompt into eight components: image type, subject (such as features, expressions, or architectural style), action, viewpoint, lighting, background, color, and style. This guide specifies that this organization leads to higher quality renders. A detailed example illustrates how to combine these parameters to accurately describe the scene, subject, and atmosphere.\nProceed with brief iterations and avoid over-complexity\nIt is recommended to start with a simple request and then gradually add details, as excessive complexity can produce undesirable effects. Long prompts found online can serve as a learning base, provided they are simplified to understand the models' reactions. Resubmitting the same request can yield different results, as models are sensitive to variations.\nAdapt the prompt to the engine and test its portability\nFirefly brings together its models and those of partners in a single interface, raising the question of prompt portability. The analogy of the sponge cake describes a common base that needs to be adapted according to the strengths of each engine. Hence, it is beneficial to retry the same prompt across multiple models to compare the outputs. There is no perfect prompt, Olivier Huard reminds us, advocating instead for best practices to achieve satisfactory results more quickly.\nL'essentiel de l'actualité de l'intelligence artificielle, décrypté et expliqué chaque jour.",
+   "images": [
+    {
+     "file": "7c1f0e6d119e.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://uknohvstpdmdzjugegft.supabase.co/storage/v1/object/public/article-images/articles/adobe-detaille-sa-methode-en-8-elements-pour-les-prompts-d-i.png"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Adobe опублікувала 8-компонентний фреймворк для промптів у Firefly",
+  "lead": "Adobe випустила гайд із написання текстових запитів для генерації зображень у Firefly, наголошуючи, що універсальної формули не існує, і рекомендуючи природну мову замість дужок і спецсимволів.",
+  "full": [
+   "Гайд радить формулювати запити природною мовою, використовувати негативні промпти для виключення елементів і чергувати англійську з іншими мовами (Firefly підтримує понад 100 мов, включно з французькою) залежно від бажаного результату. Adobe пропонує структурувати запит із восьми компонентів: тип зображення, суб'єкт (риси, вираз обличчя, архітектурний стиль), дія, ракурс, освітлення, фон, колір і стиль — така структура, за словами Adobe, дає якісніший результат генерації.",
+   "Компанія також радить починати з простого запиту і поступово додавати деталі, оскільки надмірна складність промпту може погіршити результат, а повторна відправка того самого запиту здатна дати інший результат через чутливість моделей до варіацій. Оскільки Firefly об'єднує в одному інтерфейсі власні моделі Adobe та моделі партнерів, гайд рекомендує тестувати той самий промпт на різних моделях і адаптувати його під сильні сторони кожного движка."
+  ],
+  "means": "Структурований підхід Adobe до промптів (тип, суб'єкт, дія, ракурс, освітлення, фон, колір, стиль) — корисний орієнтир для UX підказок у наших генеративних інструментах GenErase, GenSwap і GenExpand: чіткіші вбудовані підказки або приклади запитів можуть підвищити якість першого результату для користувачів, які ще не звикли формулювати текстові промпти для редагування фото.",
+  "importance": 3,
+  "category": "ai",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-07T14:24:14+00:00"
+ },
+ {
+  "id": "9058c95ae7",
+  "source": "Yahoo Tech",
+  "url": "https://tech.yahoo.com/computing/articles/tourbox-elite-plus-review-fast-110000123.html",
+  "date": "2026-09-05T19:00:00+00:00",
+  "page": {
+   "text": "When you buy through links on our articles, Future and its syndication partners may earn a commission.\nThe TourBox Elite Plus is a creative editing console designed to empower photographers and videographers to simplify their workflows and thereby have more time and energy to focus on art. With special layouts and multi-dimensional input, the Elite Plus offers artists everything they need to access hundreds of software functions with a single hand.\nWith Bluetooth connection for switching between computers and tablets, haptic touch, and over 400 assignable functions per preset, the Elite Plus sets itself apart as the overall winner in our best TourBox editing consoles guide. The buttons feel premium and offer high-end performance.\nThe Elite Plus works with a wide range of design packages, including Adobe Photoshop, Lightroom, Premiere Pro, DaVinci Resolve, and more. It sits at the pinnacle of the four consoles that TourBox sells, with a more impressive spec than the TourBox Elite , TourBox NEO, and TourBox Lite. But, with this top spec comes a premium price that only the more serious of creatives will entertain.\nThe Elite Plus offers a solid build that feels weighty and premium. The see through plastic means you can see some of the hardware inside which is a nice touch for users who like to feel connected to their devices. The plastic case feels robust enough although I'm not entirely sure it would withstand being dropped from height onto a solid surface. A rubber material as found on the TourBox NEO would guarantee greater longevity and deliver a more tactile experience which would be preferable.\nTo get the console up and running, all you need to do is download the TourBox Console software and either connect it with a USB cable or via Bluetooth. For a more portable and versatile working experience you'll want to go for the wireless option. It is also via Bluetooth that the Elite Plus can be connected to iPads or Android tablets. The Bluetooth connection was relatively reliable although there were a couple of times when I had to restart my machine to make the connection work.\nThe various knobs, dials, and buttons are well engineered and offer over 150 combos with the ability to assign over 400 functions to each preset. That's customisability at its best. All controls work seamlessly and reliably to deliver an effortless workflow in the likes of Photoshop, Premiere, DaVinci Resolve, and other major editing applications.\nOne of the features that sets the Elite Plus apart from the cheaper TourBox NEO and TourBox Lite is haptic feedback. This is delivered via a wide-band vibration motor and helps to root your editing experience. My only issue with it is that the sound it produces would be better if it was a dampened a little.\nThe TourBox Elite Plus retails at £297 / $297, which makes it the most expensive of all TourBox products, although it's often discounted by as much as £30 / $30. For the money, you'll benefit from a solid build quality, more buttons, dials, and scrollers than you can shake a stick at, and an elevated user experience courtesy of haptic feedback.\nOne of the best alternatives is the 4.5-star Logitech MX Creative Console , which costs £189.99 / $189.99. This cute and compact device features two independent consoles that allow users to switch between applications and utilise buttons, a dial and a scroller to access application shortcuts. It's simpler than the Elite Plus but also a lot more affordable.\nAnother alternative is the XPPen Pilot Pro . It's cheaper than both the Elite Plus and the MX Creative Console and is aimed specifically at video editors who spend their time regularly switching between tools like Razor, Ripple Edit and Selection in DaVinci Resolve and Premiere.\nThe Elite Plus is for photographers and videographers who are editing on a daily basis. It speeds up almost all elements of the workflow across photo-editing, retouching, colour grading, and cutting videos. With an abundance of buttons it is also possible, through the TourBox Console software to customise your setup to suit your exact way of working. I also appreciated how it automatically switched mapping profiles when I moved from one piece of software to the next.\nThe setup was relatively straightforward although I had to restart my machine because the TourBox Console couldn't detect the device via Bluetooth. The presence of software presets meant I could get up and running with the console in less than ten minutes after unboxing.\nAt the price it retails at, editors who are only using the likes of Photoshop and DaVinci Resolve on an occasional basis are unlikely to reap the workflow benefits. The use of keyboard shortcuts is likely to be sufficient if you fall into this category. Other creatives such as 3D artists are also unlikely to benefit from this type of console.",
+   "images": [
+    {
+     "file": "d28ec11a0819.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://s.yimg.com/lo/mysterio/api/78cb006a702dd2e7df6f734a7f7ff0c9c65c3827af4940cde3f99c92a9d437c6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2F10277716faf8e22b0184973b36dc46d1.jpg"
+    },
+    {
+     "file": "933d4c664cc8.jpg",
+     "w": 976,
+     "h": 549,
+     "alt": "TourBox Elite Plus.",
+     "cap": "Credit: Future / Paul Hatton",
+     "src": "https://s.yimg.com/lo/mysterio/api/b4fd96c523dcc564fe1cdd433e3a5542bf95ec7e743d24bb8280aab54f947405/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2F10277716faf8e22b0184973b36dc46d1.jpg"
+    },
+    {
+     "file": "e70bbbafe9f9.jpg",
+     "w": 976,
+     "h": 549,
+     "alt": "TourBox Elite Plus",
+     "cap": "Credit: Future / Paul Hatton",
+     "src": "https://s.yimg.com/lo/mysterio/api/32d739cc7b67f34fb9fc2b81961fc96a4b61a5c8af160065aa96b8b25917790b/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2F3aafa55395b54a1fecafbee7e0ab0173.jpg"
+    },
+    {
+     "file": "c71bdc015bd8.jpg",
+     "w": 976,
+     "h": 607,
+     "alt": "TourBox Elite Plus",
+     "cap": "Credit: Future / Paul Hatton",
+     "src": "https://s.yimg.com/lo/mysterio/api/8edb4f98f872a3c98a36a0f9c0d55de8d252bad09b323b3ad0c121d98b79e33d/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2Fae74fe2d377fe1f494181e016d8ecbca.png"
+    },
+    {
+     "file": "2adaa05f3c31.jpg",
+     "w": 976,
+     "h": 549,
+     "alt": "TourBox Elite Plus",
+     "cap": "Credit: Future / Paul Hatton",
+     "src": "https://s.yimg.com/lo/mysterio/api/6b2773e18ae8f93d2816e52e5470eca2e83853c2ea5e9f9f85fad7bac4b9d3e2/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2Fcc47d257837fced7dcdb851da621c4e8.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Огляд TourBox Elite Plus: консоль керування для Photoshop і Lightroom за $297",
+  "lead": "Yahoo Tech (Creative Bloq) опублікували огляд TourBox Elite Plus — топової консолі керування для фотографів і відеографів, яка дозволяє призначати понад 400 функцій на пресет і перемикатись між Bluetooth-з'єднанням з комп'ютером і планшетом.",
+  "full": [
+   "Elite Plus офіційно працює з Adobe Photoshop, Lightroom, Premiere Pro, DaVinci Resolve та іншими редакторськими пакетами, пропонуючи понад 150 комбінацій керування та автоматичне перемикання профілів мапінгу при переході між застосунками. Пристрій підключається через USB або Bluetooth (у тому числі до iPad і Android-планшетів), має тактильний відгук (haptic feedback) і, за словами оглядача, налаштовується менш ніж за десять хвилин після розпакування.",
+   "Це найдорожча модель у лінійці TourBox (вище за TourBox Elite, NEO та Lite) і коштує £297/$297, хоча часто продається зі знижкою до £30/$30. Огляд називає альтернативами Logitech MX Creative Console ($189,99, простіший і компактніший) та XPPen Pilot Pro для відеомонтажерів. Висновок огляду: пристрій виправданий для тих, хто редагує щодня, а для випадкового використання Photoshop чи DaVinci Resolve вистачить звичайних клавіатурних скорочень."
+  ],
+  "means": "Luminar Neo працює як плагін усередині Lightroom Classic і Photoshop, тож частина наших користувачів вже могла б використовувати такі консолі у зв'язці з Luminar — варто перевірити, чи коректно прив'язуються ярлики Luminar (Erase, Sky AI, Mask AI тощо) до апаратних кнопок TourBox і чи варто випустити офіційний пресет-профіль для популярних консолей як маркетинговий і UX-бонус.",
+  "importance": 2,
+  "category": "comp",
+  "media": {
+   "kind": "gallery",
+   "hero_image": 1,
+   "video": null
+  },
+  "added": "2026-09-07T14:24:14+00:00"
  },
  {
   "id": "bf6a5df170",
@@ -484,290 +595,8 @@
    "kind": "gallery",
    "hero_image": 2,
    "video": null
-  }
- },
- {
-  "id": "81922b2471",
-  "source": "What Digital Camera",
-  "url": "https://www.whatdigitalcamera.com/photography-news/lightroom-replacement-photo-page-among-subjects-covered-in-free-davinci-resolve-training-series",
-  "date": "2026-09-07T08:29:16+00:00",
-  "page": {
-   "text": "Blackmagic Design, the maker of DaVinci Resolve, is offering new and existing users a series of free training sessions aimed at filmmakers, videographers and stills photographers to help them get the most out of application and its new features. Held online in 90 minute sessions the training will be held across six sessions on Friday afternoons in September, October and November. While covering the software package in general, there will be also be a focus on the new features, such as the stills page designed to be a Lightroom replacement for stills photographers, additional motion graphics effects, advanced search and the many new AI tools that have arrived with the 21st version of the application.\nThe course begins with a session aimed at those completely new to, or without much experience of, the programme, which will cover all that users need to know to get started. The main tools will be introduced and users will be shown best practice for importing, organising and workflow while editing in the timeline. While the session is aimed at users of the paid DaVinci Resolve Studio 21 version the vast majority of things covered in the session will apply equally to the free version as well.\nThe second session will appeal to particularly to stills photographers, or videographers wanting to know more about processing still images, as Blackmagic introduces its new Photo Page. This recent addition to the software aims to offer a free alternative to Adobe’s Lightroom with extensive editing options for Raw and JPEG files, file organisation and colour grading. Blackmagic says one of the advantages of using DaVinci Resolve will be that those shooting stills and video will be able to ensure a consistent look across all their moving and still pictures because they will have been worked on using the same software.\nAs the sessions progress the company will use the hour and a half training slots to help users get the most out of the colour editing and grading features the programme is well known for, and there will be sessions designed to assist those already working in other programmes to make the switch to Resolve.\nThe extensive audio controls of the Fairlight page will be covered later in the series will help for voice isolation, noise reduction and audio enhancement, and the last session, held in November, will specifically look at how the AI tools built-in to the application will be able to help clean-up images, create effects in motion and stills pictures, and generally speed up the production process by automating tasks we’d usually have to deal with manually.\nUsers will need to register in advance for the sessions using the link below the descriptions. For more information about DaVinci Resolve see t he Blackmagic Design website , and to access the company’s other extensive instructional videos about using the tools of the programme offers see the DaVinci Resolve training page .\nJoin Blackmagic Design for a series of free online seminars for DaVinci Resolve 21! Our latest release includes the new Photo page, over 100 new motion graphic effects and 50 new features. New AI tools include IntelliSearch for fast content searching, CineFocus for focal point adjustment and more! These six free 90 minute online seminars are ideal for filmmakers, editors, colorists and VFX artists, with something for both new and experienced users of DaVinci Resolve. This is your chance to refine your creative skills, learn new techniques and get valuable insights from the best in the industry!\nThis introductory seminar will help you get started with the world’s most powerful post production software! This session will guide you through all the pages of DaVinci Resolve Studio 21, giving you a solid foundation for creating professional content across your productions.\nWhether you’re a filmmaker interested in stills, or a photographer expanding into video, this session will show you how to use DaVinci’s color tools for photos. Learn how to organise and edit images, and use AI-powered color and cinematic effects to integrate still images into your projects.\nAn essential workshop for editors to learn color fundamentals using Hollywood’s most advanced color tools! Learn how to balance and match media from different cameras, then begin the creative grading process to create unique looks, working in both layers and nodes.\nDesigned for editors switching to DaVinci Resolve, this seminar will cover the overall layout and organization of tools. Building on your existing editing knowledge, you’ll learn how to organise media, prepare timelines and build collaborative projects that your whole team can share.\nFollow a complete post production workflow from import to delivery. Learn how to organise and manage your media, then edit and grade Blackmagic RAW camera original media. Finish by mixing the audio and delivering your project, all without leaving DaVinci Resolve.\nDiscover powerful DaVinci AI Neural Engine tools including Object Removal, IntelliScript, IntelliSearch, Magic Mask, Voice Isolation and cinematic effects. You’ll learn how these tools can take care of repetitive, time consuming tasks, giving you more time to focus on creative editing.",
-   "images": [
-    {
-     "file": "88cf93f964c7.jpg",
-     "w": 956,
-     "h": 614,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/Davinci-Resolve-Photo-Page.jpg"
-    },
-    {
-     "file": "04fe232ab691.jpg",
-     "w": 718,
-     "h": 461,
-     "alt": "‘Lightroom replacement’ Photo Page among subjects covered in free DaVinci Resolve training series",
-     "cap": "",
-     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/Davinci-Resolve-Photo-Page-820x461.jpg"
-    },
-    {
-     "file": "07bbca88cad7.jpg",
-     "w": 820,
-     "h": 461,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/color-fundamentals@2x-820x461.jpg"
-    },
-    {
-     "file": "95466d22b7a4.jpg",
-     "w": 820,
-     "h": 461,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/hero-xl@2x-820x461.jpg"
-    }
-   ],
-   "videos": []
   },
-  "relevant": true,
-  "title": "Blackmagic запускає безкоштовні тренінги DaVinci Resolve з фокусом на Photo Page",
-  "lead": "Blackmagic Design проводить серію з шести безкоштовних 90-хвилинних вебінарів у вересні–листопаді для DaVinci Resolve 21, один з яких присвячений Photo Page — вбудованій альтернативі Lightroom.",
-  "full": [
-   "Blackmagic Design відкрила реєстрацію на серію з шести безкоштовних онлайн-тренінгів по DaVinci Resolve 21, які проходитимуть по п'ятницях у вересні, жовтні та листопаді, тривалістю 90 хвилин кожен. Курс розрахований на фотографів, відеографів, монтажерів і колористів — від новачків до тих, хто переходить з інших програм.",
-   "Окрема сесія присвячена Photo Page — відносно новому розділу програми, який Blackmagic позиціонує як безкоштовну альтернативу Adobe Lightroom з розширеними можливостями редагування RAW і JPEG, організації файлів і кольорокорекції. Компанія наголошує на перевазі єдиного стилю для фото й відео, оскільки обидва типи контенту обробляються в одному застосунку.",
-   "Останній вебінар серії у листопаді буде присвячений вбудованим AI-інструментам DaVinci Resolve: Object Removal, IntelliScript, IntelliSearch, Magic Mask та шумозаглушення й покращення звуку через Voice Isolation."
-  ],
-  "means": "Безкоштовний Photo Page у DaVinci Resolve — це пряма конкуренція Lightroom за фотографів, які не готові платити за окремий редактор, і потенційно за частину аудиторії Luminar Neo, яка тримає його як другий редактор поруч із Lightroom. AI-інструменти на кшталт Magic Mask (автомаскування) і Object Removal перегукуються з нашими Mask AI та Erase, тож варто стежити, чи Blackmagic нарощує їхню якість і чи це знижує поріг переходу користувачів на безкоштовний інструмент.",
-  "importance": 2,
-  "category": "comp",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "d5cc47f5a3",
-  "source": "Brief IA",
-  "url": "https://www.briefia.fr/en/article/adobe-detaille-sa-methode-en-8-elements-pour-les-prompts-d-images-ia",
-  "date": "2026-09-07T07:10:54+00:00",
-  "page": {
-   "text": "Le brief IA que les pros lisent chaque soir\nLes 7 actus IA du jour, décryptées en 5 min. Gratuit.\nInclus dès l'inscription : notre sélection des meilleurs guides & comparatifs IA.\nGratuit · Pas de spam · Désabonnement en 1 clic\nAdobe offers an eight-point framework for crafting image prompts, while emphasizing that no formula is universal. Key advice includes using natural language, cross-testing between models, and cautious iterations to avoid over-complexity.\nAdobe recommends using simple sentences and negative prompts\nThe writing of requests now favors natural language over bracket-based syntax or punctuation. A direct formulation is recommended, while still utilizing negative prompts to exclude elements. Firefly supports over 100 languages, including French, and it is advised to alternate between English and other languages depending on the desired outcomes.\nEight components to include for framing the image\nAdobe outlines in a guide a method for organizing a prompt into eight components: image type, subject (such as features, expressions, or architectural style), action, viewpoint, lighting, background, color, and style. This guide specifies that this organization leads to higher quality renders. A detailed example illustrates how to combine these parameters to accurately describe the scene, subject, and atmosphere.\nProceed with brief iterations and avoid over-complexity\nIt is recommended to start with a simple request and then gradually add details, as excessive complexity can produce undesirable effects. Long prompts found online can serve as a learning base, provided they are simplified to understand the models' reactions. Resubmitting the same request can yield different results, as models are sensitive to variations.\nAdapt the prompt to the engine and test its portability\nFirefly brings together its models and those of partners in a single interface, raising the question of prompt portability. The analogy of the sponge cake describes a common base that needs to be adapted according to the strengths of each engine. Hence, it is beneficial to retry the same prompt across multiple models to compare the outputs. There is no perfect prompt, Olivier Huard reminds us, advocating instead for best practices to achieve satisfactory results more quickly.\nL'essentiel de l'actualité de l'intelligence artificielle, décrypté et expliqué chaque jour.",
-   "images": [
-    {
-     "file": "7c1f0e6d119e.jpg",
-     "w": 1000,
-     "h": 666,
-     "alt": "",
-     "cap": "",
-     "src": "https://uknohvstpdmdzjugegft.supabase.co/storage/v1/object/public/article-images/articles/adobe-detaille-sa-methode-en-8-elements-pour-les-prompts-d-i.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Adobe опублікувала 8-компонентний фреймворк для промптів у Firefly",
-  "lead": "Adobe випустила гайд із написання текстових запитів для генерації зображень у Firefly, наголошуючи, що універсальної формули не існує, і рекомендуючи природну мову замість дужок і спецсимволів.",
-  "full": [
-   "Гайд радить формулювати запити природною мовою, використовувати негативні промпти для виключення елементів і чергувати англійську з іншими мовами (Firefly підтримує понад 100 мов, включно з французькою) залежно від бажаного результату. Adobe пропонує структурувати запит із восьми компонентів: тип зображення, суб'єкт (риси, вираз обличчя, архітектурний стиль), дія, ракурс, освітлення, фон, колір і стиль — така структура, за словами Adobe, дає якісніший результат генерації.",
-   "Компанія також радить починати з простого запиту і поступово додавати деталі, оскільки надмірна складність промпту може погіршити результат, а повторна відправка того самого запиту здатна дати інший результат через чутливість моделей до варіацій. Оскільки Firefly об'єднує в одному інтерфейсі власні моделі Adobe та моделі партнерів, гайд рекомендує тестувати той самий промпт на різних моделях і адаптувати його під сильні сторони кожного движка."
-  ],
-  "means": "Структурований підхід Adobe до промптів (тип, суб'єкт, дія, ракурс, освітлення, фон, колір, стиль) — корисний орієнтир для UX підказок у наших генеративних інструментах GenErase, GenSwap і GenExpand: чіткіші вбудовані підказки або приклади запитів можуть підвищити якість першого результату для користувачів, які ще не звикли формулювати текстові промпти для редагування фото.",
-  "importance": 3,
-  "category": "ai",
-  "media": {
-   "kind": "image",
-   "hero_image": 0,
-   "video": null
-  }
- },
- {
-  "id": "2e48ec35ac",
-  "source": "arXiv cs.CV",
-  "url": "https://arxiv.org/abs/2609.04646",
-  "date": "2026-09-07T04:00:00+00:00",
-  "page": {
-   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
-   "images": [
-    {
-     "file": "5cbfb31ab64b.jpg",
-     "w": 1000,
-     "h": 438,
-     "alt": "Refer to caption",
-     "cap": "Figure 2 : Qualitative results of applying our SVDtrunc compression schema to FLUX.dev [ 19 ] , ranging from 68 % 68\\text{\\,}\\mathrm{\\%} to 39 % 39\\text{\\,}\\mathrm{\\%} of the original parameter count.",
-     "src": "https://arxiv.org/html/2609.04646v1/images/tmp_front_examples.jpg"
-    },
-    {
-     "file": "b94359b2f608.jpg",
-     "w": 1000,
-     "h": 200,
-     "alt": "Refer to caption",
-     "cap": "Figure 3 : SVDtrunc Overview. (left) We first generate N N probed models, by individually compressing each of the N N blocks. Then, each probed model generates a set of images.\nBy comparing these sets",
-     "src": "https://arxiv.org/html/2609.04646v1/method_long.png"
-    },
-    {
-     "file": "e08e56a7c85b.jpg",
-     "w": 1000,
-     "h": 362,
-     "alt": "Refer to caption",
-     "cap": "Figure 4 : Ranking metric justification. Depending on which block is compressed, the generated image of the compressed model (right) can deviate from the image generated by the uncompressed one (left)",
-     "src": "https://arxiv.org/html/2609.04646v1/images/cmmd_validation.jpg"
-    },
-    {
-     "file": "1c29b4dbecc0.jpg",
-     "w": 1000,
-     "h": 296,
-     "alt": "Refer to caption",
-     "cap": "Figure 5 : Block sensitivity comparison . Generated images after probing double-stream blocks of FLUX.dev [ 19 ] with pruning (top) vs . truncated SVD (bottom) .",
-     "src": "https://arxiv.org/html/2609.04646v1/images/Block_Sensitivity.jpg"
-    },
-    {
-     "file": "1c7637d21841.jpg",
-     "w": 1000,
-     "h": 439,
-     "alt": "Refer to caption",
-     "cap": "Figure 6 : Example of domain drift (top) and memorisation loss (bottom) under different parameter budgets.",
-     "src": "https://arxiv.org/html/2609.04646v1/images/domain_shifts.jpg"
-    },
-    {
-     "file": "fd19e56ebc84.jpg",
-     "w": 1000,
-     "h": 833,
-     "alt": "Refer to caption",
-     "cap": "Figure S1 : Conceptual SVD Compression. High-level illustration of where truncated SVD–based low-rank approximations are applied within multi-modal diffusion transformer (MMDiT) blocks [ 7 ] . Green m",
-     "src": "https://arxiv.org/html/2609.04646v1/Block_high_level.drawio.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "SVDtrunc стискає diffusion-трансформери FLUX до 57% параметрів без відчутної втрати якості",
-  "lead": "Дослідники запропонували SVDtrunc — метод блочного стиснення diffusion-трансформерів (DiT) через усічене SVD з подальшою дистиляцією, який на моделі FLUX.dev зберігає майже повну якість при компресії до 68% параметрів і лишається конкурентним навіть при 57%.",
-  "full": [
-   "Diffusion-трансформери (DiT) — домінантна архітектура для якісної генерації зображень з тексту, але їхній розмір ускладнює ефективне розгортання. Усічене SVD — перевірений інструмент стиснення параметрів, проте досвід великих мовних моделей показує, що наївне низькорангове наближення може призвести до катастрофічного падіння якості. Автори натомість виявили, що в DiT усічене SVD дає плавну деградацію навіть при суттєвій компресії, оскільки надлишковість розподілена по всій мережі, а не сконцентрована в кількох блоках.",
-   "На основі цього спостереження запропоновано SVDtrunc — дворівневу схему компресії на рівні блоків: спершу ранги розподіляються між блоками і найменш важливі стискаються усіченим SVD у межах глобального бюджету параметрів, після чого всі блоки донавчаються через модульну дистиляцію знань та rectified-flow функцію втрат.",
-   "Метод застосували до FLUX.dev у діапазоні компресії 40–90% від початкової кількості параметрів. На бенчмарках GenEval, HPSv2 та DPG SVDtrunc перевершив усі конкуруючі підходи, зберігаючи майже повну якість при 68% параметрів і лишаючись конкурентним навіть при 57%. Метод також доповнює дистиляцію кроків генерації."
-  ],
-  "means": "Метод стиснення DiT-моделей на кшталт FLUX безпосередньо стосується планів прискорювати й здешевлювати наші генеративні хмарні інструменти (GenErase, GenSwap, GenExpand). Зменшення розміру моделі без істотної втрати якості знижує вартість інференсу і потенційно наближає такі моделі до on-device виконання на Luminar Mobile.",
-  "importance": 3,
-  "category": "algo",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "0720c70f46",
-  "source": "arXiv cs.CV",
-  "url": "https://arxiv.org/abs/2609.04709",
-  "date": "2026-09-07T04:00:00+00:00",
-  "page": {
-   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
-   "images": [
-    {
-     "file": "aff3547ee4c2.jpg",
-     "w": 1000,
-     "h": 499,
-     "alt": "Refer to caption",
-     "cap": "Figure 1: Overview of AngelFingerprint. Part A shows the training pipeline. A LoRA imprints the prompt embedding; then an extractor recovers it. Part B shows the inference scenario: a white-box user c",
-     "src": "https://arxiv.org/html/2609.04709v1/Figures/teaser.png"
-    },
-    {
-     "file": "94804a8cf883.jpg",
-     "w": 1000,
-     "h": 779,
-     "alt": "Refer to caption",
-     "cap": "Figure 2: Qualitative watermarked edits under deployment sampling. The watermark leaves only a faint, grid-like texture, hard to spot without close inspection.",
-     "src": "https://arxiv.org/html/2609.04709v1/qualitative_deploy_v2_v13_6.png"
-    },
-    {
-     "file": "bd852e279add.jpg",
-     "w": 1000,
-     "h": 215,
-     "alt": "Refer to caption",
-     "cap": "Figure 4: Open-set verification on a real photograph. We edit it with AngelFingerprint using the prompt “change the tree into cherry blossom,” then recover the embedding and score candidate sentences ",
-     "src": "https://arxiv.org/html/2609.04709v1/Figures/rwdemo.png"
-    },
-    {
-     "file": "e8efe7dccf07.jpg",
-     "w": 857,
-     "h": 877,
-     "alt": "Refer to caption",
-     "cap": "Figure A1: Visualization of the band-pass filtered signal. The first row shows the source image, the second row shows the watermarked image before filtering, and the third row shows the filtered image",
-     "src": "https://arxiv.org/html/2609.04709v1/filter_midband_v13_6.png"
-    },
-    {
-     "file": "eecfeb966e57.jpg",
-     "w": 1000,
-     "h": 1119,
-     "alt": "Refer to caption",
-     "cap": "Figure A2: The four JPEG band-pass filter masks tested in our ablation. A wider passband is not always better; the 26 / 64 26/64 mask gives the best overall performance.",
-     "src": "https://arxiv.org/html/2609.04709v1/Figures/masks.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "AngelFingerprint: непомітний водяний знак пояснює, який промпт змінив зображення",
-  "lead": "Дослідники представили AngelFingerprint — технологію маркування diffusion-редагувань зображень, яка не просто підтверджує факт AI-редагування, а й дозволяє відновити текстовий промпт, яким його виконали.",
-  "full": [
-   "Текстово-кероване diffusion-редагування зображень підіймає питання дезінформації, тому надійне визначення походження зображення стає критично важливим. Існуючі водяні знаки зазвичай несуть лише фіксований ідентифікатор, який не пояснює, що саме змінили і яким промптом, а за умов відкритого доступу до ваг моделі (white-box) зловмисники можуть легко знайти й видалити такі знаки, якщо вони додані як окремий модуль.",
-   "AngelFingerprint вирішує обидві проблеми: технологія вбудовує LoRA-адаптер безпосередньо у diffusion-модель, щоб закодувати CLIP-ембединг текстового промпту редагування прямо у вагах моделі. Спеціальний екстрактор потім відновлює цей ембединг лише за пікселями зображення. Якість редагування зберігається завдяки velocity-alignment якорю, а частотний фільтр робить знак непомітним для ока, але стійким до видалення.",
-   "На датасеті MagicBrush екстрактор AngelFingerprint досяг 86% точності top-1 у задачі відновлення промпту серед 200 варіантів — проти 20% у базового методу інверсії промпту."
-  ],
-  "means": "Індустрія рухається до маркування AI-відредагованих зображень з поясненням самих змін — тренд, аналогічний Content Credentials в Adobe, який може вплинути на майбутні вимоги прозорості для наших генеративних функцій GenErase, GenSwap і GenExpand. Варто стежити за подібними підходами як потенційним стандартом провенансу для генеративного редагування.",
-  "importance": 2,
-  "category": "algo",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "2d5c76e7b0",
-  "source": "arXiv cs.CV",
-  "url": "https://arxiv.org/abs/2609.04603",
-  "date": "2026-09-07T04:00:00+00:00",
-  "page": {
-   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
-   "images": [
-    {
-     "file": "3ae7e4149691.jpg",
-     "w": 1000,
-     "h": 1000,
-     "alt": "Refer to caption",
-     "cap": "Figure 2 : Sample of frontal human scene dataset. A representative sample of the synthetic 40 image dataset generated from Qwen-Image-2512 including the following examples: (top left) Woman in Bedroom",
-     "src": "https://arxiv.org/html/2609.04603v1/figures/dataset_images_sample.png"
-    },
-    {
-     "file": "ef7200f9bf37.jpg",
-     "w": 1000,
-     "h": 361,
-     "alt": "Refer to caption",
-     "cap": "Figure 3 : HSRD analysis of camera LoRA output images. Input images on the left for each pair are labeled with the requested camera change direction, such that the head in the output image should face",
-     "src": "https://arxiv.org/html/2609.04603v1/figures/hsrd_quantitative_analysis.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Метрика HSRD оцінює, чи коректно AI повертає камеру навколо людини на фото",
-  "lead": "Наукова робота представляє метрику Head Scene Rotation Difference (HSRD) для перевірки, чи коректно diffusion-моделі редагування зображень змінюють ракурс камери навколо людини, не спотворюючи фон і положення голови.",
-  "full": [
-   "Сучасні генеративні diffusion-трансформери для редагування зображень добре справляються із семантичними змінами, але досі не вміють просторово узгоджено змінювати ракурс камери. Головна перешкода — відсутність спеціалізованих парних мультиракурсних даних з людьми у фіксованих локаціях природних сцен, оскільки зйомка таких даних кількома камерами одночасно логістично складна й погано масштабується.",
-   "Автори спробували створити такі дані синтетично за допомогою сучасних моделей редагування зображень, але виявили, що результати часто містять галюцинації в тому, наскільки голова людини повертається відносно фону, і нерідко спотворюють оточення. Для кількісної оцінки цієї проблеми вони запропонували метрику HSRD, яка відокремлює рух камери від локальної зміни положення голови.",
-   "За словами авторів, HSRD дає інструментарій для надійної оцінки просторового паралаксу людини в сцені та відкриває шлях до побудови якісніших синтетичних мультиракурсних датасетів у майбутньому."
-  ],
-  "means": "Проблема коректного \"повороту камери\" навколо людини суміжна з майбутніми можливостями Portrait Bokeh і Relight AI, де важливо зберігати ідентичність обличчя й фон при трансформаціях кадру. Поки що це радше дослідницький інструмент оцінки якості, ніж готова фіча, але він задає орієнтир для контролю якості подібних генеративних можливостей.",
-  "importance": 2,
-  "category": "algo",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
+  "added": "2026-09-07T14:20:41+00:00"
  },
  {
   "id": "a8cc929d8b",
@@ -818,247 +647,8 @@
    "kind": "none",
    "hero_image": null,
    "video": null
-  }
- },
- {
-  "id": "d0cfd7b75f",
-  "source": "arXiv cs.CV",
-  "url": "https://arxiv.org/abs/2609.04827",
-  "date": "2026-09-07T04:00:00+00:00",
-  "page": {
-   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
-   "images": [
-    {
-     "file": "886e018970a3.jpg",
-     "w": 1000,
-     "h": 490,
-     "alt": "Refer to caption",
-     "cap": "Figure 3 : Feature space comparison for style characterization. Depth Anything v2 [ 61 ] CLS tokens fail to separate weather conditions, while our style filter features form distinct clusters.",
-     "src": "https://arxiv.org/html/2609.04827v1/images/DepthAnythingCLS.jpg"
-    },
-    {
-     "file": "b2ed7d4117fa.jpg",
-     "w": 1000,
-     "h": 340,
-     "alt": "Refer to caption",
-     "cap": "Figure 4 : Overview of our proposed DepthAnything-W. (a) The training pipeline: clean and degraded images pass through the Depth Anything backbone, with weather embeddings from the Style Filter inject",
-     "src": "https://arxiv.org/html/2609.04827v1/DAW.png"
-    },
-    {
-     "file": "e5b1190ff43b.jpg",
-     "w": 784,
-     "h": 518,
-     "alt": "Refer to caption",
-     "cap": "Figure 5 : Qualitative comparison on various synthetic weather degradations. Our method (DA-W) produces more accurate and stable depth predictions under challenging synthetic weather conditions. The r",
-     "src": "https://arxiv.org/html/2609.04827v1/images/supp/fog/14_img.png"
-    },
-    {
-     "file": "d21ec6b7a9c7.jpg",
-     "w": 1000,
-     "h": 829,
-     "alt": "Refer to caption",
-     "cap": "Figure 6 : Qualitative comparison on mixed degradations. Each row shows real-world images of snow at night.",
-     "src": "https://arxiv.org/html/2609.04827v1/images/mixrealworld/mix_1.png"
-    },
-    {
-     "file": "d7bcbef1ec31.jpg",
-     "w": 1000,
-     "h": 125,
-     "alt": "Refer to caption",
-     "cap": "Figure 7 : Visualization of decoder feature modulation by weather-aware conditioning. From left to right: input image, decoder features before modulation, decoder features after modulation, and the ab",
-     "src": "https://arxiv.org/html/2609.04827v1/images/STEPS_1542194184862460_feat_compare.png"
-    },
-    {
-     "file": "b8f8dac85ce1.jpg",
-     "w": 1000,
-     "h": 491,
-     "alt": "Refer to caption",
-     "cap": "Figure 8 : t-SNE Visualization of real and synthetic dataset distributions.",
-     "src": "https://arxiv.org/html/2609.04827v1/images/supp_dis.png"
-    }
-   ],
-   "videos": []
   },
-  "relevant": true,
-  "title": "Weather-Conditioned Depth Anything підвищує точність оцінки глибини в тумані, дощі й вночі",
-  "lead": "Дослідники представили DA-W — надбудову над моделлю Depth Anything, яка розпізнає погодні умови (туман, дощ, сніг, темрява) і адаптує оцінку глибини під них без погіршення якості на звичайних знімках.",
-  "full": [
-   "Моделі сімейства Depth Anything для монокулярної оцінки глибини демонструють високу якість у більшості сценаріїв, але помітно втрачають точність за несприятливих погодних умов — у тумані, дощі, снігу чи вночі.",
-   "DA-W (Weather-Conditioned Depth Anything) вирішує це через Style Filter, навчений на суміші реальних і синтетичних даних деградації, який виділяє незалежні від змісту, чутливі до погодних умов ембединги. Ці ембединги вбудовуються у базову модель Depth Anything через легкий адаптер з нульовою ініціалізацією, що дозволяє одній уніфікованій моделі надійно адаптуватися під різні умови, не втрачаючи базової якості на чистих знімках.",
-   "За результатами експериментів, DA-W показує найкращу серед аналогів стійкість оцінки глибини за складних погодних умов, покращуючи метрику AbsRel у середньому на 3,7% на кураторських бенчмарках з негодою, при цьому зберігаючи або трохи покращуючи якість на стандартних чистих бенчмарках."
-  ],
-  "means": "Оцінка глибини лежить в основі Bokeh AI, портретного розмиття фону та частини масок (Mask AI). Стійкість до туману, дощу, снігу й темряви безпосередньо покращила б якість боке та масок на знімках, знятих поза студійними умовами — типовий сценарій для аудиторії Luminar, яка часто знімає в польових умовах.",
-  "importance": 2,
-  "category": "algo",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "536840ef29",
-  "source": "arXiv cs.CV",
-  "url": "https://arxiv.org/abs/2609.04939",
-  "date": "2026-09-07T04:00:00+00:00",
-  "page": {
-   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
-   "images": [
-    {
-     "file": "095281b4136e.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "Refer to caption",
-     "cap": "Figure 1 : Controllable multi-style lens effect rendering with LensStyle. Our framework enables unified control over three complementary dimensions of lens aesthetics within a single model. Top-left: ",
-     "src": "https://arxiv.org/html/2609.04939v1/Figure1_1.png"
-    },
-    {
-     "file": "e9b25f29884c.jpg",
-     "w": 1000,
-     "h": 520,
-     "alt": "Refer to caption",
-     "cap": "Figure 2 : Overview of LensStyle. The input image is first encoded into latent by a VAE encoder and then processed by a flow matching network for lens effect rendering.\nA Dual Path Controller conditio",
-     "src": "https://arxiv.org/html/2609.04939v1/images/pipeline3.png"
-    },
-    {
-     "file": "3e69e7e8a390.jpg",
-     "w": 966,
-     "h": 715,
-     "alt": "Refer to caption",
-     "cap": "(a) Illustration of MultiLens Synthesis. Our simulator maps point inputs to diverse optical effects, including circle bokeh, hexagonal bokeh, donut bokeh, cat-eye effects from optical vignetting, and ",
-     "src": "https://arxiv.org/html/2609.04939v1/dataset.png"
-    },
-    {
-     "file": "fc578f83ac4e.jpg",
-     "w": 1000,
-     "h": 665,
-     "alt": "Refer to caption",
-     "cap": "(b) Examples of the MultiLens dataset. A sample grid generated from an all-in-focus image and depth map, demonstrating continuous control over focus distance (x-axis) and blur strength (y-axis) and di",
-     "src": "https://arxiv.org/html/2609.04939v1/images/dataset.png"
-    },
-    {
-     "file": "f902324555ef.jpg",
-     "w": 1000,
-     "h": 271,
-     "alt": "Refer to caption",
-     "cap": "Figure 4 : Qualitative Comparison against bokeh rendering methods for standard circle bokeh. All baselines take a depth map predicted by Depth Anything V2 [ 48 ] as input. As a result, when depth map ",
-     "src": "https://arxiv.org/html/2609.04939v1/results_circle.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "LensStyle: дослідники навчили модель контрольовано відтворювати ефекти об'єктива",
-  "lead": "Наукова робота LensStyle пропонує єдину модель для керованого рендерингу стилізованих ефектів об'єктива — форм боке (кругле, багатокутне, \"пончик\", \"котяче око\") і зорепадів (starburst) — з окремим керуванням безперервними і дискретними оптичними параметрами.",
-  "full": [
-   "Автори зазначають, що наявні методи рендерингу ефектів об'єктива зосереджені лише на коректному переході розмиття від малої до великої діафрагми, але ігнорують стилістичний бік: не вміють відтворювати різноманітні форми боке чи характерні зорепади, що виникають при малій діафрагмі.",
-   "LensStyle вирішує це через Dual-Path Controller, який розділяє безперервну модуляцію оптичних параметрів (дистанція фокусування, сила розмиття) і дискретне керування стилем об'єктива (кругла, багатокутна, \"пончик\", \"котяче око\", зорепад форми боке). Для навчання дослідники зібрали датасет MultiLens із парами зображень, синтезованих з урахуванням реальних оптичних обмежень.",
-   "За заявою авторів, LensStyle перевершує наявні методи рендерингу ефектів об'єктива та дифузійні моделі редагування зображень за реалістичністю, керованістю та естетичною якістю результату."
-  ],
-  "means": "Підхід напряму стосується Bokeh AI та Portrait Bokeh: керована стилізація форми боке й зорепадів — це наступний рівень деталізації порівняно з нинішнім керуванням лише силою розмиття за картою глибини. Вартий моніторингу як потенційний напрямок розширення контролю над \"оптичним стилем\" знімка в Luminar Neo.",
-  "importance": 3,
-  "category": "algo",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "1856014a7d",
-  "source": "tech-insider.org",
-  "url": "https://tech-insider.org/how-to-use-seedream-5-0-pro-lite-2026/",
-  "date": "2026-09-06T17:23:04+00:00",
-  "page": {
-   "text": "ByteDance’s Seed team shipped two new image models in the space of five weeks this summer: Seedream 5.0 Pro on July 8, 2026, and a lighter, cheaper Seedream 5.0 Lite on August 13, 2026. Together they push ByteDance’s image generation stack past the “type a prompt, get a picture” era into something closer to a design assistant that can read layouts, edit specific regions of an image, and pull in live web results while it works. If you have not touched Seedream since the 4.0 or 4.5 releases, the workflow has changed enough that it is worth a fresh walkthrough.\nThis tutorial covers account setup, API access, prompt structure, the multi-image editing pipeline, cost management, and a full working project that batch-generates and edits product images through the API. It also stacks Seedream 5.0 up against FLUX.2, Stable Diffusion 3.5, and Nano Banana Pro so you know when to reach for it instead of a competitor. Expect to spend 90 minutes end to end, including the API project.\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nWhat Seedream 5.0 Pro and Lite actually are\nSeedream is ByteDance’s in-house image generation and editing model line, built by the same Seed research group behind the company’s video and language models. The family now spans four releases still in active use: Seedream 4.0, 4.5, 5.0 Lite, and 5.0 Pro. ByteDance’s own announcement frames Seedream 5.0 Pro as a model that “understands design” rather than one that only paints pixels from a text description. In practice, that means it can reason about layout, spacing, and hierarchy in a way earlier text-to-image models could not.\nThe core technical differentiator is that Seedream 5.0 Pro generates and edits high-resolution images from both text prompts and reference images inside a single multimodal pipeline. Earlier generations mostly split those two jobs across separate tools. Seedream 5.0 Pro also ships with deep-thinking prompt reasoning, a built-in web search step it can use mid-generation to pull reference material, precision editing for isolated regions of an image, and native multilingual text rendering, so text baked into an image (a sign, a label, a book cover) does not come out garbled in non-English scripts.\nSeedream 5.0 Lite is the same family stripped down for speed and cost. Per pricing published on OpenRouter, Seedream 5.0 Lite runs from $0.035 per image , undercutting most premium image models while keeping the multimodal editing behavior of its Pro sibling, just with a smaller compute budget per request. For a tutorial project where you are generating dozens of test images, Lite is the one you will use most; you switch to Pro only when a shot needs the extra reasoning depth.\nOne more variant worth knowing about: Seedream 5.0 Pro Layerize, live on the EvoLink API marketplace under the model ID doubao-seedream-5.0-pro-layerize , priced 20% below BytePlus’s own list price. Layerize targets designers who need layer-separated output (background, subject, text) rather than a single flattened image, which matters if your pipeline feeds a downstream editing tool.\nHow Seedream fits into ByteDance’s broader AI stack\nSeedream does not exist in isolation. ByteDance’s Seed research group ships it alongside Seedance for video generation and a family of Doubao-branded language models, and the company routes a meaningful share of internal production work at TikTok, CapCut, and Lark through these tools before they ever reach an external API. That internal usage is part of why the design-reasoning layer in 5.0 Pro exists at all: CapCut’s template and thumbnail generation pipelines needed a model that could respect layout constraints, not just produce visually pleasing but structurally arbitrary output. When ByteDance opened that capability to outside developers through the 5.0 Pro release, it kept the same architecture rather than shipping a stripped-down external variant, which is part of why the API surface (grounding, precision editing, layer output) feels more like an internal design tool than a typical consumer image generator repackaged for developers.\nThat lineage also explains the pricing structure. Because ByteDance already runs this compute for internal products at massive scale, the marginal cost of serving external API traffic is lower than it would be for a lab building image generation as a standalone product, which is a plausible reason Seedream 5.0 Lite can undercut most competing premium models at $0.035 per image while ByteDance still profits on volume. None of this changes how you call the API, but it is useful context if you are deciding whether to build a long-term dependency on the platform: the roadmap is driven by ByteDance’s own product needs first, and third-party API access second.\nBefore you start, get these in place. Version numbers matter here because Seedream’s API surface has shifted twice in the last two months.\nAn API key from either an official BytePlus/ByteDance channel or a routing provider such as OpenRouter (the examples below use OpenRouter’s unified endpoint, model ID bytedance-seed/seedream-5-0-lite or the Pro equivalent).\nPython 3.11 or newer, or Node.js 20 LTS or newer, for the scripting examples.\nThe requests library (Python) or native fetch (Node) — no special SDK is required since Seedream exposes a standard REST endpoint.\nRoughly $5 to $10 in prepaid API credit for the full tutorial project, given Lite’s $0.035-per-image floor.\nFor the local comparison section: at least 16 GB of system RAM if you also want to test smaller open-weight competitors like FLUX.2 [klein] locally; Seedream itself is API-only and has no local/open-weight release.\nUnlike FLUX.2 or Stable Diffusion 3.5, there is no open-weight Seedream checkpoint to download. Every workflow in this tutorial goes through an API call, whether that’s ByteDance’s own BytePlus console, a marketplace like OpenRouter, or a reseller like EvoLink.\nStep 1: Create your API account and get a key\nSign up through your chosen provider. If you want the simplest path, OpenRouter aggregates Seedream 5.0 Lite (and, depending on availability, Pro) alongside dozens of other image and text models under one billing account, which is useful if you are already comparing Seedream against FLUX.2 or Gemini’s image tools in the same project. Once registered, generate an API key from the dashboard and store it as an environment variable rather than hardcoding it:\nIf you are going through BytePlus directly instead, the base URL and authentication header format differ slightly, but the request body structure below stays the same across providers since Seedream’s API follows the same OpenAI-style chat/completions convention most 2026 multimodal models use.\nStep 2: Send your first text-to-image request\nStart with a plain text-to-image call to confirm your key and billing work before you add reference images or editing instructions.\nA successful response returns a JSON object with a hosted image URL (or base64 payload, depending on provider settings) plus a usage field showing token or credit consumption for that call. Save that response object; you will need the returned image URL in Step 5 when you chain an editing pass on top of this base render.\nStep 3: Structure prompts for Seedream’s design reasoning\nBecause Seedream 5.0 Pro was built around layout and design understanding rather than pure aesthetic generation, it responds better to prompts that describe structure explicitly instead of only mood and style. A prompt like “a nice looking banner ad for a shoe sale” will get you a generic result. A prompt that specifies hierarchy performs noticeably better:\nThe difference is not cosmetic. Seedream’s design-aware reasoning step actually parses spatial instructions (“left third,” “bottom-right”) and respects them far more consistently than a model without that reasoning pass, which is the entire point of the 5.0 Pro release. If you have used Midjourney or FLUX primarily for atmospheric, style-driven images, this is the biggest behavioral shift to plan for.\nStep 4: Use the built-in web search grounding\nSeedream 5.0 Pro can pull in live web references mid-generation, a feature most competing image models lack entirely. This matters when you need visual accuracy for something the base model was not trained on recently, like a product that launched last month or a current logo variant. Enable it with a flag in the request body:\nWith grounding enabled, expect slightly longer generation times (the model has to run a retrieval step before rendering) and a small increase in token cost. Turn it off for purely stylistic or fictional prompts where accuracy to a real-world reference does not matter, since it adds latency for no benefit there.\nThis is where Seedream 5.0 separates itself from a pure text-to-image tool. Instead of regenerating an entire scene to change one element, you pass the existing image plus a targeted instruction, and the model edits only the referenced region.\nThe “keep X identical” instruction is doing real work here. Seedream’s editing pass is precise enough to isolate the countertop material without touching the dripper or the lighting setup, which is the difference between an editing model and a model that just regenerates the whole frame with a new seed and hopes for consistency.\nStep 6: Handle multilingual text rendering\nIf your image needs legible text baked in — packaging, signage, UI mockups — Seedream’s native multilingual text handling is one of its stronger claims versus older image models that historically mangled anything beyond basic Latin characters. Test it directly:\nRun the same prompt in a couple of scripts you actually need (Japanese, Arabic, Cyrillic — whatever your project targets) before committing to Seedream for a text-heavy production run. Text rendering quality still varies by script even on 2026’s best multimodal models, and the only reliable way to know is to test your specific alphabet.\nStep 7: Batch generation for a product catalog\nNow the complete working project: a script that reads a CSV of product names, generates a base image for each with Seedream 5.0 Lite (to keep cost down), and saves them locally with predictable filenames.\nA products.csv with columns name,description and 20 rows will cost you roughly $0.70 at Lite’s $0.035-per-image floor, plus whatever your provider adds on top. That is cheap enough to iterate on prompt wording several times before locking in a final batch run.\nStep 8: Chain generation and editing in one pipeline\nCombine Steps 2 and 5 into a single function so your pipeline can generate a base image, then apply a standardized edit (say, swapping backgrounds for different marketing channels) without manual steps in between.\nNote the mixed-model approach: Lite handles the cheap base generation, Pro handles the more demanding precision edit. This split cuts cost on high-volume steps without giving up the editing accuracy you need on the step that actually requires it.\nStep 8b: Wrap the pipeline in a small Flask API for your team\nIf more than one person on your team needs to call Seedream, do not hand out your raw API key to every developer and designer. Wrap the generate-and-edit function from Step 8 in a small internal Flask service that holds the key server-side and exposes a simpler endpoint your team can call from Slack bots, internal tools, or a design app plugin.\nRun this behind your internal network or an authenticated reverse proxy, never exposed directly to the public internet, since it holds a live billable API key. Add a per-user request quota at the application layer (a simple in-memory or Redis counter keyed by an internal user ID header) if you want to prevent one person’s runaway script from draining the team’s shared credit balance.\nStep 8c: Scale generation with concurrent requests\nThe batch script in Step 7 processes one image at a time, which is fine for 20 products but slow for a catalog of 500. Since Seedream calls ar",
-   "images": [
-    {
-     "file": "934bd74bff6f.jpg",
-     "w": 1000,
-     "h": 571,
-     "alt": "",
-     "cap": "",
-     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1.webp"
-    },
-    {
-     "file": "346804f05e43.jpg",
-     "w": 768,
-     "h": 439,
-     "alt": "",
-     "cap": "",
-     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1-768x439.webp"
-    },
-    {
-     "file": "2b3a2725ae6b.jpg",
-     "w": 512,
-     "h": 512,
-     "alt": "Elias Virtanen",
-     "cap": "",
-     "src": "https://tech-insider.org/wp-content/uploads/2026/03/ti-author-elias.jpg"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "ByteDance Seedream 5.0: генерація і точковий edit зображень від $0,035 за фото",
-  "lead": "ByteDance випустила моделі генерації та редагування зображень Seedream 5.0 Pro (8 липня 2026) і легшу Seedream 5.0 Lite (13 серпня 2026) — з розумінням макета, точковим редагуванням областей і вбудованим вебпошуком під час генерації.",
-  "full": [
-   "Seedream 5.0 Pro генерує та редагує зображення в одному мультимодальному пайплайні на основі тексту й референсних зображень, розуміючи компонування, відступи та ієрархію елементів, а не лише естетику. Модель підтримує точкове редагування виділеної області без перегенерації всього кадру, вбудований вебпошук для підтягування актуальних референсів під час генерації та коректний рендеринг тексту різними мовами. Seedream 5.0 Lite — полегшена версія для швидких і дешевих ітерацій із тими самими можливостями редагування, але меншим обчислювальним бюджетом.",
-   "Модель доступна лише через API (без відкритих ваг) — через консоль BytePlus, агрегатор OpenRouter або реселера EvoLink. Seedream 5.0 Lite коштує від $0,035 за зображення за прайсом OpenRouter, що дешевше за більшість преміальних аналогів. Окремий варіант Seedream 5.0 Pro Layerize повертає результат пошарово (фон, обʼєкт, текст) для дизайнерських пайплайнів, які потребують подальшого компонування.",
-   "Модель розробляє дослідницька група Seed у ByteDance, яка також відповідає за CapCut, TikTok і мовні моделі Doubao; той самий рушій використовується у внутрішніх продуктах компанії, зокрема для генерації шаблонів і мініатюр CapCut, перш ніж бути відкритим для зовнішніх розробників."
-  ],
-  "means": "Точкове редагування виділеної області зображення при збереженні решти кадру — напрямок, близький до наших генеративних інструментів GenErase, GenSwap і GenExpand. Пошаровий вивід Layerize корисний як референс для композитної роботи (Composition AI, Layers), а низька ціна за зображення задає орієнтир вартості для хмарних генеративних фіч Luminar Neo та Mobile.",
-  "importance": 3,
-  "category": "ai",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "0559cbad2d",
-  "source": "Fstoppers",
-  "url": "https://fstoppers.com/education/delete-someone-group-photo-without-ever-opening-photoshop-904484?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles",
-  "date": "2026-09-06T09:03:01+00:00",
-  "page": {
-   "text": "Remove a person from the middle of a group photo, close the gap as if they were never there, and do it all without touching Photoshop. That option is now sitting inside Lightroom for anyone who has never gotten comfortable with layers and masks.\nGlyn Dewis walks through the exact workflow using a shot from his I Am Lyme project, a picture he grabbed with the Scallop Diver Dorset crew at the end of a shoot. He starts by testing the built-in remove tool in Lightroom with generative AI checked, and the result is honest: the background rebuilds fairly well, but the arm and hand of the man beside him fall apart. Dewis is upfront that this video is for people who use Lightroom and stop there, not for anyone already living in Photoshop every day. His own wife is the example he reaches for, someone with phone pictures she'd love to tidy up but no interest in learning masks to do it.\nThe real method routes the image out to Adobe Firefly through the Photo menu, using the \"Generating Firefly\" option and then \"Edit Photo.\" That sends the picture to the Firefly website, where Dewis picks his model from a list that includes Adobe's own Firefly Image 5 alongside partner models like ChatGPT's image model and Google Gemini 3.1. His prompt spells everything out: remove the person in the blue baseball cap, move the remaining three people close together, and keep the faces, hair, clothing, and coloring identical to the original. About a minute and a half later, the three men are standing together, the background is intact, and there's no sign anyone was cut out. He then shows how to check the resolution and upscale, since the regenerated image comes back smaller than the 6,060 by 4,040 original.\nCredit cost is where the tradeoffs get concrete. Switching to the ChatGPT image model at high quality jumps the cost from 20 credits to 80, a real leap that Dewis flags plainly. His framing is sensible: this is an occasional job, not a daily habit, so a single 80-credit edit won't drain your balance. He also points out the one rough edge in the round trip, that Firefly hands the finished file to your downloads folder rather than dropping it straight back into the Lightroom catalog, and he'd like Adobe to close that loop.\nThis fits into a wider shift in how Adobe is spreading generative editing across its apps instead of locking it behind Photoshop. Firefly now sits at the center of that push, and the model picker inside it, offering ChatGPT and Gemini alongside Adobe's own engine, points to a future where you choose the right tool for a specific edit rather than committing to one. The practical takeaway extends past removing people: a prompt that names exactly what to keep, faces, hair, clothing, coloring, gives generative models far less room to invent things you don't want. That discipline carries over to any AI edit you attempt, whether you're clearing a background, removing a distraction, or reworking a crowded holiday frame. Match the resolution question to your output too, since a regenerated file often lands smaller than your camera's native file and benefits from an upscale before you print or crop.\nDewis is careful not to oversell it. He says outright that Firefly isn't better than Photoshop, and if you're comfortable there, keep going. The point is that skipping Photoshop no longer puts this kind of edit out of reach, and the work doesn't have to be professional to be worth doing. A family photo with someone you'd rather not see, a holiday shot with a stranger drifting through the back, or a snap you simply want to like a bit more all qualify.\nWatch the full walkthrough above to see the prompt, the model choice, and the before-and-after that sells the whole approach.\nThe Lightroom Object Selection Trick That Beats “Select Subject”\nThe AI Debate Splitting Wedding Photographers Right Now\nAdobe's New AI Credit Cost Preview in Photoshop: What You Need to Know\nSee Your Focus Points in Camera Raw: The Setting Hiding in the Right-Click Menu\nLightroom's Tone Curve Explained: Every Trick You Need to Know\nWhy Your Lightroom Profile Choice Quietly Shapes the Entire Edit\nPost comments and join in the discussions\nShare your work and get featured in the community\nCompete in the photo contests for fun and prizes",
-   "images": [
-    {
-     "file": "5112b7e4665a.jpg",
-     "w": 614,
-     "h": 350,
-     "alt": "",
-     "cap": "",
-     "src": "https://cdn.fstoppers.com/styles/medium/s3/lead/2026/09/cover-dewis.jpg?itok=DJ1L7nxE"
-    },
-    {
-     "file": "6a29ef80b604.jpg",
-     "w": 1000,
-     "h": 565,
-     "alt": "Side-by-side comparison showing person circled in left image removed from right image, with Photoshop and Lightroom logos",
-     "cap": "",
-     "src": "https://cdn.fstoppers.com/styles/large_16_9/s3/lead/2026/09/cover-dewis.jpg.webp?itok=hujjxf5t"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Lightroom видаляє людину з групового фото через Firefly без Photoshop",
-  "lead": "Fstoppers розібрав воркфлоу Гліна Дьюїса: вбудований Remove у Lightroom не впорався з видаленням людини з центру групи, а відправка кадру у Firefly з текстовим промптом дала чистий результат.",
-  "full": [
-   "Вбудований інструмент Remove з увімкненим генеративним AI добре відновив фон, але зіпсував руку сусіда. Робочий метод — меню Photo → Generating Firefly → Edit Photo: кадр іде на сайт Firefly, де можна обрати модель — Firefly Image 5, модель зображень ChatGPT або Google Gemini 3.1. Промпт описує, кого прибрати, як зсунути решту людей і що зберегти незмінним (обличчя, волосся, одяг, кольори). Через приблизно півтори хвилини троє людей стоять поруч без слідів монтажу.",
-   "Ціна в кредитах: перемикання на модель ChatGPT у високій якості піднімає вартість з 20 до 80 кредитів за правку. Регенерований файл повертається меншим за оригінал 6060×4040, тож потрібен апскейл, а готовий результат падає в папку завантажень, а не в каталог Lightroom.",
-   "Автор підкреслює: Firefly не кращий за Photoshop, але такі правки більше не потребують шарів і масок, що відкриває їх звичайним користувачам з телефонними знімками."
-  ],
-  "means": "Adobe робить видалення й перекомпонування людей доступним прямо з Lightroom через сторонні моделі (ChatGPT, Gemini) — це територія нашого Erase та GenErase. Показові вузькі місця: втрата роздільної здатності, розрив каталогу і 80 кредитів за правку. Luminar Neo може виграти, якщо GenErase поверне результат у повній роздільній здатності в межах каталогу й з прозорими лімітами, а Luminar Mobile — дати промпт-керування Erase для сімейних фото.",
-  "importance": 3,
-  "category": "comp",
-  "media": {
-   "kind": "image",
-   "hero_image": 1,
-   "video": null
-  }
+  "added": "2026-09-07T14:20:41+00:00"
  },
  {
   "id": "7c1a11d9bc",
@@ -1150,7 +740,595 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-07T14:20:41+00:00"
+ },
+ {
+  "id": "f1903a046f",
+  "source": "iLounge",
+  "url": "https://www.ilounge.com/articles/i-tried-8-ai-image-generators-for-fashion-campaigns-heres-how-they-ranked",
+  "date": "2026-09-04T16:24:08+00:00",
+  "page": {
+   "text": "Fashion is a brutal test for AI imagery because audiences notice details. Hands, fabric, accessories, logos, styling and body proportions all have to survive close inspection. At the same time, fashion is one of the most exciting places to use generative tools because campaigns depend so heavily on visual worlds, impossible locations and fast-changing creative direction.\nThe best platform for a fashion team has to do more than produce an attractive portrait. It should help the team hold onto a character, preserve a product or silhouette, explore art direction and then turn the selected image into something large enough and controlled enough for real campaign use.\nWe ranked these tools with brand work in mind rather than generic AI art.\n1. Magnific: Best overall for fashion campaign production\nMagnific takes first place because fashion teams often need several kinds of AI work inside the same project. A campaign may start with mood exploration, move into model and product studies, require background or lighting changes, and end with high-resolution images plus motion assets.\nMagnific’s image generator supports a broad selection of model families, including Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma and Magnific. That lets the creative team choose different strengths rather than forcing every campaign through one visual engine.\nReference-driven workflows are particularly important for fashion. A team may need to preserve a face, garment, accessory or overall styling while changing the location or composition. Different available models support references in different ways, giving the artist options when one approach is not holding the subject well enough.\nThe post-generation tools are equally relevant. Relighting can change the mood without rebuilding the concept. Change Camera can help explore another angle. Editing and variations speed up art-direction changes, while upscaling gives approved imagery a path toward larger delivery sizes.\nPrecision upscaling is a useful choice when product fidelity matters, while Creative upscaling can push texture or richness on more interpretive editorial images. Spaces also gives campaign teams a visual place to branch concepts and keep the process reusable.\n2. Adobe Firefly: Best for fashion teams with professional retouchers\nFashion imagery is rarely finished at capture, whether the source is a camera or an AI model. Retouching, compositing, color work and layout are normal parts of the process. Adobe therefore has an obvious advantage.\nFirefly lets generative work sit near Photoshop and other Creative Cloud tools, so an imperfect output is not a dead end. A retoucher can fix what needs fixing rather than asking the generator to reproduce the entire image because one detail is wrong.\nAdobe’s multi-model direction also gives teams more generation choice while preserving that familiar finishing environment.\nFor established fashion houses, agencies and magazines, this may be the easiest workflow to integrate operationally. We still rank Magnific first because its AI-native model selection, upscaling and connected image-to-video workflow offer more flexibility before the final retouching stage.\n3. Midjourney: Best for editorial fashion direction\nMidjourney remains exceptional at fashion imagery that feels like it has an opinion. Lighting, styling, composition and atmosphere often appear more editorial than purely literal.\nThat makes it ideal for moodboards, pitch decks, campaign territories and experimental editorials. A creative director can explore a collection in brutalist architecture, on an unreal coastline or inside a surreal studio environment before committing to the final production route.\nMidjourney is particularly good at answering “What could this campaign feel like?” It can help a team discover visual language faster than a long chain of references and written descriptions.\nThe trade-off is fidelity. When a specific garment, accessory or model identity must remain exact, we would move into more controlled reference and editing workflows. Midjourney is best when art direction is the hard problem.\n4. Recraft: Best for fashion branding and graphic systems\nFashion campaigns are not only photographs. They also need packaging, labels, icons, invitations, graphic motifs, retail elements and digital design assets.\nRecraft is strong in that world because it approaches AI from a design perspective and includes vector-oriented generation. A brand team can explore scalable graphic elements that support the campaign rather than generating another raster mood image.\nThis is useful for younger fashion brands that want the same visual language across social content, packaging and ecommerce. Recraft can help develop the system around the photography.\nWe would not rely on it alone for realistic fashion editorials, but as part of a wider campaign stack it is one of the most practical specialist tools.\n5. Ideogram: Best for campaigns where typography is central\nFashion loves typography: campaign titles, magazine-style treatments, event posters, packaging and social graphics. Ideogram belongs on this list because it makes text inside generated imagery more usable than most traditional generators.\nA creative team can explore the relationship between the model, product and headline during concept development instead of designing the image and typography as completely separate ideas.\nThat is particularly helpful in pitch work. A client can react to something that feels closer to a finished campaign composition rather than an isolated AI photo.\nFor final brand typography, designers should still rebuild and control the type precisely. Ideogram’s value is speed of visual thinking, not replacing a professional layout system.\n6. Krea: Best for fast styling and mood experiments\nKrea works well when the team wants to explore quickly. Fashion art direction often starts with small visual questions: colder light or warmer light, cleaner studio or messy backstage, glossy finish or film grain, minimal styling or something more maximal.\nAn interactive creative environment makes those questions easier to test. Krea encourages the team to move through possibilities rather than overthink every prompt.\nWe like it for pre-production and visual research, especially when a designer is trying to find the edge of a campaign before committing to a polished direction.\nIt ranks below the broader suites because a fashion campaign eventually needs stronger consistency, high-resolution delivery and a clearer production path.\n7. ChatGPT Images: Best for creative directors who prefer giving feedback\nNot every creative director wants to operate a complex generator. Many are much more comfortable describing what should change.\nChatGPT Images works well in that situation. A team can upload a reference, explain the campaign, generate a direction and keep revising in normal language. “Keep the pose, change the set.” “Make the styling sharper.” “Give us more empty space for the masthead.” Those are natural instructions in a fashion review.\nThe same conversation can also hold campaign context, copy ideas and creative rationale. That makes it particularly approachable for brand and marketing leaders who want to be involved in the visual process.\nFor controlled multi-asset production, however, we would still want a more specialized workflow around it.\n8. Canva: Best for adapting approved fashion visuals into everyday content\nCanva is not our first choice for generating the hero image of a luxury campaign, but it is extremely useful after that image exists.\nFashion brands need enormous amounts of adaptation: stories, feed posts, sale banners, retail screens, launch decks and regional versions. Canva lets a broader marketing team handle that production inside templates and brand controls without asking the main creative studio to resize everything.\nAI generation can support those everyday needs, while the platform’s bigger value is assembly and collaboration.\nFor small fashion brands with limited design resources, Canva may actually be one of the most-used tools on this list even though it ranks eighth for high-end generative art direction.\nFashion AI works best when the brand stays more important than the model\nThe danger in fashion AI is chasing whatever aesthetic a model happens to make easily. The result may look polished but could belong to any brand. Strong creative teams work in the opposite direction: the brand defines the visual language, and the AI is selected and controlled to serve it.\nMidjourney is brilliant for finding an editorial world. Adobe is the obvious finishing environment for teams with professional retouchers. Recraft and Ideogram solve important graphic-design problems around the main campaign.\nMagnific wins overall because it can cover more of the journey without forcing the team into one model family. The team can explore, switch models, edit, relight, change perspective, upscale and then continue into video inside the same creative suite. That is particularly valuable when a campaign needs stills and motion that feel like part of the same system.",
+   "images": [
+    {
+     "file": "6e73475135b8.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1.jpeg"
+    },
+    {
+     "file": "76040b5eacbc.jpg",
+     "w": 860,
+     "h": 573,
+     "alt": "AI-generated fashion campaign visuals showcased for top image generator comparison and ranking",
+     "cap": "",
+     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1-860x573.jpeg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-04T16:24:08+00:00"
+  },
+  "relevant": true,
+  "title": "Рейтинг 8 AI-генераторів зображень для фешн-кампаній",
+  "lead": "Видання iLounge протестувало вісім інструментів генерації зображень для модних рекламних кампаній і склало рейтинг за придатністю до брендової роботи: перше місце отримав Magnific, друге — Adobe Firefly, третє — Midjourney.",
+  "full": [
+   "Автори оцінювали інструменти не як генератори «красивих картинок», а з погляду реальної продакшн-роботи над кампаніями: збереження персонажа чи товару, дослідження арт-напрямку і можливість довести обране зображення до якості, придатної для фінальної кампанії. Перше місце посів Magnific — за підтримку одразу кількох сімейств моделей (Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma, власна Magnific) в одному інструменті, референс-орієнтовані воркфлоу для збереження обличчя, одягу чи аксесуарів, а також постобробку: релайтинг, зміну ракурсу камери, точний (Precision) і креативний (Creative) апскейл.",
+   "Друге місце зайняв Adobe Firefly — завдяки прямій інтеграції з Photoshop та іншими інструментами Creative Cloud, що дає командам із професійними ретушерами змогу довести згенероване зображення до фінального вигляду, а не переробляти генерацію з нуля через одну деталь. Midjourney посів третє місце як інструмент для пошуку арт-напрямку та мудбордів завдяки сильному відчуттю стилю, хоча програє в точності відтворення конкретного товару чи вбрання.",
+   "Далі в рейтингу — Recraft (брендинг і графічні системи, векторна генерація), Ideogram (робота з текстом і типографікою всередині зображення), Krea (швидкі експерименти зі стилем і освітленням), ChatGPT Images (генерація через звичайні текстові інструкції для директорів, що не хочуть освоювати складний інтерфейс) і Canva, яка замикає рейтинг для генерації хіро-зображень, але лишається практичною для адаптації вже готових візуалів під соцмережі, банери й інші формати."
+  ],
+  "means": "Огляд показує, що лідери ринку фешн-генерації поєднують вибір із кількох моделей із постобробкою — релайтингом і апскейлом, — тобто функціоналом, що напряму перетинається з нашими Relight AI, Supersharp AI/Upscale AI та хмарними GenErase/GenSwap/GenExpand. Варто орієнтуватися на підхід Magnific (мультимодельність plus вбудований апскейл і перехід у відео в одному середовищі) та Adobe Firefly (тісна інтеграція генерації з ретушшю в Photoshop) як бенчмарк для власного позиціонування AI-інструментів Luminar Neo серед фотографів і брендів, які працюють із кампанійним контентом.",
+  "importance": 2,
+  "category": "ai",
+  "media": {
+   "kind": "image",
+   "hero_image": 1,
+   "video": null
+  },
+  "added": "2026-09-07T13:40:13+00:00"
+ },
+ {
+  "id": "bd7d0546f3",
+  "source": "Jon Peddie Research",
+  "url": "https://www.jonpeddie.com/news/nvidia-buys-hugging-face-for-13b/",
+  "date": "2026-09-04T15:22:59+00:00",
+  "page": {
+   "text": "Nvidia just spent $12.93 billion on a company that doesn’t make chips or models, it makes the place where 18 million developers go to find them. Hugging Face functions as something like GitHub for AI, and Nvidia isn’t buying the models sitting on it, it’s buying the distribution layer connecting those models to the hardware running them. We walk through why Nvidia explicitly promised not to require its own hardware, what that promise actually protects, and what this means for AMD and Intel.\nNvidia confirmed a $12.93 billion acquisition of Hugging Face on Thursday, sending Nvidia shares up roughly 2%. Hugging Face hosts more than 3 million models, 500,000 datasets, and 1 million applications, drawing more than 18 million developers, researchers, and creators, with more than 200,000 companies using the platform to discover, evaluate, customize, and deploy AI. The deal will close in the first half of 2027, pending regulatory approval.\nNvidia isn’t buying a model company here. It’s buying the distribution layer for open AI. Hugging Face has become something close to GitHub for AI models, the place developers discover them, compare them, customize them, and decide how to deploy them. Nvidia built its dominant position from the bottom up: GPUs provided the compute, CUDA created the programming environment around that compute, and networking plus DGX systems expanded that into complete AI infrastructure. Hugging Face moves Nvidia one step closer to the developer, sitting at the exact decision point of which model to use and where to run it.\nA real economic logic sits underneath the deal. The largest frontier AI companies count among Nvidia’s biggest customers, and those same companies carry the strongest incentive to build alternative accelerators and custom silicon. Open AI creates a fundamentally different market structure instead: millions of developers, thousands of organizations, millions of models, and an enormous variety of workloads. That fragmentation suits a broadly programmable accelerated-computing platform well. Nvidia doesn’t need to win the model war outright. It benefits simply if nobody else does.\nNvidia CEO Jensen Huang went unusually far in promising Hugging Face stays open. Developers keep the freedom to choose their own models, frameworks, clouds, inference providers, and computing platforms, and Nvidia explicitly stated its own compute will not become a requirement for building on or deploying through the platform. Justin Boitano, Nvidia’s enterprise computing general manager, framed the strategy directly: Growing Hugging Face’s user base depends on keeping developers free to choose their own hardware, clouds, and stack, even as Nvidia benefits from the training and inference that happens to run on Nvidia hardware anyway.\n“Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty,” Huang posted on X. “They allow every developer, startup, university, industry and country to build with, customize and benefit from AI.”\nThat commitment isn’t simple goodwill. It’s fundamental to the acquisition’s actual value. Hugging Face became important precisely because it functions as a broadly accessible meeting place for the entire AI community, and turning it into an Nvidia-only channel would undermine the exact ecosystem Nvidia just paid nearly $13 billion to acquire. Nvidia doesn’t need that kind of exclusivity. It only needs its own path through the platform to run exceptionally well, letting a developer discover a model on Hugging Face, evaluate it, optimize it for Nvidia hardware, and deploy it through Nvidia’s own growing software stack, all without technically closing off any other path. The real competitive question isn’t whether Hugging Face keeps supporting AMD, Intel, and other accelerators; it’s whether Nvidia’s own path becomes so frictionless that neutrality stops mattering in practice.\nThe acquisition extends well past hyperscale cloud, too. Huang specifically described open models reaching factories, hospitals, farms, classrooms, and Main Street businesses, running across cloud GPUs, enterprise servers, AI workstations, local AI appliances, PCs, edge systems, and robots. Deploying a model increasingly means an RTX workstation, a DGX-class appliance, an edge server, or an autonomous machine, connecting Hugging Face directly to Nvidia’s push into local AI, robotics, and physical AI.\nHugging Face itself carries a genuinely French origin story. Three Frenchmen—Clement Delangue, Julien Chaumond, and Thomas Wolf—founded the company in New York back in 2011, originally building a conversational AI interface aimed at teenagers, a rough forerunner of ChatGPT. The platform pivoted toward businesses and professionals, then took off sharply once ChatGPT itself launched and generative-AI use exploded. Hugging Face turned down multiple stake purchases and takeover offers before choosing Nvidia, citing its stated commitment to the open ecosystem. French Economy Minister Roland Lescure called the deal a “wake-up call” for Europe’s own capital markets, warning that start-ups without enough local capital will keep finding it elsewhere.\nNvidia’s own free cash flow, expected to be near $200 billion for fiscal year 2027, makes the $13 billion price tag look small by comparison. The harder question isn’t affordability. It’s whether Nvidia can keep Hugging Face genuinely neutral, making its own path through the platform good enough at the same time that neutrality stops being the thing developers actually choose.\nThe neutrality pledge is the deal’s real load-bearing wall, not a talking point. Nvidia doesn’t need every model built on its hardware; it needs the best path through Hugging Face to run on Nvidia silicon specifically. Watch whether that “exceptionally good” Nvidia path stays a genuine choice among equals or quietly becomes the default nobody bothers avoiding.\nInflection point. Nvidia already owns the compute layer through GPUs and the programming layer through CUDA. Hugging Face adds the discovery layer, the actual point where a developer picks which model to use. Owning that decision point, keeping it technically open at the same time, marks a genuine inflection point in how AI infrastructure competition works: The fight stops being purely about who ships the fastest chip and becomes about who sits closest to the moment a developer decides where their workload runs.\nLIKE WHAT YOU’RE READING? DON’T KEEP IT A SECRET, TELL YOUR FRIENDS AND FAMILY, AND PEOPLE YOU MEET IN COFFEE SHOPS.",
+   "images": [
+    {
+     "file": "cb6fc466b6de.jpg",
+     "w": 1000,
+     "h": 840,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.jonpeddie.com/wp-content/uploads/2026/09/HF.jpg"
+    },
+    {
+     "file": "00714e4637cb.jpg",
+     "w": 600,
+     "h": 504,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.jonpeddie.com/wp-content/uploads/2026/09/HF-600x504.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Nvidia купує Hugging Face за $12,93 млрд",
+  "lead": "Nvidia підтвердила придбання платформи відкритих AI-моделей Hugging Face за $12,93 млрд; угода має закритися в першій половині 2027 року за умови регуляторного схвалення.",
+  "full": [
+   "Nvidia офіційно оголосила про угоду в четвер, після чого її акції зросли приблизно на 2%. Hugging Face — платформа, яку описують як «GitHub для AI»: на ній розміщено понад 3 млн моделей, 500 тис. датасетів і 1 млн застосунків, а користуються нею понад 18 млн розробників і дослідників та понад 200 тис. компаній, які знаходять, оцінюють, кастомізують і розгортають AI-моделі. Платформу заснували 2011 року в Нью-Йорку троє французьких інженерів — Клеман Деланг, Жульєн Шомон і Тома Вольф.",
+   "CEO Nvidia Дженсен Хуанг публічно пообіцяв, що Hugging Face залишиться відкритою: розробники збережуть свободу вибору моделей, фреймворків, хмар і провайдерів інференсу, а власне залізо Nvidia не стане обов'язковою умовою для роботи на платформі. Генеральний менеджер напряму enterprise computing Джастін Бойтано пояснив, що зростання аудиторії Hugging Face прямо залежить від збереження цієї нейтральності, навіть попри те, що Nvidia все одно виграє, коли тренування й інференс відбуваються на її власному залізі. Фактично угода додає до інфраструктури Nvidia (GPU як обчислювальний шар і CUDA як програмний шар) ще й «шар відкриття» — точку, де розробник обирає, яку модель використати.",
+   "Міністр економіки Франції Ролан Лескюр назвав угоду «дзвіночком» для європейських ринків капіталу, зауваживши, що стартапам без достатнього місцевого фінансування доводиться шукати гроші деінде. Вільний грошовий потік Nvidia на 2027 фінансовий рік прогнозується на рівні близько $200 млрд, тож $13 млрд за Hugging Face — відносно невелика сума для компанії. Угода поки очікує регуляторного схвалення і має закритися в першій половині 2027 року."
+  ],
+  "means": "Hugging Face — основне місце, де можна знайти відкриті моделі для інпейнту, релайту, денойзу, глибини, апскейлу та портретної ретуші, які потенційно можна інтегрувати в наші продукти (Erase, Relight AI, Noiseless AI, Supersharp AI, Mask AI). Поки Nvidia публічно обіцяє зберегти нейтральність платформи щодо заліза й хмарних провайдерів, тож умови доступу до моделей формально не міняються, але варто стежити, чи не зміняться ліцензійні умови або пріоритизація моделей, оптимізованих під Nvidia, у міру наближення закриття угоди. Акцент Nvidia на локальному й edge-розгортанні (PC, робочі станції, edge-пристрої) також може пришвидшити появу моделей, оптимізованих під on-device сценарії, що релевантно для Luminar Mobile.",
+  "importance": 4,
+  "category": "market",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:40:13+00:00"
+ },
+ {
+  "id": "81922b2471",
+  "source": "What Digital Camera",
+  "url": "https://www.whatdigitalcamera.com/photography-news/lightroom-replacement-photo-page-among-subjects-covered-in-free-davinci-resolve-training-series",
+  "date": "2026-09-07T08:29:16+00:00",
+  "page": {
+   "text": "Blackmagic Design, the maker of DaVinci Resolve, is offering new and existing users a series of free training sessions aimed at filmmakers, videographers and stills photographers to help them get the most out of application and its new features. Held online in 90 minute sessions the training will be held across six sessions on Friday afternoons in September, October and November. While covering the software package in general, there will be also be a focus on the new features, such as the stills page designed to be a Lightroom replacement for stills photographers, additional motion graphics effects, advanced search and the many new AI tools that have arrived with the 21st version of the application.\nThe course begins with a session aimed at those completely new to, or without much experience of, the programme, which will cover all that users need to know to get started. The main tools will be introduced and users will be shown best practice for importing, organising and workflow while editing in the timeline. While the session is aimed at users of the paid DaVinci Resolve Studio 21 version the vast majority of things covered in the session will apply equally to the free version as well.\nThe second session will appeal to particularly to stills photographers, or videographers wanting to know more about processing still images, as Blackmagic introduces its new Photo Page. This recent addition to the software aims to offer a free alternative to Adobe’s Lightroom with extensive editing options for Raw and JPEG files, file organisation and colour grading. Blackmagic says one of the advantages of using DaVinci Resolve will be that those shooting stills and video will be able to ensure a consistent look across all their moving and still pictures because they will have been worked on using the same software.\nAs the sessions progress the company will use the hour and a half training slots to help users get the most out of the colour editing and grading features the programme is well known for, and there will be sessions designed to assist those already working in other programmes to make the switch to Resolve.\nThe extensive audio controls of the Fairlight page will be covered later in the series will help for voice isolation, noise reduction and audio enhancement, and the last session, held in November, will specifically look at how the AI tools built-in to the application will be able to help clean-up images, create effects in motion and stills pictures, and generally speed up the production process by automating tasks we’d usually have to deal with manually.\nUsers will need to register in advance for the sessions using the link below the descriptions. For more information about DaVinci Resolve see t he Blackmagic Design website , and to access the company’s other extensive instructional videos about using the tools of the programme offers see the DaVinci Resolve training page .\nJoin Blackmagic Design for a series of free online seminars for DaVinci Resolve 21! Our latest release includes the new Photo page, over 100 new motion graphic effects and 50 new features. New AI tools include IntelliSearch for fast content searching, CineFocus for focal point adjustment and more! These six free 90 minute online seminars are ideal for filmmakers, editors, colorists and VFX artists, with something for both new and experienced users of DaVinci Resolve. This is your chance to refine your creative skills, learn new techniques and get valuable insights from the best in the industry!\nThis introductory seminar will help you get started with the world’s most powerful post production software! This session will guide you through all the pages of DaVinci Resolve Studio 21, giving you a solid foundation for creating professional content across your productions.\nWhether you’re a filmmaker interested in stills, or a photographer expanding into video, this session will show you how to use DaVinci’s color tools for photos. Learn how to organise and edit images, and use AI-powered color and cinematic effects to integrate still images into your projects.\nAn essential workshop for editors to learn color fundamentals using Hollywood’s most advanced color tools! Learn how to balance and match media from different cameras, then begin the creative grading process to create unique looks, working in both layers and nodes.\nDesigned for editors switching to DaVinci Resolve, this seminar will cover the overall layout and organization of tools. Building on your existing editing knowledge, you’ll learn how to organise media, prepare timelines and build collaborative projects that your whole team can share.\nFollow a complete post production workflow from import to delivery. Learn how to organise and manage your media, then edit and grade Blackmagic RAW camera original media. Finish by mixing the audio and delivering your project, all without leaving DaVinci Resolve.\nDiscover powerful DaVinci AI Neural Engine tools including Object Removal, IntelliScript, IntelliSearch, Magic Mask, Voice Isolation and cinematic effects. You’ll learn how these tools can take care of repetitive, time consuming tasks, giving you more time to focus on creative editing.",
+   "images": [
+    {
+     "file": "88cf93f964c7.jpg",
+     "w": 956,
+     "h": 614,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/Davinci-Resolve-Photo-Page.jpg"
+    },
+    {
+     "file": "04fe232ab691.jpg",
+     "w": 718,
+     "h": 461,
+     "alt": "‘Lightroom replacement’ Photo Page among subjects covered in free DaVinci Resolve training series",
+     "cap": "",
+     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/Davinci-Resolve-Photo-Page-820x461.jpg"
+    },
+    {
+     "file": "07bbca88cad7.jpg",
+     "w": 820,
+     "h": 461,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/color-fundamentals@2x-820x461.jpg"
+    },
+    {
+     "file": "95466d22b7a4.jpg",
+     "w": 820,
+     "h": 461,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/hero-xl@2x-820x461.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Blackmagic запускає безкоштовні тренінги DaVinci Resolve з фокусом на Photo Page",
+  "lead": "Blackmagic Design проводить серію з шести безкоштовних 90-хвилинних вебінарів у вересні–листопаді для DaVinci Resolve 21, один з яких присвячений Photo Page — вбудованій альтернативі Lightroom.",
+  "full": [
+   "Blackmagic Design відкрила реєстрацію на серію з шести безкоштовних онлайн-тренінгів по DaVinci Resolve 21, які проходитимуть по п'ятницях у вересні, жовтні та листопаді, тривалістю 90 хвилин кожен. Курс розрахований на фотографів, відеографів, монтажерів і колористів — від новачків до тих, хто переходить з інших програм.",
+   "Окрема сесія присвячена Photo Page — відносно новому розділу програми, який Blackmagic позиціонує як безкоштовну альтернативу Adobe Lightroom з розширеними можливостями редагування RAW і JPEG, організації файлів і кольорокорекції. Компанія наголошує на перевазі єдиного стилю для фото й відео, оскільки обидва типи контенту обробляються в одному застосунку.",
+   "Останній вебінар серії у листопаді буде присвячений вбудованим AI-інструментам DaVinci Resolve: Object Removal, IntelliScript, IntelliSearch, Magic Mask та шумозаглушення й покращення звуку через Voice Isolation."
+  ],
+  "means": "Безкоштовний Photo Page у DaVinci Resolve — це пряма конкуренція Lightroom за фотографів, які не готові платити за окремий редактор, і потенційно за частину аудиторії Luminar Neo, яка тримає його як другий редактор поруч із Lightroom. AI-інструменти на кшталт Magic Mask (автомаскування) і Object Removal перегукуються з нашими Mask AI та Erase, тож варто стежити, чи Blackmagic нарощує їхню якість і чи це знижує поріг переходу користувачів на безкоштовний інструмент.",
+  "importance": 2,
+  "category": "comp",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "2e48ec35ac",
+  "source": "arXiv cs.CV",
+  "url": "https://arxiv.org/abs/2609.04646",
+  "date": "2026-09-07T04:00:00+00:00",
+  "page": {
+   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+   "images": [
+    {
+     "file": "5cbfb31ab64b.jpg",
+     "w": 1000,
+     "h": 438,
+     "alt": "Refer to caption",
+     "cap": "Figure 2 : Qualitative results of applying our SVDtrunc compression schema to FLUX.dev [ 19 ] , ranging from 68 % 68\\text{\\,}\\mathrm{\\%} to 39 % 39\\text{\\,}\\mathrm{\\%} of the original parameter count.",
+     "src": "https://arxiv.org/html/2609.04646v1/images/tmp_front_examples.jpg"
+    },
+    {
+     "file": "b94359b2f608.jpg",
+     "w": 1000,
+     "h": 200,
+     "alt": "Refer to caption",
+     "cap": "Figure 3 : SVDtrunc Overview. (left) We first generate N N probed models, by individually compressing each of the N N blocks. Then, each probed model generates a set of images.\nBy comparing these sets",
+     "src": "https://arxiv.org/html/2609.04646v1/method_long.png"
+    },
+    {
+     "file": "e08e56a7c85b.jpg",
+     "w": 1000,
+     "h": 362,
+     "alt": "Refer to caption",
+     "cap": "Figure 4 : Ranking metric justification. Depending on which block is compressed, the generated image of the compressed model (right) can deviate from the image generated by the uncompressed one (left)",
+     "src": "https://arxiv.org/html/2609.04646v1/images/cmmd_validation.jpg"
+    },
+    {
+     "file": "1c29b4dbecc0.jpg",
+     "w": 1000,
+     "h": 296,
+     "alt": "Refer to caption",
+     "cap": "Figure 5 : Block sensitivity comparison . Generated images after probing double-stream blocks of FLUX.dev [ 19 ] with pruning (top) vs . truncated SVD (bottom) .",
+     "src": "https://arxiv.org/html/2609.04646v1/images/Block_Sensitivity.jpg"
+    },
+    {
+     "file": "1c7637d21841.jpg",
+     "w": 1000,
+     "h": 439,
+     "alt": "Refer to caption",
+     "cap": "Figure 6 : Example of domain drift (top) and memorisation loss (bottom) under different parameter budgets.",
+     "src": "https://arxiv.org/html/2609.04646v1/images/domain_shifts.jpg"
+    },
+    {
+     "file": "fd19e56ebc84.jpg",
+     "w": 1000,
+     "h": 833,
+     "alt": "Refer to caption",
+     "cap": "Figure S1 : Conceptual SVD Compression. High-level illustration of where truncated SVD–based low-rank approximations are applied within multi-modal diffusion transformer (MMDiT) blocks [ 7 ] . Green m",
+     "src": "https://arxiv.org/html/2609.04646v1/Block_high_level.drawio.png"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "SVDtrunc стискає diffusion-трансформери FLUX до 57% параметрів без відчутної втрати якості",
+  "lead": "Дослідники запропонували SVDtrunc — метод блочного стиснення diffusion-трансформерів (DiT) через усічене SVD з подальшою дистиляцією, який на моделі FLUX.dev зберігає майже повну якість при компресії до 68% параметрів і лишається конкурентним навіть при 57%.",
+  "full": [
+   "Diffusion-трансформери (DiT) — домінантна архітектура для якісної генерації зображень з тексту, але їхній розмір ускладнює ефективне розгортання. Усічене SVD — перевірений інструмент стиснення параметрів, проте досвід великих мовних моделей показує, що наївне низькорангове наближення може призвести до катастрофічного падіння якості. Автори натомість виявили, що в DiT усічене SVD дає плавну деградацію навіть при суттєвій компресії, оскільки надлишковість розподілена по всій мережі, а не сконцентрована в кількох блоках.",
+   "На основі цього спостереження запропоновано SVDtrunc — дворівневу схему компресії на рівні блоків: спершу ранги розподіляються між блоками і найменш важливі стискаються усіченим SVD у межах глобального бюджету параметрів, після чого всі блоки донавчаються через модульну дистиляцію знань та rectified-flow функцію втрат.",
+   "Метод застосували до FLUX.dev у діапазоні компресії 40–90% від початкової кількості параметрів. На бенчмарках GenEval, HPSv2 та DPG SVDtrunc перевершив усі конкуруючі підходи, зберігаючи майже повну якість при 68% параметрів і лишаючись конкурентним навіть при 57%. Метод також доповнює дистиляцію кроків генерації."
+  ],
+  "means": "Метод стиснення DiT-моделей на кшталт FLUX безпосередньо стосується планів прискорювати й здешевлювати наші генеративні хмарні інструменти (GenErase, GenSwap, GenExpand). Зменшення розміру моделі без істотної втрати якості знижує вартість інференсу і потенційно наближає такі моделі до on-device виконання на Luminar Mobile.",
+  "importance": 3,
+  "category": "algo",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "0720c70f46",
+  "source": "arXiv cs.CV",
+  "url": "https://arxiv.org/abs/2609.04709",
+  "date": "2026-09-07T04:00:00+00:00",
+  "page": {
+   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+   "images": [
+    {
+     "file": "aff3547ee4c2.jpg",
+     "w": 1000,
+     "h": 499,
+     "alt": "Refer to caption",
+     "cap": "Figure 1: Overview of AngelFingerprint. Part A shows the training pipeline. A LoRA imprints the prompt embedding; then an extractor recovers it. Part B shows the inference scenario: a white-box user c",
+     "src": "https://arxiv.org/html/2609.04709v1/Figures/teaser.png"
+    },
+    {
+     "file": "94804a8cf883.jpg",
+     "w": 1000,
+     "h": 779,
+     "alt": "Refer to caption",
+     "cap": "Figure 2: Qualitative watermarked edits under deployment sampling. The watermark leaves only a faint, grid-like texture, hard to spot without close inspection.",
+     "src": "https://arxiv.org/html/2609.04709v1/qualitative_deploy_v2_v13_6.png"
+    },
+    {
+     "file": "bd852e279add.jpg",
+     "w": 1000,
+     "h": 215,
+     "alt": "Refer to caption",
+     "cap": "Figure 4: Open-set verification on a real photograph. We edit it with AngelFingerprint using the prompt “change the tree into cherry blossom,” then recover the embedding and score candidate sentences ",
+     "src": "https://arxiv.org/html/2609.04709v1/Figures/rwdemo.png"
+    },
+    {
+     "file": "e8efe7dccf07.jpg",
+     "w": 857,
+     "h": 877,
+     "alt": "Refer to caption",
+     "cap": "Figure A1: Visualization of the band-pass filtered signal. The first row shows the source image, the second row shows the watermarked image before filtering, and the third row shows the filtered image",
+     "src": "https://arxiv.org/html/2609.04709v1/filter_midband_v13_6.png"
+    },
+    {
+     "file": "eecfeb966e57.jpg",
+     "w": 1000,
+     "h": 1119,
+     "alt": "Refer to caption",
+     "cap": "Figure A2: The four JPEG band-pass filter masks tested in our ablation. A wider passband is not always better; the 26 / 64 26/64 mask gives the best overall performance.",
+     "src": "https://arxiv.org/html/2609.04709v1/Figures/masks.png"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "AngelFingerprint: непомітний водяний знак пояснює, який промпт змінив зображення",
+  "lead": "Дослідники представили AngelFingerprint — технологію маркування diffusion-редагувань зображень, яка не просто підтверджує факт AI-редагування, а й дозволяє відновити текстовий промпт, яким його виконали.",
+  "full": [
+   "Текстово-кероване diffusion-редагування зображень підіймає питання дезінформації, тому надійне визначення походження зображення стає критично важливим. Існуючі водяні знаки зазвичай несуть лише фіксований ідентифікатор, який не пояснює, що саме змінили і яким промптом, а за умов відкритого доступу до ваг моделі (white-box) зловмисники можуть легко знайти й видалити такі знаки, якщо вони додані як окремий модуль.",
+   "AngelFingerprint вирішує обидві проблеми: технологія вбудовує LoRA-адаптер безпосередньо у diffusion-модель, щоб закодувати CLIP-ембединг текстового промпту редагування прямо у вагах моделі. Спеціальний екстрактор потім відновлює цей ембединг лише за пікселями зображення. Якість редагування зберігається завдяки velocity-alignment якорю, а частотний фільтр робить знак непомітним для ока, але стійким до видалення.",
+   "На датасеті MagicBrush екстрактор AngelFingerprint досяг 86% точності top-1 у задачі відновлення промпту серед 200 варіантів — проти 20% у базового методу інверсії промпту."
+  ],
+  "means": "Індустрія рухається до маркування AI-відредагованих зображень з поясненням самих змін — тренд, аналогічний Content Credentials в Adobe, який може вплинути на майбутні вимоги прозорості для наших генеративних функцій GenErase, GenSwap і GenExpand. Варто стежити за подібними підходами як потенційним стандартом провенансу для генеративного редагування.",
+  "importance": 2,
+  "category": "algo",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "2d5c76e7b0",
+  "source": "arXiv cs.CV",
+  "url": "https://arxiv.org/abs/2609.04603",
+  "date": "2026-09-07T04:00:00+00:00",
+  "page": {
+   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+   "images": [
+    {
+     "file": "3ae7e4149691.jpg",
+     "w": 1000,
+     "h": 1000,
+     "alt": "Refer to caption",
+     "cap": "Figure 2 : Sample of frontal human scene dataset. A representative sample of the synthetic 40 image dataset generated from Qwen-Image-2512 including the following examples: (top left) Woman in Bedroom",
+     "src": "https://arxiv.org/html/2609.04603v1/figures/dataset_images_sample.png"
+    },
+    {
+     "file": "ef7200f9bf37.jpg",
+     "w": 1000,
+     "h": 361,
+     "alt": "Refer to caption",
+     "cap": "Figure 3 : HSRD analysis of camera LoRA output images. Input images on the left for each pair are labeled with the requested camera change direction, such that the head in the output image should face",
+     "src": "https://arxiv.org/html/2609.04603v1/figures/hsrd_quantitative_analysis.png"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Метрика HSRD оцінює, чи коректно AI повертає камеру навколо людини на фото",
+  "lead": "Наукова робота представляє метрику Head Scene Rotation Difference (HSRD) для перевірки, чи коректно diffusion-моделі редагування зображень змінюють ракурс камери навколо людини, не спотворюючи фон і положення голови.",
+  "full": [
+   "Сучасні генеративні diffusion-трансформери для редагування зображень добре справляються із семантичними змінами, але досі не вміють просторово узгоджено змінювати ракурс камери. Головна перешкода — відсутність спеціалізованих парних мультиракурсних даних з людьми у фіксованих локаціях природних сцен, оскільки зйомка таких даних кількома камерами одночасно логістично складна й погано масштабується.",
+   "Автори спробували створити такі дані синтетично за допомогою сучасних моделей редагування зображень, але виявили, що результати часто містять галюцинації в тому, наскільки голова людини повертається відносно фону, і нерідко спотворюють оточення. Для кількісної оцінки цієї проблеми вони запропонували метрику HSRD, яка відокремлює рух камери від локальної зміни положення голови.",
+   "За словами авторів, HSRD дає інструментарій для надійної оцінки просторового паралаксу людини в сцені та відкриває шлях до побудови якісніших синтетичних мультиракурсних датасетів у майбутньому."
+  ],
+  "means": "Проблема коректного \"повороту камери\" навколо людини суміжна з майбутніми можливостями Portrait Bokeh і Relight AI, де важливо зберігати ідентичність обличчя й фон при трансформаціях кадру. Поки що це радше дослідницький інструмент оцінки якості, ніж готова фіча, але він задає орієнтир для контролю якості подібних генеративних можливостей.",
+  "importance": 2,
+  "category": "algo",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "d0cfd7b75f",
+  "source": "arXiv cs.CV",
+  "url": "https://arxiv.org/abs/2609.04827",
+  "date": "2026-09-07T04:00:00+00:00",
+  "page": {
+   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+   "images": [
+    {
+     "file": "886e018970a3.jpg",
+     "w": 1000,
+     "h": 490,
+     "alt": "Refer to caption",
+     "cap": "Figure 3 : Feature space comparison for style characterization. Depth Anything v2 [ 61 ] CLS tokens fail to separate weather conditions, while our style filter features form distinct clusters.",
+     "src": "https://arxiv.org/html/2609.04827v1/images/DepthAnythingCLS.jpg"
+    },
+    {
+     "file": "b2ed7d4117fa.jpg",
+     "w": 1000,
+     "h": 340,
+     "alt": "Refer to caption",
+     "cap": "Figure 4 : Overview of our proposed DepthAnything-W. (a) The training pipeline: clean and degraded images pass through the Depth Anything backbone, with weather embeddings from the Style Filter inject",
+     "src": "https://arxiv.org/html/2609.04827v1/DAW.png"
+    },
+    {
+     "file": "e5b1190ff43b.jpg",
+     "w": 784,
+     "h": 518,
+     "alt": "Refer to caption",
+     "cap": "Figure 5 : Qualitative comparison on various synthetic weather degradations. Our method (DA-W) produces more accurate and stable depth predictions under challenging synthetic weather conditions. The r",
+     "src": "https://arxiv.org/html/2609.04827v1/images/supp/fog/14_img.png"
+    },
+    {
+     "file": "d21ec6b7a9c7.jpg",
+     "w": 1000,
+     "h": 829,
+     "alt": "Refer to caption",
+     "cap": "Figure 6 : Qualitative comparison on mixed degradations. Each row shows real-world images of snow at night.",
+     "src": "https://arxiv.org/html/2609.04827v1/images/mixrealworld/mix_1.png"
+    },
+    {
+     "file": "d7bcbef1ec31.jpg",
+     "w": 1000,
+     "h": 125,
+     "alt": "Refer to caption",
+     "cap": "Figure 7 : Visualization of decoder feature modulation by weather-aware conditioning. From left to right: input image, decoder features before modulation, decoder features after modulation, and the ab",
+     "src": "https://arxiv.org/html/2609.04827v1/images/STEPS_1542194184862460_feat_compare.png"
+    },
+    {
+     "file": "b8f8dac85ce1.jpg",
+     "w": 1000,
+     "h": 491,
+     "alt": "Refer to caption",
+     "cap": "Figure 8 : t-SNE Visualization of real and synthetic dataset distributions.",
+     "src": "https://arxiv.org/html/2609.04827v1/images/supp_dis.png"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Weather-Conditioned Depth Anything підвищує точність оцінки глибини в тумані, дощі й вночі",
+  "lead": "Дослідники представили DA-W — надбудову над моделлю Depth Anything, яка розпізнає погодні умови (туман, дощ, сніг, темрява) і адаптує оцінку глибини під них без погіршення якості на звичайних знімках.",
+  "full": [
+   "Моделі сімейства Depth Anything для монокулярної оцінки глибини демонструють високу якість у більшості сценаріїв, але помітно втрачають точність за несприятливих погодних умов — у тумані, дощі, снігу чи вночі.",
+   "DA-W (Weather-Conditioned Depth Anything) вирішує це через Style Filter, навчений на суміші реальних і синтетичних даних деградації, який виділяє незалежні від змісту, чутливі до погодних умов ембединги. Ці ембединги вбудовуються у базову модель Depth Anything через легкий адаптер з нульовою ініціалізацією, що дозволяє одній уніфікованій моделі надійно адаптуватися під різні умови, не втрачаючи базової якості на чистих знімках.",
+   "За результатами експериментів, DA-W показує найкращу серед аналогів стійкість оцінки глибини за складних погодних умов, покращуючи метрику AbsRel у середньому на 3,7% на кураторських бенчмарках з негодою, при цьому зберігаючи або трохи покращуючи якість на стандартних чистих бенчмарках."
+  ],
+  "means": "Оцінка глибини лежить в основі Bokeh AI, портретного розмиття фону та частини масок (Mask AI). Стійкість до туману, дощу, снігу й темряви безпосередньо покращила б якість боке та масок на знімках, знятих поза студійними умовами — типовий сценарій для аудиторії Luminar, яка часто знімає в польових умовах.",
+  "importance": 2,
+  "category": "algo",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "536840ef29",
+  "source": "arXiv cs.CV",
+  "url": "https://arxiv.org/abs/2609.04939",
+  "date": "2026-09-07T04:00:00+00:00",
+  "page": {
+   "text": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .",
+   "images": [
+    {
+     "file": "095281b4136e.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Refer to caption",
+     "cap": "Figure 1 : Controllable multi-style lens effect rendering with LensStyle. Our framework enables unified control over three complementary dimensions of lens aesthetics within a single model. Top-left: ",
+     "src": "https://arxiv.org/html/2609.04939v1/Figure1_1.png"
+    },
+    {
+     "file": "e9b25f29884c.jpg",
+     "w": 1000,
+     "h": 520,
+     "alt": "Refer to caption",
+     "cap": "Figure 2 : Overview of LensStyle. The input image is first encoded into latent by a VAE encoder and then processed by a flow matching network for lens effect rendering.\nA Dual Path Controller conditio",
+     "src": "https://arxiv.org/html/2609.04939v1/images/pipeline3.png"
+    },
+    {
+     "file": "3e69e7e8a390.jpg",
+     "w": 966,
+     "h": 715,
+     "alt": "Refer to caption",
+     "cap": "(a) Illustration of MultiLens Synthesis. Our simulator maps point inputs to diverse optical effects, including circle bokeh, hexagonal bokeh, donut bokeh, cat-eye effects from optical vignetting, and ",
+     "src": "https://arxiv.org/html/2609.04939v1/dataset.png"
+    },
+    {
+     "file": "fc578f83ac4e.jpg",
+     "w": 1000,
+     "h": 665,
+     "alt": "Refer to caption",
+     "cap": "(b) Examples of the MultiLens dataset. A sample grid generated from an all-in-focus image and depth map, demonstrating continuous control over focus distance (x-axis) and blur strength (y-axis) and di",
+     "src": "https://arxiv.org/html/2609.04939v1/images/dataset.png"
+    },
+    {
+     "file": "f902324555ef.jpg",
+     "w": 1000,
+     "h": 271,
+     "alt": "Refer to caption",
+     "cap": "Figure 4 : Qualitative Comparison against bokeh rendering methods for standard circle bokeh. All baselines take a depth map predicted by Depth Anything V2 [ 48 ] as input. As a result, when depth map ",
+     "src": "https://arxiv.org/html/2609.04939v1/results_circle.png"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "LensStyle: дослідники навчили модель контрольовано відтворювати ефекти об'єктива",
+  "lead": "Наукова робота LensStyle пропонує єдину модель для керованого рендерингу стилізованих ефектів об'єктива — форм боке (кругле, багатокутне, \"пончик\", \"котяче око\") і зорепадів (starburst) — з окремим керуванням безперервними і дискретними оптичними параметрами.",
+  "full": [
+   "Автори зазначають, що наявні методи рендерингу ефектів об'єктива зосереджені лише на коректному переході розмиття від малої до великої діафрагми, але ігнорують стилістичний бік: не вміють відтворювати різноманітні форми боке чи характерні зорепади, що виникають при малій діафрагмі.",
+   "LensStyle вирішує це через Dual-Path Controller, який розділяє безперервну модуляцію оптичних параметрів (дистанція фокусування, сила розмиття) і дискретне керування стилем об'єктива (кругла, багатокутна, \"пончик\", \"котяче око\", зорепад форми боке). Для навчання дослідники зібрали датасет MultiLens із парами зображень, синтезованих з урахуванням реальних оптичних обмежень.",
+   "За заявою авторів, LensStyle перевершує наявні методи рендерингу ефектів об'єктива та дифузійні моделі редагування зображень за реалістичністю, керованістю та естетичною якістю результату."
+  ],
+  "means": "Підхід напряму стосується Bokeh AI та Portrait Bokeh: керована стилізація форми боке й зорепадів — це наступний рівень деталізації порівняно з нинішнім керуванням лише силою розмиття за картою глибини. Вартий моніторингу як потенційний напрямок розширення контролю над \"оптичним стилем\" знімка в Luminar Neo.",
+  "importance": 3,
+  "category": "algo",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "1856014a7d",
+  "source": "tech-insider.org",
+  "url": "https://tech-insider.org/how-to-use-seedream-5-0-pro-lite-2026/",
+  "date": "2026-09-06T17:23:04+00:00",
+  "page": {
+   "text": "ByteDance’s Seed team shipped two new image models in the space of five weeks this summer: Seedream 5.0 Pro on July 8, 2026, and a lighter, cheaper Seedream 5.0 Lite on August 13, 2026. Together they push ByteDance’s image generation stack past the “type a prompt, get a picture” era into something closer to a design assistant that can read layouts, edit specific regions of an image, and pull in live web results while it works. If you have not touched Seedream since the 4.0 or 4.5 releases, the workflow has changed enough that it is worth a fresh walkthrough.\nThis tutorial covers account setup, API access, prompt structure, the multi-image editing pipeline, cost management, and a full working project that batch-generates and edits product images through the API. It also stacks Seedream 5.0 up against FLUX.2, Stable Diffusion 3.5, and Nano Banana Pro so you know when to reach for it instead of a competitor. Expect to spend 90 minutes end to end, including the API project.\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nWhat Seedream 5.0 Pro and Lite actually are\nSeedream is ByteDance’s in-house image generation and editing model line, built by the same Seed research group behind the company’s video and language models. The family now spans four releases still in active use: Seedream 4.0, 4.5, 5.0 Lite, and 5.0 Pro. ByteDance’s own announcement frames Seedream 5.0 Pro as a model that “understands design” rather than one that only paints pixels from a text description. In practice, that means it can reason about layout, spacing, and hierarchy in a way earlier text-to-image models could not.\nThe core technical differentiator is that Seedream 5.0 Pro generates and edits high-resolution images from both text prompts and reference images inside a single multimodal pipeline. Earlier generations mostly split those two jobs across separate tools. Seedream 5.0 Pro also ships with deep-thinking prompt reasoning, a built-in web search step it can use mid-generation to pull reference material, precision editing for isolated regions of an image, and native multilingual text rendering, so text baked into an image (a sign, a label, a book cover) does not come out garbled in non-English scripts.\nSeedream 5.0 Lite is the same family stripped down for speed and cost. Per pricing published on OpenRouter, Seedream 5.0 Lite runs from $0.035 per image , undercutting most premium image models while keeping the multimodal editing behavior of its Pro sibling, just with a smaller compute budget per request. For a tutorial project where you are generating dozens of test images, Lite is the one you will use most; you switch to Pro only when a shot needs the extra reasoning depth.\nOne more variant worth knowing about: Seedream 5.0 Pro Layerize, live on the EvoLink API marketplace under the model ID doubao-seedream-5.0-pro-layerize , priced 20% below BytePlus’s own list price. Layerize targets designers who need layer-separated output (background, subject, text) rather than a single flattened image, which matters if your pipeline feeds a downstream editing tool.\nHow Seedream fits into ByteDance’s broader AI stack\nSeedream does not exist in isolation. ByteDance’s Seed research group ships it alongside Seedance for video generation and a family of Doubao-branded language models, and the company routes a meaningful share of internal production work at TikTok, CapCut, and Lark through these tools before they ever reach an external API. That internal usage is part of why the design-reasoning layer in 5.0 Pro exists at all: CapCut’s template and thumbnail generation pipelines needed a model that could respect layout constraints, not just produce visually pleasing but structurally arbitrary output. When ByteDance opened that capability to outside developers through the 5.0 Pro release, it kept the same architecture rather than shipping a stripped-down external variant, which is part of why the API surface (grounding, precision editing, layer output) feels more like an internal design tool than a typical consumer image generator repackaged for developers.\nThat lineage also explains the pricing structure. Because ByteDance already runs this compute for internal products at massive scale, the marginal cost of serving external API traffic is lower than it would be for a lab building image generation as a standalone product, which is a plausible reason Seedream 5.0 Lite can undercut most competing premium models at $0.035 per image while ByteDance still profits on volume. None of this changes how you call the API, but it is useful context if you are deciding whether to build a long-term dependency on the platform: the roadmap is driven by ByteDance’s own product needs first, and third-party API access second.\nBefore you start, get these in place. Version numbers matter here because Seedream’s API surface has shifted twice in the last two months.\nAn API key from either an official BytePlus/ByteDance channel or a routing provider such as OpenRouter (the examples below use OpenRouter’s unified endpoint, model ID bytedance-seed/seedream-5-0-lite or the Pro equivalent).\nPython 3.11 or newer, or Node.js 20 LTS or newer, for the scripting examples.\nThe requests library (Python) or native fetch (Node) — no special SDK is required since Seedream exposes a standard REST endpoint.\nRoughly $5 to $10 in prepaid API credit for the full tutorial project, given Lite’s $0.035-per-image floor.\nFor the local comparison section: at least 16 GB of system RAM if you also want to test smaller open-weight competitors like FLUX.2 [klein] locally; Seedream itself is API-only and has no local/open-weight release.\nUnlike FLUX.2 or Stable Diffusion 3.5, there is no open-weight Seedream checkpoint to download. Every workflow in this tutorial goes through an API call, whether that’s ByteDance’s own BytePlus console, a marketplace like OpenRouter, or a reseller like EvoLink.\nStep 1: Create your API account and get a key\nSign up through your chosen provider. If you want the simplest path, OpenRouter aggregates Seedream 5.0 Lite (and, depending on availability, Pro) alongside dozens of other image and text models under one billing account, which is useful if you are already comparing Seedream against FLUX.2 or Gemini’s image tools in the same project. Once registered, generate an API key from the dashboard and store it as an environment variable rather than hardcoding it:\nIf you are going through BytePlus directly instead, the base URL and authentication header format differ slightly, but the request body structure below stays the same across providers since Seedream’s API follows the same OpenAI-style chat/completions convention most 2026 multimodal models use.\nStep 2: Send your first text-to-image request\nStart with a plain text-to-image call to confirm your key and billing work before you add reference images or editing instructions.\nA successful response returns a JSON object with a hosted image URL (or base64 payload, depending on provider settings) plus a usage field showing token or credit consumption for that call. Save that response object; you will need the returned image URL in Step 5 when you chain an editing pass on top of this base render.\nStep 3: Structure prompts for Seedream’s design reasoning\nBecause Seedream 5.0 Pro was built around layout and design understanding rather than pure aesthetic generation, it responds better to prompts that describe structure explicitly instead of only mood and style. A prompt like “a nice looking banner ad for a shoe sale” will get you a generic result. A prompt that specifies hierarchy performs noticeably better:\nThe difference is not cosmetic. Seedream’s design-aware reasoning step actually parses spatial instructions (“left third,” “bottom-right”) and respects them far more consistently than a model without that reasoning pass, which is the entire point of the 5.0 Pro release. If you have used Midjourney or FLUX primarily for atmospheric, style-driven images, this is the biggest behavioral shift to plan for.\nStep 4: Use the built-in web search grounding\nSeedream 5.0 Pro can pull in live web references mid-generation, a feature most competing image models lack entirely. This matters when you need visual accuracy for something the base model was not trained on recently, like a product that launched last month or a current logo variant. Enable it with a flag in the request body:\nWith grounding enabled, expect slightly longer generation times (the model has to run a retrieval step before rendering) and a small increase in token cost. Turn it off for purely stylistic or fictional prompts where accuracy to a real-world reference does not matter, since it adds latency for no benefit there.\nThis is where Seedream 5.0 separates itself from a pure text-to-image tool. Instead of regenerating an entire scene to change one element, you pass the existing image plus a targeted instruction, and the model edits only the referenced region.\nThe “keep X identical” instruction is doing real work here. Seedream’s editing pass is precise enough to isolate the countertop material without touching the dripper or the lighting setup, which is the difference between an editing model and a model that just regenerates the whole frame with a new seed and hopes for consistency.\nStep 6: Handle multilingual text rendering\nIf your image needs legible text baked in — packaging, signage, UI mockups — Seedream’s native multilingual text handling is one of its stronger claims versus older image models that historically mangled anything beyond basic Latin characters. Test it directly:\nRun the same prompt in a couple of scripts you actually need (Japanese, Arabic, Cyrillic — whatever your project targets) before committing to Seedream for a text-heavy production run. Text rendering quality still varies by script even on 2026’s best multimodal models, and the only reliable way to know is to test your specific alphabet.\nStep 7: Batch generation for a product catalog\nNow the complete working project: a script that reads a CSV of product names, generates a base image for each with Seedream 5.0 Lite (to keep cost down), and saves them locally with predictable filenames.\nA products.csv with columns name,description and 20 rows will cost you roughly $0.70 at Lite’s $0.035-per-image floor, plus whatever your provider adds on top. That is cheap enough to iterate on prompt wording several times before locking in a final batch run.\nStep 8: Chain generation and editing in one pipeline\nCombine Steps 2 and 5 into a single function so your pipeline can generate a base image, then apply a standardized edit (say, swapping backgrounds for different marketing channels) without manual steps in between.\nNote the mixed-model approach: Lite handles the cheap base generation, Pro handles the more demanding precision edit. This split cuts cost on high-volume steps without giving up the editing accuracy you need on the step that actually requires it.\nStep 8b: Wrap the pipeline in a small Flask API for your team\nIf more than one person on your team needs to call Seedream, do not hand out your raw API key to every developer and designer. Wrap the generate-and-edit function from Step 8 in a small internal Flask service that holds the key server-side and exposes a simpler endpoint your team can call from Slack bots, internal tools, or a design app plugin.\nRun this behind your internal network or an authenticated reverse proxy, never exposed directly to the public internet, since it holds a live billable API key. Add a per-user request quota at the application layer (a simple in-memory or Redis counter keyed by an internal user ID header) if you want to prevent one person’s runaway script from draining the team’s shared credit balance.\nStep 8c: Scale generation with concurrent requests\nThe batch script in Step 7 processes one image at a time, which is fine for 20 products but slow for a catalog of 500. Since Seedream calls ar",
+   "images": [
+    {
+     "file": "934bd74bff6f.jpg",
+     "w": 1000,
+     "h": 571,
+     "alt": "",
+     "cap": "",
+     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1.webp"
+    },
+    {
+     "file": "346804f05e43.jpg",
+     "w": 768,
+     "h": 439,
+     "alt": "",
+     "cap": "",
+     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1-768x439.webp"
+    },
+    {
+     "file": "2b3a2725ae6b.jpg",
+     "w": 512,
+     "h": 512,
+     "alt": "Elias Virtanen",
+     "cap": "",
+     "src": "https://tech-insider.org/wp-content/uploads/2026/03/ti-author-elias.jpg"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "ByteDance Seedream 5.0: генерація і точковий edit зображень від $0,035 за фото",
+  "lead": "ByteDance випустила моделі генерації та редагування зображень Seedream 5.0 Pro (8 липня 2026) і легшу Seedream 5.0 Lite (13 серпня 2026) — з розумінням макета, точковим редагуванням областей і вбудованим вебпошуком під час генерації.",
+  "full": [
+   "Seedream 5.0 Pro генерує та редагує зображення в одному мультимодальному пайплайні на основі тексту й референсних зображень, розуміючи компонування, відступи та ієрархію елементів, а не лише естетику. Модель підтримує точкове редагування виділеної області без перегенерації всього кадру, вбудований вебпошук для підтягування актуальних референсів під час генерації та коректний рендеринг тексту різними мовами. Seedream 5.0 Lite — полегшена версія для швидких і дешевих ітерацій із тими самими можливостями редагування, але меншим обчислювальним бюджетом.",
+   "Модель доступна лише через API (без відкритих ваг) — через консоль BytePlus, агрегатор OpenRouter або реселера EvoLink. Seedream 5.0 Lite коштує від $0,035 за зображення за прайсом OpenRouter, що дешевше за більшість преміальних аналогів. Окремий варіант Seedream 5.0 Pro Layerize повертає результат пошарово (фон, обʼєкт, текст) для дизайнерських пайплайнів, які потребують подальшого компонування.",
+   "Модель розробляє дослідницька група Seed у ByteDance, яка також відповідає за CapCut, TikTok і мовні моделі Doubao; той самий рушій використовується у внутрішніх продуктах компанії, зокрема для генерації шаблонів і мініатюр CapCut, перш ніж бути відкритим для зовнішніх розробників."
+  ],
+  "means": "Точкове редагування виділеної області зображення при збереженні решти кадру — напрямок, близький до наших генеративних інструментів GenErase, GenSwap і GenExpand. Пошаровий вивід Layerize корисний як референс для композитної роботи (Composition AI, Layers), а низька ціна за зображення задає орієнтир вартості для хмарних генеративних фіч Luminar Neo та Mobile.",
+  "importance": 3,
+  "category": "ai",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  },
+  "added": "2026-09-07T13:36:52+00:00"
+ },
+ {
+  "id": "0559cbad2d",
+  "source": "Fstoppers",
+  "url": "https://fstoppers.com/education/delete-someone-group-photo-without-ever-opening-photoshop-904484?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles",
+  "date": "2026-09-06T09:03:01+00:00",
+  "page": {
+   "text": "Remove a person from the middle of a group photo, close the gap as if they were never there, and do it all without touching Photoshop. That option is now sitting inside Lightroom for anyone who has never gotten comfortable with layers and masks.\nGlyn Dewis walks through the exact workflow using a shot from his I Am Lyme project, a picture he grabbed with the Scallop Diver Dorset crew at the end of a shoot. He starts by testing the built-in remove tool in Lightroom with generative AI checked, and the result is honest: the background rebuilds fairly well, but the arm and hand of the man beside him fall apart. Dewis is upfront that this video is for people who use Lightroom and stop there, not for anyone already living in Photoshop every day. His own wife is the example he reaches for, someone with phone pictures she'd love to tidy up but no interest in learning masks to do it.\nThe real method routes the image out to Adobe Firefly through the Photo menu, using the \"Generating Firefly\" option and then \"Edit Photo.\" That sends the picture to the Firefly website, where Dewis picks his model from a list that includes Adobe's own Firefly Image 5 alongside partner models like ChatGPT's image model and Google Gemini 3.1. His prompt spells everything out: remove the person in the blue baseball cap, move the remaining three people close together, and keep the faces, hair, clothing, and coloring identical to the original. About a minute and a half later, the three men are standing together, the background is intact, and there's no sign anyone was cut out. He then shows how to check the resolution and upscale, since the regenerated image comes back smaller than the 6,060 by 4,040 original.\nCredit cost is where the tradeoffs get concrete. Switching to the ChatGPT image model at high quality jumps the cost from 20 credits to 80, a real leap that Dewis flags plainly. His framing is sensible: this is an occasional job, not a daily habit, so a single 80-credit edit won't drain your balance. He also points out the one rough edge in the round trip, that Firefly hands the finished file to your downloads folder rather than dropping it straight back into the Lightroom catalog, and he'd like Adobe to close that loop.\nThis fits into a wider shift in how Adobe is spreading generative editing across its apps instead of locking it behind Photoshop. Firefly now sits at the center of that push, and the model picker inside it, offering ChatGPT and Gemini alongside Adobe's own engine, points to a future where you choose the right tool for a specific edit rather than committing to one. The practical takeaway extends past removing people: a prompt that names exactly what to keep, faces, hair, clothing, coloring, gives generative models far less room to invent things you don't want. That discipline carries over to any AI edit you attempt, whether you're clearing a background, removing a distraction, or reworking a crowded holiday frame. Match the resolution question to your output too, since a regenerated file often lands smaller than your camera's native file and benefits from an upscale before you print or crop.\nDewis is careful not to oversell it. He says outright that Firefly isn't better than Photoshop, and if you're comfortable there, keep going. The point is that skipping Photoshop no longer puts this kind of edit out of reach, and the work doesn't have to be professional to be worth doing. A family photo with someone you'd rather not see, a holiday shot with a stranger drifting through the back, or a snap you simply want to like a bit more all qualify.\nWatch the full walkthrough above to see the prompt, the model choice, and the before-and-after that sells the whole approach.\nThe Lightroom Object Selection Trick That Beats “Select Subject”\nThe AI Debate Splitting Wedding Photographers Right Now\nAdobe's New AI Credit Cost Preview in Photoshop: What You Need to Know\nSee Your Focus Points in Camera Raw: The Setting Hiding in the Right-Click Menu\nLightroom's Tone Curve Explained: Every Trick You Need to Know\nWhy Your Lightroom Profile Choice Quietly Shapes the Entire Edit\nPost comments and join in the discussions\nShare your work and get featured in the community\nCompete in the photo contests for fun and prizes",
+   "images": [
+    {
+     "file": "5112b7e4665a.jpg",
+     "w": 614,
+     "h": 350,
+     "alt": "",
+     "cap": "",
+     "src": "https://cdn.fstoppers.com/styles/medium/s3/lead/2026/09/cover-dewis.jpg?itok=DJ1L7nxE"
+    },
+    {
+     "file": "6a29ef80b604.jpg",
+     "w": 1000,
+     "h": 565,
+     "alt": "Side-by-side comparison showing person circled in left image removed from right image, with Photoshop and Lightroom logos",
+     "cap": "",
+     "src": "https://cdn.fstoppers.com/styles/large_16_9/s3/lead/2026/09/cover-dewis.jpg.webp?itok=hujjxf5t"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Lightroom видаляє людину з групового фото через Firefly без Photoshop",
+  "lead": "Fstoppers розібрав воркфлоу Гліна Дьюїса: вбудований Remove у Lightroom не впорався з видаленням людини з центру групи, а відправка кадру у Firefly з текстовим промптом дала чистий результат.",
+  "full": [
+   "Вбудований інструмент Remove з увімкненим генеративним AI добре відновив фон, але зіпсував руку сусіда. Робочий метод — меню Photo → Generating Firefly → Edit Photo: кадр іде на сайт Firefly, де можна обрати модель — Firefly Image 5, модель зображень ChatGPT або Google Gemini 3.1. Промпт описує, кого прибрати, як зсунути решту людей і що зберегти незмінним (обличчя, волосся, одяг, кольори). Через приблизно півтори хвилини троє людей стоять поруч без слідів монтажу.",
+   "Ціна в кредитах: перемикання на модель ChatGPT у високій якості піднімає вартість з 20 до 80 кредитів за правку. Регенерований файл повертається меншим за оригінал 6060×4040, тож потрібен апскейл, а готовий результат падає в папку завантажень, а не в каталог Lightroom.",
+   "Автор підкреслює: Firefly не кращий за Photoshop, але такі правки більше не потребують шарів і масок, що відкриває їх звичайним користувачам з телефонними знімками."
+  ],
+  "means": "Adobe робить видалення й перекомпонування людей доступним прямо з Lightroom через сторонні моделі (ChatGPT, Gemini) — це територія нашого Erase та GenErase. Показові вузькі місця: втрата роздільної здатності, розрив каталогу і 80 кредитів за правку. Luminar Neo може виграти, якщо GenErase поверне результат у повній роздільній здатності в межах каталогу й з прозорими лімітами, а Luminar Mobile — дати промпт-керування Erase для сімейних фото.",
+  "importance": 3,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 1,
+   "video": null
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "b978f84236",
@@ -1186,74 +1364,8 @@
    "kind": "none",
    "hero_image": null,
    "video": null
-  }
- },
- {
-  "id": "9058c95ae7",
-  "source": "Yahoo Tech",
-  "url": "https://tech.yahoo.com/computing/articles/tourbox-elite-plus-review-fast-110000123.html",
-  "date": "2026-09-05T19:00:00+00:00",
-  "page": {
-   "text": "When you buy through links on our articles, Future and its syndication partners may earn a commission.\nThe TourBox Elite Plus is a creative editing console designed to empower photographers and videographers to simplify their workflows and thereby have more time and energy to focus on art. With special layouts and multi-dimensional input, the Elite Plus offers artists everything they need to access hundreds of software functions with a single hand.\nWith Bluetooth connection for switching between computers and tablets, haptic touch, and over 400 assignable functions per preset, the Elite Plus sets itself apart as the overall winner in our best TourBox editing consoles guide. The buttons feel premium and offer high-end performance.\nThe Elite Plus works with a wide range of design packages, including Adobe Photoshop, Lightroom, Premiere Pro, DaVinci Resolve, and more. It sits at the pinnacle of the four consoles that TourBox sells, with a more impressive spec than the TourBox Elite , TourBox NEO, and TourBox Lite. But, with this top spec comes a premium price that only the more serious of creatives will entertain.\nThe Elite Plus offers a solid build that feels weighty and premium. The see through plastic means you can see some of the hardware inside which is a nice touch for users who like to feel connected to their devices. The plastic case feels robust enough although I'm not entirely sure it would withstand being dropped from height onto a solid surface. A rubber material as found on the TourBox NEO would guarantee greater longevity and deliver a more tactile experience which would be preferable.\nTo get the console up and running, all you need to do is download the TourBox Console software and either connect it with a USB cable or via Bluetooth. For a more portable and versatile working experience you'll want to go for the wireless option. It is also via Bluetooth that the Elite Plus can be connected to iPads or Android tablets. The Bluetooth connection was relatively reliable although there were a couple of times when I had to restart my machine to make the connection work.\nThe various knobs, dials, and buttons are well engineered and offer over 150 combos with the ability to assign over 400 functions to each preset. That's customisability at its best. All controls work seamlessly and reliably to deliver an effortless workflow in the likes of Photoshop, Premiere, DaVinci Resolve, and other major editing applications.\nOne of the features that sets the Elite Plus apart from the cheaper TourBox NEO and TourBox Lite is haptic feedback. This is delivered via a wide-band vibration motor and helps to root your editing experience. My only issue with it is that the sound it produces would be better if it was a dampened a little.\nThe TourBox Elite Plus retails at £297 / $297, which makes it the most expensive of all TourBox products, although it's often discounted by as much as £30 / $30. For the money, you'll benefit from a solid build quality, more buttons, dials, and scrollers than you can shake a stick at, and an elevated user experience courtesy of haptic feedback.\nOne of the best alternatives is the 4.5-star Logitech MX Creative Console , which costs £189.99 / $189.99. This cute and compact device features two independent consoles that allow users to switch between applications and utilise buttons, a dial and a scroller to access application shortcuts. It's simpler than the Elite Plus but also a lot more affordable.\nAnother alternative is the XPPen Pilot Pro . It's cheaper than both the Elite Plus and the MX Creative Console and is aimed specifically at video editors who spend their time regularly switching between tools like Razor, Ripple Edit and Selection in DaVinci Resolve and Premiere.\nThe Elite Plus is for photographers and videographers who are editing on a daily basis. It speeds up almost all elements of the workflow across photo-editing, retouching, colour grading, and cutting videos. With an abundance of buttons it is also possible, through the TourBox Console software to customise your setup to suit your exact way of working. I also appreciated how it automatically switched mapping profiles when I moved from one piece of software to the next.\nThe setup was relatively straightforward although I had to restart my machine because the TourBox Console couldn't detect the device via Bluetooth. The presence of software presets meant I could get up and running with the console in less than ten minutes after unboxing.\nAt the price it retails at, editors who are only using the likes of Photoshop and DaVinci Resolve on an occasional basis are unlikely to reap the workflow benefits. The use of keyboard shortcuts is likely to be sufficient if you fall into this category. Other creatives such as 3D artists are also unlikely to benefit from this type of console.",
-   "images": [
-    {
-     "file": "d28ec11a0819.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "",
-     "cap": "",
-     "src": "https://s.yimg.com/lo/mysterio/api/78cb006a702dd2e7df6f734a7f7ff0c9c65c3827af4940cde3f99c92a9d437c6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2F10277716faf8e22b0184973b36dc46d1.jpg"
-    },
-    {
-     "file": "933d4c664cc8.jpg",
-     "w": 976,
-     "h": 549,
-     "alt": "TourBox Elite Plus.",
-     "cap": "Credit: Future / Paul Hatton",
-     "src": "https://s.yimg.com/lo/mysterio/api/b4fd96c523dcc564fe1cdd433e3a5542bf95ec7e743d24bb8280aab54f947405/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2F10277716faf8e22b0184973b36dc46d1.jpg"
-    },
-    {
-     "file": "e70bbbafe9f9.jpg",
-     "w": 976,
-     "h": 549,
-     "alt": "TourBox Elite Plus",
-     "cap": "Credit: Future / Paul Hatton",
-     "src": "https://s.yimg.com/lo/mysterio/api/32d739cc7b67f34fb9fc2b81961fc96a4b61a5c8af160065aa96b8b25917790b/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2F3aafa55395b54a1fecafbee7e0ab0173.jpg"
-    },
-    {
-     "file": "c71bdc015bd8.jpg",
-     "w": 976,
-     "h": 607,
-     "alt": "TourBox Elite Plus",
-     "cap": "Credit: Future / Paul Hatton",
-     "src": "https://s.yimg.com/lo/mysterio/api/8edb4f98f872a3c98a36a0f9c0d55de8d252bad09b323b3ad0c121d98b79e33d/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2Fae74fe2d377fe1f494181e016d8ecbca.png"
-    },
-    {
-     "file": "2adaa05f3c31.jpg",
-     "w": 976,
-     "h": 549,
-     "alt": "TourBox Elite Plus",
-     "cap": "Credit: Future / Paul Hatton",
-     "src": "https://s.yimg.com/lo/mysterio/api/6b2773e18ae8f93d2816e52e5470eca2e83853c2ea5e9f9f85fad7bac4b9d3e2/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcreative_bloq_161%2Fcc47d257837fced7dcdb851da621c4e8.jpg"
-    }
-   ],
-   "videos": []
   },
-  "relevant": true,
-  "title": "Огляд TourBox Elite Plus: консоль керування для Photoshop і Lightroom за $297",
-  "lead": "Yahoo Tech (Creative Bloq) опублікували огляд TourBox Elite Plus — топової консолі керування для фотографів і відеографів, яка дозволяє призначати понад 400 функцій на пресет і перемикатись між Bluetooth-з'єднанням з комп'ютером і планшетом.",
-  "full": [
-   "Elite Plus офіційно працює з Adobe Photoshop, Lightroom, Premiere Pro, DaVinci Resolve та іншими редакторськими пакетами, пропонуючи понад 150 комбінацій керування та автоматичне перемикання профілів мапінгу при переході між застосунками. Пристрій підключається через USB або Bluetooth (у тому числі до iPad і Android-планшетів), має тактильний відгук (haptic feedback) і, за словами оглядача, налаштовується менш ніж за десять хвилин після розпакування.",
-   "Це найдорожча модель у лінійці TourBox (вище за TourBox Elite, NEO та Lite) і коштує £297/$297, хоча часто продається зі знижкою до £30/$30. Огляд називає альтернативами Logitech MX Creative Console ($189,99, простіший і компактніший) та XPPen Pilot Pro для відеомонтажерів. Висновок огляду: пристрій виправданий для тих, хто редагує щодня, а для випадкового використання Photoshop чи DaVinci Resolve вистачить звичайних клавіатурних скорочень."
-  ],
-  "means": "Luminar Neo працює як плагін усередині Lightroom Classic і Photoshop, тож частина наших користувачів вже могла б використовувати такі консолі у зв'язці з Luminar — варто перевірити, чи коректно прив'язуються ярлики Luminar (Erase, Sky AI, Mask AI тощо) до апаратних кнопок TourBox і чи варто випустити офіційний пресет-профіль для популярних консолей як маркетинговий і UX-бонус.",
-  "importance": 2,
-  "category": "comp",
-  "media": {
-   "kind": "gallery",
-   "hero_image": 1,
-   "video": null
-  }
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "ac5917a78a",
@@ -1297,7 +1409,8 @@
    "kind": "image",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "73a608d2b2",
@@ -1333,7 +1446,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "94af8599b6",
@@ -1377,7 +1491,8 @@
    "kind": "image",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "d25a782555",
@@ -1461,52 +1576,8 @@
    "kind": "gallery",
    "hero_image": 1,
    "video": null
-  }
- },
- {
-  "id": "f1903a046f",
-  "source": "iLounge",
-  "url": "https://www.ilounge.com/articles/i-tried-8-ai-image-generators-for-fashion-campaigns-heres-how-they-ranked",
-  "date": "2026-09-04T16:24:08+00:00",
-  "page": {
-   "text": "Fashion is a brutal test for AI imagery because audiences notice details. Hands, fabric, accessories, logos, styling and body proportions all have to survive close inspection. At the same time, fashion is one of the most exciting places to use generative tools because campaigns depend so heavily on visual worlds, impossible locations and fast-changing creative direction.\nThe best platform for a fashion team has to do more than produce an attractive portrait. It should help the team hold onto a character, preserve a product or silhouette, explore art direction and then turn the selected image into something large enough and controlled enough for real campaign use.\nWe ranked these tools with brand work in mind rather than generic AI art.\n1. Magnific: Best overall for fashion campaign production\nMagnific takes first place because fashion teams often need several kinds of AI work inside the same project. A campaign may start with mood exploration, move into model and product studies, require background or lighting changes, and end with high-resolution images plus motion assets.\nMagnific’s image generator supports a broad selection of model families, including Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma and Magnific. That lets the creative team choose different strengths rather than forcing every campaign through one visual engine.\nReference-driven workflows are particularly important for fashion. A team may need to preserve a face, garment, accessory or overall styling while changing the location or composition. Different available models support references in different ways, giving the artist options when one approach is not holding the subject well enough.\nThe post-generation tools are equally relevant. Relighting can change the mood without rebuilding the concept. Change Camera can help explore another angle. Editing and variations speed up art-direction changes, while upscaling gives approved imagery a path toward larger delivery sizes.\nPrecision upscaling is a useful choice when product fidelity matters, while Creative upscaling can push texture or richness on more interpretive editorial images. Spaces also gives campaign teams a visual place to branch concepts and keep the process reusable.\n2. Adobe Firefly: Best for fashion teams with professional retouchers\nFashion imagery is rarely finished at capture, whether the source is a camera or an AI model. Retouching, compositing, color work and layout are normal parts of the process. Adobe therefore has an obvious advantage.\nFirefly lets generative work sit near Photoshop and other Creative Cloud tools, so an imperfect output is not a dead end. A retoucher can fix what needs fixing rather than asking the generator to reproduce the entire image because one detail is wrong.\nAdobe’s multi-model direction also gives teams more generation choice while preserving that familiar finishing environment.\nFor established fashion houses, agencies and magazines, this may be the easiest workflow to integrate operationally. We still rank Magnific first because its AI-native model selection, upscaling and connected image-to-video workflow offer more flexibility before the final retouching stage.\n3. Midjourney: Best for editorial fashion direction\nMidjourney remains exceptional at fashion imagery that feels like it has an opinion. Lighting, styling, composition and atmosphere often appear more editorial than purely literal.\nThat makes it ideal for moodboards, pitch decks, campaign territories and experimental editorials. A creative director can explore a collection in brutalist architecture, on an unreal coastline or inside a surreal studio environment before committing to the final production route.\nMidjourney is particularly good at answering “What could this campaign feel like?” It can help a team discover visual language faster than a long chain of references and written descriptions.\nThe trade-off is fidelity. When a specific garment, accessory or model identity must remain exact, we would move into more controlled reference and editing workflows. Midjourney is best when art direction is the hard problem.\n4. Recraft: Best for fashion branding and graphic systems\nFashion campaigns are not only photographs. They also need packaging, labels, icons, invitations, graphic motifs, retail elements and digital design assets.\nRecraft is strong in that world because it approaches AI from a design perspective and includes vector-oriented generation. A brand team can explore scalable graphic elements that support the campaign rather than generating another raster mood image.\nThis is useful for younger fashion brands that want the same visual language across social content, packaging and ecommerce. Recraft can help develop the system around the photography.\nWe would not rely on it alone for realistic fashion editorials, but as part of a wider campaign stack it is one of the most practical specialist tools.\n5. Ideogram: Best for campaigns where typography is central\nFashion loves typography: campaign titles, magazine-style treatments, event posters, packaging and social graphics. Ideogram belongs on this list because it makes text inside generated imagery more usable than most traditional generators.\nA creative team can explore the relationship between the model, product and headline during concept development instead of designing the image and typography as completely separate ideas.\nThat is particularly helpful in pitch work. A client can react to something that feels closer to a finished campaign composition rather than an isolated AI photo.\nFor final brand typography, designers should still rebuild and control the type precisely. Ideogram’s value is speed of visual thinking, not replacing a professional layout system.\n6. Krea: Best for fast styling and mood experiments\nKrea works well when the team wants to explore quickly. Fashion art direction often starts with small visual questions: colder light or warmer light, cleaner studio or messy backstage, glossy finish or film grain, minimal styling or something more maximal.\nAn interactive creative environment makes those questions easier to test. Krea encourages the team to move through possibilities rather than overthink every prompt.\nWe like it for pre-production and visual research, especially when a designer is trying to find the edge of a campaign before committing to a polished direction.\nIt ranks below the broader suites because a fashion campaign eventually needs stronger consistency, high-resolution delivery and a clearer production path.\n7. ChatGPT Images: Best for creative directors who prefer giving feedback\nNot every creative director wants to operate a complex generator. Many are much more comfortable describing what should change.\nChatGPT Images works well in that situation. A team can upload a reference, explain the campaign, generate a direction and keep revising in normal language. “Keep the pose, change the set.” “Make the styling sharper.” “Give us more empty space for the masthead.” Those are natural instructions in a fashion review.\nThe same conversation can also hold campaign context, copy ideas and creative rationale. That makes it particularly approachable for brand and marketing leaders who want to be involved in the visual process.\nFor controlled multi-asset production, however, we would still want a more specialized workflow around it.\n8. Canva: Best for adapting approved fashion visuals into everyday content\nCanva is not our first choice for generating the hero image of a luxury campaign, but it is extremely useful after that image exists.\nFashion brands need enormous amounts of adaptation: stories, feed posts, sale banners, retail screens, launch decks and regional versions. Canva lets a broader marketing team handle that production inside templates and brand controls without asking the main creative studio to resize everything.\nAI generation can support those everyday needs, while the platform’s bigger value is assembly and collaboration.\nFor small fashion brands with limited design resources, Canva may actually be one of the most-used tools on this list even though it ranks eighth for high-end generative art direction.\nFashion AI works best when the brand stays more important than the model\nThe danger in fashion AI is chasing whatever aesthetic a model happens to make easily. The result may look polished but could belong to any brand. Strong creative teams work in the opposite direction: the brand defines the visual language, and the AI is selected and controlled to serve it.\nMidjourney is brilliant for finding an editorial world. Adobe is the obvious finishing environment for teams with professional retouchers. Recraft and Ideogram solve important graphic-design problems around the main campaign.\nMagnific wins overall because it can cover more of the journey without forcing the team into one model family. The team can explore, switch models, edit, relight, change perspective, upscale and then continue into video inside the same creative suite. That is particularly valuable when a campaign needs stills and motion that feel like part of the same system.",
-   "images": [
-    {
-     "file": "6e73475135b8.jpg",
-     "w": 1000,
-     "h": 666,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1.jpeg"
-    },
-    {
-     "file": "76040b5eacbc.jpg",
-     "w": 860,
-     "h": 573,
-     "alt": "AI-generated fashion campaign visuals showcased for top image generator comparison and ranking",
-     "cap": "",
-     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1-860x573.jpeg"
-    }
-   ],
-   "videos": [],
-   "published": "2026-09-04T16:24:08+00:00"
   },
-  "relevant": true,
-  "title": "Рейтинг 8 AI-генераторів зображень для фешн-кампаній",
-  "lead": "Видання iLounge протестувало вісім інструментів генерації зображень для модних рекламних кампаній і склало рейтинг за придатністю до брендової роботи: перше місце отримав Magnific, друге — Adobe Firefly, третє — Midjourney.",
-  "full": [
-   "Автори оцінювали інструменти не як генератори «красивих картинок», а з погляду реальної продакшн-роботи над кампаніями: збереження персонажа чи товару, дослідження арт-напрямку і можливість довести обране зображення до якості, придатної для фінальної кампанії. Перше місце посів Magnific — за підтримку одразу кількох сімейств моделей (Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma, власна Magnific) в одному інструменті, референс-орієнтовані воркфлоу для збереження обличчя, одягу чи аксесуарів, а також постобробку: релайтинг, зміну ракурсу камери, точний (Precision) і креативний (Creative) апскейл.",
-   "Друге місце зайняв Adobe Firefly — завдяки прямій інтеграції з Photoshop та іншими інструментами Creative Cloud, що дає командам із професійними ретушерами змогу довести згенероване зображення до фінального вигляду, а не переробляти генерацію з нуля через одну деталь. Midjourney посів третє місце як інструмент для пошуку арт-напрямку та мудбордів завдяки сильному відчуттю стилю, хоча програє в точності відтворення конкретного товару чи вбрання.",
-   "Далі в рейтингу — Recraft (брендинг і графічні системи, векторна генерація), Ideogram (робота з текстом і типографікою всередині зображення), Krea (швидкі експерименти зі стилем і освітленням), ChatGPT Images (генерація через звичайні текстові інструкції для директорів, що не хочуть освоювати складний інтерфейс) і Canva, яка замикає рейтинг для генерації хіро-зображень, але лишається практичною для адаптації вже готових візуалів під соцмережі, банери й інші формати."
-  ],
-  "means": "Огляд показує, що лідери ринку фешн-генерації поєднують вибір із кількох моделей із постобробкою — релайтингом і апскейлом, — тобто функціоналом, що напряму перетинається з нашими Relight AI, Supersharp AI/Upscale AI та хмарними GenErase/GenSwap/GenExpand. Варто орієнтуватися на підхід Magnific (мультимодельність plus вбудований апскейл і перехід у відео в одному середовищі) та Adobe Firefly (тісна інтеграція генерації з ретушшю в Photoshop) як бенчмарк для власного позиціонування AI-інструментів Luminar Neo серед фотографів і брендів, які працюють із кампанійним контентом.",
-  "importance": 2,
-  "category": "ai",
-  "media": {
-   "kind": "image",
-   "hero_image": 1,
-   "video": null
-  }
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "1feb30299b",
@@ -1540,51 +1611,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
- },
- {
-  "id": "bd7d0546f3",
-  "source": "Jon Peddie Research",
-  "url": "https://www.jonpeddie.com/news/nvidia-buys-hugging-face-for-13b/",
-  "date": "2026-09-04T15:22:59+00:00",
-  "page": {
-   "text": "Nvidia just spent $12.93 billion on a company that doesn’t make chips or models, it makes the place where 18 million developers go to find them. Hugging Face functions as something like GitHub for AI, and Nvidia isn’t buying the models sitting on it, it’s buying the distribution layer connecting those models to the hardware running them. We walk through why Nvidia explicitly promised not to require its own hardware, what that promise actually protects, and what this means for AMD and Intel.\nNvidia confirmed a $12.93 billion acquisition of Hugging Face on Thursday, sending Nvidia shares up roughly 2%. Hugging Face hosts more than 3 million models, 500,000 datasets, and 1 million applications, drawing more than 18 million developers, researchers, and creators, with more than 200,000 companies using the platform to discover, evaluate, customize, and deploy AI. The deal will close in the first half of 2027, pending regulatory approval.\nNvidia isn’t buying a model company here. It’s buying the distribution layer for open AI. Hugging Face has become something close to GitHub for AI models, the place developers discover them, compare them, customize them, and decide how to deploy them. Nvidia built its dominant position from the bottom up: GPUs provided the compute, CUDA created the programming environment around that compute, and networking plus DGX systems expanded that into complete AI infrastructure. Hugging Face moves Nvidia one step closer to the developer, sitting at the exact decision point of which model to use and where to run it.\nA real economic logic sits underneath the deal. The largest frontier AI companies count among Nvidia’s biggest customers, and those same companies carry the strongest incentive to build alternative accelerators and custom silicon. Open AI creates a fundamentally different market structure instead: millions of developers, thousands of organizations, millions of models, and an enormous variety of workloads. That fragmentation suits a broadly programmable accelerated-computing platform well. Nvidia doesn’t need to win the model war outright. It benefits simply if nobody else does.\nNvidia CEO Jensen Huang went unusually far in promising Hugging Face stays open. Developers keep the freedom to choose their own models, frameworks, clouds, inference providers, and computing platforms, and Nvidia explicitly stated its own compute will not become a requirement for building on or deploying through the platform. Justin Boitano, Nvidia’s enterprise computing general manager, framed the strategy directly: Growing Hugging Face’s user base depends on keeping developers free to choose their own hardware, clouds, and stack, even as Nvidia benefits from the training and inference that happens to run on Nvidia hardware anyway.\n“Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty,” Huang posted on X. “They allow every developer, startup, university, industry and country to build with, customize and benefit from AI.”\nThat commitment isn’t simple goodwill. It’s fundamental to the acquisition’s actual value. Hugging Face became important precisely because it functions as a broadly accessible meeting place for the entire AI community, and turning it into an Nvidia-only channel would undermine the exact ecosystem Nvidia just paid nearly $13 billion to acquire. Nvidia doesn’t need that kind of exclusivity. It only needs its own path through the platform to run exceptionally well, letting a developer discover a model on Hugging Face, evaluate it, optimize it for Nvidia hardware, and deploy it through Nvidia’s own growing software stack, all without technically closing off any other path. The real competitive question isn’t whether Hugging Face keeps supporting AMD, Intel, and other accelerators; it’s whether Nvidia’s own path becomes so frictionless that neutrality stops mattering in practice.\nThe acquisition extends well past hyperscale cloud, too. Huang specifically described open models reaching factories, hospitals, farms, classrooms, and Main Street businesses, running across cloud GPUs, enterprise servers, AI workstations, local AI appliances, PCs, edge systems, and robots. Deploying a model increasingly means an RTX workstation, a DGX-class appliance, an edge server, or an autonomous machine, connecting Hugging Face directly to Nvidia’s push into local AI, robotics, and physical AI.\nHugging Face itself carries a genuinely French origin story. Three Frenchmen—Clement Delangue, Julien Chaumond, and Thomas Wolf—founded the company in New York back in 2011, originally building a conversational AI interface aimed at teenagers, a rough forerunner of ChatGPT. The platform pivoted toward businesses and professionals, then took off sharply once ChatGPT itself launched and generative-AI use exploded. Hugging Face turned down multiple stake purchases and takeover offers before choosing Nvidia, citing its stated commitment to the open ecosystem. French Economy Minister Roland Lescure called the deal a “wake-up call” for Europe’s own capital markets, warning that start-ups without enough local capital will keep finding it elsewhere.\nNvidia’s own free cash flow, expected to be near $200 billion for fiscal year 2027, makes the $13 billion price tag look small by comparison. The harder question isn’t affordability. It’s whether Nvidia can keep Hugging Face genuinely neutral, making its own path through the platform good enough at the same time that neutrality stops being the thing developers actually choose.\nThe neutrality pledge is the deal’s real load-bearing wall, not a talking point. Nvidia doesn’t need every model built on its hardware; it needs the best path through Hugging Face to run on Nvidia silicon specifically. Watch whether that “exceptionally good” Nvidia path stays a genuine choice among equals or quietly becomes the default nobody bothers avoiding.\nInflection point. Nvidia already owns the compute layer through GPUs and the programming layer through CUDA. Hugging Face adds the discovery layer, the actual point where a developer picks which model to use. Owning that decision point, keeping it technically open at the same time, marks a genuine inflection point in how AI infrastructure competition works: The fight stops being purely about who ships the fastest chip and becomes about who sits closest to the moment a developer decides where their workload runs.\nLIKE WHAT YOU’RE READING? DON’T KEEP IT A SECRET, TELL YOUR FRIENDS AND FAMILY, AND PEOPLE YOU MEET IN COFFEE SHOPS.",
-   "images": [
-    {
-     "file": "cb6fc466b6de.jpg",
-     "w": 1000,
-     "h": 840,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.jonpeddie.com/wp-content/uploads/2026/09/HF.jpg"
-    },
-    {
-     "file": "00714e4637cb.jpg",
-     "w": 600,
-     "h": 504,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.jonpeddie.com/wp-content/uploads/2026/09/HF-600x504.jpg"
-    }
-   ],
-   "videos": []
   },
-  "relevant": true,
-  "title": "Nvidia купує Hugging Face за $12,93 млрд",
-  "lead": "Nvidia підтвердила придбання платформи відкритих AI-моделей Hugging Face за $12,93 млрд; угода має закритися в першій половині 2027 року за умови регуляторного схвалення.",
-  "full": [
-   "Nvidia офіційно оголосила про угоду в четвер, після чого її акції зросли приблизно на 2%. Hugging Face — платформа, яку описують як «GitHub для AI»: на ній розміщено понад 3 млн моделей, 500 тис. датасетів і 1 млн застосунків, а користуються нею понад 18 млн розробників і дослідників та понад 200 тис. компаній, які знаходять, оцінюють, кастомізують і розгортають AI-моделі. Платформу заснували 2011 року в Нью-Йорку троє французьких інженерів — Клеман Деланг, Жульєн Шомон і Тома Вольф.",
-   "CEO Nvidia Дженсен Хуанг публічно пообіцяв, що Hugging Face залишиться відкритою: розробники збережуть свободу вибору моделей, фреймворків, хмар і провайдерів інференсу, а власне залізо Nvidia не стане обов'язковою умовою для роботи на платформі. Генеральний менеджер напряму enterprise computing Джастін Бойтано пояснив, що зростання аудиторії Hugging Face прямо залежить від збереження цієї нейтральності, навіть попри те, що Nvidia все одно виграє, коли тренування й інференс відбуваються на її власному залізі. Фактично угода додає до інфраструктури Nvidia (GPU як обчислювальний шар і CUDA як програмний шар) ще й «шар відкриття» — точку, де розробник обирає, яку модель використати.",
-   "Міністр економіки Франції Ролан Лескюр назвав угоду «дзвіночком» для європейських ринків капіталу, зауваживши, що стартапам без достатнього місцевого фінансування доводиться шукати гроші деінде. Вільний грошовий потік Nvidia на 2027 фінансовий рік прогнозується на рівні близько $200 млрд, тож $13 млрд за Hugging Face — відносно невелика сума для компанії. Угода поки очікує регуляторного схвалення і має закритися в першій половині 2027 року."
-  ],
-  "means": "Hugging Face — основне місце, де можна знайти відкриті моделі для інпейнту, релайту, денойзу, глибини, апскейлу та портретної ретуші, які потенційно можна інтегрувати в наші продукти (Erase, Relight AI, Noiseless AI, Supersharp AI, Mask AI). Поки Nvidia публічно обіцяє зберегти нейтральність платформи щодо заліза й хмарних провайдерів, тож умови доступу до моделей формально не міняються, але варто стежити, чи не зміняться ліцензійні умови або пріоритизація моделей, оптимізованих під Nvidia, у міру наближення закриття угоди. Акцент Nvidia на локальному й edge-розгортанні (PC, робочі станції, edge-пристрої) також може пришвидшити появу моделей, оптимізованих під on-device сценарії, що релевантно для Luminar Mobile.",
-  "importance": 4,
-  "category": "market",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "8455d4164f",
@@ -1629,7 +1657,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "6cb33e338c",
@@ -1665,7 +1694,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "e71bc96a54",
@@ -1703,7 +1733,8 @@
    "hero_image": 0,
    "video": null,
    "generated": true
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "a4f51742e2",
@@ -1764,7 +1795,8 @@
    "kind": "gallery",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "df9552db8c",
@@ -1817,7 +1849,8 @@
    "kind": "image",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "9d4c0b5587",
@@ -1861,7 +1894,8 @@
    "kind": "image",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "6af7286517",
@@ -1906,7 +1940,8 @@
    "kind": "none",
    "hero_image": null,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "1e69c2c6ab",
@@ -1963,7 +1998,8 @@
    "kind": "video",
    "hero_image": 1,
    "video": "Te1D8Nmal7I"
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "bd711de89b",
@@ -2024,7 +2060,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "cfb11d71f7",
@@ -2089,7 +2126,8 @@
    "kind": "video",
    "hero_image": 2,
    "video": "1LYsbVfwgzA"
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "f49774b943",
@@ -2182,7 +2220,8 @@
    "kind": "gallery",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "740adb9e4f",
@@ -2218,7 +2257,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "217d1c8bcc",
@@ -2302,7 +2342,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "f49ce3b33a",
@@ -2338,7 +2379,8 @@
    "kind": "image",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "9288b43d59",
@@ -2398,7 +2440,8 @@
    "kind": "gallery",
    "hero_image": 0,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "65f86a28f0",
@@ -2451,7 +2494,8 @@
    "kind": "image",
    "hero_image": 2,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "fd6e940290",
@@ -2487,7 +2531,8 @@
    "kind": "none",
    "hero_image": null,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  },
  {
   "id": "8730cf2427",
@@ -2579,6 +2624,7 @@
    "kind": "image",
    "hero_image": 1,
    "video": null
-  }
+  },
+  "added": "2026-09-06T15:11:20+00:00"
  }
 ]

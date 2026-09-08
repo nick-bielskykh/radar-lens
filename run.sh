@@ -3,7 +3,8 @@
 # робить агент за EDITOR.md між кроками fetch і assemble.
 #
 #   ./run.sh fetch      — тільки збір у data/raw.json + data/img/
-#   ./run.sh build      — assemble.py + build.py (після того, як агент заповнив data/enriched/)
+#   ./run.sh build      — assemble.py + build.py + check.py (після того, як агент заповнив data/enriched/)
+#   ./run.sh check      — тільки перевірка стрічки перед пушем (ненульовий код = не пушити)
 #   ./run.sh enrich      — опційно: збагачення через Claude API (потрібен ANTHROPIC_API_KEY)
 #   ./run.sh todo       — список id, для яких ще нема data/enriched/<id>.json
 #   ./run.sh tweet <url> [...] — додати твіти як кандидатів (через api.fxtwitter.com)
@@ -19,7 +20,8 @@ fi
 
 case "${1:-fetch}" in
   fetch)  DAYS="${DAYS:-2}" $PY fetch.py ;;
-  build)  $PY assemble.py && $PY build.py ;;
+  build)  $PY assemble.py && $PY build.py && $PY check.py ;;
+  check)  $PY check.py ;;
   tweet)  shift; $PY tweet.py "$@" ;;
   enrich) EFFORT="${EFFORT:-low}" MODEL="${MODEL:-claude-opus-5}" $PY enrich.py ;;
   todo)   $PY - <<'PYEOF'
@@ -30,5 +32,5 @@ print("\n".join(todo))
 print(f"# {len(todo)} з {len(raw)} без enriched", file=__import__("sys").stderr)
 PYEOF
   ;;
-  *) echo "usage: ./run.sh [fetch|build|enrich|todo|tweet <url>...]" >&2; exit 2 ;;
+  *) echo "usage: ./run.sh [fetch|build|check|enrich|todo|tweet <url>...]" >&2; exit 2 ;;
 esac

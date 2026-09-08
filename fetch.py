@@ -181,13 +181,33 @@ def parse_date(v):
         return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
     except Exception: return None
 
+def jina_text(url, out):
+    """Другий захід за текстом: r.jina.ai віддає сторінку як markdown (без ключа). Капчу і заглушки відкидаємо."""
+    try:
+        j = requests.get("https://r.jina.ai/" + url, headers=UA, timeout=40).text
+        if not j or "CAPTCHA" in j[:500] or len(j) < 1500: return False
+        body = j.split("Markdown Content:", 1)[-1]
+        if re.search(r"<html|<!DOCTYPE|Just a moment|Enable JavaScript|Access Denied|Verifying you are human", body[:600], re.I): return False
+        text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)
+        text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+        out["text"] = re.sub(r"\n{3,}", "\n\n", text).strip()[:12000]; out["text_from"] = "jina"
+        m = re.search(r"Published Time: (\S+)", j[:800])
+        if m and parse_date(m.group(1)) and not out.get("published"): out["published"] = parse_date(m.group(1)).isoformat()
+        return True
+    except Exception as e:
+        log("jina fail", url, e); return False
+
 def extract_page(url):
     """Повертає dict: text, images[], videos[], published (ISO або None)"""
     out = {"text": "", "images": [], "videos": [], "published": None}
     try:
-        r = get(url); r.raise_for_status(); html = r.text
+        r = get(url); html = r.text
+        if r.status_code >= 400:
+            log("page", r.status_code, url); html = ""
     except Exception as e:
-        log("page fail", url, e); return out
+        log("page fail", url, e); html = ""
+    if not html:
+        jina_text(url, out); return out
     soup = BeautifulSoup(html, "lxml")
     pd = page_date(soup); out["published"] = pd.isoformat() if pd else None
     figs = arxiv_figures(url)
@@ -195,6 +215,7 @@ def extract_page(url):
     main = soup.find("article") or soup.find("main") or soup.body or soup
     paras = [p.get_text(" ", strip=True) for p in main.find_all(["p", "li", "h2", "h3"])]
     out["text"] = "\n".join(p for p in paras if len(p) > 40)[:12000]
+    if len(out["text"]) < 300: jina_text(url, out)   # 200, але тексту нема (AMP, пейвол, JS-рендер)
 
     # og:image першим (крім arXiv — там це логотип, беремо фігури статті)
     og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
@@ -304,6 +325,9 @@ def main():
         return it
     with ThreadPoolExecutor(6) as ex:
         all_items = list(ex.map(enrich, all_items))
+    for it in all_items:
+        if not it["page"]["text"] and it.get("summary"):
+            it["page"]["text"] = it["summary"]; it["page"]["text_from"] = "rss"
     # Google News ставить дату індексації, а не публікації: якщо сторінка каже, що стаття старіша, — віримо сторінці
     fresh = []
     for it in all_items:

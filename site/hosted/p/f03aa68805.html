@@ -56,6 +56,9 @@ a{color:inherit}
   .filters .chip:first-child{margin-left:0}
 }
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
+.head .new{background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px}
+.seen-sep{display:flex;align-items:center;gap:14px;color:var(--ink3);font-size:13px;font-weight:600;margin:10px 0 2px}
+.seen-sep::before,.seen-sep::after{content:"";flex:1;border-top:1px dashed var(--line2)}
 
 /* ---------- post ---------- */
 .post{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 28px 16px;display:flex;flex-direction:column;gap:14px}
@@ -148,7 +151,7 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
 const SINGLE=true;
-const ITEMS=[{"id": "f03aa68805", "source": "Creative Bloq", "url": "https://www.creativebloq.com/ai/can-nvidia-and-adobe-work-together-to-get-creatives-to-actually-like-ai", "date": "2026-09-07T16:00:00+00:00", "title": "NVIDIA і Adobe показали локальних AI-агентів у Photoshop на RTX", "lead": "На показі NVIDIA RTX Spark під час IFA у Берліні продемонстрували AI-агентів, які працюють усередині Photoshop цілком локально — на робочій станції RTX зі 128 ГБ обʼєднаної памʼяті, без звернень до хмари.", "full": ["У демо художниця перетворила ескіз робота на фотореалістичне зображення: головним референсом слугувало пляжне фото, а менші зображення задавали колір, фактуру металу, форму та тип «очей». За описом Creative Bloq, агент не переписував ескіз і не переінтерпретовував задум, а виконував рутинну частину роботи.", "Ключова заявка показу — локальність обчислень. Усе рахувалося на машині презентера; його цитата з демо: «мої творчі дані лишаються на моїй машині». Автор матеріалу повʼязує це з недовірою творчої спільноти до хмарного AI через навчання моделей на роботах художників без дозволу та мовчазне вивантаження файлів на сторонні сервери.", "Швидкість ітерацій ішла в темпі розмови: «зміни тему на нічне життя» — неонова сцена за десять секунд, «новий ракурс камери» — згенерована 3D-модель, яку можна обертати, «зроби відео між цими ракурсами» — менш ніж за хвилину замість трьох окремих застосунків. Артефакти лишаються (в одному з варіантів машини пливли в океані), але при циклі в 90 секунд невдалу генерацію просто видаляють і повторюють."], "means": "Це прямий тиск на нашу хмарну генеративну лінійку GenErase, GenSwap і GenExpand: якщо Adobe перенесе генеративні операції на локальний GPU, аргументи приватності, відсутності лімітів генерацій і роботи офлайн перейдуть до конкурента. Для Luminar Neo на Windows з дискретною RTX варто прорахувати локальний інференс хоча б для частини генеративних операцій або чітко комунікувати, що ми не тренуємо моделі на файлах користувачів. Окремо цінна сама модель взаємодії: агент виконує чорнову роботу, не змінюючи задуму — це ближче до наших Erase і Mask AI, ніж до генерації з нуля.", "importance": 3, "category": "comp", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/8f9419176469.jpg", "w": 1000, "h": 562, "alt": ""}], "videos": []}}];
+const ITEMS=[{"id": "f03aa68805", "source": "Creative Bloq", "url": "https://www.creativebloq.com/ai/can-nvidia-and-adobe-work-together-to-get-creatives-to-actually-like-ai", "date": "2026-09-07T16:00:00+00:00", "title": "NVIDIA і Adobe показали локальних AI-агентів у Photoshop на RTX", "lead": "На показі NVIDIA RTX Spark під час IFA у Берліні продемонстрували AI-агентів, які працюють усередині Photoshop цілком локально — на робочій станції RTX зі 128 ГБ обʼєднаної памʼяті, без звернень до хмари.", "full": ["У демо художниця перетворила ескіз робота на фотореалістичне зображення: головним референсом слугувало пляжне фото, а менші зображення задавали колір, фактуру металу, форму та тип «очей». За описом Creative Bloq, агент не переписував ескіз і не переінтерпретовував задум, а виконував рутинну частину роботи.", "Ключова заявка показу — локальність обчислень. Усе рахувалося на машині презентера; його цитата з демо: «мої творчі дані лишаються на моїй машині». Автор матеріалу повʼязує це з недовірою творчої спільноти до хмарного AI через навчання моделей на роботах художників без дозволу та мовчазне вивантаження файлів на сторонні сервери.", "Швидкість ітерацій ішла в темпі розмови: «зміни тему на нічне життя» — неонова сцена за десять секунд, «новий ракурс камери» — згенерована 3D-модель, яку можна обертати, «зроби відео між цими ракурсами» — менш ніж за хвилину замість трьох окремих застосунків. Артефакти лишаються (в одному з варіантів машини пливли в океані), але при циклі в 90 секунд невдалу генерацію просто видаляють і повторюють."], "means": "Це прямий тиск на нашу хмарну генеративну лінійку GenErase, GenSwap і GenExpand: якщо Adobe перенесе генеративні операції на локальний GPU, аргументи приватності, відсутності лімітів генерацій і роботи офлайн перейдуть до конкурента. Для Luminar Neo на Windows з дискретною RTX варто прорахувати локальний інференс хоча б для частини генеративних операцій або чітко комунікувати, що ми не тренуємо моделі на файлах користувачів. Окремо цінна сама модель взаємодії: агент виконує чорнову роботу, не змінюючи задуму — це ближче до наших Erase і Mask AI, ніж до генерації з нуля.", "importance": 3, "category": "comp", "media": {"kind": "image", "hero_image": 0, "video": null}, "page": {"images": [{"uri": "/img/8f9419176469.jpg", "w": 1000, "h": 562, "alt": ""}], "videos": []}, "added": "2026-09-08T04:10:33+00:00"}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];
@@ -199,7 +202,7 @@ function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
   <article id="${it.id}" class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
-    <div class="head"><span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
+    <div class="head">${isNew(it)?'<span class="new">нове</span>':''}<span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
     <h3 class="title">${it.title}</h3>
     ${it.tweet?tweetCard(it):media(it)}
     <p class="lead">${it.lead}</p>
@@ -213,6 +216,10 @@ function post(it,showDay){
   </article>`;
 }
 let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого; не зберігається між завантаженнями
+// «нове» = додано у стрічку після останнього візиту цього браузера (по added, не по даті джерела)
+let lastSeen=null; try{lastSeen=localStorage.getItem('lr.seen')}catch(_){}
+const isNew=it=>!!lastSeen&&!!it.added&&it.added>lastSeen;
+function markSeen(){try{const mx=ITEMS.reduce((m,it)=>it.added>m?it.added:m,'');if(mx)localStorage.setItem('lr.seen',mx)}catch(_){}}
 function visible(){return SINGLE?ITEMS:ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
@@ -222,7 +229,8 @@ function renderFilters(){
 function render(){
   renderFilters();
   const all=visible(), list=all.slice(0,shown);let last='';
-  document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
+  const lastNew=list.reduce((k,it,i)=>isNew(it)?i:k,-1), anyOld=lastNew>=0&&lastNew<all.length-1;
+  document.getElementById('feed').innerHTML=list.map((it,i)=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)+(i===lastNew&&anyOld?'<div class="seen-sep"><span>Далі — те, що ви вже бачили</span></div>':'')}).join('')
    +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
    +(all.length?'':'<div class="empty">Тут поки нема новин.</div>');
 }
@@ -273,5 +281,5 @@ document.getElementById('feed').addEventListener('click',e=>{
   const id=m.closest('.post').dataset.id;
   state.open.has(id)?state.open.delete(id):state.open.add(id); render();
 });
-render();
+render(); if(!SINGLE) window.addEventListener('pagehide',markSeen);
 </script>

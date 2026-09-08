@@ -56,6 +56,9 @@ a{color:inherit}
   .filters .chip:first-child{margin-left:0}
 }
 .daysep{font-size:13px;color:var(--ink3);font-weight:600;padding:14px 0 2px;letter-spacing:.02em}
+.head .new{background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px}
+.seen-sep{display:flex;align-items:center;gap:14px;color:var(--ink3);font-size:13px;font-weight:600;margin:10px 0 2px}
+.seen-sep::before,.seen-sep::after{content:"";flex:1;border-top:1px dashed var(--line2)}
 
 /* ---------- post ---------- */
 .post{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 28px 16px;display:flex;flex-direction:column;gap:14px}
@@ -148,7 +151,7 @@ h3.title{font-size:24px;font-weight:700;line-height:1.22;margin:2px 0 0;letter-s
 const CATS={comp:{n:'Конкуренти',c:'#4c7bd9'},ai:{n:'AI-моделі',c:'#b04fd0'},algo:{n:'Алгоритми',c:'#2e9b8a'},market:{n:'Ринок',c:'#c9781a'}};
 document.documentElement.lang='uk';
 const SINGLE=true;
-const ITEMS=[{"id": "cfb11d71f7", "source": "9to5Google", "url": "https://9to5google.com/2026/09/01/google-pics-launch/", "date": "2026-09-01T16:00:00+00:00", "title": "Google Pics вийшов у Workspace: об'єктне AI-редагування на Nano Banana", "lead": "Google запустив Google Pics — редактор і генератор зображень на моделі Nano Banana, вбудований у Google Workspace (Docs, Slides, згодом Drive) і доступний на pics.new. Анонсований на I/O 2026, інструмент з 1 вересня доступний у загальному доступі.", "full": ["Pics пропонує «точне об'єктне редагування»: сегментація дозволяє виділити окремий об'єкт у зображенні й змінити тільки його, залишивши решту недоторканою. Інструкції задаються текстовими коментарями прямо на зображенні, кілька правок можна виконати одночасно й легко відкотити. Окремо редагується і навіть перекладається текст у зображенні зі збереженням дизайну та шрифту; є кадрування під web, соцмережі та друк.", "Редактор відкривається як оверлей при кліку на зображення в Docs або Slides, підтримує імпорт з комп'ютера, Google Drive і Google Photos, спільну роботу за посиланням і генерацію кількох варіантів з одного промпта. Google позиціонує продукт для бізнес-задач: локалізація соцмережевих і рекламних матеріалів, розміщення продуктів у різних контекстах, флаєри та мерч.", "Доступність: тарифи Workspace Business Standard, Business Plus, Enterprise Standard і Enterprise Plus з 1 вересня, а також підписники Google AI Pro та Ultra протягом найближчих тижнів. Оглядачі порівнюють Pics із Canva й Adobe Express і зауважують, що це інструмент «промпт замість дизайну», а не покращення Google Photos."], "means": "Google робить Nano Banana масовим інструментом об'єктного редагування з мультиредагуванням і сегментацією — це прямий аналог зв'язки Mask AI + GenSwap/GenErase у Luminar Neo, але з текстовим керуванням. Для Luminar Mobile важливо, що імпорт іде прямо з Google Photos і що рівень «виділив об'єкт — описав правку» стає базовим очікуванням користувача. Варто відстежувати ліміти генерацій і розширення Pics на Google Photos.", "importance": 4, "category": "comp", "media": {"kind": "video", "hero_image": 0, "video": "1LYsbVfwgzA"}, "page": {"images": [{"uri": "/img/d038b7cbc3c9.jpg", "w": 1000, "h": 562, "alt": ""}, {"uri": "/img/6ed15d7ea5b5.jpg", "w": 1000, "h": 523, "alt": ""}], "videos": [{"yt": "1LYsbVfwgzA"}]}}];
+const ITEMS=[{"id": "cfb11d71f7", "source": "9to5Google", "url": "https://9to5google.com/2026/09/01/google-pics-launch/", "date": "2026-09-01T16:00:00+00:00", "title": "Google Pics вийшов у Workspace: об'єктне AI-редагування на Nano Banana", "lead": "Google запустив Google Pics — редактор і генератор зображень на моделі Nano Banana, вбудований у Google Workspace (Docs, Slides, згодом Drive) і доступний на pics.new. Анонсований на I/O 2026, інструмент з 1 вересня доступний у загальному доступі.", "full": ["Pics пропонує «точне об'єктне редагування»: сегментація дозволяє виділити окремий об'єкт у зображенні й змінити тільки його, залишивши решту недоторканою. Інструкції задаються текстовими коментарями прямо на зображенні, кілька правок можна виконати одночасно й легко відкотити. Окремо редагується і навіть перекладається текст у зображенні зі збереженням дизайну та шрифту; є кадрування під web, соцмережі та друк.", "Редактор відкривається як оверлей при кліку на зображення в Docs або Slides, підтримує імпорт з комп'ютера, Google Drive і Google Photos, спільну роботу за посиланням і генерацію кількох варіантів з одного промпта. Google позиціонує продукт для бізнес-задач: локалізація соцмережевих і рекламних матеріалів, розміщення продуктів у різних контекстах, флаєри та мерч.", "Доступність: тарифи Workspace Business Standard, Business Plus, Enterprise Standard і Enterprise Plus з 1 вересня, а також підписники Google AI Pro та Ultra протягом найближчих тижнів. Оглядачі порівнюють Pics із Canva й Adobe Express і зауважують, що це інструмент «промпт замість дизайну», а не покращення Google Photos."], "means": "Google робить Nano Banana масовим інструментом об'єктного редагування з мультиредагуванням і сегментацією — це прямий аналог зв'язки Mask AI + GenSwap/GenErase у Luminar Neo, але з текстовим керуванням. Для Luminar Mobile важливо, що імпорт іде прямо з Google Photos і що рівень «виділив об'єкт — описав правку» стає базовим очікуванням користувача. Варто відстежувати ліміти генерацій і розширення Pics на Google Photos.", "importance": 4, "category": "comp", "media": {"kind": "video", "hero_image": 0, "video": "1LYsbVfwgzA"}, "page": {"images": [{"uri": "/img/d038b7cbc3c9.jpg", "w": 1000, "h": 562, "alt": ""}, {"uri": "/img/6ed15d7ea5b5.jpg", "w": 1000, "h": 523, "alt": ""}], "videos": [{"yt": "1LYsbVfwgzA"}]}, "added": "2026-09-06T15:11:20+00:00"}];
 let state={open:new Set(SINGLE?ITEMS.map(x=>x.id):[])};
 if(SINGLE) document.getElementById('back').hidden=false;
 const IMPN=['','фон','варто знати','важливо','дуже важливо','критично'];
@@ -199,7 +202,7 @@ function post(it,showDay){
   const c=CATS[it.category]||CATS.market;
   return `${showDay?`<div class="daysep">${dayLabel(it.date)}</div>`:''}
   <article id="${it.id}" class="post ${it.importance>=5?'big':''} ${state.open.has(it.id)?'open':''}" data-id="${it.id}">
-    <div class="head"><span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
+    <div class="head">${isNew(it)?'<span class="new">нове</span>':''}<span class="src"><i>${it.tweet?'𝕏':(it.source.replace(/[^A-Za-z0-9]/g,'').slice(0,2)||'··')}</i>${it.source}</span><span>${fmtDate(it.date)}</span><span class="cat" style="--c:${c.c}">${c.n}</span><span class="imp ${it.importance>=4?'hi':''}">${it.importance}/5 · ${IMPN[it.importance]}</span></div>
     <h3 class="title">${it.title}</h3>
     ${it.tweet?tweetCard(it):media(it)}
     <p class="lead">${it.lead}</p>
@@ -213,6 +216,10 @@ function post(it,showDay){
   </article>`;
 }
 let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого; не зберігається між завантаженнями
+// «нове» = додано у стрічку після останнього візиту цього браузера (по added, не по даті джерела)
+let lastSeen=null; try{lastSeen=localStorage.getItem('lr.seen')}catch(_){}
+const isNew=it=>!!lastSeen&&!!it.added&&it.added>lastSeen;
+function markSeen(){try{const mx=ITEMS.reduce((m,it)=>it.added>m?it.added:m,'');if(mx)localStorage.setItem('lr.seen',mx)}catch(_){}}
 function visible(){return SINGLE?ITEMS:ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
@@ -222,7 +229,8 @@ function renderFilters(){
 function render(){
   renderFilters();
   const all=visible(), list=all.slice(0,shown);let last='';
-  document.getElementById('feed').innerHTML=list.map(it=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)}).join('')
+  const lastNew=list.reduce((k,it,i)=>isNew(it)?i:k,-1), anyOld=lastNew>=0&&lastNew<all.length-1;
+  document.getElementById('feed').innerHTML=list.map((it,i)=>{const d=it.date.slice(0,10);const s=d!==last;last=d;return post(it,s)+(i===lastNew&&anyOld?'<div class="seen-sep"><span>Далі — те, що ви вже бачили</span></div>':'')}).join('')
    +(shown<all.length?`<button class="btn loadmore">Завантажити ще (${all.length-shown})</button>`:'')
    +(all.length?'':'<div class="empty">Тут поки нема новин.</div>');
 }
@@ -273,5 +281,5 @@ document.getElementById('feed').addEventListener('click',e=>{
   const id=m.closest('.post').dataset.id;
   state.open.has(id)?state.open.delete(id):state.open.add(id); render();
 });
-render();
+render(); if(!SINGLE) window.addEventListener('pagehide',markSeen);
 </script>
