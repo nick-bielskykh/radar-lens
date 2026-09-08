@@ -1,5 +1,6 @@
 """Збирає data/enriched/*.json (від enrich.py або агентів) + data/raw.json у data/items.json."""
 import json, os, glob, hashlib, io, re, sys
+from datetime import datetime, timezone, timedelta
 import requests
 from PIL import Image
 ROOT = os.path.dirname(os.path.abspath(__file__)); DATA = os.path.join(ROOT, "data")
@@ -38,6 +39,8 @@ for f in glob.glob(os.path.join(DATA, "enriched", "*.json")):
     o["media"] = m
     o["importance"] = max(1, min(5, int(o.get("importance", 2))))
     items.append({**{k: r[k] for k in ("id", "source", "url", "date")}, "page": r["page"], **({"tweet": r["tweet"]} if r.get("tweet") else {}), **o})
+cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
+items = [i for i in items if i["date"] >= cutoff]   # стрічка — 30 днів
 items.sort(key=lambda x: x["date"], reverse=True)
 json.dump(items, open(os.path.join(DATA, "items.json"), "w"), ensure_ascii=False, indent=1)
 print(f"{len(items)} новин; зламаних файлів: {bad}")

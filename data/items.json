@@ -582,41 +582,6 @@
   }
  },
  {
-  "id": "abb69a1313",
-  "source": "International Business Times",
-  "url": "https://www.ibtimes.com/metas-new-ai-can-turn-instagram-photos-deepfakes-most-public-users-are-included-unless-they-opt-3805134",
-  "date": "2026-09-07T05:09:25+00:00",
-  "page": {
-   "text": "Meta is facing criticism over Muse Image, a new image-generation tool that can use public Instagram photos to create AI-altered pictures of real people unless users change their settings.\nThe tool is available through the Meta AI app and web browser, as well as on WhatsApp and Instagram Stories for U.S. users, the BBC noted. It lets users create pictures from written prompts and can pull from public Instagram accounts when a username is tagged.\nMeta says users can opt out even if their Instagram account remains public. To do so, users must open Instagram settings, go to \"Sharing and Reuse\" and turn off the setting that allows people to reuse their content on Instagram and with AI features at Meta.\nHowever, the feature has drawn criticism because public users are included by default. Donald Campbell, advocacy director at tech justice nonprofit Foxglove, told the BBC the tool was an \"obvious recipe for disaster,\" citing the spread of non-consensual AI-altered images across social platforms.\nPrivacy International also criticized the rollout, saying it showed how AI companies treat people's images and data as material to be used without clear consent. The feature applies to public accounts belonging to users over 18, according to the outlet.\nMuse Image was introduced this week as Meta's first image-generation model from Meta Superintelligence Labs. The company said the tool can create and edit pictures, blend multiple photos and use presets or suggested prompts, Meta said in its announcement.\nThe company also said Muse Image uses invisible watermarking called Content Seal to help identify images made with Meta AI. Critics say watermarking does not address the central concern that images can be created from a person's public profile without a direct notification.\nInstagram users are not notified when their content is used to make AI-generated images, Wired reported, citing Instagram's help center. The outlet also reported that turning off the setting or making an account private does not delete images that have already been created.\nThe backlash comes during broader concern over AI image tools and deepfakes. In January, U.K. regulator Ofcom opened an investigation into X after reports that Grok had been used to create and share sexualized AI images of real people, including children, Ofcom said.\nAI-generated images have also been linked to misinformation during conflicts. Fake images and videos circulated during the Israel-Hamas war, raising concerns over how synthetic visuals can inflame public anger and make it harder to verify online content, Associated Press reported.\nExperts also warned that Meta's opt-out model places the burden on users. Andrew Lensen, a senior lecturer in AI at Te Herenga Waka Victoria University, told RNZ that making people opt out was not ethically acceptable because many users may not know the setting exists.\nThe concerns are especially serious for creators, influencers and public-facing users, whose likeness can carry commercial value. Prachir Singh, senior analyst at Counterpoint Research, told PTI that the change alters what it means to have a public Instagram account because strangers can use someone's face to create new images without asking permission first.\n© Copyright IBTimes 2026. All rights reserved.",
-   "images": [
-    {
-     "file": "adfdc5dfc71c.jpg",
-     "w": 1000,
-     "h": 525,
-     "alt": "",
-     "cap": "",
-     "src": "https://d.ibtimes.com/en/full/4604506/meta-ai.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Meta запустила генератор Muse Image, що за замовчуванням бере публічні фото Instagram",
-  "lead": "Meta представила Muse Image — перший генератор зображень від Meta Superintelligence Labs, який редагує й поєднує фото та може використовувати публічні знімки з Instagram без прямого дозволу людини.",
-  "full": [
-   "Muse Image доступний у застосунку та вебверсії Meta AI, а також у WhatsApp і Instagram Stories для користувачів у США. Інструмент створює зображення за текстовим промптом, редагує наявні фото, поєднує кілька знімків і пропонує готові пресети/підказки промптів; може підтягувати публічні фото з Instagram-акаунтів за тегом юзернейму. Згенеровані зображення позначаються невидимим водяним знаком Content Seal.",
-   "Публічні акаунти користувачів старше 18 років включені в цю можливість за замовчуванням; відмовитися можна лише вручну через налаштування Instagram (\"Sharing and Reuse\"), і навіть тоді вже створені раніше зображення не видаляються. Правозахисні організації Foxglove та Privacy International розкритикували таку модель opt-out, а дослідники зазначили, що користувачів не сповіщають про використання їхніх фото."
-  ],
-  "means": "Muse Image — ще один генеративний конкурент у сегменті AI-редагування й компонування фото, суміжному з нашими GenSwap, GenErase та Face AI. Публічний скандал навколо opt-out за замовчуванням і watermarking Content Seal — корисний орієнтир того, яких підходів до згоди користувача й маркування AI-контенту варто уникати або, навпаки, запозичити для власної репутації в цій темі.",
-  "importance": 3,
-  "category": "ai",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
   "id": "2e48ec35ac",
   "source": "arXiv cs.CV",
   "url": "https://arxiv.org/abs/2609.04646",
@@ -1000,46 +965,98 @@
   }
  },
  {
-  "id": "7805be2ad8",
-  "source": "Stocktwits",
-  "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-calls-adobe-a-fat-pitch-in-latest-saas-analysis-backs-firefly-and-ai-tie-ups-with-open-ai-google/cZgSWDzRet8",
-  "date": "2026-09-07T01:56:19+00:00",
+  "id": "1856014a7d",
+  "source": "tech-insider.org",
+  "url": "https://tech-insider.org/how-to-use-seedream-5-0-pro-lite-2026/",
+  "date": "2026-09-06T17:23:04+00:00",
   "page": {
-   "text": "Adobe’s Firefly AI products, rising enterprise adoption, and deep integration across large organizations and creative workflows are deep moats, Burry said.\nBurry said he views Intuit, Autodesk, and Unity Software as strong businesses but said he avoided them due to high valuations.\nThe investor was bearish on Zscaler, Palo Alto Networks, and CrowdStrike.\nMichael Burry published the second installment of his six-part series analyzing software companies on Thursday, this time focusing on the productivity tools and cybersecurity space.\nIn a lengthy blog post that discussed Adobe, Intuit, Autodesk, Unity Software, Zscaler, Palo Alto Networks, and CrowdStrike, Burry noted that Adobe looks the most promising in the group.\nAdobe’s forward outlook remains stronger than the market assumes, despite fears that AI could disrupt its core creative software business, Burry argued.\nThe bullish view is driven by strong early traction for Firefly AI products, rising enterprise adoption, and Adobe’s deep integration across large organizations and creative workflows. The piece also highlights Adobe’s advantage in managing proprietary customer IP and its massive ecosystem reach, with 850 million monthly active users and relationships with 99 of the Fortune 100.\n“Those 850 million monthly active users plus Adobe’s wide distribution across and within Anthropic, OpenAI, Google, and Microsoft amount to an aggressive moat,” Burry wrote. “If and when AI agents try to compete, Adobe still puts forth platform-agnostic connections across all four foundation-model ecosystems and has effective control of the playing field.”\nWhile competition from AI-native tools, Canva and Figma remains a real threat, the argument is that human creativity and Adobe’s entrenched ecosystem position the company to adapt and potentially benefit from the AI transition rather than be displaced by it.\nMoving to other names, Burry indicated he views Intuit, Autodesk, and Unity Software as operationally strong businesses with defensible positions against AI, yet avoids them because their valuations remain bloated, among other factors.\nBurry expressed skepticism toward the cybersecurity trio, Zscaler, Palo Alto Networks, and CrowdStrike, citing their vulnerability to frontier AI models like Anthropic's Mythos, among other factors.\n“Cybersecurity companies are a different animal – the threat of advanced frontier autonomous AI models such as Mythos from Anthropic would seem to increase the business case for cybersecurity. And it is,” Burry wrote.\nHere’s how Burry rated the companies discussed based on his proprietary metrics:\nClassification: An AI-resilience tier mapping competitive moats against automation risk, ranging from impenetrable (Castle), to edge-threatened (Chapel), to highly vulnerable (Stone).\nSW50 Rank: The stock’s relative risk-reward position within a 50-company software universe, scaled from best (1/50) to worst (50/50).\nP/IV15: A valuation multiple tracking stock price against conservative owners' earnings discounted at 15%; values under 1.0x signal underpriced assets, while high multiples indicate severe overvaluation.\nComposite Score: A 0–100 fundamental health metric combining AI defense and valuation while heavily penalizing structural stock-based compensation dilution.\nFor updates and corrections, email newsroom[at]stocktwits[dot]com.\nRead Next: MU Stock Gets Anthropic Boost, More PT Hikes — Market Cap Holds Above $1 Trillion, But Analysts Foresee A Slide\nComments posted here will also appear on symbol pages.",
+   "text": "ByteDance’s Seed team shipped two new image models in the space of five weeks this summer: Seedream 5.0 Pro on July 8, 2026, and a lighter, cheaper Seedream 5.0 Lite on August 13, 2026. Together they push ByteDance’s image generation stack past the “type a prompt, get a picture” era into something closer to a design assistant that can read layouts, edit specific regions of an image, and pull in live web results while it works. If you have not touched Seedream since the 4.0 or 4.5 releases, the workflow has changed enough that it is worth a fresh walkthrough.\nThis tutorial covers account setup, API access, prompt structure, the multi-image editing pipeline, cost management, and a full working project that batch-generates and edits product images through the API. It also stacks Seedream 5.0 up against FLUX.2, Stable Diffusion 3.5, and Nano Banana Pro so you know when to reach for it instead of a competitor. Expect to spend 90 minutes end to end, including the API project.\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nWhat Seedream 5.0 Pro and Lite actually are\nSeedream is ByteDance’s in-house image generation and editing model line, built by the same Seed research group behind the company’s video and language models. The family now spans four releases still in active use: Seedream 4.0, 4.5, 5.0 Lite, and 5.0 Pro. ByteDance’s own announcement frames Seedream 5.0 Pro as a model that “understands design” rather than one that only paints pixels from a text description. In practice, that means it can reason about layout, spacing, and hierarchy in a way earlier text-to-image models could not.\nThe core technical differentiator is that Seedream 5.0 Pro generates and edits high-resolution images from both text prompts and reference images inside a single multimodal pipeline. Earlier generations mostly split those two jobs across separate tools. Seedream 5.0 Pro also ships with deep-thinking prompt reasoning, a built-in web search step it can use mid-generation to pull reference material, precision editing for isolated regions of an image, and native multilingual text rendering, so text baked into an image (a sign, a label, a book cover) does not come out garbled in non-English scripts.\nSeedream 5.0 Lite is the same family stripped down for speed and cost. Per pricing published on OpenRouter, Seedream 5.0 Lite runs from $0.035 per image , undercutting most premium image models while keeping the multimodal editing behavior of its Pro sibling, just with a smaller compute budget per request. For a tutorial project where you are generating dozens of test images, Lite is the one you will use most; you switch to Pro only when a shot needs the extra reasoning depth.\nOne more variant worth knowing about: Seedream 5.0 Pro Layerize, live on the EvoLink API marketplace under the model ID doubao-seedream-5.0-pro-layerize , priced 20% below BytePlus’s own list price. Layerize targets designers who need layer-separated output (background, subject, text) rather than a single flattened image, which matters if your pipeline feeds a downstream editing tool.\nHow Seedream fits into ByteDance’s broader AI stack\nSeedream does not exist in isolation. ByteDance’s Seed research group ships it alongside Seedance for video generation and a family of Doubao-branded language models, and the company routes a meaningful share of internal production work at TikTok, CapCut, and Lark through these tools before they ever reach an external API. That internal usage is part of why the design-reasoning layer in 5.0 Pro exists at all: CapCut’s template and thumbnail generation pipelines needed a model that could respect layout constraints, not just produce visually pleasing but structurally arbitrary output. When ByteDance opened that capability to outside developers through the 5.0 Pro release, it kept the same architecture rather than shipping a stripped-down external variant, which is part of why the API surface (grounding, precision editing, layer output) feels more like an internal design tool than a typical consumer image generator repackaged for developers.\nThat lineage also explains the pricing structure. Because ByteDance already runs this compute for internal products at massive scale, the marginal cost of serving external API traffic is lower than it would be for a lab building image generation as a standalone product, which is a plausible reason Seedream 5.0 Lite can undercut most competing premium models at $0.035 per image while ByteDance still profits on volume. None of this changes how you call the API, but it is useful context if you are deciding whether to build a long-term dependency on the platform: the roadmap is driven by ByteDance’s own product needs first, and third-party API access second.\nBefore you start, get these in place. Version numbers matter here because Seedream’s API surface has shifted twice in the last two months.\nAn API key from either an official BytePlus/ByteDance channel or a routing provider such as OpenRouter (the examples below use OpenRouter’s unified endpoint, model ID bytedance-seed/seedream-5-0-lite or the Pro equivalent).\nPython 3.11 or newer, or Node.js 20 LTS or newer, for the scripting examples.\nThe requests library (Python) or native fetch (Node) — no special SDK is required since Seedream exposes a standard REST endpoint.\nRoughly $5 to $10 in prepaid API credit for the full tutorial project, given Lite’s $0.035-per-image floor.\nFor the local comparison section: at least 16 GB of system RAM if you also want to test smaller open-weight competitors like FLUX.2 [klein] locally; Seedream itself is API-only and has no local/open-weight release.\nUnlike FLUX.2 or Stable Diffusion 3.5, there is no open-weight Seedream checkpoint to download. Every workflow in this tutorial goes through an API call, whether that’s ByteDance’s own BytePlus console, a marketplace like OpenRouter, or a reseller like EvoLink.\nStep 1: Create your API account and get a key\nSign up through your chosen provider. If you want the simplest path, OpenRouter aggregates Seedream 5.0 Lite (and, depending on availability, Pro) alongside dozens of other image and text models under one billing account, which is useful if you are already comparing Seedream against FLUX.2 or Gemini’s image tools in the same project. Once registered, generate an API key from the dashboard and store it as an environment variable rather than hardcoding it:\nIf you are going through BytePlus directly instead, the base URL and authentication header format differ slightly, but the request body structure below stays the same across providers since Seedream’s API follows the same OpenAI-style chat/completions convention most 2026 multimodal models use.\nStep 2: Send your first text-to-image request\nStart with a plain text-to-image call to confirm your key and billing work before you add reference images or editing instructions.\nA successful response returns a JSON object with a hosted image URL (or base64 payload, depending on provider settings) plus a usage field showing token or credit consumption for that call. Save that response object; you will need the returned image URL in Step 5 when you chain an editing pass on top of this base render.\nStep 3: Structure prompts for Seedream’s design reasoning\nBecause Seedream 5.0 Pro was built around layout and design understanding rather than pure aesthetic generation, it responds better to prompts that describe structure explicitly instead of only mood and style. A prompt like “a nice looking banner ad for a shoe sale” will get you a generic result. A prompt that specifies hierarchy performs noticeably better:\nThe difference is not cosmetic. Seedream’s design-aware reasoning step actually parses spatial instructions (“left third,” “bottom-right”) and respects them far more consistently than a model without that reasoning pass, which is the entire point of the 5.0 Pro release. If you have used Midjourney or FLUX primarily for atmospheric, style-driven images, this is the biggest behavioral shift to plan for.\nStep 4: Use the built-in web search grounding\nSeedream 5.0 Pro can pull in live web references mid-generation, a feature most competing image models lack entirely. This matters when you need visual accuracy for something the base model was not trained on recently, like a product that launched last month or a current logo variant. Enable it with a flag in the request body:\nWith grounding enabled, expect slightly longer generation times (the model has to run a retrieval step before rendering) and a small increase in token cost. Turn it off for purely stylistic or fictional prompts where accuracy to a real-world reference does not matter, since it adds latency for no benefit there.\nThis is where Seedream 5.0 separates itself from a pure text-to-image tool. Instead of regenerating an entire scene to change one element, you pass the existing image plus a targeted instruction, and the model edits only the referenced region.\nThe “keep X identical” instruction is doing real work here. Seedream’s editing pass is precise enough to isolate the countertop material without touching the dripper or the lighting setup, which is the difference between an editing model and a model that just regenerates the whole frame with a new seed and hopes for consistency.\nStep 6: Handle multilingual text rendering\nIf your image needs legible text baked in — packaging, signage, UI mockups — Seedream’s native multilingual text handling is one of its stronger claims versus older image models that historically mangled anything beyond basic Latin characters. Test it directly:\nRun the same prompt in a couple of scripts you actually need (Japanese, Arabic, Cyrillic — whatever your project targets) before committing to Seedream for a text-heavy production run. Text rendering quality still varies by script even on 2026’s best multimodal models, and the only reliable way to know is to test your specific alphabet.\nStep 7: Batch generation for a product catalog\nNow the complete working project: a script that reads a CSV of product names, generates a base image for each with Seedream 5.0 Lite (to keep cost down), and saves them locally with predictable filenames.\nA products.csv with columns name,description and 20 rows will cost you roughly $0.70 at Lite’s $0.035-per-image floor, plus whatever your provider adds on top. That is cheap enough to iterate on prompt wording several times before locking in a final batch run.\nStep 8: Chain generation and editing in one pipeline\nCombine Steps 2 and 5 into a single function so your pipeline can generate a base image, then apply a standardized edit (say, swapping backgrounds for different marketing channels) without manual steps in between.\nNote the mixed-model approach: Lite handles the cheap base generation, Pro handles the more demanding precision edit. This split cuts cost on high-volume steps without giving up the editing accuracy you need on the step that actually requires it.\nStep 8b: Wrap the pipeline in a small Flask API for your team\nIf more than one person on your team needs to call Seedream, do not hand out your raw API key to every developer and designer. Wrap the generate-and-edit function from Step 8 in a small internal Flask service that holds the key server-side and exposes a simpler endpoint your team can call from Slack bots, internal tools, or a design app plugin.\nRun this behind your internal network or an authenticated reverse proxy, never exposed directly to the public internet, since it holds a live billable API key. Add a per-user request quota at the application layer (a simple in-memory or Redis counter keyed by an internal user ID header) if you want to prevent one person’s runaway script from draining the team’s shared credit balance.\nStep 8c: Scale generation with concurrent requests\nThe batch script in Step 7 processes one image at a time, which is fine for 20 products but slow for a catalog of 500. Since Seedream calls ar",
    "images": [
     {
-     "file": "c86dc346c93a.jpg",
+     "file": "934bd74bff6f.jpg",
      "w": 1000,
-     "h": 647,
+     "h": 571,
      "alt": "",
      "cap": "",
-     "src": "https://news.stocktwits-cdn.com/large_Michael_Bury_resized_jpg_14e6fc7c2b.webp"
+     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1.webp"
     },
     {
-     "file": "638ac9cdfb01.jpg",
-     "w": 1000,
-     "h": 897,
-     "alt": "Profile Image",
+     "file": "346804f05e43.jpg",
+     "w": 768,
+     "h": 439,
+     "alt": "",
      "cap": "",
-     "src": "https://news.stocktwits-cdn.com/IMG_9209_1_d9c1acde92.jpeg"
+     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1-768x439.webp"
+    },
+    {
+     "file": "2b3a2725ae6b.jpg",
+     "w": 512,
+     "h": 512,
+     "alt": "Elias Virtanen",
+     "cap": "",
+     "src": "https://tech-insider.org/wp-content/uploads/2026/03/ti-author-elias.jpg"
     }
    ],
    "videos": []
   },
   "relevant": true,
-  "title": "Майкл Беррі назвав Adobe найперспективнішою у SaaS завдяки Firefly",
-  "lead": "Інвестор Майкл Беррі опублікував другу частину циклу оглядів софтверних компаній і назвав Adobe найпривабливішою в групі — попри страх ринку, що AI зруйнує її основний бізнес.",
+  "title": "ByteDance Seedream 5.0: генерація і точковий edit зображень від $0,035 за фото",
+  "lead": "ByteDance випустила моделі генерації та редагування зображень Seedream 5.0 Pro (8 липня 2026) і легшу Seedream 5.0 Lite (13 серпня 2026) — з розумінням макета, точковим редагуванням областей і вбудованим вебпошуком під час генерації.",
   "full": [
-   "За аргументацією Беррі, ринок недооцінює перспективи Adobe: раннє поширення продуктів Firefly, зростання корпоративного впровадження і глибока інтеграція у процеси великих організацій формують широкий захисний рів. Він наводить 850 млн активних користувачів на місяць і роботу з 99 компаніями зі списку Fortune 100.",
-   "Окремий аргумент — платформна незалежність: за словами Беррі, Adobe має конектори до чотирьох екосистем базових моделей (Anthropic, OpenAI, Google, Microsoft), тож навіть якщо AI-агенти спробують конкурувати, вона фактично контролює поле гри. Загрозу з боку AI-native інструментів, Canva і Figma він визнає реальною, але вважає, що Adobe радше виграє від переходу до AI, ніж постраждає.",
-   "У тому ж огляді Беррі назвав Intuit, Autodesk і Unity сильними бізнесами, які він оминає через завищені оцінки, і скептично оцінив кібербезпекові Zscaler, Palo Alto Networks та CrowdStrike."
+   "Seedream 5.0 Pro генерує та редагує зображення в одному мультимодальному пайплайні на основі тексту й референсних зображень, розуміючи компонування, відступи та ієрархію елементів, а не лише естетику. Модель підтримує точкове редагування виділеної області без перегенерації всього кадру, вбудований вебпошук для підтягування актуальних референсів під час генерації та коректний рендеринг тексту різними мовами. Seedream 5.0 Lite — полегшена версія для швидких і дешевих ітерацій із тими самими можливостями редагування, але меншим обчислювальним бюджетом.",
+   "Модель доступна лише через API (без відкритих ваг) — через консоль BytePlus, агрегатор OpenRouter або реселера EvoLink. Seedream 5.0 Lite коштує від $0,035 за зображення за прайсом OpenRouter, що дешевше за більшість преміальних аналогів. Окремий варіант Seedream 5.0 Pro Layerize повертає результат пошарово (фон, обʼєкт, текст) для дизайнерських пайплайнів, які потребують подальшого компонування.",
+   "Модель розробляє дослідницька група Seed у ByteDance, яка також відповідає за CapCut, TikTok і мовні моделі Doubao; той самий рушій використовується у внутрішніх продуктах компанії, зокрема для генерації шаблонів і мініатюр CapCut, перш ніж бути відкритим для зовнішніх розробників."
   ],
-  "means": "Це маркер того, як ринок читає вартість креативного софту: цінність бачать не в окремих фічах, а в дистрибуції та інтеграції в чужі екосистеми. Luminar Neo конкурує з Adobe не масштабом, а швидкістю результату, тож плагіни для Lightroom Classic і Photoshop лишаються нашим найдешевшим каналом до тієї самої аудиторії. Теза про незалежність від одного постачальника моделей стосується і нас: прив'язка хмарних GenErase, GenSwap та GenExpand до єдиного вендора — стратегічний ризик.",
-  "importance": 2,
-  "category": "market",
+  "means": "Точкове редагування виділеної області зображення при збереженні решти кадру — напрямок, близький до наших генеративних інструментів GenErase, GenSwap і GenExpand. Пошаровий вивід Layerize корисний як референс для композитної роботи (Composition AI, Layers), а низька ціна за зображення задає орієнтир вартості для хмарних генеративних фіч Luminar Neo та Mobile.",
+  "importance": 3,
+  "category": "ai",
+  "media": {
+   "kind": "none",
+   "hero_image": null,
+   "video": null
+  }
+ },
+ {
+  "id": "0559cbad2d",
+  "source": "Fstoppers",
+  "url": "https://fstoppers.com/education/delete-someone-group-photo-without-ever-opening-photoshop-904484?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles",
+  "date": "2026-09-06T09:03:01+00:00",
+  "page": {
+   "text": "Remove a person from the middle of a group photo, close the gap as if they were never there, and do it all without touching Photoshop. That option is now sitting inside Lightroom for anyone who has never gotten comfortable with layers and masks.\nGlyn Dewis walks through the exact workflow using a shot from his I Am Lyme project, a picture he grabbed with the Scallop Diver Dorset crew at the end of a shoot. He starts by testing the built-in remove tool in Lightroom with generative AI checked, and the result is honest: the background rebuilds fairly well, but the arm and hand of the man beside him fall apart. Dewis is upfront that this video is for people who use Lightroom and stop there, not for anyone already living in Photoshop every day. His own wife is the example he reaches for, someone with phone pictures she'd love to tidy up but no interest in learning masks to do it.\nThe real method routes the image out to Adobe Firefly through the Photo menu, using the \"Generating Firefly\" option and then \"Edit Photo.\" That sends the picture to the Firefly website, where Dewis picks his model from a list that includes Adobe's own Firefly Image 5 alongside partner models like ChatGPT's image model and Google Gemini 3.1. His prompt spells everything out: remove the person in the blue baseball cap, move the remaining three people close together, and keep the faces, hair, clothing, and coloring identical to the original. About a minute and a half later, the three men are standing together, the background is intact, and there's no sign anyone was cut out. He then shows how to check the resolution and upscale, since the regenerated image comes back smaller than the 6,060 by 4,040 original.\nCredit cost is where the tradeoffs get concrete. Switching to the ChatGPT image model at high quality jumps the cost from 20 credits to 80, a real leap that Dewis flags plainly. His framing is sensible: this is an occasional job, not a daily habit, so a single 80-credit edit won't drain your balance. He also points out the one rough edge in the round trip, that Firefly hands the finished file to your downloads folder rather than dropping it straight back into the Lightroom catalog, and he'd like Adobe to close that loop.\nThis fits into a wider shift in how Adobe is spreading generative editing across its apps instead of locking it behind Photoshop. Firefly now sits at the center of that push, and the model picker inside it, offering ChatGPT and Gemini alongside Adobe's own engine, points to a future where you choose the right tool for a specific edit rather than committing to one. The practical takeaway extends past removing people: a prompt that names exactly what to keep, faces, hair, clothing, coloring, gives generative models far less room to invent things you don't want. That discipline carries over to any AI edit you attempt, whether you're clearing a background, removing a distraction, or reworking a crowded holiday frame. Match the resolution question to your output too, since a regenerated file often lands smaller than your camera's native file and benefits from an upscale before you print or crop.\nDewis is careful not to oversell it. He says outright that Firefly isn't better than Photoshop, and if you're comfortable there, keep going. The point is that skipping Photoshop no longer puts this kind of edit out of reach, and the work doesn't have to be professional to be worth doing. A family photo with someone you'd rather not see, a holiday shot with a stranger drifting through the back, or a snap you simply want to like a bit more all qualify.\nWatch the full walkthrough above to see the prompt, the model choice, and the before-and-after that sells the whole approach.\nThe Lightroom Object Selection Trick That Beats “Select Subject”\nThe AI Debate Splitting Wedding Photographers Right Now\nAdobe's New AI Credit Cost Preview in Photoshop: What You Need to Know\nSee Your Focus Points in Camera Raw: The Setting Hiding in the Right-Click Menu\nLightroom's Tone Curve Explained: Every Trick You Need to Know\nWhy Your Lightroom Profile Choice Quietly Shapes the Entire Edit\nPost comments and join in the discussions\nShare your work and get featured in the community\nCompete in the photo contests for fun and prizes",
+   "images": [
+    {
+     "file": "5112b7e4665a.jpg",
+     "w": 614,
+     "h": 350,
+     "alt": "",
+     "cap": "",
+     "src": "https://cdn.fstoppers.com/styles/medium/s3/lead/2026/09/cover-dewis.jpg?itok=DJ1L7nxE"
+    },
+    {
+     "file": "6a29ef80b604.jpg",
+     "w": 1000,
+     "h": 565,
+     "alt": "Side-by-side comparison showing person circled in left image removed from right image, with Photoshop and Lightroom logos",
+     "cap": "",
+     "src": "https://cdn.fstoppers.com/styles/large_16_9/s3/lead/2026/09/cover-dewis.jpg.webp?itok=hujjxf5t"
+    }
+   ],
+   "videos": []
+  },
+  "relevant": true,
+  "title": "Lightroom видаляє людину з групового фото через Firefly без Photoshop",
+  "lead": "Fstoppers розібрав воркфлоу Гліна Дьюїса: вбудований Remove у Lightroom не впорався з видаленням людини з центру групи, а відправка кадру у Firefly з текстовим промптом дала чистий результат.",
+  "full": [
+   "Вбудований інструмент Remove з увімкненим генеративним AI добре відновив фон, але зіпсував руку сусіда. Робочий метод — меню Photo → Generating Firefly → Edit Photo: кадр іде на сайт Firefly, де можна обрати модель — Firefly Image 5, модель зображень ChatGPT або Google Gemini 3.1. Промпт описує, кого прибрати, як зсунути решту людей і що зберегти незмінним (обличчя, волосся, одяг, кольори). Через приблизно півтори хвилини троє людей стоять поруч без слідів монтажу.",
+   "Ціна в кредитах: перемикання на модель ChatGPT у високій якості піднімає вартість з 20 до 80 кредитів за правку. Регенерований файл повертається меншим за оригінал 6060×4040, тож потрібен апскейл, а готовий результат падає в папку завантажень, а не в каталог Lightroom.",
+   "Автор підкреслює: Firefly не кращий за Photoshop, але такі правки більше не потребують шарів і масок, що відкриває їх звичайним користувачам з телефонними знімками."
+  ],
+  "means": "Adobe робить видалення й перекомпонування людей доступним прямо з Lightroom через сторонні моделі (ChatGPT, Gemini) — це територія нашого Erase та GenErase. Показові вузькі місця: втрата роздільної здатності, розрив каталогу і 80 кредитів за правку. Luminar Neo може виграти, якщо GenErase поверне результат у повній роздільній здатності в межах каталогу й з прозорими лімітами, а Luminar Mobile — дати промпт-керування Erase для сімейних фото.",
+  "importance": 3,
+  "category": "comp",
   "media": {
    "kind": "image",
-   "hero_image": 0,
+   "hero_image": 1,
    "video": null
   }
  },
@@ -1047,7 +1064,7 @@
   "id": "7c1a11d9bc",
   "source": "Camera Jabber",
   "url": "https://camerajabber.com/photography-news/asus-proart-p16-and-p14-bring-delta-e-under-1-and-a-petaflop-of-ai/",
-  "date": "2026-09-06T22:30:00+00:00",
+  "date": "2026-09-05T20:00:00+01:00",
   "page": {
    "text": "Of everything shown at IFA 2026, ASUS’s ProArt announcements are the most directly aimed at photographers. The ProArt P16 and P14 laptops and the GR1X mini PC all run NVIDIA’s new RTX Spark platform, and the displays carry the colour credentials that make ProArt worth taking seriously. Full details are on the ASUS ProArt P16 page .\nASUS calls them Lumina Pro OLED, and the specification is genuinely colour-critical rather than marketing-critical. Both laptops are factory calibrated to Delta E under 1 , cover 100% of DCI-P3 , and are Pantone Validated.\nDelta E under 1 is the threshold at which colour differences become imperceptible to the human eye, which is what you need if the screen is deciding what gets printed or delivered. The P16 runs 4K at 120Hz with variable refresh and G-SYNC at 283 pixels per inch, while the P14 offers 3K. Peak brightness reaches 1,600 nits, and an anti-reflection coating cuts reflections by up to 65% — useful if you edit anywhere near a window.\nThe P16 is also remarkably thin for a 16-inch creator machine at 12.9mm and 1.77kg, which ASUS says is 14% thinner and 9% lighter than the previous generation, with a 99Wh battery. The P14 is the lightest ProArt yet at 1.48kg with a 90Wh pack. Both come in Nano Black and Neo White with haptic touchpads.\nUnderneath sits NVIDIA’s new platform: a 20-core Grace CPU joined to a Blackwell RTX GPU with 6,144 CUDA cores and fifth-generation Tensor Cores over an NVLink-C2C interconnect, delivering up to 1 petaflop of FP4 AI performance and up to 128GB of unified memory shared dynamically between CPU and GPU.\nASUS quotes support for 120-billion-parameter language models, 3D scenes above 90GB, and 4K AI video generation. Crucially it brings the full CUDA ecosystem — DLSS, TensorRT, OptiX, G-SYNC — which is where a great deal of creative and AI software performs best. ASUS bundles its own StoryCube and MuseTree apps and promises agentic workflow integration through ComfyUI.\nHere is the thing to check before spending anything: the Grace CPU is Arm-based . These are Windows-on-Arm machines, not x86.\nThat matters more than it might sound. Adobe’s main applications now run natively on Windows on Arm, and the situation has improved enormously — but the ecosystem around them has not caught up evenly. Third-party plugins, older utilities, tethering software, RAW converters, calibration tools and codec packs are exactly the sort of software that either runs through emulation with a performance penalty or does not run at all.\nIf your workflow is Lightroom and Photoshop, you will probably be fine. If it involves Capture One, a particular tethering tool, DxO, a favourite Nik plugin, or hardware that needs a specific driver, check compatibility before you commit. That is not a reason to avoid these machines — it is a reason to do ten minutes of homework first, and it is the question most coverage of RTX Spark is skipping entirely.\nOne other point on the displays: OLED panels manage brightness dynamically, and full-screen white content is typically dimmer than a small highlight. For colour work that is generally fine, but it is worth knowing if you are used to a conventional IPS panel’s consistency.\nThe ProArt GR1X mini PC brings the same platform to the desktop with up to 1 petaflop and 128GB unified memory in a compact chassis.\nMore interesting for a studio is the ProArt Display 6K PA32QCV , a 31.5-inch monitor running 6016 x 3384 on an IPS panel, with 98% DCI-P3 coverage and Calman Verified Delta E under 2. It has dual Thunderbolt 4 ports with 96W power delivery and Mac-optimised colour modes — that last detail matters if you run a MacBook Pro and want a single-cable connection that charges the laptop and drives a 6K display correctly.\nASUS also showed a ProArt DIY build around the Z890-CREATOR WIFI motherboard with a ProArt GeForce RTX 5070 Ti, plus a new Zenbook 14 and an ExpertBook Ultra with a 14-inch 3K tandem OLED touchscreen at 1,400 nits.\nWorth noting these were first shown at Computex in May, so IFA is a European showcase rather than a first announcement. ASUS has not published pricing or firm availability, and RTX Spark machines are expected from October.\nPlatform: NVIDIA RTX Spark — 20-core Grace CPU (Arm-based), Blackwell RTX GPU with 6,144 CUDA cores and fifth-generation Tensor Cores, NVLink-C2C interconnect. AI performance: up to 1 petaflop FP4. Memory: up to 128GB unified, dynamically allocated between CPU and GPU. Display: ASUS Lumina Pro OLED, Delta E under 1, 100% DCI-P3, Pantone Validated, up to 1,600 nits peak, anti-reflection coating reducing reflections by up to 65%. ProArt P16 (H7607): up to 4K at 120Hz with VRR and NVIDIA G-SYNC, 283ppi; 12.9mm thin, 1.77kg; 99Wh battery. ProArt P14 (H7407): up to 3K; 1.48kg; 90Wh battery. Finishes: Nano Black and Neo White with anti-smudge coating. Other: haptic touchpad, StoryCube and MuseTree apps, ComfyUI integration. Note: Windows on Arm — check software and plugin compatibility.\nASUS ProArt Display 6K PA32QCV: Specifications\nSize: 31.5-inch IPS. Resolution: 6016 x 3384. Colour: 98% DCI-P3, Calman Verified Delta E under 2. Connectivity: dual Thunderbolt 4 with up to 96W power delivery. Other: Mac-optimised colour modes.\nASUS has not announced pricing or firm availability for the ProArt P16, P14 or GR1X. RTX Spark devices are expected from October 2026. We will update this story once details are confirmed.\nZhiyun Weebill 5 price, specifications and availability announced\nZhiyun has opened pre-orders for the Weebill 5, a new three-axis camera gimbal that brings AI subject tracking, a built-in telescoping sling handle and a 3kg payload to a relatively compact 1.08kg body. Interested in picking up the WeeBill 5…\nHollyland’s Pyro 7 Ultra puts a calibrated monitor and 1km wireless in one unit\nOn a professional set, the monitor is not a convenience — it is the reference every department trusts. Hollyland's new Pyro 7 Ultra combines that reference with the wireless transmission that normally requires separate hardware, and does it with genuine…\nLeica revives its Navy spy lens as the Summicron-M 66 f/2\nEvery lens Leica has made in the past century, someone somewhere can buy. The Elcan 66mm f/2 is the exception — a lens built for the US Navy in the late 1960s, never sold publicly, of which only around 200…\nHohem previews Eyepic, its first camera, at IFA 2026\nHohem has spent years making gimbals for other people's cameras. At IFA 2026 it has previewed its first camera of its own — the Eyepic, which it describes as the world's first 2-in-1 pocket gimbal camera. Details are on Hohem's…\nSmallRig’s Nano power banks mount straight onto your rig\nPower banks are not usually interesting, but SmallRig has done something sensible with these two: put a V-mount and a 1/4in-20 thread on them. That turns a thing you keep in a pocket into a thing you rig onto the…\nASUS ProArt P16 and P14 bring Delta E under 1 and a petaflop of AI\nOf everything shown at IFA 2026, ASUS's ProArt announcements are the most directly aimed at photographers. The ProArt P16 and P14 laptops and the GR1X mini PC all run NVIDIA's new RTX Spark platform, and the displays carry the colour…\nEastman Kodak film gets an official UK distributor — and that matters more than it sounds\nDistribution deals are not usually the stuff of headlines, but this one matters if you shoot film in Britain. Leicester-based Dupli has been appointed official UK distributor for Eastman Kodak Film, bringing an expanded range to photo retailers, labs and…\nFujifilm XF 400mm f/4.5 price, specifications and availability announced\nFujifilm has announced the XF 400mm f/4.5 R LM OIS WR, and the number that matters is not the focal length but the weight. At 1,245g this is a super-telephoto prime you can genuinely hand-hold through a day in a…",
    "images": [
@@ -1116,7 +1133,8 @@
      "src": "https://camerajabber.com/wp-content/uploads/2026/09/Eastman-Kodak-news.webp"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-05T20:00:00+01:00"
   },
   "relevant": true,
   "title": "ASUS показав ARM-ноутбуки ProArt із каліброваними дисплеями для фотографів",
@@ -1128,182 +1146,6 @@
   "means": "Показує напрям апаратної екосистеми для фотографів: потужний on-device AI-компʼют (до 1 петафлопса) і перехід ноутбуків для творчих професій на ARM. Для Luminar Neo це сигнал заздалегідь перевірити сумісність із Windows on Arm, поки прямі конкуренти (Lightroom, Photoshop) вже нативні там; калібровані до 100% DCI-P3 дисплеї також задають планку точності кольору, якої користувачі очікуватимуть від редактора.",
   "importance": 2,
   "category": "market",
-  "media": {
-   "kind": "image",
-   "hero_image": 0,
-   "video": null
-  }
- },
- {
-  "id": "1856014a7d",
-  "source": "tech-insider.org",
-  "url": "https://tech-insider.org/how-to-use-seedream-5-0-pro-lite-2026/",
-  "date": "2026-09-06T17:23:04+00:00",
-  "page": {
-   "text": "ByteDance’s Seed team shipped two new image models in the space of five weeks this summer: Seedream 5.0 Pro on July 8, 2026, and a lighter, cheaper Seedream 5.0 Lite on August 13, 2026. Together they push ByteDance’s image generation stack past the “type a prompt, get a picture” era into something closer to a design assistant that can read layouts, edit specific regions of an image, and pull in live web results while it works. If you have not touched Seedream since the 4.0 or 4.5 releases, the workflow has changed enough that it is worth a fresh walkthrough.\nThis tutorial covers account setup, API access, prompt structure, the multi-image editing pipeline, cost management, and a full working project that batch-generates and edits product images through the API. It also stacks Seedream 5.0 up against FLUX.2, Stable Diffusion 3.5, and Nano Banana Pro so you know when to reach for it instead of a competitor. Expect to spend 90 minutes end to end, including the API project.\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nWhat Seedream 5.0 Pro and Lite actually are\nSeedream is ByteDance’s in-house image generation and editing model line, built by the same Seed research group behind the company’s video and language models. The family now spans four releases still in active use: Seedream 4.0, 4.5, 5.0 Lite, and 5.0 Pro. ByteDance’s own announcement frames Seedream 5.0 Pro as a model that “understands design” rather than one that only paints pixels from a text description. In practice, that means it can reason about layout, spacing, and hierarchy in a way earlier text-to-image models could not.\nThe core technical differentiator is that Seedream 5.0 Pro generates and edits high-resolution images from both text prompts and reference images inside a single multimodal pipeline. Earlier generations mostly split those two jobs across separate tools. Seedream 5.0 Pro also ships with deep-thinking prompt reasoning, a built-in web search step it can use mid-generation to pull reference material, precision editing for isolated regions of an image, and native multilingual text rendering, so text baked into an image (a sign, a label, a book cover) does not come out garbled in non-English scripts.\nSeedream 5.0 Lite is the same family stripped down for speed and cost. Per pricing published on OpenRouter, Seedream 5.0 Lite runs from $0.035 per image , undercutting most premium image models while keeping the multimodal editing behavior of its Pro sibling, just with a smaller compute budget per request. For a tutorial project where you are generating dozens of test images, Lite is the one you will use most; you switch to Pro only when a shot needs the extra reasoning depth.\nOne more variant worth knowing about: Seedream 5.0 Pro Layerize, live on the EvoLink API marketplace under the model ID doubao-seedream-5.0-pro-layerize , priced 20% below BytePlus’s own list price. Layerize targets designers who need layer-separated output (background, subject, text) rather than a single flattened image, which matters if your pipeline feeds a downstream editing tool.\nHow Seedream fits into ByteDance’s broader AI stack\nSeedream does not exist in isolation. ByteDance’s Seed research group ships it alongside Seedance for video generation and a family of Doubao-branded language models, and the company routes a meaningful share of internal production work at TikTok, CapCut, and Lark through these tools before they ever reach an external API. That internal usage is part of why the design-reasoning layer in 5.0 Pro exists at all: CapCut’s template and thumbnail generation pipelines needed a model that could respect layout constraints, not just produce visually pleasing but structurally arbitrary output. When ByteDance opened that capability to outside developers through the 5.0 Pro release, it kept the same architecture rather than shipping a stripped-down external variant, which is part of why the API surface (grounding, precision editing, layer output) feels more like an internal design tool than a typical consumer image generator repackaged for developers.\nThat lineage also explains the pricing structure. Because ByteDance already runs this compute for internal products at massive scale, the marginal cost of serving external API traffic is lower than it would be for a lab building image generation as a standalone product, which is a plausible reason Seedream 5.0 Lite can undercut most competing premium models at $0.035 per image while ByteDance still profits on volume. None of this changes how you call the API, but it is useful context if you are deciding whether to build a long-term dependency on the platform: the roadmap is driven by ByteDance’s own product needs first, and third-party API access second.\nBefore you start, get these in place. Version numbers matter here because Seedream’s API surface has shifted twice in the last two months.\nAn API key from either an official BytePlus/ByteDance channel or a routing provider such as OpenRouter (the examples below use OpenRouter’s unified endpoint, model ID bytedance-seed/seedream-5-0-lite or the Pro equivalent).\nPython 3.11 or newer, or Node.js 20 LTS or newer, for the scripting examples.\nThe requests library (Python) or native fetch (Node) — no special SDK is required since Seedream exposes a standard REST endpoint.\nRoughly $5 to $10 in prepaid API credit for the full tutorial project, given Lite’s $0.035-per-image floor.\nFor the local comparison section: at least 16 GB of system RAM if you also want to test smaller open-weight competitors like FLUX.2 [klein] locally; Seedream itself is API-only and has no local/open-weight release.\nUnlike FLUX.2 or Stable Diffusion 3.5, there is no open-weight Seedream checkpoint to download. Every workflow in this tutorial goes through an API call, whether that’s ByteDance’s own BytePlus console, a marketplace like OpenRouter, or a reseller like EvoLink.\nStep 1: Create your API account and get a key\nSign up through your chosen provider. If you want the simplest path, OpenRouter aggregates Seedream 5.0 Lite (and, depending on availability, Pro) alongside dozens of other image and text models under one billing account, which is useful if you are already comparing Seedream against FLUX.2 or Gemini’s image tools in the same project. Once registered, generate an API key from the dashboard and store it as an environment variable rather than hardcoding it:\nIf you are going through BytePlus directly instead, the base URL and authentication header format differ slightly, but the request body structure below stays the same across providers since Seedream’s API follows the same OpenAI-style chat/completions convention most 2026 multimodal models use.\nStep 2: Send your first text-to-image request\nStart with a plain text-to-image call to confirm your key and billing work before you add reference images or editing instructions.\nA successful response returns a JSON object with a hosted image URL (or base64 payload, depending on provider settings) plus a usage field showing token or credit consumption for that call. Save that response object; you will need the returned image URL in Step 5 when you chain an editing pass on top of this base render.\nStep 3: Structure prompts for Seedream’s design reasoning\nBecause Seedream 5.0 Pro was built around layout and design understanding rather than pure aesthetic generation, it responds better to prompts that describe structure explicitly instead of only mood and style. A prompt like “a nice looking banner ad for a shoe sale” will get you a generic result. A prompt that specifies hierarchy performs noticeably better:\nThe difference is not cosmetic. Seedream’s design-aware reasoning step actually parses spatial instructions (“left third,” “bottom-right”) and respects them far more consistently than a model without that reasoning pass, which is the entire point of the 5.0 Pro release. If you have used Midjourney or FLUX primarily for atmospheric, style-driven images, this is the biggest behavioral shift to plan for.\nStep 4: Use the built-in web search grounding\nSeedream 5.0 Pro can pull in live web references mid-generation, a feature most competing image models lack entirely. This matters when you need visual accuracy for something the base model was not trained on recently, like a product that launched last month or a current logo variant. Enable it with a flag in the request body:\nWith grounding enabled, expect slightly longer generation times (the model has to run a retrieval step before rendering) and a small increase in token cost. Turn it off for purely stylistic or fictional prompts where accuracy to a real-world reference does not matter, since it adds latency for no benefit there.\nThis is where Seedream 5.0 separates itself from a pure text-to-image tool. Instead of regenerating an entire scene to change one element, you pass the existing image plus a targeted instruction, and the model edits only the referenced region.\nThe “keep X identical” instruction is doing real work here. Seedream’s editing pass is precise enough to isolate the countertop material without touching the dripper or the lighting setup, which is the difference between an editing model and a model that just regenerates the whole frame with a new seed and hopes for consistency.\nStep 6: Handle multilingual text rendering\nIf your image needs legible text baked in — packaging, signage, UI mockups — Seedream’s native multilingual text handling is one of its stronger claims versus older image models that historically mangled anything beyond basic Latin characters. Test it directly:\nRun the same prompt in a couple of scripts you actually need (Japanese, Arabic, Cyrillic — whatever your project targets) before committing to Seedream for a text-heavy production run. Text rendering quality still varies by script even on 2026’s best multimodal models, and the only reliable way to know is to test your specific alphabet.\nStep 7: Batch generation for a product catalog\nNow the complete working project: a script that reads a CSV of product names, generates a base image for each with Seedream 5.0 Lite (to keep cost down), and saves them locally with predictable filenames.\nA products.csv with columns name,description and 20 rows will cost you roughly $0.70 at Lite’s $0.035-per-image floor, plus whatever your provider adds on top. That is cheap enough to iterate on prompt wording several times before locking in a final batch run.\nStep 8: Chain generation and editing in one pipeline\nCombine Steps 2 and 5 into a single function so your pipeline can generate a base image, then apply a standardized edit (say, swapping backgrounds for different marketing channels) without manual steps in between.\nNote the mixed-model approach: Lite handles the cheap base generation, Pro handles the more demanding precision edit. This split cuts cost on high-volume steps without giving up the editing accuracy you need on the step that actually requires it.\nStep 8b: Wrap the pipeline in a small Flask API for your team\nIf more than one person on your team needs to call Seedream, do not hand out your raw API key to every developer and designer. Wrap the generate-and-edit function from Step 8 in a small internal Flask service that holds the key server-side and exposes a simpler endpoint your team can call from Slack bots, internal tools, or a design app plugin.\nRun this behind your internal network or an authenticated reverse proxy, never exposed directly to the public internet, since it holds a live billable API key. Add a per-user request quota at the application layer (a simple in-memory or Redis counter keyed by an internal user ID header) if you want to prevent one person’s runaway script from draining the team’s shared credit balance.\nStep 8c: Scale generation with concurrent requests\nThe batch script in Step 7 processes one image at a time, which is fine for 20 products but slow for a catalog of 500. Since Seedream calls ar",
-   "images": [
-    {
-     "file": "934bd74bff6f.jpg",
-     "w": 1000,
-     "h": 571,
-     "alt": "",
-     "cap": "",
-     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1.webp"
-    },
-    {
-     "file": "346804f05e43.jpg",
-     "w": 768,
-     "h": 439,
-     "alt": "",
-     "cap": "",
-     "src": "https://tech-insider.org/wp-content/uploads/2026/09/how-to-use-seedream-5-0-pro-lite-2026-1-768x439.webp"
-    },
-    {
-     "file": "2b3a2725ae6b.jpg",
-     "w": 512,
-     "h": 512,
-     "alt": "Elias Virtanen",
-     "cap": "",
-     "src": "https://tech-insider.org/wp-content/uploads/2026/03/ti-author-elias.jpg"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "ByteDance Seedream 5.0: генерація і точковий edit зображень від $0,035 за фото",
-  "lead": "ByteDance випустила моделі генерації та редагування зображень Seedream 5.0 Pro (8 липня 2026) і легшу Seedream 5.0 Lite (13 серпня 2026) — з розумінням макета, точковим редагуванням областей і вбудованим вебпошуком під час генерації.",
-  "full": [
-   "Seedream 5.0 Pro генерує та редагує зображення в одному мультимодальному пайплайні на основі тексту й референсних зображень, розуміючи компонування, відступи та ієрархію елементів, а не лише естетику. Модель підтримує точкове редагування виділеної області без перегенерації всього кадру, вбудований вебпошук для підтягування актуальних референсів під час генерації та коректний рендеринг тексту різними мовами. Seedream 5.0 Lite — полегшена версія для швидких і дешевих ітерацій із тими самими можливостями редагування, але меншим обчислювальним бюджетом.",
-   "Модель доступна лише через API (без відкритих ваг) — через консоль BytePlus, агрегатор OpenRouter або реселера EvoLink. Seedream 5.0 Lite коштує від $0,035 за зображення за прайсом OpenRouter, що дешевше за більшість преміальних аналогів. Окремий варіант Seedream 5.0 Pro Layerize повертає результат пошарово (фон, обʼєкт, текст) для дизайнерських пайплайнів, які потребують подальшого компонування.",
-   "Модель розробляє дослідницька група Seed у ByteDance, яка також відповідає за CapCut, TikTok і мовні моделі Doubao; той самий рушій використовується у внутрішніх продуктах компанії, зокрема для генерації шаблонів і мініатюр CapCut, перш ніж бути відкритим для зовнішніх розробників."
-  ],
-  "means": "Точкове редагування виділеної області зображення при збереженні решти кадру — напрямок, близький до наших генеративних інструментів GenErase, GenSwap і GenExpand. Пошаровий вивід Layerize корисний як референс для композитної роботи (Composition AI, Layers), а низька ціна за зображення задає орієнтир вартості для хмарних генеративних фіч Luminar Neo та Mobile.",
-  "importance": 3,
-  "category": "ai",
-  "media": {
-   "kind": "none",
-   "hero_image": null,
-   "video": null
-  }
- },
- {
-  "id": "39c450020f",
-  "source": "TechJuice",
-  "url": "https://www.techjuice.pk/snapseed-4-android-update-google/",
-  "date": "2026-09-06T11:04:02+00:00",
-  "page": {
-   "text": "Google has released Snapseed 4.0 for Android after nearly two years without a major update. The users will now enjoy Smart Masking, Batch Editing, and an in-app camera with real-time film emulation.\nThe update transforms Google’s photo editing application from a simple editing tool into an all-in-one shoot-and-edit platform while remaining completely free without subscriptions, watermarks, or in-app purchases.\nSnapseed 4.0 introduces Smart Masking technology that allows users to isolate subjects or backgrounds with a single tap, eliminating manual brush work for targeted edits. The Batch Editing feature enables photographers to apply favorite looks and specific adjustments across multiple photos simultaneously. Android users previously relied on version 2.22 from 2024 while iOS users accessed advanced features through version 3.0 released in June 2025. Snapseed product lead Giles Ochs announced the Android release through Instagram, stating the wait was almost over after months of user requests.\nThe Snapseed Camera component provides real-time film emulation inspired by classic film stocks including Kodak Portra, Fujifilm Superia, Polaroid SX-70, and Ilford HP5. Users capture photos directly within Snapseed using custom styles or film looks with real-time effects that remain editable or reversible after shooting. Pro mode offers manual controls for ISO, Shutter Speed, and Focus settings. The viewfinder supports six color themes including Editor, Dusk, Negative, Steel, Haze, and Depth for different shooting aesthetics.\nGoogle redesigned the interface with a new homepage grid displaying previously edited photos. Users tap Add Photo at the bottom to access the system file picker while a floating action button provides quick access to Snapseed Camera. The revamped toolbox helps users discover new editing types faster with streamlined navigation allowing parameter and mode changes with fewer taps. Users can now pin unlimited favorite tools instead of the previous four-tool limit while viewing images and tool options simultaneously through combined carousels and sliders.\nNew editing tools include Color HSL for hue, saturation, and luminance adjustments, Dehaze for atmospheric clarity, Halation adding red halos around bright lights mimicking film characteristics, and Bloom making bright lights bloom into neighboring areas. The update maintains over 30 professional tools spanning Healing, Selective adjustments, Lens Blur, Curves, Double Exposure, and various filters. Google implemented non-destructive editing allowing users to modify or reset adjustments without permanently altering original images.\nGoogle began the staged rollout May 8 with the Play Store listing updated to version 4.0. Users who do not see the update immediately should receive it within coming days as Google expands availability. The iOS version received simultaneous updates to version 4.0 adding the new interface plus Halation and Bloom tools. Google vice president of Photos Shimrit Ben-Yair confirmed the rollout brings a more modern and fun user interface making editing faster, easier, and more powerful.\nIndustry observers noted Snapseed’s commitment to remaining free stands out in 2026 as nearly every capable mobile editing app has adopted monthly subscription models. Google acquired Snapseed developer Nik Software in 2012 and released major redesigns in 2017 before the application entered maintenance mode with minimal updates through 2024. The massive version jump from 2.22 to 4.0 signals Google’s renewed commitment to the 15-year-old photo editing platform that maintains popularity despite competition from Google Photos Magic Editor and subscription-based alternatives.\nAbdul Wasay explores emerging trends across AI, cybersecurity, startups and social media platforms in a way anyone can easily follow.\nMeta has steadily expanded what its AI glasses can do over recent months. Now the latest v28 update adds several genuinely practical upgrades. These include.\nPakistan and Saudi Arabia have signed an agreement to strengthen bilateral cybersecurity cooperation. The two countries formalized the deal during the recently held LEAP 2026.\nXPeng has switched on what it calls the world’s first automated production line for advanced humanoid robots. The Chinese automaker’s IRON robot then walked off.\nThe Pakistan Air Force (PAF) just quietly showcased a massive upgrade to its military arsenal. Just after midnight, the PAF released a promotional music video.",
-   "images": [
-    {
-     "file": "64ddb8a03ffa.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.techjuice.pk/wp-content/uploads/2026/05/google-releases-snapseed-4-0-for-android-ending-ios-exclusivity-with-major-update-techjuice-234094.jpg"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Snapseed 4.0 для Android: Smart Masking, batch-редагування та плівкова камера",
-  "lead": "Google випустила Snapseed 4.0 для Android — першу велику версію майже за два роки — з розумними масками, batch-редагуванням і вбудованою камерою; застосунок лишається повністю безкоштовним.",
-  "full": [
-   "Smart Masking виділяє обʼєкт або фон одним дотиком без ручного пензля, Batch Editing застосовує збережені луки й окремі корекції одразу до кількох фото. Android раніше сидів на версії 2.22 (2024), тоді як iOS отримала 3.0 у червні 2025-го. Snapseed Camera знімає з емуляціями Kodak Portra, Fujifilm Superia, Polaroid SX-70 та Ilford HP5 у реальному часі, ефекти лишаються оборотними після зйомки; є Pro-режим з ISO, витримкою та фокусом.",
-   "Інтерфейс перероблено: домашня сітка з попередніми правками, оновлений набір інструментів з меншою кількістю дотиків, необмежена кількість закріплених інструментів замість чотирьох. Нові інструменти — Color HSL, Dehaze, Halation і Bloom, разом понад 30 інструментів (Healing, Selective, Lens Blur, Curves, Double Exposure). Редагування недеструктивне.",
-   "Поетапне розгортання почалося 8 травня, iOS одночасно отримала 4.0 з новим інтерфейсом, Halation і Bloom. Snapseed лишається без підписки, водяних знаків і покупок — на тлі того, що майже всі здібні мобільні редактори перейшли на підписку."
-  ],
-  "means": "Безкоштовний tier-1 редактор Google на Android тепер має автомаски (аналог Mask AI), батч-обробку та Dehaze — те, чого нашій слабшій Android-версії Luminar Mobile бракує найбільше. Halation/Bloom і плівкові емуляції перетинаються з нашими пресетами і Film Grain. Потрібно переоцінити ціннісну пропозицію підписки Luminar Mobile на Android: наш аргумент — хмарні Sky, Erase, Relight і Portrait, яких у Snapseed немає.",
-  "importance": 4,
-  "category": "comp",
-  "media": {
-   "kind": "image",
-   "hero_image": 0,
-   "video": null
-  }
- },
- {
-  "id": "0559cbad2d",
-  "source": "Fstoppers",
-  "url": "https://fstoppers.com/education/delete-someone-group-photo-without-ever-opening-photoshop-904484?utm_source=fstoppers&utm_medium=RSS&utm_campaign=rss_feed_articles",
-  "date": "2026-09-06T09:03:01+00:00",
-  "page": {
-   "text": "Remove a person from the middle of a group photo, close the gap as if they were never there, and do it all without touching Photoshop. That option is now sitting inside Lightroom for anyone who has never gotten comfortable with layers and masks.\nGlyn Dewis walks through the exact workflow using a shot from his I Am Lyme project, a picture he grabbed with the Scallop Diver Dorset crew at the end of a shoot. He starts by testing the built-in remove tool in Lightroom with generative AI checked, and the result is honest: the background rebuilds fairly well, but the arm and hand of the man beside him fall apart. Dewis is upfront that this video is for people who use Lightroom and stop there, not for anyone already living in Photoshop every day. His own wife is the example he reaches for, someone with phone pictures she'd love to tidy up but no interest in learning masks to do it.\nThe real method routes the image out to Adobe Firefly through the Photo menu, using the \"Generating Firefly\" option and then \"Edit Photo.\" That sends the picture to the Firefly website, where Dewis picks his model from a list that includes Adobe's own Firefly Image 5 alongside partner models like ChatGPT's image model and Google Gemini 3.1. His prompt spells everything out: remove the person in the blue baseball cap, move the remaining three people close together, and keep the faces, hair, clothing, and coloring identical to the original. About a minute and a half later, the three men are standing together, the background is intact, and there's no sign anyone was cut out. He then shows how to check the resolution and upscale, since the regenerated image comes back smaller than the 6,060 by 4,040 original.\nCredit cost is where the tradeoffs get concrete. Switching to the ChatGPT image model at high quality jumps the cost from 20 credits to 80, a real leap that Dewis flags plainly. His framing is sensible: this is an occasional job, not a daily habit, so a single 80-credit edit won't drain your balance. He also points out the one rough edge in the round trip, that Firefly hands the finished file to your downloads folder rather than dropping it straight back into the Lightroom catalog, and he'd like Adobe to close that loop.\nThis fits into a wider shift in how Adobe is spreading generative editing across its apps instead of locking it behind Photoshop. Firefly now sits at the center of that push, and the model picker inside it, offering ChatGPT and Gemini alongside Adobe's own engine, points to a future where you choose the right tool for a specific edit rather than committing to one. The practical takeaway extends past removing people: a prompt that names exactly what to keep, faces, hair, clothing, coloring, gives generative models far less room to invent things you don't want. That discipline carries over to any AI edit you attempt, whether you're clearing a background, removing a distraction, or reworking a crowded holiday frame. Match the resolution question to your output too, since a regenerated file often lands smaller than your camera's native file and benefits from an upscale before you print or crop.\nDewis is careful not to oversell it. He says outright that Firefly isn't better than Photoshop, and if you're comfortable there, keep going. The point is that skipping Photoshop no longer puts this kind of edit out of reach, and the work doesn't have to be professional to be worth doing. A family photo with someone you'd rather not see, a holiday shot with a stranger drifting through the back, or a snap you simply want to like a bit more all qualify.\nWatch the full walkthrough above to see the prompt, the model choice, and the before-and-after that sells the whole approach.\nThe Lightroom Object Selection Trick That Beats “Select Subject”\nThe AI Debate Splitting Wedding Photographers Right Now\nAdobe's New AI Credit Cost Preview in Photoshop: What You Need to Know\nSee Your Focus Points in Camera Raw: The Setting Hiding in the Right-Click Menu\nLightroom's Tone Curve Explained: Every Trick You Need to Know\nWhy Your Lightroom Profile Choice Quietly Shapes the Entire Edit\nPost comments and join in the discussions\nShare your work and get featured in the community\nCompete in the photo contests for fun and prizes",
-   "images": [
-    {
-     "file": "5112b7e4665a.jpg",
-     "w": 614,
-     "h": 350,
-     "alt": "",
-     "cap": "",
-     "src": "https://cdn.fstoppers.com/styles/medium/s3/lead/2026/09/cover-dewis.jpg?itok=DJ1L7nxE"
-    },
-    {
-     "file": "6a29ef80b604.jpg",
-     "w": 1000,
-     "h": 565,
-     "alt": "Side-by-side comparison showing person circled in left image removed from right image, with Photoshop and Lightroom logos",
-     "cap": "",
-     "src": "https://cdn.fstoppers.com/styles/large_16_9/s3/lead/2026/09/cover-dewis.jpg.webp?itok=hujjxf5t"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Lightroom видаляє людину з групового фото через Firefly без Photoshop",
-  "lead": "Fstoppers розібрав воркфлоу Гліна Дьюїса: вбудований Remove у Lightroom не впорався з видаленням людини з центру групи, а відправка кадру у Firefly з текстовим промптом дала чистий результат.",
-  "full": [
-   "Вбудований інструмент Remove з увімкненим генеративним AI добре відновив фон, але зіпсував руку сусіда. Робочий метод — меню Photo → Generating Firefly → Edit Photo: кадр іде на сайт Firefly, де можна обрати модель — Firefly Image 5, модель зображень ChatGPT або Google Gemini 3.1. Промпт описує, кого прибрати, як зсунути решту людей і що зберегти незмінним (обличчя, волосся, одяг, кольори). Через приблизно півтори хвилини троє людей стоять поруч без слідів монтажу.",
-   "Ціна в кредитах: перемикання на модель ChatGPT у високій якості піднімає вартість з 20 до 80 кредитів за правку. Регенерований файл повертається меншим за оригінал 6060×4040, тож потрібен апскейл, а готовий результат падає в папку завантажень, а не в каталог Lightroom.",
-   "Автор підкреслює: Firefly не кращий за Photoshop, але такі правки більше не потребують шарів і масок, що відкриває їх звичайним користувачам з телефонними знімками."
-  ],
-  "means": "Adobe робить видалення й перекомпонування людей доступним прямо з Lightroom через сторонні моделі (ChatGPT, Gemini) — це територія нашого Erase та GenErase. Показові вузькі місця: втрата роздільної здатності, розрив каталогу і 80 кредитів за правку. Luminar Neo може виграти, якщо GenErase поверне результат у повній роздільній здатності в межах каталогу й з прозорими лімітами, а Luminar Mobile — дати промпт-керування Erase для сімейних фото.",
-  "importance": 3,
-  "category": "comp",
-  "media": {
-   "kind": "image",
-   "hero_image": 1,
-   "video": null
-  }
- },
- {
-  "id": "8455d4164f",
-  "source": "Storyboard18",
-  "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-  "date": "2026-09-06T05:46:01+00:00",
-  "page": {
-   "text": "Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. That means you can ask Gemini Spark to execute tasks in Google Photos, like editing images, curating albums, automatically creating shared albums with your favorite shots, turning concert flyer photos into calendar appointments, running workflows, and more.\nOn Thursday evening, Google Photos lead Shimrit Ben-Yair shared the new capabilities in a post on X , noting that the new capabilities would roll out over the next few weeks to eligible Gemini AI Pro and Ultra subscribers in the U.S. in English.\nThe company didn’t say if or when it would roll out more broadly to international markets.\nFor a while now, I’ve relied on @GeminiApp and @antigravity agents across a wide range of use cases—spanning creativity, productivity, and analysis. But I’ve always dreamed of having a power agent to help me get the most out of my 143,206 photos and videos. And that day has come!… pic.twitter.com/WbnkYpattQ\nThe addition is yet another example of Google attempting to find product-market fit in terms of making AI appealing to consumers — in this case, by automating tedious tasks and helping people manage what are now often sizable photo libraries.\nThe move comes at a time when the AI industry is reckoning with the fact that it hasn’t properly sold the promise of AI to consumers. This week, OpenAI CEO Sam Altman told Bloomberg that the industry has “done a terrible job” communicating the benefits of technology, which has led to backlash from communities around the world.\nAnnouncements like this from Google are part of the problem. While they may make certain tasks easier, on their own, such features don’t seem revolutionary or even, really, necessary. (It’s not that difficult to make a photo album after all.) But the competitive nature of the AI industry is pushing companies to promote every AI-infused upgrade, no matter how small, instead of waiting until the company can tell a broader story about how AI has shaped its software for the better.\nTo use Gemini Spark with Google Photos, you’ll need to first connect Google Photos to Gemini, then toggle on Spark in the top corner of the Gemini app, and enter your prompt.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nDon’t miss out . The startup community will gather to answer a pivotal question: How do you build sustainably in the AI era?\nHikers rescued after using Google Gemini for planning Anthony Ha\nHikers rescued after using Google Gemini for planning\nFeds launch investigation into Tesla’s Cybercab deployment Sean O'Kane Kirsten Korosec\nFeds launch investigation into Tesla’s Cybercab deployment\nTesla is asking people if they want to buy and run Cybercab fleets Kirsten Korosec\nTesla is asking people if they want to buy and run Cybercab fleets\nOpenAI launches Astra, its powerful (and controversial) new model Lucas Ropek\nOpenAI launches Astra, its powerful (and controversial) new model\nNorway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker\nNorway considers ban on camera-enabled wearable ‘pervert glasses’\nUber is laying off 10% of staff, or 3,300 people Ram Iyer\nUber is laying off 10% of staff, or 3,300 people\nAfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B Julie Bort\nAfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
-   "images": [
-    {
-     "file": "290b301f56b3.jpg",
-     "w": 1000,
-     "h": 666,
-     "alt": "",
-     "cap": "",
-     "src": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024"
-    },
-    {
-     "file": "625dba2e05ee.jpg",
-     "w": 1000,
-     "h": 207,
-     "alt": "Event Logo",
-     "cap": "",
-     "src": "https://techcrunch.com/wp-content/uploads/2025/04/Disrupt2026-Color.png"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Google дав агенту Gemini Spark керування бібліотекою Google Photos",
-  "lead": "Google оголосив, що персональний агент Gemini Spark може виконувати завдання в Google Photos: редагувати знімки, курувати альбоми, створювати спільні альбоми та запускати робочі процеси за текстовим запитом.",
-  "full": [
-   "За повідомленням TechCrunch, керівниця Google Photos Шимріт Бен-Яїр анонсувала інтеграцію 4 вересня. Користувач підключає Google Photos до Gemini, вмикає Spark у застосунку Gemini і пише запит — агент сам виконує дії з бібліотекою: редагує зображення, добирає найкращі кадри в альбоми, автоматично створює спільні альбоми, а фото афіші може перетворити на подію в календарі.",
-   "Функція розгортатиметься протягом кількох тижнів лише для підписників Gemini AI Pro та Ultra у США й англійською мовою. Про терміни для інших ринків Google не повідомив.",
-   "TechCrunch оцінює новину стримано: окремі такі функції не виглядають революційними, але показують, як Google намагається продати споживачам користь AI через автоматизацію рутини з великими фотобібліотеками."
-  ],
-  "means": "Google переносить редагування з інструмента в агентний сценарій: користувач описує результат, а не тягне повзунки. Для Luminar Mobile це прямий орієнтир — наші хмарні Enhance, Sky, Erase, Relight можна виставити через єдиний текстовий вхід поверх бібліотеки. Для Neo варто стежити, чи з'являться в Spark масові операції (batch-редагування), бо це закриває сценарій «швидкий результат без навчання», на який ми орієнтуємось. Поки що доступ обмежений платними тарифами й США, тож вікно часу є.",
-  "importance": 4,
-  "category": "comp",
   "media": {
    "kind": "image",
    "hero_image": 0,
@@ -1410,41 +1252,6 @@
   "media": {
    "kind": "gallery",
    "hero_image": 1,
-   "video": null
-  }
- },
- {
-  "id": "e4a0818eaf",
-  "source": "TechJuice",
-  "url": "https://www.techjuice.pk/apple-is-working-on-three-ai-photo-tools-for-ios-27-release/",
-  "date": "2026-09-05T18:25:58+00:00",
-  "page": {
-   "text": "Apple is set to introduce iOS 27 on June 8 at its annual Worldwide Developers Conference. The upcoming update is expected to bring long-awaited changes to Siri. Reports suggest that the smarter assistant may finally arrive, powered by Google Gemini models. This marks a major step in Apple’s growing focus on artificial intelligence.\nAt the same time, Apple is also working on several AI-driven upgrades for its Photos app. According to a recent report from Bloomberg, the app will include a new section called Apple Intelligence Tools. This section will sit inside the editing interface and offer four key features: Extend, Enhance, Reframe, and Clean Up.\nFirst, Extend will allow users to expand an image beyond its original frame. Users can stretch the edges with their fingers to add more content. This gives better control over how much area gets added and where it appears.\nNext, Enhance will focus on improving images automatically. It will adjust colors, lighting, and overall image quality using AI. While the exact improvements remain unclear, the goal is to deliver better-looking photos with minimal effort.\nMeanwhile, Reframe is built for spatial photos. This format supports 3D images designed for the Apple Vision Pro headset. With Reframe, users can shift the perspective even after capturing the image. This adds more flexibility when editing immersive photos.\nIn addition, Clean Up will remain part of the Photos app. It is currently the only AI-powered editing tool available. The feature lets users remove unwanted objects from images, and it is expected to stay in iOS 27.\nHowever, development has not been smooth. Sources cited by Bloomberg say that Extend and Reframe faced issues during internal testing. In some cases, they did not perform reliably. As a result, Apple may delay these features or release limited versions.\nClean Up has also received mixed feedback. Some users reported visual artifacts after editing. Others noticed distorted images or incorrect details filling removed areas. These concerns highlight the challenges Apple still faces with AI tools.\nA tech writer passionate about covering the latest in mobile technology, AI innovations, and digital transformation. Focused on making complex tech stories simple, engaging, and relevant for readers in the modern digital age.\nThe Samsung Galaxy A07s has quietly reached the market, with the budget smartphone now available for purchase in Jordan. The device first appeared on the.\nHuawei has launched the Mate XT2, its latest flagship foldable smartphone, as competition grows in China’s premium phone market. The company is looking to protect.\nApple is preparing for one of its biggest product events of 2026. The company will host its September event on Wednesday, September 9, at 10:00.\nXiaomi is bringing the Redmi Note 17 Pro Max 5G to Bangladesh on September 9. The new phone will target users looking for strong battery.",
-   "images": [
-    {
-     "file": "a7d01822f476.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.techjuice.pk/wp-content/uploads/2026/04/apple-is-working-on-three-ai-photo-tools-for-ios-27-release-techjuice-232456.jpg"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Apple готує чотири AI-інструменти для фото в iOS 27: Extend, Enhance, Reframe, Clean Up",
-  "lead": "За даними Bloomberg, у застосунку Photos на iOS 27 з'явиться розділ Apple Intelligence Tools усередині інтерфейсу редагування з чотирма функціями. Частина з них, за словами джерел, поки нестабільно працює у внутрішньому тестуванні.",
-  "full": [
-   "Extend дозволяє розширити зображення за межі оригінальної рамки — користувач розтягує краї пальцем, щоб додати більше простору навколо кадру. Enhance автоматично покращує колір, світло та загальну якість фото засобами AI, хоча Apple поки не розкриває деталі алгоритму. Reframe створений для просторових фото у 3D-форматі під Apple Vision Pro і дозволяє змінювати ракурс уже після зйомки. Clean Up залишається в застосунку без змін — це єдиний AI-інструмент редагування, вже доступний зараз, він видаляє небажані об'єкти з фото.",
-   "За даними джерел Bloomberg, Extend і Reframe показували нестабільні результати під час внутрішнього тестування, тож Apple може відкласти їх або випустити в обмеженому вигляді. Сам Clean Up також отримує неоднозначні відгуки: користувачі повідомляють про візуальні артефакти, спотворення та некоректно відновлені деталі на місці видалених об'єктів."
-  ],
-  "means": "Enhance і Extend напряму перетинаються з нашими Enhance AI та GenExpand, а Clean Up — прямий аналог Erase/GenErase. Публічне визнання Apple проблем з артефактами й нестабільною генерацією підтверджує, що якість inpainting/expand лишається складною задачею навіть для tier-1 гравця — це аргумент на користь подальших інвестицій у стабільність GenErase та GenExpand у Luminar Neo, де надійність результату є конкурентною перевагою.",
-  "importance": 5,
-  "category": "comp",
-  "media": {
-   "kind": "image",
-   "hero_image": 0,
    "video": null
   }
  },
@@ -1573,50 +1380,6 @@
   }
  },
  {
-  "id": "f1903a046f",
-  "source": "iLounge",
-  "url": "https://www.ilounge.com/articles/i-tried-8-ai-image-generators-for-fashion-campaigns-heres-how-they-ranked",
-  "date": "2026-09-05T02:07:22+00:00",
-  "page": {
-   "text": "Fashion is a brutal test for AI imagery because audiences notice details. Hands, fabric, accessories, logos, styling and body proportions all have to survive close inspection. At the same time, fashion is one of the most exciting places to use generative tools because campaigns depend so heavily on visual worlds, impossible locations and fast-changing creative direction.\nThe best platform for a fashion team has to do more than produce an attractive portrait. It should help the team hold onto a character, preserve a product or silhouette, explore art direction and then turn the selected image into something large enough and controlled enough for real campaign use.\nWe ranked these tools with brand work in mind rather than generic AI art.\n1. Magnific: Best overall for fashion campaign production\nMagnific takes first place because fashion teams often need several kinds of AI work inside the same project. A campaign may start with mood exploration, move into model and product studies, require background or lighting changes, and end with high-resolution images plus motion assets.\nMagnific’s image generator supports a broad selection of model families, including Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma and Magnific. That lets the creative team choose different strengths rather than forcing every campaign through one visual engine.\nReference-driven workflows are particularly important for fashion. A team may need to preserve a face, garment, accessory or overall styling while changing the location or composition. Different available models support references in different ways, giving the artist options when one approach is not holding the subject well enough.\nThe post-generation tools are equally relevant. Relighting can change the mood without rebuilding the concept. Change Camera can help explore another angle. Editing and variations speed up art-direction changes, while upscaling gives approved imagery a path toward larger delivery sizes.\nPrecision upscaling is a useful choice when product fidelity matters, while Creative upscaling can push texture or richness on more interpretive editorial images. Spaces also gives campaign teams a visual place to branch concepts and keep the process reusable.\n2. Adobe Firefly: Best for fashion teams with professional retouchers\nFashion imagery is rarely finished at capture, whether the source is a camera or an AI model. Retouching, compositing, color work and layout are normal parts of the process. Adobe therefore has an obvious advantage.\nFirefly lets generative work sit near Photoshop and other Creative Cloud tools, so an imperfect output is not a dead end. A retoucher can fix what needs fixing rather than asking the generator to reproduce the entire image because one detail is wrong.\nAdobe’s multi-model direction also gives teams more generation choice while preserving that familiar finishing environment.\nFor established fashion houses, agencies and magazines, this may be the easiest workflow to integrate operationally. We still rank Magnific first because its AI-native model selection, upscaling and connected image-to-video workflow offer more flexibility before the final retouching stage.\n3. Midjourney: Best for editorial fashion direction\nMidjourney remains exceptional at fashion imagery that feels like it has an opinion. Lighting, styling, composition and atmosphere often appear more editorial than purely literal.\nThat makes it ideal for moodboards, pitch decks, campaign territories and experimental editorials. A creative director can explore a collection in brutalist architecture, on an unreal coastline or inside a surreal studio environment before committing to the final production route.\nMidjourney is particularly good at answering “What could this campaign feel like?” It can help a team discover visual language faster than a long chain of references and written descriptions.\nThe trade-off is fidelity. When a specific garment, accessory or model identity must remain exact, we would move into more controlled reference and editing workflows. Midjourney is best when art direction is the hard problem.\n4. Recraft: Best for fashion branding and graphic systems\nFashion campaigns are not only photographs. They also need packaging, labels, icons, invitations, graphic motifs, retail elements and digital design assets.\nRecraft is strong in that world because it approaches AI from a design perspective and includes vector-oriented generation. A brand team can explore scalable graphic elements that support the campaign rather than generating another raster mood image.\nThis is useful for younger fashion brands that want the same visual language across social content, packaging and ecommerce. Recraft can help develop the system around the photography.\nWe would not rely on it alone for realistic fashion editorials, but as part of a wider campaign stack it is one of the most practical specialist tools.\n5. Ideogram: Best for campaigns where typography is central\nFashion loves typography: campaign titles, magazine-style treatments, event posters, packaging and social graphics. Ideogram belongs on this list because it makes text inside generated imagery more usable than most traditional generators.\nA creative team can explore the relationship between the model, product and headline during concept development instead of designing the image and typography as completely separate ideas.\nThat is particularly helpful in pitch work. A client can react to something that feels closer to a finished campaign composition rather than an isolated AI photo.\nFor final brand typography, designers should still rebuild and control the type precisely. Ideogram’s value is speed of visual thinking, not replacing a professional layout system.\n6. Krea: Best for fast styling and mood experiments\nKrea works well when the team wants to explore quickly. Fashion art direction often starts with small visual questions: colder light or warmer light, cleaner studio or messy backstage, glossy finish or film grain, minimal styling or something more maximal.\nAn interactive creative environment makes those questions easier to test. Krea encourages the team to move through possibilities rather than overthink every prompt.\nWe like it for pre-production and visual research, especially when a designer is trying to find the edge of a campaign before committing to a polished direction.\nIt ranks below the broader suites because a fashion campaign eventually needs stronger consistency, high-resolution delivery and a clearer production path.\n7. ChatGPT Images: Best for creative directors who prefer giving feedback\nNot every creative director wants to operate a complex generator. Many are much more comfortable describing what should change.\nChatGPT Images works well in that situation. A team can upload a reference, explain the campaign, generate a direction and keep revising in normal language. “Keep the pose, change the set.” “Make the styling sharper.” “Give us more empty space for the masthead.” Those are natural instructions in a fashion review.\nThe same conversation can also hold campaign context, copy ideas and creative rationale. That makes it particularly approachable for brand and marketing leaders who want to be involved in the visual process.\nFor controlled multi-asset production, however, we would still want a more specialized workflow around it.\n8. Canva: Best for adapting approved fashion visuals into everyday content\nCanva is not our first choice for generating the hero image of a luxury campaign, but it is extremely useful after that image exists.\nFashion brands need enormous amounts of adaptation: stories, feed posts, sale banners, retail screens, launch decks and regional versions. Canva lets a broader marketing team handle that production inside templates and brand controls without asking the main creative studio to resize everything.\nAI generation can support those everyday needs, while the platform’s bigger value is assembly and collaboration.\nFor small fashion brands with limited design resources, Canva may actually be one of the most-used tools on this list even though it ranks eighth for high-end generative art direction.\nFashion AI works best when the brand stays more important than the model\nThe danger in fashion AI is chasing whatever aesthetic a model happens to make easily. The result may look polished but could belong to any brand. Strong creative teams work in the opposite direction: the brand defines the visual language, and the AI is selected and controlled to serve it.\nMidjourney is brilliant for finding an editorial world. Adobe is the obvious finishing environment for teams with professional retouchers. Recraft and Ideogram solve important graphic-design problems around the main campaign.\nMagnific wins overall because it can cover more of the journey without forcing the team into one model family. The team can explore, switch models, edit, relight, change perspective, upscale and then continue into video inside the same creative suite. That is particularly valuable when a campaign needs stills and motion that feel like part of the same system.",
-   "images": [
-    {
-     "file": "6e73475135b8.jpg",
-     "w": 1000,
-     "h": 666,
-     "alt": "",
-     "cap": "",
-     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1.jpeg"
-    },
-    {
-     "file": "76040b5eacbc.jpg",
-     "w": 860,
-     "h": 573,
-     "alt": "AI-generated fashion campaign visuals showcased for top image generator comparison and ranking",
-     "cap": "",
-     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1-860x573.jpeg"
-    }
-   ],
-   "videos": []
-  },
-  "relevant": true,
-  "title": "Рейтинг 8 AI-генераторів зображень для фешн-кампаній",
-  "lead": "Видання iLounge протестувало вісім інструментів генерації зображень для модних рекламних кампаній і склало рейтинг за придатністю до брендової роботи: перше місце отримав Magnific, друге — Adobe Firefly, третє — Midjourney.",
-  "full": [
-   "Автори оцінювали інструменти не як генератори «красивих картинок», а з погляду реальної продакшн-роботи над кампаніями: збереження персонажа чи товару, дослідження арт-напрямку і можливість довести обране зображення до якості, придатної для фінальної кампанії. Перше місце посів Magnific — за підтримку одразу кількох сімейств моделей (Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma, власна Magnific) в одному інструменті, референс-орієнтовані воркфлоу для збереження обличчя, одягу чи аксесуарів, а також постобробку: релайтинг, зміну ракурсу камери, точний (Precision) і креативний (Creative) апскейл.",
-   "Друге місце зайняв Adobe Firefly — завдяки прямій інтеграції з Photoshop та іншими інструментами Creative Cloud, що дає командам із професійними ретушерами змогу довести згенероване зображення до фінального вигляду, а не переробляти генерацію з нуля через одну деталь. Midjourney посів третє місце як інструмент для пошуку арт-напрямку та мудбордів завдяки сильному відчуттю стилю, хоча програє в точності відтворення конкретного товару чи вбрання.",
-   "Далі в рейтингу — Recraft (брендинг і графічні системи, векторна генерація), Ideogram (робота з текстом і типографікою всередині зображення), Krea (швидкі експерименти зі стилем і освітленням), ChatGPT Images (генерація через звичайні текстові інструкції для директорів, що не хочуть освоювати складний інтерфейс) і Canva, яка замикає рейтинг для генерації хіро-зображень, але лишається практичною для адаптації вже готових візуалів під соцмережі, банери й інші формати."
-  ],
-  "means": "Огляд показує, що лідери ринку фешн-генерації поєднують вибір із кількох моделей із постобробкою — релайтингом і апскейлом, — тобто функціоналом, що напряму перетинається з нашими Relight AI, Supersharp AI/Upscale AI та хмарними GenErase/GenSwap/GenExpand. Варто орієнтуватися на підхід Magnific (мультимодельність plus вбудований апскейл і перехід у відео в одному середовищі) та Adobe Firefly (тісна інтеграція генерації з ретушшю в Photoshop) як бенчмарк для власного позиціонування AI-інструментів Luminar Neo серед фотографів і брендів, які працюють із кампанійним контентом.",
-  "importance": 2,
-  "category": "ai",
-  "media": {
-   "kind": "image",
-   "hero_image": 1,
-   "video": null
-  }
- },
- {
   "id": "d25a782555",
   "source": "ON1",
   "url": "https://www.on1.com/blog/august-2026-on1-recap-nonoise-ai-free-guide/",
@@ -1701,6 +1464,51 @@
   }
  },
  {
+  "id": "f1903a046f",
+  "source": "iLounge",
+  "url": "https://www.ilounge.com/articles/i-tried-8-ai-image-generators-for-fashion-campaigns-heres-how-they-ranked",
+  "date": "2026-09-04T16:24:08+00:00",
+  "page": {
+   "text": "Fashion is a brutal test for AI imagery because audiences notice details. Hands, fabric, accessories, logos, styling and body proportions all have to survive close inspection. At the same time, fashion is one of the most exciting places to use generative tools because campaigns depend so heavily on visual worlds, impossible locations and fast-changing creative direction.\nThe best platform for a fashion team has to do more than produce an attractive portrait. It should help the team hold onto a character, preserve a product or silhouette, explore art direction and then turn the selected image into something large enough and controlled enough for real campaign use.\nWe ranked these tools with brand work in mind rather than generic AI art.\n1. Magnific: Best overall for fashion campaign production\nMagnific takes first place because fashion teams often need several kinds of AI work inside the same project. A campaign may start with mood exploration, move into model and product studies, require background or lighting changes, and end with high-resolution images plus motion assets.\nMagnific’s image generator supports a broad selection of model families, including Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma and Magnific. That lets the creative team choose different strengths rather than forcing every campaign through one visual engine.\nReference-driven workflows are particularly important for fashion. A team may need to preserve a face, garment, accessory or overall styling while changing the location or composition. Different available models support references in different ways, giving the artist options when one approach is not holding the subject well enough.\nThe post-generation tools are equally relevant. Relighting can change the mood without rebuilding the concept. Change Camera can help explore another angle. Editing and variations speed up art-direction changes, while upscaling gives approved imagery a path toward larger delivery sizes.\nPrecision upscaling is a useful choice when product fidelity matters, while Creative upscaling can push texture or richness on more interpretive editorial images. Spaces also gives campaign teams a visual place to branch concepts and keep the process reusable.\n2. Adobe Firefly: Best for fashion teams with professional retouchers\nFashion imagery is rarely finished at capture, whether the source is a camera or an AI model. Retouching, compositing, color work and layout are normal parts of the process. Adobe therefore has an obvious advantage.\nFirefly lets generative work sit near Photoshop and other Creative Cloud tools, so an imperfect output is not a dead end. A retoucher can fix what needs fixing rather than asking the generator to reproduce the entire image because one detail is wrong.\nAdobe’s multi-model direction also gives teams more generation choice while preserving that familiar finishing environment.\nFor established fashion houses, agencies and magazines, this may be the easiest workflow to integrate operationally. We still rank Magnific first because its AI-native model selection, upscaling and connected image-to-video workflow offer more flexibility before the final retouching stage.\n3. Midjourney: Best for editorial fashion direction\nMidjourney remains exceptional at fashion imagery that feels like it has an opinion. Lighting, styling, composition and atmosphere often appear more editorial than purely literal.\nThat makes it ideal for moodboards, pitch decks, campaign territories and experimental editorials. A creative director can explore a collection in brutalist architecture, on an unreal coastline or inside a surreal studio environment before committing to the final production route.\nMidjourney is particularly good at answering “What could this campaign feel like?” It can help a team discover visual language faster than a long chain of references and written descriptions.\nThe trade-off is fidelity. When a specific garment, accessory or model identity must remain exact, we would move into more controlled reference and editing workflows. Midjourney is best when art direction is the hard problem.\n4. Recraft: Best for fashion branding and graphic systems\nFashion campaigns are not only photographs. They also need packaging, labels, icons, invitations, graphic motifs, retail elements and digital design assets.\nRecraft is strong in that world because it approaches AI from a design perspective and includes vector-oriented generation. A brand team can explore scalable graphic elements that support the campaign rather than generating another raster mood image.\nThis is useful for younger fashion brands that want the same visual language across social content, packaging and ecommerce. Recraft can help develop the system around the photography.\nWe would not rely on it alone for realistic fashion editorials, but as part of a wider campaign stack it is one of the most practical specialist tools.\n5. Ideogram: Best for campaigns where typography is central\nFashion loves typography: campaign titles, magazine-style treatments, event posters, packaging and social graphics. Ideogram belongs on this list because it makes text inside generated imagery more usable than most traditional generators.\nA creative team can explore the relationship between the model, product and headline during concept development instead of designing the image and typography as completely separate ideas.\nThat is particularly helpful in pitch work. A client can react to something that feels closer to a finished campaign composition rather than an isolated AI photo.\nFor final brand typography, designers should still rebuild and control the type precisely. Ideogram’s value is speed of visual thinking, not replacing a professional layout system.\n6. Krea: Best for fast styling and mood experiments\nKrea works well when the team wants to explore quickly. Fashion art direction often starts with small visual questions: colder light or warmer light, cleaner studio or messy backstage, glossy finish or film grain, minimal styling or something more maximal.\nAn interactive creative environment makes those questions easier to test. Krea encourages the team to move through possibilities rather than overthink every prompt.\nWe like it for pre-production and visual research, especially when a designer is trying to find the edge of a campaign before committing to a polished direction.\nIt ranks below the broader suites because a fashion campaign eventually needs stronger consistency, high-resolution delivery and a clearer production path.\n7. ChatGPT Images: Best for creative directors who prefer giving feedback\nNot every creative director wants to operate a complex generator. Many are much more comfortable describing what should change.\nChatGPT Images works well in that situation. A team can upload a reference, explain the campaign, generate a direction and keep revising in normal language. “Keep the pose, change the set.” “Make the styling sharper.” “Give us more empty space for the masthead.” Those are natural instructions in a fashion review.\nThe same conversation can also hold campaign context, copy ideas and creative rationale. That makes it particularly approachable for brand and marketing leaders who want to be involved in the visual process.\nFor controlled multi-asset production, however, we would still want a more specialized workflow around it.\n8. Canva: Best for adapting approved fashion visuals into everyday content\nCanva is not our first choice for generating the hero image of a luxury campaign, but it is extremely useful after that image exists.\nFashion brands need enormous amounts of adaptation: stories, feed posts, sale banners, retail screens, launch decks and regional versions. Canva lets a broader marketing team handle that production inside templates and brand controls without asking the main creative studio to resize everything.\nAI generation can support those everyday needs, while the platform’s bigger value is assembly and collaboration.\nFor small fashion brands with limited design resources, Canva may actually be one of the most-used tools on this list even though it ranks eighth for high-end generative art direction.\nFashion AI works best when the brand stays more important than the model\nThe danger in fashion AI is chasing whatever aesthetic a model happens to make easily. The result may look polished but could belong to any brand. Strong creative teams work in the opposite direction: the brand defines the visual language, and the AI is selected and controlled to serve it.\nMidjourney is brilliant for finding an editorial world. Adobe is the obvious finishing environment for teams with professional retouchers. Recraft and Ideogram solve important graphic-design problems around the main campaign.\nMagnific wins overall because it can cover more of the journey without forcing the team into one model family. The team can explore, switch models, edit, relight, change perspective, upscale and then continue into video inside the same creative suite. That is particularly valuable when a campaign needs stills and motion that feel like part of the same system.",
+   "images": [
+    {
+     "file": "6e73475135b8.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1.jpeg"
+    },
+    {
+     "file": "76040b5eacbc.jpg",
+     "w": 860,
+     "h": 573,
+     "alt": "AI-generated fashion campaign visuals showcased for top image generator comparison and ranking",
+     "cap": "",
+     "src": "https://www.ilounge.com/wp-content/uploads/2026/09/generated_image_1788538987_1-860x573.jpeg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-04T16:24:08+00:00"
+  },
+  "relevant": true,
+  "title": "Рейтинг 8 AI-генераторів зображень для фешн-кампаній",
+  "lead": "Видання iLounge протестувало вісім інструментів генерації зображень для модних рекламних кампаній і склало рейтинг за придатністю до брендової роботи: перше місце отримав Magnific, друге — Adobe Firefly, третє — Midjourney.",
+  "full": [
+   "Автори оцінювали інструменти не як генератори «красивих картинок», а з погляду реальної продакшн-роботи над кампаніями: збереження персонажа чи товару, дослідження арт-напрямку і можливість довести обране зображення до якості, придатної для фінальної кампанії. Перше місце посів Magnific — за підтримку одразу кількох сімейств моделей (Google, Flux, GPT, Seedream, Ideogram, Recraft, Qwen, Luma, власна Magnific) в одному інструменті, референс-орієнтовані воркфлоу для збереження обличчя, одягу чи аксесуарів, а також постобробку: релайтинг, зміну ракурсу камери, точний (Precision) і креативний (Creative) апскейл.",
+   "Друге місце зайняв Adobe Firefly — завдяки прямій інтеграції з Photoshop та іншими інструментами Creative Cloud, що дає командам із професійними ретушерами змогу довести згенероване зображення до фінального вигляду, а не переробляти генерацію з нуля через одну деталь. Midjourney посів третє місце як інструмент для пошуку арт-напрямку та мудбордів завдяки сильному відчуттю стилю, хоча програє в точності відтворення конкретного товару чи вбрання.",
+   "Далі в рейтингу — Recraft (брендинг і графічні системи, векторна генерація), Ideogram (робота з текстом і типографікою всередині зображення), Krea (швидкі експерименти зі стилем і освітленням), ChatGPT Images (генерація через звичайні текстові інструкції для директорів, що не хочуть освоювати складний інтерфейс) і Canva, яка замикає рейтинг для генерації хіро-зображень, але лишається практичною для адаптації вже готових візуалів під соцмережі, банери й інші формати."
+  ],
+  "means": "Огляд показує, що лідери ринку фешн-генерації поєднують вибір із кількох моделей із постобробкою — релайтингом і апскейлом, — тобто функціоналом, що напряму перетинається з нашими Relight AI, Supersharp AI/Upscale AI та хмарними GenErase/GenSwap/GenExpand. Варто орієнтуватися на підхід Magnific (мультимодельність plus вбудований апскейл і перехід у відео в одному середовищі) та Adobe Firefly (тісна інтеграція генерації з ретушшю в Photoshop) як бенчмарк для власного позиціонування AI-інструментів Luminar Neo серед фотографів і брендів, які працюють із кампанійним контентом.",
+  "importance": 2,
+  "category": "ai",
+  "media": {
+   "kind": "image",
+   "hero_image": 1,
+   "video": null
+  }
+ },
+ {
   "id": "1feb30299b",
   "source": "Tech Times",
   "url": "https://www.techtimes.com/articles/326607/20260904/adobe-names-chakravarthy-ceo-agentic-bet-puts-informatica-playbook-photoshop-scale.htm",
@@ -1775,6 +1583,51 @@
   "media": {
    "kind": "none",
    "hero_image": null,
+   "video": null
+  }
+ },
+ {
+  "id": "8455d4164f",
+  "source": "Storyboard18",
+  "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+  "date": "2026-09-04T14:47:11+00:00",
+  "page": {
+   "text": "Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. That means you can ask Gemini Spark to execute tasks in Google Photos, like editing images, curating albums, automatically creating shared albums with your favorite shots, turning concert flyer photos into calendar appointments, running workflows, and more.\nOn Thursday evening, Google Photos lead Shimrit Ben-Yair shared the new capabilities in a post on X , noting that the new capabilities would roll out over the next few weeks to eligible Gemini AI Pro and Ultra subscribers in the U.S. in English.\nThe company didn’t say if or when it would roll out more broadly to international markets.\nFor a while now, I’ve relied on @GeminiApp and @antigravity agents across a wide range of use cases—spanning creativity, productivity, and analysis. But I’ve always dreamed of having a power agent to help me get the most out of my 143,206 photos and videos. And that day has come!… pic.twitter.com/WbnkYpattQ\nThe addition is yet another example of Google attempting to find product-market fit in terms of making AI appealing to consumers — in this case, by automating tedious tasks and helping people manage what are now often sizable photo libraries.\nThe move comes at a time when the AI industry is reckoning with the fact that it hasn’t properly sold the promise of AI to consumers. This week, OpenAI CEO Sam Altman told Bloomberg that the industry has “done a terrible job” communicating the benefits of technology, which has led to backlash from communities around the world.\nAnnouncements like this from Google are part of the problem. While they may make certain tasks easier, on their own, such features don’t seem revolutionary or even, really, necessary. (It’s not that difficult to make a photo album after all.) But the competitive nature of the AI industry is pushing companies to promote every AI-infused upgrade, no matter how small, instead of waiting until the company can tell a broader story about how AI has shaped its software for the better.\nTo use Gemini Spark with Google Photos, you’ll need to first connect Google Photos to Gemini, then toggle on Spark in the top corner of the Gemini app, and enter your prompt.\nWhen you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.\nDon’t miss out . The startup community will gather to answer a pivotal question: How do you build sustainably in the AI era?\nHikers rescued after using Google Gemini for planning Anthony Ha\nHikers rescued after using Google Gemini for planning\nFeds launch investigation into Tesla’s Cybercab deployment Sean O'Kane Kirsten Korosec\nFeds launch investigation into Tesla’s Cybercab deployment\nTesla is asking people if they want to buy and run Cybercab fleets Kirsten Korosec\nTesla is asking people if they want to buy and run Cybercab fleets\nOpenAI launches Astra, its powerful (and controversial) new model Lucas Ropek\nOpenAI launches Astra, its powerful (and controversial) new model\nNorway considers ban on camera-enabled wearable ‘pervert glasses’ Zack Whittaker\nNorway considers ban on camera-enabled wearable ‘pervert glasses’\nUber is laying off 10% of staff, or 3,300 people Ram Iyer\nUber is laying off 10% of staff, or 3,300 people\nAfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B Julie Bort\nAfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+   "images": [
+    {
+     "file": "290b301f56b3.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024"
+    },
+    {
+     "file": "625dba2e05ee.jpg",
+     "w": 1000,
+     "h": 207,
+     "alt": "Event Logo",
+     "cap": "",
+     "src": "https://techcrunch.com/wp-content/uploads/2025/04/Disrupt2026-Color.png"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-04T14:47:11+00:00"
+  },
+  "relevant": true,
+  "title": "Google дав агенту Gemini Spark керування бібліотекою Google Photos",
+  "lead": "Google оголосив, що персональний агент Gemini Spark може виконувати завдання в Google Photos: редагувати знімки, курувати альбоми, створювати спільні альбоми та запускати робочі процеси за текстовим запитом.",
+  "full": [
+   "За повідомленням TechCrunch, керівниця Google Photos Шимріт Бен-Яїр анонсувала інтеграцію 4 вересня. Користувач підключає Google Photos до Gemini, вмикає Spark у застосунку Gemini і пише запит — агент сам виконує дії з бібліотекою: редагує зображення, добирає найкращі кадри в альбоми, автоматично створює спільні альбоми, а фото афіші може перетворити на подію в календарі.",
+   "Функція розгортатиметься протягом кількох тижнів лише для підписників Gemini AI Pro та Ultra у США й англійською мовою. Про терміни для інших ринків Google не повідомив.",
+   "TechCrunch оцінює новину стримано: окремі такі функції не виглядають революційними, але показують, як Google намагається продати споживачам користь AI через автоматизацію рутини з великими фотобібліотеками."
+  ],
+  "means": "Google переносить редагування з інструмента в агентний сценарій: користувач описує результат, а не тягне повзунки. Для Luminar Mobile це прямий орієнтир — наші хмарні Enhance, Sky, Erase, Relight можна виставити через єдиний текстовий вхід поверх бібліотеки. Для Neo варто стежити, чи з'являться в Spark масові операції (batch-редагування), бо це закриває сценарій «швидкий результат без навчання», на який ми орієнтуємось. Поки що доступ обмежений платними тарифами й США, тож вікно часу є.",
+  "importance": 4,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
    "video": null
   }
  },
@@ -2236,74 +2089,6 @@
    "kind": "video",
    "hero_image": 2,
    "video": "1LYsbVfwgzA"
-  }
- },
- {
-  "id": "90841e6fe8",
-  "source": "آي-فون إسلام",
-  "url": "https://iphoneislam.com/language/en/2026/07/our-experience-with-the-clean-up-tool-in-the-ios-27-beta-apples-ai-photo-editing-is-finally-worth-using-but/169466",
-  "date": "2026-09-01T15:27:50+00:00",
-  "page": {
-   "text": "We have finally reached the developer beta of iOS 27, and with it comes the AI-powered Clean Up tool for editing photos and removing unwanted elements. This tool, whose maturity we have long awaited, finally feels like it is worth actually using to edit our daily photos and make them look perfect with a single touch on our iPhone. But as is often the case with Apple, there is a major hurdle we must address that makes a real difference in the daily user experience.\nWhen testing the Clean Up tool in the iOS 27 developer beta, the smart touches Apple has added are clearly visible. The tool has become much faster and more accurate at identifying elements the user wants to remove from the photo background. Apple’s AI seems to have learned how to handle complex details like lighting and shadows better than ever before.\nThe beauty of these first impressions is that the tool no longer feels like a poorly performing experimental feature; it has become a real tool that photographers and iPhone owners can rely on to get rid of annoying details in their favorite shots without distorting the original image, finally making it a tool worth using.\nIf we compare current performance to how it was in iOS 26, we notice a huge leap in quality. In the previous system, the Clean Up tool would sometimes leave blurry spots or inconsistent colors where the element was removed, making the edit look inaccurate or obvious to a trained eye. In iOS 27, Apple has largely addressed this issue by improving the generative AI-based fill algorithms.\nThe results now look very natural, as the new system can understand the general pattern of the background and reconstruct it with intelligence that rivals professional photo editing applications. This represents a major success for Apple’s software engineers and a real evolution we have been eagerly awaiting.\nThe dilemma of choice: Fast vs. High Quality\nOne of the most important new additions to the Clean Up tool in iOS 27 is the option for the user to choose between two editing modes: Fast and High Quality. This option gives you great flexibility; if you want a quick edit to share on social media immediately, the Fast mode will get the job done in a fraction of a second.\nHowever, if you are looking for a perfect, flawless shot for memories or printing, the High Quality mode takes a little extra time but provides ultra-precise processing for every pixel in the image. But always remember, despite all these flashy features, there is a major hurdle regarding performance and system compatibility that might make some users hesitate before relying on it fully during this beta phase.\nShare on Facebook (Opens in new window) Facebook\nShare on WhatsApp (Opens in new window) WhatsApp\nShare on Telegram (Opens in new window) Telegram\nEmail a link to a friend (Opens in new window) Email",
-   "images": [
-    {
-     "file": "7568d042c2bd.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "",
-     "cap": "",
-     "src": "https://iphoneislam.com/wp-content/uploads/2026/07/ios-27-clean-up-01.jpg"
-    },
-    {
-     "file": "28558633cfcf.jpg",
-     "w": 1000,
-     "h": 563,
-     "alt": "Testing the Clean Up tool in iOS 27",
-     "cap": "",
-     "src": "https://iphoneislam.com/wp-content/uploads/2026/07/7ziwpvr7elesckaroh6fse-1801-80.jpg"
-    },
-    {
-     "file": "325bcb906b74.jpg",
-     "w": 768,
-     "h": 384,
-     "alt": "From the Phonegram website: In the first image, a man is shown outdoors holding a card to his eye; in the next two images, face distortion effects have been applied using iOS 27 and iOS 26, highlighting the improved capabilities of the 'Clean Up' tool in iOS 27 for creative photo editing.",
-     "cap": "",
-     "src": "https://iphoneislam.com/wp-content/uploads/2026/07/ios-27-clean-up-768x384.jpg"
-    },
-    {
-     "file": "f60488c977ec.jpg",
-     "w": 768,
-     "h": 512,
-     "alt": "From the Phonegram website: Three side-by-side images show a hand holding an orange phone, a distorted hand, and an empty hand; with labels 'Original Image', 'iOS 26', and 'iOS 27' under the heading 'Clean Up Tool'. The last image highlights how the Clean Up tool in iOS 27 provides more accurate results when removing elements from photos.",
-     "cap": "",
-     "src": "https://iphoneislam.com/wp-content/uploads/2026/07/clean-up-ios-17-768x512.jpg"
-    },
-    {
-     "file": "3933df29deac.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "From the Phonegram website: A hand holding two smartphones displaying photos of the same man; one photo shows him wearing sunglasses, and the other without, highlighting the stunning results achieved using the Clean Up tool in iOS 27.",
-     "cap": "",
-     "src": "https://iphoneislam.com/wp-content/uploads/2026/07/ios-27-clean-up-0-2048x1152.jpg"
-    }
-   ],
-   "videos": [],
-   "before_after": []
-  },
-  "relevant": true,
-  "title": "Clean Up в iOS 27 beta: швидше, точніше, з режимами Fast і High Quality",
-  "lead": "У developer beta iOS 27 інструмент Clean Up у Photos отримав помітно кращий генеративний заповнювач і два режими роботи — Fast і High Quality. Оглядачі iPhone Islam кажуть, що видалення об'єктів нарешті придатне для щоденного використання.",
-  "full": [
-   "За тестами, Clean Up став швидше й точніше розпізнавати елементи для видалення, краще працює зі світлом і тінями. Порівняно з iOS 26, де на місці видалених об'єктів залишалися розмиті плями й нерівномірні кольори, у iOS 27 алгоритм реконструює фон, розуміючи його загальний патерн, і результат виглядає природно.",
-   "Нова опція — вибір між режимом Fast (правка за долі секунди для швидкого шерингу) та High Quality (довша, але точніша попіксельна обробка для друку). Автори зазначають, що на етапі бети є «серйозна перешкода» щодо продуктивності й сумісності пристроїв, яка може стримувати повне використання інструмента."
-  ],
-  "means": "Apple підтягує вбудований Clean Up до рівня, який раніше був перевагою окремих редакторів, — це прямий тиск на Erase у Luminar Mobile для iOS, де користувач тепер має безкоштовний on-device варіант із режимом високої якості. Нам варто чітко відрізнятися якістю на складних фонах і генеративним GenErase, а також розглянути аналогічний вибір «швидко/якісно» як UX-патерн для хмарної обробки.",
-  "importance": 3,
-  "category": "comp",
-  "media": {
-   "kind": "gallery",
-   "hero_image": 1,
-   "video": null
   }
  },
  {

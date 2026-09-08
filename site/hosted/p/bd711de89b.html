@@ -212,9 +212,8 @@ function post(it,showDay){
     <div class="foot">${SINGLE?'':`<button class="more">${state.open.has(it.id)?'Згорнути':'Детальніше'}</button>`}<button class="copy">${COPY}Копіювати</button><a class="src-link" href="${it.url}" target="_blank" rel="noopener">Джерело ↗</a></div>
   </article>`;
 }
-let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого
-try{sel=localStorage.getItem('lr.sel')||null}catch(_){}
-function visible(){return ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
+let shown=20, sel=null;   // одна активна вкладка: тема або 'hi' (важливе по всіх темах), або нічого; не зберігається між завантаженнями
+function visible(){return SINGLE?ITEMS:ITEMS.filter(it=>!sel||(sel==='hi'?it.importance>=4:it.category===sel))}
 function renderFilters(){
   const f=document.getElementById('filters'); if(SINGLE) return; f.hidden=false;
   f.innerHTML=Object.entries(CATS).map(([k,c])=>`<button class="chip ${sel===k?'on':''}" data-sel="${k}"><span class="dot" style="background:${c.c}"></span>${c.n}</button>`).join('')
@@ -230,13 +229,11 @@ function render(){
 document.querySelector('.brand').addEventListener('click',e=>{
   if(SINGLE) return;                    // зі сторінки поста просто йдемо на /
   e.preventDefault(); sel=null; shown=20;
-  try{localStorage.removeItem('lr.sel')}catch(_){}
   render(); window.scrollTo({top:0,behavior:'smooth'});
 });
 document.getElementById('filters').addEventListener('click',e=>{
   const c=e.target.closest('.chip'); if(!c) return;
   sel=(sel===c.dataset.sel)?null:c.dataset.sel;   // повторний клік знімає вибір
-  try{sel?localStorage.setItem('lr.sel',sel):localStorage.removeItem('lr.sel')}catch(_){}
   shown=20; render(); window.scrollTo({top:0});
 });
 // ---- лайтбокс: усі зображення поста, ← → Esc

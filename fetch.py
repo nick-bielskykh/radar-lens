@@ -152,14 +152,44 @@ def arxiv_figures(url):
         if len(cands) >= 6: break
     return cands
 
+def page_date(soup):
+    """Дата публікації зі сторінки: meta article:published_time / datePublished (ld+json) / <time datetime>."""
+    for sel in ({"property": "article:published_time"}, {"name": "article:published_time"}, {"property": "og:published_time"},
+                {"name": "pubdate"}, {"name": "publish-date"}, {"name": "date"}, {"itemprop": "datePublished"}, {"name": "DC.date.issued"}):
+        m = soup.find("meta", attrs=sel)
+        if m and m.get("content"):
+            d = parse_date(m["content"])
+            if d: return d
+    for sc in soup.find_all("script", type="application/ld+json"):
+        try: data = json.loads(sc.string or "")
+        except Exception: continue
+        stack = data if isinstance(data, list) else [data]
+        while stack:
+            o = stack.pop()
+            if isinstance(o, dict):
+                if o.get("datePublished"):
+                    d = parse_date(o["datePublished"])
+                    if d: return d
+                stack.extend(v for v in o.values() if isinstance(v, (dict, list)))
+            elif isinstance(o, list): stack.extend(o)
+    t = soup.find("time", attrs={"datetime": True})
+    return parse_date(t["datetime"]) if t else None
+
+def parse_date(v):
+    try:
+        d = datetime.fromisoformat(v.strip().replace("Z", "+00:00"))
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except Exception: return None
+
 def extract_page(url):
-    """Повертає dict: text, images[], videos[]"""
-    out = {"text": "", "images": [], "videos": []}
+    """Повертає dict: text, images[], videos[], published (ISO або None)"""
+    out = {"text": "", "images": [], "videos": [], "published": None}
     try:
         r = get(url); r.raise_for_status(); html = r.text
     except Exception as e:
         log("page fail", url, e); return out
     soup = BeautifulSoup(html, "lxml")
+    pd = page_date(soup); out["published"] = pd.isoformat() if pd else None
     figs = arxiv_figures(url)
     for t in soup(["script", "style", "nav", "footer", "header", "aside", "form", "noscript"]): t.decompose()
     main = soup.find("article") or soup.find("main") or soup.body or soup
@@ -274,6 +304,16 @@ def main():
         return it
     with ThreadPoolExecutor(6) as ex:
         all_items = list(ex.map(enrich, all_items))
+    # Google News ставить дату індексації, а не публікації: якщо сторінка каже, що стаття старіша, — віримо сторінці
+    fresh = []
+    for it in all_items:
+        pd = it["page"].get("published")
+        if it["kind"] == "gnews" and pd and pd < it["date"]:
+            it["date"] = pd
+            if pd < SINCE.isoformat():
+                log(f"застаріле ({pd[:10]}): {it['title'][:60]}"); continue
+        fresh.append(it)
+    all_items = fresh
     # обʼєднати з попереднім raw.json, залишити 30 днів; при нульовому зборі нічого не затирати
     path = os.path.join(DATA, "raw.json")
     old = json.load(open(path)) if os.path.exists(path) else []
