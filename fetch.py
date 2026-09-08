@@ -84,26 +84,26 @@ def gnews_decode_many(links):
         if not m: out[l] = None
     for i in range(0, len(pending), 20):
         chunk = pending[i:i + 20]
-        payload = [["Fbv4je", json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0], aid, ts, sg])]
-                   for _, (aid, ts, sg) in chunk]
+        # 4-й елемент — id запиту: відповіді приходять НЕ по порядку, зіставляємо по ньому
+        payload = [["Fbv4je", json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0], aid, ts, sg]), None, str(j)]
+                   for j, (_, (aid, ts, sg)) in enumerate(chunk)]
+        got = {}
         try:
             r = SESSION.post(GNEWS_BATCH_URL, headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
                              data={"f.req": json.dumps([payload])}, timeout=30)
-            urls = []
             for line in r.text.split("\n"):
                 if '"wrb.fr"' not in line: continue
                 for row in json.loads(line):
-                    if row[0] == "wrb.fr" and row[1] == "Fbv4je":
-                        urls.append(json.loads(row[2])[1])
-            if len(urls) != len(chunk):
-                log(f"gnews batch: {len(urls)} відповідей на {len(chunk)} запитів")
-            for (l, _), u in zip(chunk, urls): out[l] = u
+                    if row[0] == "wrb.fr" and row[1] == "Fbv4je" and row[2] and len(row) > 6 and row[6] is not None:
+                        got[int(row[6])] = json.loads(row[2])[1]
+            if len(got) != len(chunk):
+                log(f"gnews batch: {len(got)} відповідей на {len(chunk)} запитів")
         except Exception as e:
             log("gnews batch fail", e)
-        for l, _ in chunk: out.setdefault(l, None)
+        for j, (l, _) in enumerate(chunk): out[l] = got.get(j)
     return out
 
-SPAM = re.compile(r"(deal|bundle|discount|% off|save \$|coupon|black friday|prime day|giveaway|sale)", re.I)
+SPAM = re.compile(r"(deal|bundle|discount|% off|save \$|coupon|black friday|prime day|giveaway|\bsale\b|free right now|\bvs\.?\b|specs and price|release date|leak|rumou?r|stock (price|heading|down|up)|earnings|tax credit)", re.I)
 
 def entry_date(e):
     for k in ("published_parsed", "updated_parsed"):
