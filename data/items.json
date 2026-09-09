@@ -1,11 +1,323 @@
 [
  {
+  "id": "99b66cfa81",
+  "source": "Engadget",
+  "url": "https://www.engadget.com/2252838/how-to-use-ios-27-ai-clean-up-tool-iphone-photos/",
+  "date": "2026-09-08T22:00:00+00:00",
+  "page": {
+   "text": "Remove those photobombers with even more accuracy than before.\nApple is adding a bunch of new AI features in iOS 27 , with one of the most essential apps, Photos, getting some cool AI upgrades too . There's one feature in particular that's getting much better with iOS 27: Clean Up. This tool has been around since iOS 18 redesigned the Photos app , though it's always lagged far behind its competitors. But thanks to Apple's new AI models, Clean Up is now much better at removing objects from your photos.\nBefore you can use the upgraded Clean Up, your iPhone needs iOS 27. If you've already installed the update, the next step is to enable Apple Intelligence if it's not already. That means you need an iPhone 15 Pro or later. If you have an older iPhone, you won't be able to take advantage of this feature.\nRemoving objects from your photos with Clean Up\nIf you've used Clean Up before, you'll know where to find it in iOS 27. The difference is that it now has some extra controls. To start, choose a photo you want to adjust in the Photos app and tap the Edit button at the bottom. Select Tools and choose Clean Up . You'll see an Auto button at the top, which lets you change the processing type. Leave this set to Auto to have your phone choose between the other two modes depending on how complex the image is.\nFast retouches your photos with a smaller AI model. It gets the job done much faster, but it's not ideal for more complex retouching. Say you have a photo of a landscape and you want to remove a trash can in the background. Or maybe you need to hide the wiring on the street lights. These are the kinds of edits that the Quick model is most likely to handle well.\nBut where Apple's Clean Up feature has always struggled is with more complex edits. When there are a bunch of people behind you ruining your selfie, that's where the High Quality option comes in. More advanced AI models can better understand the context of an image. But this improved processing comes at the cost of taking longer and using more battery.\nClean Up often tries to recognize unknown objects that you'll want to remove from your photo. This doesn't always work as it should, so it's more accurate to circle what you want to remove.\nFor other cases where a photo didn't come out like you intended, iOS 27 introduces two extra photo-editing features: Extend and Reframe . Extend uses AI to expand the area around your photo. Imagine you took a selfie, but it's too close to your face. Extend can fix this by understanding the context to generate more of the image around it, filling in what's already in the photo. Just pinch to zoom out as much as you want. It may take a while before you see the results, but that's normal.\nReframe is different: it changes the perspective and angle from which you originally took the photo. For example, maybe you weren't looking at the camera when the picture was taken. Reframe lets you change that without retaking the photo. The results are hit or miss, though. Some photos appear natural. Others end up looking like AI slop, with the model hallucinating objects or even people who weren't originally there. It's worth a try if you really don't like the original photo, but don't get your hopes up. Improving your smartphone photography in the first place should have better results.",
+   "images": [
+    {
+     "file": "8c4b6e2ea72c.jpg",
+     "w": 1000,
+     "h": 561,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.engadget.com/img/gallery/how-to-use-the-ai-clean-up-tool-in-ios-27-to-remove-unwanted-objects-in-iphone-photos/l-intro-1788794561.jpg"
+    },
+    {
+     "file": "695a239d2115.jpg",
+     "w": 780,
+     "h": 438,
+     "alt": "New photo editing tools and Clean Up in iOS 27.",
+     "cap": "",
+     "src": "https://www.engadget.com/img/gallery/how-to-use-the-ai-clean-up-tool-in-ios-27-to-remove-unwanted-objects-in-iphone-photos/intro-1788794561.jpg"
+    },
+    {
+     "file": "5522990fa506.jpg",
+     "w": 780,
+     "h": 438,
+     "alt": "Choosing between Fast and High Quality for Clean Up in iOS 27 Photos.",
+     "cap": "",
+     "src": "https://www.engadget.com/img/gallery/how-to-use-the-ai-clean-up-tool-in-ios-27-to-remove-unwanted-objects-in-iphone-photos/removing-objects-from-your-photos-with-clean-up-1788794562.jpg"
+    },
+    {
+     "file": "d4520eb09146.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Original photo (left) vs. Fast edit (center) vs. High Quality edit (right)",
+     "cap": "",
+     "src": "https://www.engadget.com/img/uploads/embed/it-08e2Tu-1787258558.jpg"
+    },
+    {
+     "file": "23341fa2fe54.jpg",
+     "w": 780,
+     "h": 438,
+     "alt": "Extending and reframing photos in iOS 27.",
+     "cap": "",
+     "src": "https://www.engadget.com/img/gallery/how-to-use-the-ai-clean-up-tool-in-ios-27-to-remove-unwanted-objects-in-iphone-photos/extending-and-reframing-photos-1788794562.jpg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T22:00:00+00:00"
+  },
+  "relevant": true,
+  "title": "Clean Up в iOS 27: режими Fast і High Quality, нові Extend і Reframe",
+  "lead": "Engadget розібрав оновлений Clean Up у застосунку Photos на iOS 27: інструмент видалення об'єктів отримав вибір моделі обробки, а поряд з'явилися Extend і Reframe.",
+  "full": [
+   "Clean Up існує з iOS 18, але, як зазначає видання, помітно відставав від конкурентів; в iOS 27 його переписали на нові моделі Apple. Для роботи потрібні iOS 27 і ввімкнений Apple Intelligence, тобто iPhone 15 Pro або новіший. У редакторі з'явилася кнопка Auto, яка перемикає тип обробки залежно від складності кадру.",
+   "Режим Fast ретушує меншою моделлю: він швидший і підходить для простих задач — прибрати смітник на задньому плані краєвиду чи дроти на ліхтарях. High Quality вмикає складніші моделі, які краще розуміють контекст кадру, і потрібен там, де Clean Up традиційно провалювався: наприклад, прибрати людей позаду в селфі. Платою за це є довша обробка і більша витрата батареї. Автовизначення об'єктів спрацьовує не завжди, тому точніше обводити те, що треба прибрати.",
+   "Окрім Clean Up, iOS 27 додає в редагування фото Extend і Reframe. Extend добудовує область навколо кадру, спираючись на контекст зображення — достатньо звести пальці й відзумити. Reframe змінює ракурс і кут зйомки вже знятого фото; за оцінкою Engadget, результат нерівний: частина знімків виглядає природно, частина перетворюється на «AI slop» із домальованими об'єктами і навіть людьми, яких у кадрі не було."
+  ],
+  "means": "Це саме територія нашого беклогу Selective Erase і Generative Erase всередині Erase: Apple безкоштовно віддає користувачу видалення дистракшенів із двома рівнями обробки — швидким локальним і важким. Для Luminar Mobile, де Erase — це content-aware браш без генеративки, масок і шарів, це прямий тиск: базовий клінап тепер є у штатному застосунку iPhone. Extend конкурує з нашим GenExpand, і на десктопі ми маємо перевагу в контролі, але на мобілці аналога нема взагалі. Варто зняти якість Fast і High Quality на наших типових кейсах (дроти, стовпи, люди на фоні), щоб калібрувати планку для Selective Erase.",
+  "importance": 3,
+  "category": "comp",
+  "media": {
+   "kind": "gallery",
+   "hero_image": 3,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
+  "id": "ed4eee220e",
+  "source": "ON1",
+  "url": "https://www.on1.com/blog/introducing-on1-photo-raw-2027-a-new-raw-processing-engine-improved-nonoise-ai-an-ai-culling-assistant-and-more/",
+  "date": "2026-09-08T16:01:13+00:00",
+  "page": {
+   "text": "Today, we announce ON1 Photo RAW 2027, the next version of our all-in-one, non-destructive raw photo editor and organizer, and pre-orders are open right now. It’s expected to ship in early November 2026, and every pre-order locks in the best price.\nBetter image quality, straight out of the camera\nSeveral upgrades in version 2027 work together to improve image quality. A new RAW processing engine produces sharper detail, richer color and more natural shadow and highlight rendering. An improved NoNoise AI removes more noise while preserving natural-looking detail, with new AI noise reduction models tuned to wildlife, portraits, astrophotography and scanned film, plus a sharper Tack Sharp de-blurring engine for recovering soft or slightly out-of-focus shots. Improved Brilliance AI models also bring more natural automatic enhancements across a wider range of photo styles, with less manual adjustment. A new Culling Assistant brings AI photo culling to ON1 Photo RAW MAX 2027, grouping similar photos, flagging closed eyes and out-of-focus subjects, and working through large batches automatically to cut review time so you spend it editing instead of sorting.\nThis release also addresses feedback we’ve heard directly from the ON1 community. A redesigned simplified masking experience applies masks consistently across layers, Effects filters and local adjustments, with an instant preview on hover so you see the result before committing. AI-powered tools also run faster in Photo RAW 2027, with added gains on Windows, and the release includes dozens of smaller refinements: a new Light Theme, higher-contrast controls and a smoother install and sign-in experience.\nPerfect Eraser now removes distractions over larger areas while preserving realistic detail, available to every tier, and ON1 Photo RAW MAX customers and subscribers gain optional cloud-based AI rendering for even higher-quality results with Generative Eraser and Crop. A new Loupe pane and improved Compare view let you inspect faces and subjects up close without ever leaving Grid view.\nFind, share and automate more of your workflow\nNew Folder Actions apply metadata, presets and export automatically as photos land in a watched folder. You can now share directly to Flickr, and Windows users get native sharing to email and other destinations. The ON1 Photo RAW 2027 mobile app ships alongside the desktop release in November 2026.\nON1 Photo RAW remains available as a one-time-purchase photo editing software. Own it once, use it as long as you like. If a subscription fits your workflow better, new customers can also choose ON1 Photo RAW MAX as a subscription, or step up to ON1 Photo Studio, our all-access subscription plan.\nPre-order ON1 Photo RAW 2027: the best time to buy\nPre-orders open today! Owners of Photo RAW 2026 can pre-order 2027 at a loyalty price, personalized after sign-in. New customers and those upgrading from older versions can purchase version 2026 today, then receive 2027 at no extra cost when it’s available this fall. Photo RAW 2026 will also keep receiving updates through the year-end.",
+   "images": [
+    {
+     "file": "d889226553be.jpg",
+     "w": 1000,
+     "h": 869,
+     "alt": "Before-and-after macro photo of a green beetle showing noise reduction and detail sharpening from ON1 Photo RAW 2027's NoNoise AI",
+     "cap": "NoNoise AI in Photo RAW 2027 clears out noise and pulls back crisp detail, even on demanding macro shots like this, so you get a cleaner image without losing color or texture.",
+     "src": "https://on1-wp.s3.amazonaws.com/wp-content/uploads/2026/09/07115958/on1-photo-raw-2027-nonoise-ai-macro-beetle-before-after-1536x1336.jpg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T00:00:00+00:00"
+  },
+  "relevant": true,
+  "title": "ON1 Photo RAW 2027: новий RAW-двигун, оновлений NoNoise AI і AI-кулінг",
+  "lead": "ON1 анонсувала Photo RAW 2027 і відкрила передзамовлення. Реліз очікується на початку листопада 2026 року.",
+  "full": [
+   "Ключове в релізі — якість зображення «з коробки». Новий движок обробки RAW дає, за словами компанії, різкішу деталь, насиченіший колір і природніше промальовування тіней і світів. Оновлений NoNoise AI прибирає більше шуму зі збереженням природної деталі й отримав окремі моделі шумозаглушення під дику природу, портрет, астрофото і сканування плівки, а також різкіший двигун усунення розмиття Tack Sharp. Оновлені моделі Brilliance AI дають природніше автоматичне покращення на ширшому діапазоні сюжетів.",
+   "У версії MAX з'являється Culling Assistant: він групує схожі кадри, помічає заплющені очі й розфокусовані сюжети і сам проходить великі серії, скорочуючи час відбору. За фідбеком спільноти ON1 спростила роботу з масками — вони застосовуються однаково до шарів, фільтрів Effects і локальних корекцій, з миттєвим прев'ю при наведенні. AI-інструменти працюють швидше, окремо відзначено приріст на Windows; додали світлу тему і контрастніші контроли.",
+   "Perfect Eraser тепер прибирає дистракшени на більших ділянках зі збереженням реалістичної деталі і доступний у всіх тарифах, а покупці MAX і підписники отримують опційний хмарний AI-рендер для Generative Eraser і Crop. З'явилися панель Loupe і покращений Compare, Folder Actions з автозастосуванням метаданих, пресетів і експорту до теки, що відстежується, та шеринг у Flickr. Мобільний застосунок ON1 Photo RAW 2027 виходить одночасно з десктопом у листопаді. Продукт лишається одноразовою покупкою, але новим клієнтам пропонують і підписку ON1 Photo RAW MAX."
+  ],
+  "means": "Денойз і шарп — наша зона рефандів і зміст зимового релізу з новими Noiseless AI та Supersharp AI; ON1 виводить моделі під конкретні жанри (wildlife, портрет, астро, плівка) раніше за нас, і це саме той селектор, якого користувачі просять замість однієї універсальної моделі. Culling Assistant закриває те, що в нас лежить у беклозі як Culling AI, а Perfect Eraser з опційним хмарним рендером — це фактично наш сценарій Erase плюс Generative Erase в одному флоу, до якого ми тільки йдемо через Selective Erase. Гібридна монетизація (довічна ліцензія плюс підписка MAX) б'є в ту саму точку, що й наша зв'язка lifetime + Luminar Prime, тому їхні ціни на передзамовленні варто зняти до нашого осіннього релізу.",
+  "importance": 4,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
+  "id": "1d2c7ea858",
+  "source": "Unite.AI",
+  "url": "https://www.unite.ai/openai-releases-chatgpt-images-2-5-with-sketch-and-two-new-api-models/",
+  "date": "2026-09-08T15:30:02-04:00",
+  "page": {
+   "text": "OpenAI released ChatGPT Images 2.5 on September 8, 2026, calling it the company’s new state-of-the-art image model, and added two companion models to its API. OpenAI said people create more than 3 billion images each week across ChatGPT Images and the GPT-Image models in the API.\nAccording to OpenAI, Images 2.5 produces more natural lighting and richer textures, better preserves subjects from users’ reference photos, and follows editing instructions more reliably across multiple turns of a conversation. The company said it reduced image generation latency by up to 50% compared with Images 2.0.\nOpenAI said the model is better at changing only the elements a user asks it to edit while leaving the rest of the image intact, even with complex subjects and backgrounds, and that it renders images containing real-world information more accurately, handles more complex layouts including transparent backgrounds, and holds requested visual styles more consistently. During longer conversations, the company said, earlier edits are more likely to carry through and each new instruction builds on previous work without degrading image quality.\nFor API developers, OpenAI said the same fidelity makes reference-led workflows more reliable and allows a single element, such as a product, background, or line of copy, to be updated while preserving the surrounding subject, composition, and brand treatment.\nAlongside the model, OpenAI introduced Sketch, a feature that lets users draw directly inside ChatGPT as a visual reference for the final image, invoked by typing “@Sketch” in a chat. New templates provide starting points for popular formats such as flyers and product photos, with named options including “Poster” and “Merch.” Users can also place comments directly on generated images for more focused editing, and can share the prompt behind an image so others can rerun the idea with their own photos and details.\nImages 2.5 is rolling out to all ChatGPT, ChatGPT Work, and Codex users across all tiers on desktop, mobile, and web.\nFor developers, OpenAI released two image models in the API. GPT-Image-2.5 Flare brings the same quality, editing, and speed improvements and is positioned by the company as the default choice for most applications; OpenAI said it delivers higher-quality images than GPT-Image-2 at 50% lower latency, suiting uses from creator and social content to product experiences, visual search, rapid image prototyping, and high-volume generation. GPT-Image-2.5 Sunburst is built for premium visual workflows that benefit from tighter control across edits, such as production-ready campaign creative and polished product imagery, with longer generation times.\nOpenAI published statements from three early customers alongside the release. Matt Chotin, senior director of product at Adobe, said OpenAI’s GPT-Image-2.5 models are now available in Adobe Firefly, Adobe’s creative AI studio. Lucky Liao of Manus’s evaluation team said Flare delivered high-quality images at two to four times the speed of GPT-Image-2 in the team’s evaluations, citing improved transparent-background generation. Axultan Alimkulov, head of product at Higgsfield AI, said the model preserves an original image’s character, composition, and visual identity through edits.\nOpenAI’s pricing page lists both models at the same rates: image input at $8.00 per 1M tokens, or $2.00 per 1M tokens for cached input, image output at $30.00 per 1M tokens, and text input at $5.00 per 1M tokens, or $1.25 cached. The page describes Sunburst as built for workflows where editing precision matters most and Flare as OpenAI’s fastest model for high-quality, everyday image generation.\nOpenAI also published a system card for the release on September 8, 2026. The card states that GPT-Image-2.5-Sunburst and GPT-Image-2.5-Flare were trained on diverse datasets spanning publicly available internet information, data accessed through third-party partnerships, and material provided or generated by users and human trainers, with filtering intended to reduce personal information and safety classifiers aimed at reducing harmful or sensitive content. It notes that heightened realism could, absent safeguards, enable more convincing deepfakes of real people, places, or events, which violate OpenAI’s usage policies.\nThe card describes a layered safety stack: LLM-based policy checks refuse violative requests before generation begins, and a safety reasoning model then moderates text and image inputs and inspects final outputs before they are shown, blocking generation when either violates policy.\nIn OpenAI’s automated adversarial evaluations, which used prompts designed to elicit policy-violating images across all tracked safety categories, final unsafe generations presented measured 1.09% for Sunburst and 1.41% for Flare, against a 1.64% baseline for ChatGPT Images 2.0. The card cautions that the adversarial test set is not representative of production traffic, that automated policy labels may contain errors, and that the findings apply to the fixed test set and configurations evaluated.\nUnder OpenAI’s Preparedness Framework, which tracks biological and chemical, cybersecurity, and AI self-improvement risks, the card reports that neither model crosses the Bio High or Cyber High thresholds. OpenAI said it nevertheless applies precautionary biological-risk mitigations, including an image-specific biological safety policy enforced through the safety reasoning model, live blocking at the input and output layers, offline review combining automated systems with human reviewers, and account suspensions where ongoing misuse patterns are detected.\nOn provenance, the card says OpenAI is continuing C2PA metadata through the C2PA Conformance Program and adding Google DeepMind’s SynthID invisible watermarking across ChatGPT, Codex, and the OpenAI API.\nJonas Reeve is an AI-generated analyst at Unite.AI , focusing on cognitive AI, artificial general intelligence (AGI), and the theoretical foundations of machine intelligence. His work explores how learning, reasoning, memory, and abstraction emerge in both biological and artificial systems, drawing connections between modern AI architectures and long-standing questions in cognitive science and philosophy of mind.\nWith a conceptual and reflective approach, Jonas examines frameworks such as reasoning models, agentic systems, emergent cognition, and alignment theory, aiming to clarify what progress toward AGI actually means—and what it does not. Rather than chasing timelines or hype, he emphasizes first principles, conceptual rigor, and the limits of current models.\nArticles authored by Jonas Reeve are AI-generated and reviewed by Unite.AI’s editorial team to ensure accuracy, clarity, and responsible discussion of advanced AI concepts.\nCognition Raises Over $2B Series E at $48B Valuation to Scale Devin Agents\nCognition Raises Over $2B Series E at $48B Valuation to Scale Devin Agents\nBuckmaster and Alpöge Post AI Fluid Blowup Proofs, Dispute OpenAI Contact\nBuckmaster and Alpöge Post AI Fluid Blowup Proofs, Dispute OpenAI Contact\nGoogle Brings Free AI Tools and Career Training to Missouri Schools\nGoogle Brings Free AI Tools and Career Training to Missouri Schools\nAlphaGenome Atlas Predicts Effects of All 9 Billion Human DNA Variants\nAlphaGenome Atlas Predicts Effects of All 9 Billion Human DNA Variants\nQualcomm to Supply AWS With Custom AI Chips Across Multiple Generations\nQualcomm to Supply AWS With Custom AI Chips Across Multiple Generations\nOpenAI Says Agents Now Cover 3.1 Workdays Per Researcher Workday\nOpenAI Says Agents Now Cover 3.1 Workdays Per Researcher Workday",
+   "images": [
+    {
+     "file": "1500025baf0c.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.unite.ai/wp-content/uploads/2026/09/openai-releases-chatgpt-images-2-5-with-sketch-and-two-new-api-models.jpg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T15:30:02-04:00"
+  },
+  "relevant": true,
+  "title": "OpenAI випустила Images 2.5: точніший edit, Sketch і дві моделі в API",
+  "lead": "8 вересня OpenAI оновила генерацію зображень у ChatGPT до Images 2.5 і додала в API дві моделі — GPT-Image-2.5 Flare та Sunburst. Компанія каже, що в ChatGPT Images і GPT-Image створюють понад 3 млрд зображень щотижня.",
+  "full": [
+   "За заявою OpenAI, Images 2.5 дає природніше світло й багатші текстури, краще зберігає об'єкти з референсних фото користувача і надійніше виконує інструкції редагування впродовж кількох ходів діалогу. Затримку генерації зменшили до 50% порівняно з Images 2.0. Модель точніше змінює лише ті елементи, які просив користувач, залишаючи решту кадру недоторканою навіть за складних об'єктів і фонів, краще працює з прозорими фонами і складнішими композиціями та стабільніше тримає заданий стиль.",
+   "Разом із моделлю з'явився Sketch: користувач малює просто в ChatGPT (виклик через «@Sketch»), і цей ескіз стає візуальним референсом для фінального зображення. Додали шаблони для популярних форматів на кшталт «Poster» і «Merch», коментарі просто на ділянках згенерованого зображення для точкових правок і можливість поділитися промптом, щоб інші повторили ідею на своїх фото. Images 2.5 розкочують для всіх тарифів ChatGPT, ChatGPT Work і Codex на десктопі, мобільних і в вебі.",
+   "Для розробників GPT-Image-2.5 Flare — варіант за замовчуванням: за словами OpenAI, він дає якісніші зображення за GPT-Image-2 на 50% меншій затримці і підходить для високих обсягів. Sunburst розрахований на преміальні сценарії з жорсткішим контролем над правками і генерує довше. Прайс однаковий для обох: $8 за 1 млн токенів вхідного зображення ($2 за кешовані), $30 за 1 млн токенів на виході, $5 за 1 млн токенів тексту. Adobe підтвердила, що моделі GPT-Image-2.5 вже доступні в Adobe Firefly, а OpenAI додає до C2PA-метаданих ще й невидимий водяний знак SynthID від Google DeepMind."
+  ],
+  "means": "Це прямий орієнтир для нашої генеративки: GenErase, GenSwap і GenExpand працюють на єдиній хмарній моделі, де вартість і час запиту критичні, а тут одразу і мінус 50% затримки, і публічний прайс за токени. Головне для нас — заявлена локальність правок: модель змінює лише названий елемент і тримає решту кадру між кількома ітераціями, а саме за це ми ловимо скарги в GenSwap і Restoration. Наявність моделей у Firefly означає, що користувач порівнюватиме нас не з OpenAI напряму, а з Adobe, яка вже інтегрувала їх. Для планів AI Assistant 2.0 у 1.29 варто дивитися на Sketch і коментарі на зображенні як на формат вводу правок.",
+  "importance": 5,
+  "category": "ai",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
+  "id": "bb78d81c2f",
+  "source": "Digital Camera World",
+  "url": "https://www.digitalcameraworld.com/tech/software/nearly-nine-in-ten-creators-accelerate-the-growth-of-their-business-or-audience-using-ai-tools-says-adobe-amidst-big-premiere-update",
+  "date": "2026-09-08T14:59:01+00:00",
+  "page": {
+   "text": "Adobe is continuing to invest heavily in AI, and the demo I attended to showcase the latest developments in its flagship video editing software , Adobe Premiere, as well as Adobe After Effects, appears admittedly impressive. But in spite of the vocal pushback against AI, Adobe’s 2026 Creators’ Toolkit Report , at least, suggests that the majority of creators aren’t averse to using AI tools, citing that “nearly nine in ten” use AI creative automation to grow their businesses or audiences.\nThe photo editing software giant’s goal is to streamline video production “pain points” and “automate tedious tasks” in a bid to give more time back to the creative. That’s where Premiere’s Generative Media Tool comes in. This headline new feature is a fast-track to genAI content by allowing the creator to generate clips and sounds without leaving Premiere – and very often the timeline itself.\nObviously, I saw choice examples of this working in Adobe’s demo, but it’s not just the convincing generated content that’s impressive; it’s the fact that you can fill gaps in your timeline seamlessly, right up to the second.\nIn the demo by Adobe’s Anton Knoblach, a drone shot was generated to fill a gap. This is performed in a generative taskbar that appears at the top of the timeline so you no longer have to leave Premiere in order to implement genAI content. As you’d expect, you can select your preferred model, be it Firefly or one of Adobe’s partner models.\nYou can further refine your content by selecting options such as the resolution and aspect ratio. What’s most impressive about all of this is that existing clips within your timeline are used for context. You simply select which clips you want to sample and the AI model will do the rest.\nIn the demo, the filmed footage looked like it was shot in a desert in the American Southwest. By sampling a few clips to provide context, the AI was able to generate a drone shot that looked like it was captured in the same landscape. Not only that, but the footage matched the grade of the contextual footage.\nAnd all of this extends beyond Generate Video, with Generate Sound Effects bringing similar functionality. The update also introduces Generate Soundscape and Generate Music, which are both currently in beta. During the demo, I was shown a video of a rally car thundering through the desert, and all of the audio was AI-generated.\nThe best camera deals, reviews, product advice, and unmissable photography news, direct to your inbox!\nThe sounds didn’t always fit with the rally car; there were some odd gearbox changes, and the squealing tyres sound effect was far too overpowering for a sliding car on a dirt track, but this was very impressive nonetheless. And again, this was all done inside Premiere, without leaving the project. Obviously Adobe is going to refine all of this in the future, but I can see it being a very useful conceptual tool straight off the bat for illustrative rough edits or first drafts at the very least.\nAnother example of generative audio was the implementation of a jacket zipper sound. Again, using the Generate Sound Effects tool within the Premiere timeline, Anton was able to generate a selection of zipper sounds, while also using their own voice to precisely time the length of the sound. By recording a “zzzzzzzzzzzip” sound, the AI was able to replicate the cadence of the voice while replicating an authentic zipper sound.\nThat’s not all, Adobe Premiere also boasts “smarter audio” by bringing new AI audio tools into public beta, including Enhance Audio, Separate Crosstalk, and Dynamic Auto Ducking. The former allows users to enhance a variety of sounds, including dialogue, music, sound effects, and ambience, by removing elements, adjusting layers and muting dialogue.\nSeparate Crosstalk is used to identify speakers that overlap, placing their audio onto separate tracks. And the latter is said to automatically balance sounds without the need for manual keyframes.\nAdobe Premiere is also getting an updated Color Mode (currently in beta), which is said to deliver “a first-of-its-kind grading experience”. Like the Generative Media Tool, this lives directly within Adobe Premiere edits, enabling users to make use of the new Auto Color tool. In one click, this automatically sets the color temperature and exposure of a video clip, group, or whole sequence. New Style Modules are also present, such as Vignette and Midtones, allowing you to do more without leaving the edit.\nAdobe After Effects is also getting in on the action, with an AI Assistant now in public beta. This is designed to take some of the load, distilling more complex multi-step workflows into automated processes. However, Adobe is quick to point out that the user remains “in complete creative control,” telling the AI Assistant what and what not to handle, while also shaping “every editable outcome”.\nThe AI Assistant can be implemented into a whole project, enabling editors to create motion effects without having to code, fix technical issues in the background, and organize large multi-layer projects, for example. According to Adobe, it’s often able to turn hours of work into minutes.\nCheck out the best cameras for video and the best hybrid cameras . Plus, here's the latest camera news .\nMike studied photography at college, honing his Adobe Photoshop skills and learning to work in the studio and darkroom. After a few years writing for various publications, he headed to the ‘Big Smoke’ to work on Wex Photo Video’s award-winning content team, before transitioning back to print as Technique Editor (later Deputy Editor) on N-Photo: The Nikon Magazine .\nWith bylines in Digital Camera , PhotoPlus: The Canon Magazine , Practical Photography , Digital Photographer , iMore , and TechRadar , he’s a fountain of photography and consumer tech knowledge, making him a top tutor for techniques on cameras, lenses, tripods, filters, and more. His expertise extends to everything from portraits and landscapes to abstracts and architecture to wildlife and, yes , fast things going around race tracks...\nYou must confirm your public display name before commenting\nPlease logout and then login again, you will then be prompted to enter your display name.\n1 Sony’s first-ever fisheye lens for mirrorless cameras is finally here! The Sony FE 8-14mm f/3.5 Fisheye G is smaller, more versatile – and way more fun – than I expected\n2 Leica quietly updates the SOFORT 2 with encrypted Bluetooth communication\n3 Top-quality primes are not cheap – but \"one of the finest Nikon Z lenses we've ever seen\" just got a tempting price cut\n4 Nikon announces development of NINE Z-mount cinema lenses. FINALLY, a big Nikon launch in 2026\n5 \"I've never seen anything like it\": photographer captures haunting contrast between life and death as Northern Gannet hangs from fishing line beneath nesting cliffs – the image now wins prestigious conservation award",
+   "images": [
+    {
+     "file": "98ab9cfb27a2.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "",
+     "cap": "",
+     "src": "https://cdn.mos.cms.futurecdn.net/Hyn2RmJRdRktTtXTEMjhX9-1334-80.jpg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T14:59:01+00:00"
+  },
+  "relevant": true,
+  "title": "Adobe вбудувала генерацію відео і звуку прямо в таймлайн Premiere",
+  "lead": "Adobe показала Generative Media Tool у Premiere і AI Assistant в After Effects. Паралельно компанія оприлюднила звіт Creators' Toolkit 2026, за яким «майже дев'ять із десяти» креаторів використовують AI-автоматизацію для росту бізнесу чи аудиторії.",
+  "full": [
+   "Generative Media Tool дає змогу генерувати кліпи й звуки, не виходячи з проєкту і навіть з таймлайна: генеративна панель з'являється просто над доріжками. Користувач обирає модель — Firefly або партнерську — і задає роздільність та співвідношення сторін. Найважливіше, що контекстом слугують уже наявні кліпи: на демо Adobe згенерований дроновий кадр не лише збігся за ландшафтом з відзнятим матеріалом, а й підхопив колірну обробку сусідніх кліпів.",
+   "Те саме поширили на звук: Generate Sound Effects, а також Generate Soundscape і Generate Music у беті. На демо весь звук до сцени з ралійним автомобілем був згенерований, хоча оглядач відзначив помилки в перемиканні передач і надто гучний вереск шин. У публічну бету вийшли AI-інструменти Enhance Audio, Separate Crosstalk (розводить голоси, що накладаються, на окремі доріжки) і Dynamic Auto Ducking (автоматично приглушує музику під мову без кейфреймів). Оновлений режим Color з бети додає Auto Color — одним кліком виставляє температуру й експозицію для кліпа, групи чи всієї послідовності — і Style Modules на кшталт Vignette і Midtones.",
+   "After Effects отримав AI Assistant у публічній беті: він створює анімаційні ефекти без написання виразів, лагодить технічні проблеми і впорядковує великі багатошарові проєкти. Adobe наголошує, що користувач лишається в повному контролі й сам вирішує, що віддавати асистенту."
+  ],
+  "means": "Для нас важлива не відеочастина, а патерн: генерація живе всередині редактора, з вибором моделі й автоматичним урахуванням сусіднього контенту як контексту. Це планка для AI Assistant 2.0 у релізі 1.29 і для GenExpand / GenSwap, які поки що сприймаються як окремий хмарний крок, а не частина звичного флоу. Auto Color в один клік — той самий обіцяний користувачу результат, що й наш Enhance AI 2.0, тому порівнюватимуть саме з ним. А цифра «майже дев'ять із десяти креаторів» з їхнього звіту — зручний аргумент у наших дискусіях про ліміти генерацій: попит є, питання лише в ціні за крок.",
+  "importance": 2,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
+  "id": "96b95eab19",
+  "source": "9to5Google",
+  "url": "https://9to5google.com/2026/09/08/google-photos-trash-bin-now-deletes-media-after-30-days-down-from-60-days/",
+  "date": "2026-09-08T13:55:00+00:00",
+  "page": {
+   "text": "Google Photos has updated its trash bin timeline, cutting the time from 60 days to 30 days as of September 2026.\nThe trash bin in Google Photos gives users a chance to recover deleted photos and videos for a limited period of time. That period was 60 days for the longest time, effectively giving users about two months to recover anything that might have been deleted by accident or simply needed to be recovered.\nThe change is rolling out now, as noticed in an app pop-up by the folks over at Android Authority earlier this week. It’s also live on a Google support page where the company explains:\nPhotos and videos that you delete will stay in your trash for 30 days before they are permanently deleted. Photos and videos that were permanently deleted can’t be restored.\nThat previously read as 60 days, with the change apparently being effective as of September 4 , 2026, according to archived versions of that page. Just a day prior, it still read as 60 days.\nGemini Spark rolling out Google Photos control for automated editing, sharing, & more\nGoogle Photos might add map view to Ask Photos search\nGoogle Photos now lets you disable that sticker animation – here’s how to turn it off\nFollow Ben: Twitter/X , Threads , Bluesky , and Instagram\nFTC: We use income earning auto affiliate links. More.\nCheck out 9to5Google on YouTube for more news:\nFind him on Twitter @NexusBen. Send tips to schoon@9to5g.com or encrypted to benschoon@protonmail.com.",
+   "images": [
+    {
+     "file": "46dde10f5981.jpg",
+     "w": 1000,
+     "h": 523,
+     "alt": "",
+     "cap": "",
+     "src": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/google-photos-3.jpg?quality=82&strip=all&resize=1200,628"
+    },
+    {
+     "file": "21da380d3b31.jpg",
+     "w": 1000,
+     "h": 500,
+     "alt": "",
+     "cap": "",
+     "src": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/03/google-photos-3.jpg?w=1500&quality=82&strip=all&ssl=1"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T13:55:00+00:00"
+  },
+  "relevant": true,
+  "title": "Google Photos скоротив зберігання в кошику з 60 до 30 днів",
+  "lead": "Google Photos удвічі зменшив час, протягом якого можна відновити видалені фото й відео: тепер вони лежать у кошику 30 днів замість 60.",
+  "full": [
+   "Зміна діє з вересня 2026 року. Оновлений текст сторінки підтримки Google повідомляє, що видалені фото й відео зберігаються в кошику 30 днів, після чого видаляються остаточно і відновленню не підлягають; за архівними версіями сторінки, до 4 вересня там значилося 60 днів. Користувачі побачили спливне повідомлення про зміну в застосунку, на що першими звернули увагу в Android Authority."
+  ],
+  "means": "Прямого впливу на наші інструменти нема, але це сигнал про те, як найбільша хмарна фотобібліотека рахує вартість зберігання — і нам корисно тримати це в полі зору для Spaces і Cross-Device Editing, де ми теж зберігаємо копії в хмарі. Скорочення вікна відновлення підвищує цінність локального каталогу: Catalog у Luminar Neo не залежить від чужих термінів зберігання, і це аргумент у комунікації для тих, хто тримає всі оригінали в Google Photos.",
+  "importance": 1,
+  "category": "comp",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
+  "id": "0569665d82",
+  "source": "Picsart Blog",
+  "url": "https://picsart.com/blog/grok-imagine-quality-explained/",
+  "date": "2026-09-08T13:13:46+00:00",
+  "page": {
+   "text": "Grok Imagine Quality is the higher-fidelity version of xAI’s image model, built for pictures that have to survive a close look. It is live in Picsart AI Playground , where it sits in the model picker and runs from a text prompt or from an image you attach.\nThree things separate it from a quick generator. Detail holds up when you zoom in. Words inside the picture come out readable. A long, fussy brief gets followed instead of skimmed. That makes it a finishing model, the one you switch to when the frame is going somewhere public.\nQuality mode is a model you pick, not a slider hidden inside another one. The Picsart roster lists it as the higher-fidelity Grok Imagine variant for production-grade images. It sits with the rest of the family in the same prompt box. Three Grok Imagine image models are in that roster, each suited to a different point in the same job.\nStandard Grok Imagine covers rapid image creation with the same wide choice of frame shapes. Grok Imagine 2.0 is the newest generation, with sharper detail and a low or medium quality tier to choose from. Quality mode is the one to pick for a frame you intend to publish.\nExplore on the fast model, finish on Quality. Switching takes one click in the picker, and the prompt carries over.\nOutput size comes first, at 1k or 2k. Pick 2k for anything a reader meets at full width, and 1k while you are still circling an idea. Frame shape comes second, and there are thirteen. Set it before you generate, because cropping afterwards throws away half of what the model composed.\nThe tall phone frames are the quietly useful ones, filling a modern handset edge to edge with nothing cropped. One more control matters: the slot marked IMAGE, where a reference goes when you are editing rather than starting fresh.\nFidelity is a promise about small things, and small things are what give an image away. Skin keeps its pores and its flaws. Fabric holds a visible weave. Brick keeps its herringbone pattern. Glass reads as glass, and a bottle standing on stone bounces small reflections back onto it. Hard afternoon sun throws the shadow edges a real canopy throws.\nTexture at that level decides whether a picture can be published or only thumbnailed. Catalog shots, lifestyle images and anything seen at full width all live or die on close inspection. Save this model for the final frame, not the first ten tries.\nType is the other half of what a production image needs, and most generators still turn it into soup. Quality mode writes clean lettering, and it works in more than one language. A shop price board, a candle jar label, a poster tagline, a spec panel down the side of a pack: all of them come back readable.\nTwo habits get you there. Put the exact words in quotes. Then describe the thing they are printed on, because type behaves differently on a curved bottle, a chalkboard and a sign shot at an angle. Readable type lets a packaging concept carry the real product name, instead of a placeholder you promise to fix later.\nStack a subject, a setting, a light direction, a palette, a lens feel and a mood into one prompt. Most of it shows up. Fewer clauses vanish, so it takes fewer runs to land the shot. The effort moves from generating near misses to writing the brief properly.\nCoherence goes further than accuracy. Ask for a written message on an object and the model works out what belongs there, not merely what the object looks like. Ask for a known kind of place, a hotel lobby or a covered market, and the fittings, the light and the props agree. Weak scene understanding surfaces as small logic failures, and those make an image unusable even when the textures are perfect.\nProduct shots that can go straight on a page\nPhotoreal renders that match a brand are the clearest commercial case. Quality mode makes hero frames, social tiles, icon sets and long runs of ad variants at volume. A render carries the material of the real object, so blown glass looks blown and coated card looks coated. Legible type means a bottle wears its own label.\nIdeation is the quieter win. Describing a concept in a meeting leaves everyone holding a slightly different picture, while making the picture leaves everyone looking at the same one. Build it in two moves. Generate the object on its own first. Then hand that image back and put it where it belongs, on a cafe table beside a laptop in window light.\nContent that reads as though a customer shot it has its own rules, and this model works at both ends of them. The clean end is a full-length portrait on a plain background under even studio light, with skin that keeps its texture. The rough end is the frame that looks unplanned. Think of a cup held out toward a window, groceries tipped across a car seat, a plate shot from straight overhead.\nAsk for the imperfection or you will not get it. Name the angle, name the light, and say the framing should look casual instead of composed.\nCampaigns are never one picture. A hero frame, a few crops and some social cuts all have to look like one shoot. Fix the look in words, then reuse those words. Keep one block of the prompt as the house style, covering light direction, palette, film feel and framing, and change only the subject line each time. Feeding in an approved image as a reference pulls a new run toward a look you have already signed off.\nPhotorealism is the headline, not the whole range. The same model handles wide cinematic frames with grain and haze, flat graphic work like interface icons, illustrated treatments, and the scruffy honesty of a phone snapshot. Style lives in the wording, so be specific. Analogue film warmth and a deep depth of field give you one register. Simple flat shapes on an empty background give you another.\nGeneration is only half of what Quality mode does. Drop an image into the reference slot, describe the change in plain language, and the model applies it to the picture you brought. Restyle a shot, rework the lighting, or move a product somewhere new. There is no masking and no layer work. Name the change, then say what should stay the same. That second sentence anchors the edit to the original.\nTwo habits do most of the work: brief it like a professional, and decide the output before you commit. Start in Picsart AI Playground , where the model picker sits above the prompt box.\nHow to get a production-ready image in 6 steps\nHead to the prompt box, open the model picker, and select the Grok Imagine Quality entry. Everything after this point is the prompt box you already know.\nName the subject, the setting, the light, the palette, the lens feel and the mood in one prompt. Long and specific beats short and vague with this model.\nWrite the exact words you want rendered. Then describe what they are printed on, whether that is a board, a label or a sign.\nPick 2k over 1k for anything going out at full width, then set the aspect ratio that matches its destination.\nAdd the picture you want changed, then describe only the change. The rest of the frame stays as it was.\nCheck texture, hands and any lettering at full size, then rewrite the clause that failed and generate again.\nLong prompts suit this model, so each of these carries a subject, a light direction, a palette and a framing note. Paste one in as it is, then swap the nouns for your own.\nProduct shot with a readable label Matte ceramic coffee cup in soft clay pink, the words Field Notes printed small on the side in a thin serif, sitting on a pale oak counter beside a folded linen cloth, morning light raking in from the left, warm neutral palette with one cool shadow, shallow focus so the back of the counter softens, shot like a catalog page Copied Type-led layout Chalkboard drinks list propped against a brick wall outside a small cafe, eight items hand-lettered in white chalk with prices aligned down the right, faint smudges where a line was rewritten, flat morning light, straight-on view, muted greens and warm brick tones, documentary photograph Copied Everyday lifestyle frame Woman carrying a paper grocery bag up the steps of an apartment building at dusk, streetlight just switching on behind her, cool blue in the sky against warm light from the doorway, natural fabric texture in her coat, unposed mid-stride framing, slight grain, crisp photorealistic detail Copied\nMatte ceramic coffee cup in soft clay pink, the words Field Notes printed small on the side in a thin serif, sitting on a pale oak counter beside a folded linen cloth, morning light raking in from the left, warm neutral palette with one cool shadow, shallow focus so the back of the counter softens, shot like a catalog page\nChalkboard drinks list propped against a brick wall outside a small cafe, eight items hand-lettered in white chalk with prices aligned down the right, faint smudges where a line was rewritten, flat morning light, straight-on view, muted greens and warm brick tones, documentary photograph\nWoman carrying a paper grocery bag up the steps of an apartment building at dusk, streetlight just switching on behind her, cool blue in the sky against warm light from the doorway, natural fabric texture in her coat, unposed mid-stride framing, slight grain, crisp photorealistic detail\nA finished frame makes a strong first frame. Picsart’s AI Video Generator takes an image, applies a motion prompt and animates it. So a product visual made in Quality mode can turn into a short social clip with no reshoot. For background on the lineage, the Grok Imagine model page sets out what the family does, and the full AI model roster lists what else sits one click away.\nGrok Imagine Quality is the higher-fidelity version of xAI’s Grok Imagine image model. It is built for production-grade images. Fine detail, text rendering and prompt following are all stronger than on the standard model.\nBoth models sit in the same prompt box and take the same kinds of prompts. The standard model covers rapid image creation. The Quality variant puts its effort into fidelity, so it suits final images rather than quick tests.\nYes. Clean text rendering is one of the things the mode is built for, and it works in more than one language. Labels, boards and packaging copy come back readable. Put the exact words in quotes and describe what they are printed on.\nYes. Drop an image into the slot marked IMAGE and describe the change you want in plain language. No masking or layer work is involved, and the parts you did not mention stay as they were.\nTwo output sizes, 1k and 2k. There are also thirteen aspect ratios, covering square, the standard photo crops, panorama formats, very tall phone frames and very wide banner shapes. Both controls sit beside the prompt box.\nIt sits in the model picker in Picsart AI Playground, next to the rest of the image and video model roster. The Grok Imagine family is also integrated into the Picsart AI Image Generator.\nStart generating with Grok Imagine Quality\nDetail, readable type and a model that honors the brief add up to images you can ship. Open Picsart AI Playground , select Grok Imagine Quality, and write the brief you would hand a photographer.",
+   "images": [
+    {
+     "file": "1acf2047159f.jpg",
+     "w": 1000,
+     "h": 666,
+     "alt": "",
+     "cap": "",
+     "src": "https://cdnblog.picsart.com/2026/07/grok-imagine-portrait.png"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T13:13:46+00:00"
+  },
+  "relevant": true,
+  "title": "Picsart додала Grok Imagine Quality — режим для фінальних кадрів",
+  "lead": "У Picsart AI Playground з'явився Grok Imagine Quality, високоточний варіант моделі xAI. Він працює і з текстового промпту, і з прикріпленого зображення як референсу.",
+  "full": [
+   "Quality — це окрема модель у списку, а не повзунок усередині іншої: у роздільнику Picsart поруч стоять звичайний Grok Imagine для швидких ітерацій і новіший Grok Imagine 2.0 з рівнями low і medium. Перед генерацією задаються розмір виходу (1k або 2k) і одне з тринадцяти співвідношень сторін, причому Picsart радить обирати кадр одразу, бо кроп після генерації відрізає частину композиції. Рекомендований сценарій — шукати ідею на швидкій моделі й фінішувати на Quality.",
+   "Заявлені переваги режиму: деталь витримує зум (пори шкіри, плетіння тканини, фактура цегли, відбиття на склі), текст усередині зображення виходить читабельним і не лише англійською, а довгий багатоскладовий бриф виконується цілком, а не вибірково. Для тексту радять брати точні слова в лапки і описувати поверхню, на якій вони надруковані, — етикетка на вигнутій пляшці і крейдяна дошка поводяться по-різному.",
+   "Редагування працює за референсом: зображення кладеться в слот IMAGE, а зміна описується звичайною мовою — без масок і роботи з шарами. Модель може перестилізувати кадр, переробити освітлення або перенести продукт у нове оточення; Picsart радить окремим реченням проговорювати, що саме має залишитися незмінним, щоб прив'язати правку до оригіналу."
+  ],
+  "means": "Picsart і далі збирає чужі моделі в один пікер замість того, щоб тягнути власну, — протилежність нашій схемі з єдиною хмарною моделлю на всі генеративні фічі. Для нас це аргумент за те, щоб дивитися на модель як на змінний компонент: у GenSwap і GenExpand ми зараз не можемо дати користувачу вибір «швидко» чи «якісно», хоча саме така пара стає стандартом (порівняйте з Fast / High Quality у Clean Up на iOS 27). Редагування без масок за текстовим описом — той самий інтерфейс, до якого ми йдемо в AI Assistant 2.0, а вимоги до 2k на виході й читабельного тексту задають планку якості, з якою користувач приходить до наших генеративних інструментів.",
+  "importance": 2,
+  "category": "ai",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
+  "id": "ebb17e5824",
+  "source": "FinancialContent",
+  "url": "https://markets.financialcontent.com/stocks/article/abnewswire-2026-9-8-snapedit-ai-photo-editor-launches-developer-platform-bringing-40-ai-image-and-video-editing-models-to-businesses-through-a-single-api",
+  "date": "2026-09-08T11:30:00+00:00",
+  "page": {
+   "text": "Hanoi, Vietnam - September 8, 2026 - Snapedit.app , the popular AI photo editing web and mobile application today announced the launch of SnapEdit for Developers ( developer.snapedit.app ), a unified API platform that gives software teams and businesses access to more than 40 production-ready AI models for image editing, image generation, and video enhancement through one API key.\nAlongside the launch, SnapEdit introduced a Business Free Trial that gives teams 1,000 web credits and 1,000 API credits to run a real pilot on their own images, with no credit card required.\nThe launch marks SnapEdit's expansion from a consumer editing app into an infrastructure provider. The same models that power the SnapEdit web app and mobile apps – object removal, background removal, text and watermark removal, enhancement and upscaling, virtual try-on, and text-to-image generation – are now available as REST endpoints that developers can integrate in minutes rather than months.\nOne API key, 40+ models, no GPU management\nE-commerce marketplaces, print-on-demand services, real estate platforms, media companies, and SaaS products increasingly need AI image processing at scale, but building and hosting those models in-house requires machine learning expertise, GPU infrastructure, and ongoing maintenance. SnapEdit for Developers removes that burden with a single integration point.\nKey capabilities available at launch include:\nRemoval and cleanup – Remove Background, Remove Object (three quality tiers, from GAN-based to ultra erase for complex scenes), Remove Text, Remove Wires, and Remove Watermark, with detection models that return ready-to-use masks.\nRemoval and cleanup – Remove Background, Remove Object (three quality tiers, from GAN-based to ultra erase for complex scenes), Remove Text, Remove Wires, and Remove Watermark, with detection models that return ready-to-use masks.\nEnhancement and restoration – Upscale, sharpen, relight, denoise, and restore old or low-light photos and videos to publishable quality.\nEnhancement and restoration – Upscale, sharpen, relight, denoise, and restore old or low-light photos and videos to publishable quality.\nGeneration and creative AI – Text-to-image generation powered by Flux, Qwen Image, and Z-Image Turbo, plus AI headshots, avatar generation, and Virtual Try-On for fashion and retail.\nGeneration and creative AI – Text-to-image generation powered by Flux, Qwen Image, and Z-Image Turbo, plus AI headshots, avatar generation, and Virtual Try-On for fashion and retail.\nDetection and moderation – Object detection across 353 object classes, text detection, wire detection, and AI-generated image detection with confidence scores for content moderation pipelines.\nDetection and moderation – Object detection across 353 object classes, text detection, wire detection, and AI-generated image detection with confidence scores for content moderation pipelines.\nVideo editing – Video enhancement and processing through the same unified API.\nVideo editing – Video enhancement and processing through the same unified API.\nPricing is pay-as-you-go and starts at $0.002 per run for detection models and $0.004 per run for background and object removal, with volume discounts for businesses processing millions of images. Because SnapEdit develops its core models in-house and operates its own GPU infrastructure, the company states that customers can reduce AI processing costs by up to 70% compared to assembling equivalent capabilities from multiple vendors. Most image editing requests complete in under five seconds, and generation workloads typically finish in under 20 seconds.\n\"For years, businesses have told us they love what SnapEdit does for a single photo, but they need it for ten thousand photos a day, inside their own product, \" said Mr. Nam Le, Co-founder at SilverAI. \"With SnapEdit for Developers, a team can sign up, generate an API key, and have production-grade background removal or object cleanup running in their pipeline before lunch. They get the models we have spent years fine-tuning on real-world images, without hiring an ML team or renting a single GPU.\"\nThe developer dashboard includes API key management, real-time usage monitoring, transparent billing, and analytics. Documentation ships with code samples in cURL, Node.js, and Python, and most developers complete their first successful request in under 30 minutes. Model improvements are rolled out behind stable endpoints, so customers benefit from upgrades without changing their code.\nBusiness Free Trial: test both the editor and the API\nTo help teams evaluate the platform, SnapEdit is offering an invitation-based Business Free Trial. Businesses request an exclusive access code by emailing contact.snapedit@gmail.com; once the code is activated with a work email, the team immediately receives:\n1,000 web credits to use every AI tool on snapedit.app, including batch processing of up to 50 photos at once.\n1,000 web credits to use every AI tool on snapedit.app, including batch processing of up to 50 photos at once.\n1,000 API credits to call the same models over REST from their own codebase or batch pipeline.\n1,000 API credits to call the same models over REST from their own codebase or batch pipeline.\n7 days to run a pilot, with no credit card required and business support available for volume pricing, throughput, and integration questions.\n7 days to run a pilot, with no credit card required and business support available for volume pricing, throughput, and integration questions.\n\"Your operations team can test the editor on your real catalogue images while your engineers integrate the API on the same day, with the same credits and the same models. Nobody has to sign a contract to find out whether it works,\" added Mr. Le.\nSnapEdit is an AI photo editing application trusted by more than 20 million users worldwide across web, iOS, and Android. Known for its one-touch object removal, background removal, and photo enhancement tools, SnapEdit has processed more than 300 million images and holds an average 4.8/5 rating on the App Store. With the launch of SnapEdit for Developers, the company now offers its proprietary AI models and GPU infrastructure to businesses and developers through a unified API. SnapEdit is developed by SilverAI.\nLearn more at https://snapedit.app and https://developer.snapedit.app .\nDeveloper platform: https://developer.snapedit.app\nMedia Contact Company Name: SILVERAI JOINT STOCK COMPANY Contact Person: Thanh Cung Email: Send Email Phone: +84986032923 Address: Floor 6 Building 25T1, Hoang Dao Thuy street, Yen Hoa Ward City: Hanoi Country: Vietnam Website: https://snapedit.app\nIf you believe this article contains misleading, harmful, or spam content, please let us know.",
+   "images": [
+    {
+     "file": "15356431aec2.jpg",
+     "w": 640,
+     "h": 356,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.abnewswire.com/upload/2026/09/1788790706.jpg"
+    },
+    {
+     "file": "3cc4c20a343f.jpg",
+     "w": 640,
+     "h": 356,
+     "alt": "",
+     "cap": "",
+     "src": "https://www.abnewswire.com/upload/2026/09/2b518ea96cb4c5b5a91f3db675b3e43d.jpg"
+    }
+   ],
+   "videos": [],
+   "published": "2026-09-08T11:30:01+00:00"
+  },
+  "relevant": true,
+  "title": "SnapEdit відкрила API: 40+ моделей редагування від $0,002 за виклик",
+  "lead": "В'єтнамська SnapEdit (SilverAI) запустила платформу developer.snapedit.app — доступ до понад 40 готових моделей редагування зображень, генерації та обробки відео через один API-ключ.",
+  "full": [
+   "На платформу винесли ті самі моделі, що працюють у вебі й мобільних застосунках SnapEdit. У блоці видалення й очищення — Remove Background, Remove Object із трьома рівнями якості (від GAN-моделей до «ultra erase» для складних сцен), Remove Text, Remove Wires і Remove Watermark, причому моделі детекції повертають готові маски. Блок покращення й реставрації включає апскейл, шарпінг, релайт, денойз і відновлення старих або знятих при слабкому світлі фото й відео.",
+   "Генеративна частина побудована на Flux, Qwen Image і Z-Image Turbo, до неї додані AI-хедшоти, генерація аватарів і віртуальна примірка. Окремий напрям — детекція й модерація: розпізнавання об'єктів за 353 класами, детект тексту, дротів і згенерованих AI зображень з оцінкою впевненості. Відеообробка йде через той самий API.",
+   "Тарифікація pay-as-you-go: від $0,002 за виклик моделей детекції і від $0,004 за видалення фону чи об'єкта, зі знижками на обсяг. Компанія стверджує, що завдяки власним моделям і власній GPU-інфраструктурі клієнти економлять до 70% порівняно зі складанням такого ж набору в кількох вендорів, і що більшість запитів на редагування виконуються менш ніж за 5 секунд, а генерація — до 20 секунд. Для бізнесу діє безкоштовний триал на 7 днів: 1 000 веб-кредитів і 1 000 API-кредитів. За заявою SnapEdit, у застосунку понад 20 млн користувачів і 300 млн оброблених зображень."
+  ],
+  "means": "Головне тут — цінник: $0,004 за видалення об'єкта проти наших ≈30 центів за крок генеративної обробки на єдиній хмарній моделі. Для негенеративних сценаріїв Erase, Noiseless AI, Upscale AI та хмарної частини Luminar Mobile це реальний орієнтир вартості запиту, коли ми переходимо на ліміти в планах Neo / Cross / Max. Окремо цікава детекція дротів і 353 класи об'єктів з готовими масками — це рівно той детектор, який потрібен Selective Erase для автопошуку дистракшенів, і привід порахувати «купити vs зробити». Те, що споживчий редактор перетворюється на інфраструктуру, також означає, що поріг входу для нових конкурентів у клінапі падає.",
+  "importance": 3,
+  "category": "ai",
+  "media": {
+   "kind": "image",
+   "hero_image": 0,
+   "video": null
+  },
+  "added": "2026-09-09T04:10:44+00:00"
+ },
+ {
   "id": "c525354a19",
   "source": "Camera Jabber",
   "url": "https://camerajabber.com/photography-news/dxo-releases-photolab-10-0-1-with-nvidia-driver-fix/",
   "date": "2026-09-08T07:00:00+00:00",
   "page": {
-   "text": "DxO has released PhotoLab 10.0.1 for Windows, a maintenance update arriving just days after the software’s launch. The headline fix is compatibility with NVIDIA driver 616.56. Details are on the DxO PhotoLab page .\nThe update restores compatibility with NVIDIA’s 616.56 driver and is available with immediate effect.\nThat matters more than a point release usually would, because DxO’s most demanding features lean heavily on the GPU. DeepPRIME XD denoising is among the most graphics-intensive tasks in photography, and PhotoLab 10’s new Depth Masks generate their depth maps using AI processing that also runs on the graphics card. A driver incompatibility on a machine with an NVIDIA card is not a cosmetic problem — it is the difference between the software working as intended and not.\nDriver-related issues of this kind are common enough after a major release, and the speed of the response is worth noting: PhotoLab 10 launched on 1 September, and this fix arrived on the 4th.\nIf you run PhotoLab on Windows with an NVIDIA graphics card, install this before doing anything else — particularly if you have noticed denoising or masking behaving oddly since upgrading. If you are on macOS or using AMD or integrated graphics, it is less urgent.\nIt is also a reminder of something worth knowing generally: graphics drivers and creative software are more tightly coupled than they used to be, and updating a driver the day it appears is not always the safest move when your livelihood runs through the machine.\nPhotoLab 10 introduced Depth Masks, a new Color Grading toolset, expanded AI masking including face segmentation, automatic sensor dust removal and a direct route into Affinity for pixel-level editing.\nPlatform: Windows. Fix: compatibility with NVIDIA driver 616.56 restored. Availability: immediate. Note: the update is free to existing PhotoLab 10 users.\nDxO releases PhotoLab 10.0.1 with NVIDIA driver fix\nDxO has released PhotoLab 10.0.1 for Windows, a maintenance update arriving just days after the software's launch. The headline fix is compatibility with NVIDIA driver 616.56. Details are on the DxO PhotoLab page. What it fixes The update restores compatibility…\nNikon announces nine NIKKOR Z Cinema T1.9 VV lenses covering RED’s sensor\nNikon has announced the development of nine cinema lenses, and this is the first announcement since the RED acquisition where the logic of that deal becomes properly visible. The NIKKOR Z CINEMA T1.9 VV series will cover not only Nikon's…\nNikon ZR firmware 2.00 adds RED colour science — with open gate coming in 2027\nNikon has announced development of firmware version 2.00 for the ZR, and it is a more substantial update than the version number suggests. The headline additions bring RED's colour science further into the camera, and Nikon has confirmed that two…\nGerman brand VZMORE debuts four mini PCs — including an unusual Strix Halo chip\nA new mini PC brand has arrived, and unusually it is European. VZMORE, a German-owned company focused on quiet, high-performance desktop computing, made its global debut at ShowStoppers during IFA 2026 with four machines — and one of them uses…\nZhiyun Weebill 5 price, specifications and availability announced\nZhiyun has opened pre-orders for the Weebill 5, a new three-axis camera gimbal that brings AI subject tracking, a built-in telescoping sling handle and a 3kg payload to a relatively compact 1.08kg body. Interested in picking up the WeeBill 5…\nHollyland’s Pyro 7 Ultra puts a calibrated monitor and 1km wireless in one unit\nOn a professional set, the monitor is not a convenience — it is the reference every department trusts. Hollyland's new Pyro 7 Ultra combines that reference with the wireless transmission that normally requires separate hardware, and does it with genuine…\nLeica revives its Navy spy lens as the Summicron-M 66 f/2\nEvery lens Leica has made in the past century, someone somewhere can buy. The Elcan 66mm f/2 is the exception — a lens built for the US Navy in the late 1960s, never sold publicly, of which only around 200…\nHohem previews Eyepic, its first camera, at IFA 2026\nHohem has spent years making gimbals for other people's cameras. At IFA 2026 it has previewed its first camera of its own — the Eyepic, which it describes as the world's first 2-in-1 pocket gimbal camera. Details are on Hohem's…",
+   "text": "DxO has released PhotoLab 10.0.1 for Windows, a maintenance update arriving just days after the software’s launch. The headline fix is compatibility with NVIDIA driver 616.56. Details are on the DxO PhotoLab page .\nThe update restores compatibility with NVIDIA’s 616.56 driver and is available with immediate effect.\nThat matters more than a point release usually would, because DxO’s most demanding features lean heavily on the GPU. DeepPRIME XD denoising is among the most graphics-intensive tasks in photography, and PhotoLab 10’s new Depth Masks generate their depth maps using AI processing that also runs on the graphics card. A driver incompatibility on a machine with an NVIDIA card is not a cosmetic problem — it is the difference between the software working as intended and not.\nDriver-related issues of this kind are common enough after a major release, and the speed of the response is worth noting: PhotoLab 10 launched on 1 September, and this fix arrived on the 4th.\nIf you run PhotoLab on Windows with an NVIDIA graphics card, install this before doing anything else — particularly if you have noticed denoising or masking behaving oddly since upgrading. If you are on macOS or using AMD or integrated graphics, it is less urgent.\nIt is also a reminder of something worth knowing generally: graphics drivers and creative software are more tightly coupled than they used to be, and updating a driver the day it appears is not always the safest move when your livelihood runs through the machine.\nPhotoLab 10 introduced Depth Masks, a new Color Grading toolset, expanded AI masking including face segmentation, automatic sensor dust removal and a direct route into Affinity for pixel-level editing.\nPlatform: Windows. Fix: compatibility with NVIDIA driver 616.56 restored. Availability: immediate. Note: the update is free to existing PhotoLab 10 users.\nUGREEN puts a liquid cooling pump inside a power bank\nWireless charging has a heat problem, and it has quietly got worse. Qi2 25W delivers nearly 70% more power than the old 15W standard, and all that extra energy has to go somewhere — which in practice means throttled speeds,…\nSony launches first FE 8-14mm F3.5 Fisheye G zoom\nSony has announced the FE 8-14mm F3.5 Fisheye G, its first fisheye zoom G Lens for full-frame Alpha E-mount cameras, giving photographers and filmmakers a choice of circular and diagonal fisheye perspectives without having to swap lenses. The big attraction…\nPexar’s VivKeep Pro 12.5in keeps your photos on the frame, not in the cloud\nDigital picture frames are usually a compromise. The panel is mediocre, the aspect ratio fights your photographs, and the glass throws back every lamp in the room. Pexar's VivKeep Pro 12.5in addresses all three, and does something more interesting besides:…\nDxO releases PhotoLab 10.0.1 with NVIDIA driver fix\nDxO has released PhotoLab 10.0.1 for Windows, a maintenance update arriving just days after the software's launch. The headline fix is compatibility with NVIDIA driver 616.56. Details are on the DxO PhotoLab page. What it fixes The update restores compatibility…\nNikon announces nine NIKKOR Z Cinema T1.9 VV lenses covering RED’s sensor\nNikon has announced the development of nine cinema lenses, and this is the first announcement since the RED acquisition where the logic of that deal becomes properly visible. The NIKKOR Z CINEMA T1.9 VV series will cover not only Nikon's…\nNikon ZR firmware 2.00 adds RED colour science — with open gate coming in 2027\nNikon has announced development of firmware version 2.00 for the ZR, and it is a more substantial update than the version number suggests. The headline additions bring RED's colour science further into the camera, and Nikon has confirmed that two…\nGerman brand VZMORE debuts four mini PCs — including an unusual Strix Halo chip\nA new mini PC brand has arrived, and unusually it is European. VZMORE, a German-owned company focused on quiet, high-performance desktop computing, made its global debut at ShowStoppers during IFA 2026 with four machines — and one of them uses…\nZhiyun Weebill 5 price, specifications and availability announced\nZhiyun has opened pre-orders for the Weebill 5, a new three-axis camera gimbal that brings AI subject tracking, a built-in telescoping sling handle and a 3kg payload to a relatively compact 1.08kg body. Interested in picking up the WeeBill 5…",
    "images": [
     {
      "file": "f5a4d9d6dc1e.jpg",
@@ -14,6 +326,30 @@
      "alt": "PhotoLab 10",
      "cap": "",
      "src": "https://camerajabber.com/wp-content/uploads/2026/09/DxO-PhotoLab-10-news-1024x575.webp"
+    },
+    {
+     "file": "fe0d97e14d95.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "UGREEN puts a liquid cooling pump inside a power bank",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/UGREEN-MagFlow-Pro-news.webp"
+    },
+    {
+     "file": "a21e85d28880.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Sony launches first FE 8-14mm F3.5 Fisheye G zoom",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Sony-fisheye-8-14-news.webp"
+    },
+    {
+     "file": "9fe110e0448e.jpg",
+     "w": 1000,
+     "h": 562,
+     "alt": "Pexar’s VivKeep Pro 12.5in keeps your photos on the frame, not in the cloud",
+     "cap": "",
+     "src": "https://camerajabber.com/wp-content/uploads/2026/09/pexar-news.webp"
     },
     {
      "file": "b748999ad033.jpg",
@@ -46,33 +382,10 @@
      "alt": "German brand VZMORE debuts four mini PCs — including an unusual Strix Halo chip",
      "cap": "",
      "src": "https://camerajabber.com/wp-content/uploads/2026/09/VZMORE.webp"
-    },
-    {
-     "file": "cb3a7bb9bee1.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "Zhiyun Weebill 5 price, specifications and availability announced",
-     "cap": "",
-     "src": "https://camerajabber.com/wp-content/uploads/2026/09/WeeBill-5-news-02.webp"
-    },
-    {
-     "file": "351d4b224670.jpg",
-     "w": 1000,
-     "h": 561,
-     "alt": "Hollyland’s Pyro 7 Ultra puts a calibrated monitor and 1km wireless in one unit",
-     "cap": "",
-     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Pyro-7-Ultra-news.webp"
-    },
-    {
-     "file": "84f21fd5107e.jpg",
-     "w": 1000,
-     "h": 562,
-     "alt": "Leica revives its Navy spy lens as the Summicron-M 66 f/2",
-     "cap": "",
-     "src": "https://camerajabber.com/wp-content/uploads/2026/09/Summicron-M-66-news.webp"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-08T08:00:00+01:00"
   },
   "relevant": true,
   "title": "DxO випустила PhotoLab 10.0.1 з виправленням для драйвера NVIDIA 616.56",
@@ -187,7 +500,7 @@
  },
  {
   "id": "366979f283",
-  "source": "appleinsider.com",
+  "source": "AppleInsider",
   "url": "https://appleinsider.com/articles/26/09/07/apple-is-packing-more-pro-photography-tools-into-ios-27",
   "date": "2026-09-07T17:10:00+00:00",
   "page": {
@@ -202,7 +515,8 @@
      "src": "https://media.appleinsider.com/gallery/68626-144584-000-lede-cameras-xl.jpg"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-07T17:10:35+00:00"
   },
   "relevant": true,
   "title": "Бета iOS 27: гістограма, waveform і focus peaking у камері iPhone",
@@ -271,7 +585,8 @@
      "src": "https://www.androidauthority.com/wp-content/uploads/2026/09/Arm-CSS-for-Mobile-2-675w-466h.jpg"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-08T02:00:53+00:00"
   },
   "relevant": true,
   "title": "Arm Mali G2: нейроблок NX робить апскейл на смартфоні за 1 Вт",
@@ -382,7 +697,8 @@
      "src": "https://cdn.mos.cms.futurecdn.net/xj6higMTFsj8RNTqxnLGW3-1920-80.png"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-07T16:00:00+00:00"
   },
   "relevant": true,
   "title": "NVIDIA і Adobe показали локальних AI-агентів у Photoshop на RTX",
@@ -419,7 +735,8 @@
      "src": "https://uknohvstpdmdzjugegft.supabase.co/storage/v1/object/public/article-images/articles/adobe-detaille-sa-methode-en-8-elements-pour-les-prompts-d-i.png"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-07T07:10:54.785000+00:00"
   },
   "relevant": true,
   "title": "Adobe опублікувала 8-компонентний фреймворк для промптів у Firefly",
@@ -579,7 +896,8 @@
      "src": "https://www.androidauthority.com/wp-content/uploads/2026/09/Snapseed-Looks-Menu-Upcoming-Discover-watermarked-540w-1200h.jpg"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-07T13:25:59+00:00"
   },
   "relevant": true,
   "title": "Snapseed отримав інструмент Color Grade та пошук по меню інструментів",
@@ -838,7 +1156,7 @@
   "id": "81922b2471",
   "source": "What Digital Camera",
   "url": "https://www.whatdigitalcamera.com/photography-news/lightroom-replacement-photo-page-among-subjects-covered-in-free-davinci-resolve-training-series",
-  "date": "2026-09-07T08:29:16+00:00",
+  "date": "2026-09-07T07:57:29+00:00",
   "page": {
    "text": "Blackmagic Design, the maker of DaVinci Resolve, is offering new and existing users a series of free training sessions aimed at filmmakers, videographers and stills photographers to help them get the most out of application and its new features. Held online in 90 minute sessions the training will be held across six sessions on Friday afternoons in September, October and November. While covering the software package in general, there will be also be a focus on the new features, such as the stills page designed to be a Lightroom replacement for stills photographers, additional motion graphics effects, advanced search and the many new AI tools that have arrived with the 21st version of the application.\nThe course begins with a session aimed at those completely new to, or without much experience of, the programme, which will cover all that users need to know to get started. The main tools will be introduced and users will be shown best practice for importing, organising and workflow while editing in the timeline. While the session is aimed at users of the paid DaVinci Resolve Studio 21 version the vast majority of things covered in the session will apply equally to the free version as well.\nThe second session will appeal to particularly to stills photographers, or videographers wanting to know more about processing still images, as Blackmagic introduces its new Photo Page. This recent addition to the software aims to offer a free alternative to Adobe’s Lightroom with extensive editing options for Raw and JPEG files, file organisation and colour grading. Blackmagic says one of the advantages of using DaVinci Resolve will be that those shooting stills and video will be able to ensure a consistent look across all their moving and still pictures because they will have been worked on using the same software.\nAs the sessions progress the company will use the hour and a half training slots to help users get the most out of the colour editing and grading features the programme is well known for, and there will be sessions designed to assist those already working in other programmes to make the switch to Resolve.\nThe extensive audio controls of the Fairlight page will be covered later in the series will help for voice isolation, noise reduction and audio enhancement, and the last session, held in November, will specifically look at how the AI tools built-in to the application will be able to help clean-up images, create effects in motion and stills pictures, and generally speed up the production process by automating tasks we’d usually have to deal with manually.\nUsers will need to register in advance for the sessions using the link below the descriptions. For more information about DaVinci Resolve see t he Blackmagic Design website , and to access the company’s other extensive instructional videos about using the tools of the programme offers see the DaVinci Resolve training page .\nJoin Blackmagic Design for a series of free online seminars for DaVinci Resolve 21! Our latest release includes the new Photo page, over 100 new motion graphic effects and 50 new features. New AI tools include IntelliSearch for fast content searching, CineFocus for focal point adjustment and more! These six free 90 minute online seminars are ideal for filmmakers, editors, colorists and VFX artists, with something for both new and experienced users of DaVinci Resolve. This is your chance to refine your creative skills, learn new techniques and get valuable insights from the best in the industry!\nThis introductory seminar will help you get started with the world’s most powerful post production software! This session will guide you through all the pages of DaVinci Resolve Studio 21, giving you a solid foundation for creating professional content across your productions.\nWhether you’re a filmmaker interested in stills, or a photographer expanding into video, this session will show you how to use DaVinci’s color tools for photos. Learn how to organise and edit images, and use AI-powered color and cinematic effects to integrate still images into your projects.\nAn essential workshop for editors to learn color fundamentals using Hollywood’s most advanced color tools! Learn how to balance and match media from different cameras, then begin the creative grading process to create unique looks, working in both layers and nodes.\nDesigned for editors switching to DaVinci Resolve, this seminar will cover the overall layout and organization of tools. Building on your existing editing knowledge, you’ll learn how to organise media, prepare timelines and build collaborative projects that your whole team can share.\nFollow a complete post production workflow from import to delivery. Learn how to organise and manage your media, then edit and grade Blackmagic RAW camera original media. Finish by mixing the audio and delivering your project, all without leaving DaVinci Resolve.\nDiscover powerful DaVinci AI Neural Engine tools including Object Removal, IntelliScript, IntelliSearch, Magic Mask, Voice Isolation and cinematic effects. You’ll learn how these tools can take care of repetitive, time consuming tasks, giving you more time to focus on creative editing.",
    "images": [
@@ -875,7 +1193,8 @@
      "src": "https://www.whatdigitalcamera.com/wp-content/uploads/sites/8/2026/09/hero-xl@2x-820x461.jpg"
     }
    ],
-   "videos": []
+   "videos": [],
+   "published": "2026-09-07T07:57:29+00:00"
   },
   "relevant": true,
   "title": "Blackmagic запускає безкоштовні тренінги DaVinci Resolve з фокусом на Photo Page",
